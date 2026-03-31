@@ -11,14 +11,16 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
 <nav class="nav" id="nav">
   <div class="nav-inner">
     <a href="#" class="nav-logo" onclick="showHome(); return false;"><span class="nav-logo-mark">◆</span><span>Matura RČN</span></a>
     <div class="nav-links">
-      <a href="#" class="nav-link active" id="nav-home"   onclick="showHome();   return false;">Domov</a>
-      <a href="#" class="nav-link"        id="nav-topics" onclick="showTopics(); return false;">Kategorije</a>
-      <a href="#" class="nav-link"        id="nav-exams"  onclick="showExams();  return false;">Izpiti</a>
-      <a href="#" class="nav-link"        id="nav-years"  onclick="showYears();  return false;">Po letih</a>
+      <a href="#" class="nav-link active" id="nav-home"      onclick="showHome();      return false;">Domov</a>
+      <a href="#" class="nav-link"        id="nav-topics"    onclick="showTopics();    return false;">Kategorije</a>
+      <a href="#" class="nav-link"        id="nav-exams"     onclick="showExams();     return false;">Izpiti</a>
+      <a href="#" class="nav-link"        id="nav-years"     onclick="showYears();     return false;">Po letih</a>
+      <a href="#" class="nav-link nav-link-quiz" id="nav-quiz" onclick="showQuizSetup(); return false;">⚡ Vadenje</a>
     </div>
     <div class="nav-search-wrap">
       <input type="search" id="global-search" class="nav-search" placeholder="Iskanje nalog…" autocomplete="off">
@@ -27,15 +29,19 @@
     <button class="nav-burger" id="nav-burger" aria-label="Menu">&#9776;</button>
   </div>
 </nav>
+
 <div class="mobile-nav" id="mobile-nav">
   <button class="mobile-nav-close" id="mobile-nav-close">✕</button>
-  <a href="#" class="mobile-nav-link" onclick="showHome();   closeMobileNav(); return false;">Domov</a>
-  <a href="#" class="mobile-nav-link" onclick="showTopics(); closeMobileNav(); return false;">Kategorije</a>
-  <a href="#" class="mobile-nav-link" onclick="showExams();  closeMobileNav(); return false;">Izpiti</a>
-  <a href="#" class="mobile-nav-link" onclick="showYears();  closeMobileNav(); return false;">Po letih</a>
+  <a href="#" class="mobile-nav-link" onclick="showHome();      closeMobileNav(); return false;">Domov</a>
+  <a href="#" class="mobile-nav-link" onclick="showTopics();    closeMobileNav(); return false;">Kategorije</a>
+  <a href="#" class="mobile-nav-link" onclick="showExams();     closeMobileNav(); return false;">Izpiti</a>
+  <a href="#" class="mobile-nav-link" onclick="showYears();     closeMobileNav(); return false;">Po letih</a>
+  <a href="#" class="mobile-nav-link mobile-nav-quiz" onclick="showQuizSetup(); closeMobileNav(); return false;">⚡ Vadenje</a>
   <div class="mobile-nav-search-wrap"><input type="search" id="mobile-search" class="mobile-search" placeholder="Iskanje nalog…"></div>
 </div>
+
 <main id="main">
+
   <!-- HOME -->
   <section id="view-home" class="view active">
     <div class="hero">
@@ -51,13 +57,79 @@
           <div class="stat"><span class="stat-num" id="stat-topics">—</span><span class="stat-label">Kategorij</span></div>
         </div>
         <div class="hero-actions">
-          <button class="btn-primary" onclick="showTopics()">Kategorije →</button>
-          <button class="btn-secondary" onclick="showExams()">Vsi izpiti</button>
+          <button class="btn-primary" onclick="showQuizSetup()">⚡ Začni vadenje</button>
+          <button class="btn-secondary" onclick="showTopics()">Kategorije →</button>
         </div>
       </div>
     </div>
+
+    <!-- Progress card -->
+    <div class="section">
+      <div class="progress-card" id="progress-card">
+        <div class="progress-card-header">
+          <span class="progress-card-title">📊 Tvoj napredek</span>
+          <button class="btn-ghost btn-sm" onclick="showResetConfirm()">Ponastavi</button>
+        </div>
+        <div class="progress-bar-wrap">
+          <div class="progress-bar-track"><div class="progress-bar-fill" id="progress-bar-fill"></div></div>
+        </div>
+        <div class="progress-bar-text" id="progress-bar-text">Še nisi rešil nobene naloge.</div>
+        <div class="progress-stats" id="progress-stats"></div>
+      </div>
+    </div>
+
     <div class="section"><h2 class="section-title">Kategorije</h2><div class="topic-grid" id="home-topic-grid"></div></div>
     <div class="section"><h2 class="section-title">Zadnja leta</h2><div class="year-chips" id="home-year-chips"></div></div>
+  </section>
+
+  <!-- QUIZ SETUP -->
+  <section id="view-quiz-setup" class="view">
+    <div class="view-header">
+      <h1 class="view-title">⚡ Vadenje</h1>
+      <p class="view-subtitle">Izberi kategorije in začni reševati naključne naloge.</p>
+    </div>
+    <div class="quiz-setup-wrap">
+      <div class="quiz-setup-card">
+        <div class="quiz-setup-section">
+          <label class="quiz-setup-label">Kategorije</label>
+          <div class="quiz-topic-grid" id="quiz-topic-grid"></div>
+          <button class="btn-ghost btn-sm" onclick="toggleAllTopics()">Vse / nobena</button>
+        </div>
+        <div class="quiz-setup-section">
+          <label class="quiz-setup-label">Število nalog</label>
+          <div class="quiz-count-group" id="quiz-count-group">
+            <button class="quiz-count-btn active" data-count="10" onclick="setQuizCount(10,this)">10</button>
+            <button class="quiz-count-btn" data-count="20" onclick="setQuizCount(20,this)">20</button>
+            <button class="quiz-count-btn" data-count="40" onclick="setQuizCount(40,this)">40</button>
+            <button class="quiz-count-btn" data-count="894" onclick="setQuizCount(894,this)">Vse</button>
+          </div>
+        </div>
+        <div class="quiz-setup-section">
+          <label class="quiz-setup-label">Filter</label>
+          <div class="quiz-filter-group">
+            <label class="quiz-toggle-label">
+              <input type="checkbox" id="quiz-only-unsolved">
+              <span class="quiz-toggle-text">Samo nerešene naloge</span>
+            </label>
+            <label class="quiz-toggle-label">
+              <input type="checkbox" id="quiz-only-mc">
+              <span class="quiz-toggle-text">Samo naloge z izbirnimi odgovori</span>
+            </label>
+          </div>
+        </div>
+        <button class="btn-primary quiz-start-btn" onclick="startQuiz()">Začni vadenje →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="view-quiz" class="view">
+    <div id="quiz-progress"></div>
+    <div class="quiz-card-wrap">
+      <div class="quiz-card" id="quiz-question"></div>
+      <div id="quiz-hint"></div>
+      <div class="quiz-actions" id="quiz-actions"></div>
+    </div>
   </section>
 
   <!-- CATEGORIES -->
@@ -96,7 +168,7 @@
         <button class="pola-tab" data-pola="IP2" onclick="filterExamPola('IP2',this)">Pola 2</button>
       </div>
     </div>
-    <div class="task-grid" id="exam-single-grid"></div>
+    <div id="exam-single-grid"></div>
   </section>
 
   <!-- YEARS -->
@@ -124,6 +196,7 @@
     <div class="task-grid" id="search-task-grid"></div>
     <div class="load-more-wrap"><button class="btn-load-more hidden" id="search-load-more" onclick="loadMoreSearch()">Naloži več</button></div>
   </section>
+
 </main>
 
 <footer class="footer">
@@ -133,11 +206,24 @@
   </div>
 </footer>
 
+<!-- Reset confirm dialog -->
+<div class="modal-overlay" id="reset-overlay" onclick="hideResetConfirm()" style="display:none"></div>
+<div class="confirm-dialog" id="reset-dialog" style="display:none">
+  <div class="confirm-title">Ponastavi napredek?</div>
+  <div class="confirm-desc">Vse shranjene rešitve bodo izbrisane.</div>
+  <div class="confirm-actions">
+    <button class="btn-danger" onclick="doReset()">Ponastavi</button>
+    <button class="btn-ghost" onclick="hideResetConfirm()">Prekliči</button>
+  </div>
+</div>
+
 <div class="modal-overlay" id="modal-overlay" onclick="closeModal()"></div>
 <div class="modal" id="modal" role="dialog" aria-modal="true">
   <button class="modal-close" onclick="closeModal()" aria-label="Zapri">✕</button>
   <div class="modal-body" id="modal-body"></div>
 </div>
+
+<script src="assets/js/progress.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>
