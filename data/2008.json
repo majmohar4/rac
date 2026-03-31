@@ -1,0 +1,405 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "V računalnku se izvaja program strežbe prekinitve. Pojavi se nova prekinitev. Kdaj se \nizvajanje programa strežbe prekine in začne izvajanje programa strežbe nove prekinitve? \nA \nVedno, ker mora računalnik najprej obdelati najnovejšo prekinitev. \nB \nNikoli, ker računalnik v načinu izvajanja strežbe prekinitve nima možnosti shraniti okolja \nprograma strežbe. \nC \nKadar ima nova prekinitev višjo ali enako prioriteto. \nD \nKadar ima nova prekinitev višjo prioriteto in računalnik podpira gnezdenje programov \nstrežbe prekinitev. \nE \nKadar je nova prekinitev past (trap) zaradi napake v izvajanju programa.",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Kolikšna binarna vrednost je v akumulatorju A po izvedbi naslednjih ukazov: \nldaa  #$2A \n     adda  #$FF \nA \n00110101 \nB \n00101001 \nC \n00101100 \nD \n00101100 \nE \n00111010",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2008_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Želimo spremeniti ime obstoječe datoteke v večuporabniškem operacijskem sistemu. \nKakšni pogoji morajo biti izpolnjeni? \n A \nZa datoteko moramo imeti dovoljenje vpisa. \nB \nDatoteka mora biti v našem seznamu. \nC \nDatoteka mora biti binarna. \nD \nMoramo biti \"root\" uporabnik. \nE \nZa spremembo imena ni nobenih pogojev.\n4",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2008_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Format ukaza je razdeljen na dva dela: prvi del za operacijsko kodo (OC) in drugi del za \nnaslov operanda. Dolžina drugega dela določa: \nA \nštevilo registrov, ki so izvori operandov; \nB \nodmik operanda od vsebine indeksnega registra; \nC \nštevilo operandov; \nD \nobseg naslovnega prostora; \nE \nnič od zgoraj naštetega.",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Za posredno naslavljanje lahko rečemo, da: \nA \nje naslov pomnilniške lokacije ob operacijski kodi; \nB \nnaslov pomnilniške lokacije procesor prebere posredno po vhodno-izhodnem vmesniku; \nC \nnaslov pomnilniške lokacije procesor prebere v pomnilniku ali registru in da lahko upošteva \nše odmike od tega naslova; \nD \npoteka posredno po preslikavi naslovov v enoti za upravljanje pomnilnika; \nE \nse uporablja le za dostop do sklada.",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2008_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Predpomnilnik je danes sestavni del večine računalnikov. Uveden je bil, ker: \nA \nje cenejši od glavnega pomnilnika; \nB \nje hitrejši od glavnega pomnilnika in je velika verjetnost, da je v njem zaradi lokalnosti ukaz \nali podatek, ki ga trenutno potrebujemo; \nC \nnadomesti več registrov; \nD \nje manjši od glavnega pomnilnika; \nE \nglavnega pomnilnika ne moremo realizirati na isti rezini silicija kakor procesor.\n5",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2008_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Imamo prevajalnik za jezik C. Dobavitelj v dokumentaciji navaja, za katere tipe \nračunalnikov je narejen. Za drugačne tipe ga ne moremo uporabiti, ker: \nA \nje v prevajalniku vgrajena koda, ki prepozna tip procesorja in prepreči izvajanje prevajanja; \nB \nprevajalnik potrebuje zbirnik, ki ga za drugačne tipe nimamo; \nC \nprogram vsebuje tudi klice vgrajenih funkcij; \nD \nprevajalnik tvori strojno kodo, ukazi v njej pa so skupni le določeni skupini procesorjev; \nE \nprevajalnik ne pozna organizacije procesorja in ne more optimizirati kode.",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "V registru dolžine osmih bitov je binarni zapis števila –28 v dvojiškem komplementu enak: \nA \n10010100 \nB \n11100011 \nC \n11010001 \nD \n11100100 \nE \n11110110 \nSKLOP  PROGRAMSKI JEZIKI IN PROGRAMIRANJE \nNALOGE IZBIRNEGA TIPA \nObkrožite pravilno trditev.",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2008_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Kakšna je vrednost spremenljivk x,y in z po izvedbi naslednjega zaporedja stavkov? \n int x,y,z; \n     z=20; \n     y=14; \n     x=0; \n     for (;x<y;){ \n         z=z-8; \n         y=y+z; \n         x=x+10; \n     } \nA \nx=10 y=26 z=12 \nB \nx=20 y=14 z=0 \nC \nSpremenljivke x,y in z imajo nedefinirano vrednost, ker se zanka ponavlja v neskončnost. \nD \nx=30 y=26 z=-4 \nE \nProgram se niti ne prevede, ker v omenjenem delu kode prevajalnik javac najde sintaktično \nnapako.\n6",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Kakšna je vrednost celoštevilskih spremenljivk x in y po izvedbi naslednjega zaporedja \nprogramskih stavkov? \nint x = 5; \nint y = 5; \nx=y++; \nA \nx=5;y=5; \nB \nx=5;y=6; \nC \nx=6;y=6; \nD \nx=6;y=5; \nE \nVrednost obeh spremenljivk je nedefinirana.",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Katera od navedenih deklaracij se uporablja za deklariranje niza znakov? \n(vsi pravilni odgovori 2 točki \n1 pravilni odgovor 1 točka \nže en nepravilni odgovor 0 točk) \nA \nchar \nB \nStringBuffer \nC \nString \nD \nargs[0] \nE \nch[]",
+    "points": 1,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Kolikokrat se izvede stavek znotraj zanke while? \n int x = 6; \n while (x % 3 !=0)  \n   {x--;} \nA \n0-krat. \nB \n1-krat. \nC \n2-krat. \nD \n3-krat. \nE \n6-krat.\n7",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Končnica datoteke .java pomeni, da je: \nA \nvsebina datoteke izvršna koda programa, zapisana v strojnem jeziku; \nB \nvsebina datoteke javanski razred, ki ga lahko izvaja JVM; \nC \nvsebina datoteke izvorna koda programa v javi; \nD \nvsebina datoteke knjižnica rutin za izdelavo uporabniškega vmesnika; \nE \nvsebina datoteke javanski razred, povezan z vsemi potrebnimi knjižnicami.",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Za metodo, ki jo deklariramo z dostopnim določilom private, veljajo naslednje trditve \n(obkrožite vse pravilne odgovore): \n(vsi pravilni odgovori 2 točki \n1 pravilni odgovor 1 točka \nže en nepravilni odgovor 0 točk) \nA \nMetoda je dostopna samo v razredu, v katerem je deklarirana. \nB \nDostopno določilo private lahko uporabljamo samo pri atributih, pri metodah pa ne. \nC \nMetoda je lahko deklarirana kot privatna samo, če so tudi vsi atributi razreda privatni. \nD \nMetoda je dostopna v vseh nadrazredih razreda, v katerem je deklarirana. \nE \nMetoda se ne deduje, pač pa lahko v podrazredu ponovno deklariramo metodo z enakim \nimenom in seznamom parametrov.",
+    "points": 1,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Kateri od naslednjih stavkov pravilno izračuna kvadratni koren iz števila x in ga shrani v \nspremenljivko s: \nA \nint s=Math.sqrt(x); \nB \ndouble x=Math.sqrt(s); \nC \nString s=sqrt(x); \nD \ndouble s=Math.sqrt(x); \nE \nMath.sqrt(x)=s;\n8",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Za statične metode (tj. metode, ki so deklarirane z določilom static) je značilno, da: \n (vsi pravilni odgovori 2 točki \n1 pravilni odgovor 1 točka \nže en nepravilni odgovor 0 točk) \nA \nlahko obstajajo samostojno, ne da bi bile povezane z objekti; \nB \nobstajajo samo v povezavi z objekti; \nC \nlahko spreminjajo vrednosti atributov v posameznih objektih; \nD \njih pri dedovanju ni mogoče redefinirati; \nE \nje treba ob klicu metode najprej navesti ime objekta, nato piko in šele potem ime metode. \nSKLOP  PROGRAMSKI JEZIKI IN PROGRAMIRANJE \nNALOGE S KRATKIMI ODGOVORI",
+    "points": 1,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Napišite program, ki izpiše, koliko različnih samoglasnikov nastopa v nizu s. Vsebino niza \ns preberite iz ukazne vrstice. Upoštevajte dane deklaracije. \n Dane deklaracije \npublic static void main(String[] args) { \n       String s = args[0] ; \n       /* dopišite manjkajočo kodo */ \n    } \nRešitev:\n9",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Katera števila bi bilo treba vpisati v označena mesta, da bi se na zaslon izpisala vsa števila \nmed 20 in 39, vključno z 20 in 39? \npublic static void main(String[] par) \n{ for (int i=     ;i<4;i++) \n    for (int j=0; j<     ;j++) \n      System.out.println(i*10+j); \n} \nRešitev:\n10",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Kakšne so vrednosti spremenljivk x in y po izvedbi naslednjih stavkov? \nint x=+3*4; \nint y=28%5*3+1; \nRešitev:",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Deklarirana je spremenljivka String niz, ki vsebuje najmanj dva znaka. Napišite ukaz \noziroma zaporedje ukazov za izpis zadnjih dveh znakov te spremenljivke: \nRešitev:\n11 \nSKLOP PROGRAMSKI JEZIKI IN PROGRAMIRANJE \nSTRUKTURIRANE NALOGE",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_20"
+  },
+  {
+    "num": 21,
+    "pola": "IP1",
+    "text": "Na tekmi za svetovni pokal v smučarskih skokih nastopa 50 skakalcev, ki jih ocenjuje 5 \nsodnikov. Ocene po prvi seriji so zbrane v dvodimenzionalni tabeli ocene, v kateri vsaka \nvrstica ustreza enemu skakalcu, vsak stolpec pa enemu sodniku. Napišite metodo \nnajboljeOcenjeni, ki izpiše startne številke tistih tekmovalcev, ki so dobili vsaj eno oceno \n20 (to je najvišja možna ocena). Če je nekdo dobil več dvajsetic, se njegova startna številka \nizpiše le enkrat. Pri tem upoštevajte, da je startna številka vsakega skakalca za 1 večja od \nindeksa njegove vrstice v tabeli ocene. Če noben skakalec ni dobil ocene 20, naj metoda \nizpiše sporočilo \"Noben skakalec ni dobil ocene 20.\". \nGlava metode najboljeOcenjeni naj ima naslednjo obliko: \npublic static void najboljeOcenjeni(double[][] ocene) \n Rešitev:\n12",
+    "points": 4,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_21"
+  },
+  {
+    "num": 22,
+    "pola": "IP1",
+    "text": "Charles Babbage je pokazal, da z uporabo formule x2+x+41 dobimo nenavadno veliko \npraštevil (npr. za x=0, dobimo praštevilo 41, za x=1 dobimo praštevilo 43, za x=2 dobimo \npraštevilo 47 itd.). Napišite program, ki za vse x od 0 do 100 izpiše, ali je vrednost x2+x+41 \npraštevilo. Prvih 5 vrstic izpisa naj bo: \n41 je prastevilo \n43 je prastevilo \n47 je prastevilo \n53 je prastevilo \n61 je prastevilo \nNapotek: najprej sprogramirajte funkcijo jePrastevilo, ki za argument n vrne vrednost \ntrue (če je n praštevilo) ali false (če n ni praštevilo). To funkcijo nato kličite v zanki za \nvse x od 0 do 100. \n Rešitev:\n14",
+    "points": 4,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_22"
+  },
+  {
+    "num": 23,
+    "pola": "IP1",
+    "text": "Dan je niz n, ki je sestavljen iz več besed, med katerimi je natanko en presledek. Napišite \nmetodo obrniBesede, ki kot rezultat vrne niz tipa StringBuffer, v katerem so vse besede \nniza n \"obrnjene\". \nPrimer: Za niz \"To je prvotni niz\" mora metoda vrniti \"oT ej intovrp zin\". \nGlava metode obrniBesede naj ima naslednjo obliko: \npublic static StringBuffer obrniBesede(String n) \nRešitev:\n15",
+    "points": 4,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_23"
+  },
+  {
+    "num": 24,
+    "pola": "IP1",
+    "text": "Dan je abstraktni razred Delavec z atributi matSt (matična številka), priimek in ime ter \nabstraktno metodo osebniDohodek. Iz tega razreda izpeljite dva podrazreda: \n• \npodrazred RednoZaposleni, ki služi za predstavitev redno zaposlenih delavcev in \n• \npodrazred Student, ki služi za predstavitev tistih delavcev, ki delajo prek \nštudentskega servisa. \nV obeh podrazredih morate deklarirati dodatne atribute, ki so potrebni za izračun \nosebnega dohodka, napisati ustrezen konstruktor, ki vzpostavi vrednosti vseh atributov, in \nredefinirati metodo osebniDohodek. Pri tem upoštevajte, da se osebni dohodek izračuna \nna naslednji način: \n• \nZa izračun osebnega dohodka redno zaposlenih potrebujemo tri dodatne atribute: \nštevilo točk (s katerimi je ovrednoteno delovno mesto, ki ga delavec zaseda), vrednost \ntočke in delovno dobo (v letih). Osnovo za osebni dohodek izračunamo tako, da \nzmnožimo število točk in vrednost točke, osebni dohodek pa tako, da tej osnovi dodamo \nše 0,5 % osnove za vsako leto delovne dobe. Vrednost točke je za vse delavce enaka. \n• \nZa izračun osebnega dohodka študentov pa moramo poznati število ur (ki jih je študent \nprebil na delu) in ceno ure. Osebni dohodek je produkt teh dveh podatkov. \npublic abstract class Delavec \n{ \n  private int matSt; \n  private String priimek; \n  private String ime; \n  public abstract double osebniDohodek(); \n  Delavec(int ms, String p, String i) \n  { \n    matSt=ms; \n    priimek=p; \n    ime=i; \n  } \n} \n Rešitev:",
+    "points": 4,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP1_24"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Naslovi IP se delijo v razrede. Razred A je določen: \nA \ns skrajnim levim bajtom v naslovu, \nB \nz nastavitvami v protokolu, \nC \ns srednjima bajtoma v naslovu, \nD \ns skrajnim desnim bajtom v naslovu, \nE \nni pravila.",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2008_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Kateri izmed naštetih protokolov so neposredno nad protokolom IP, definiranim s TCP/IP \nprotokolarnim skladom? \n (vsi pravilni odgovori 2 točki \n1 pravilni odgovor 1 točka \nže en nepravilni odgovor 0 točk) \nA \nUDP \nB \nTCP \nC \nTelnet \nD \nhttp \nE \nFTP",
+    "points": 1,
+    "year": 2008,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2008_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Protokol IP temelji na pošiljanju: \nA \nsporočil; \nB \ntočno določenega števila bajtov; \nC \ndatagramov; \nD \nniza binarnih vrednosti, v katerega vrivamo binarne vrednosti za sinhronizacijo; \nE \nniza bajtov, ki ga začenja in zaključuje bajt s samimi 1.\n4 \nM081B-781-1-2",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2008_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Zakaj se v splošnem s sinhronim prenosom prenese pri enaki hitrosti prenosa v časovni \nenoti več podatkov kakor z asinhronim? \nA \nKer je asinhroni prenos le polovično dvosmeren (half duplex), sinhroni pa polno dvosmeren \n(full duplex). \nB \nKer pri sinhronem prenosu ni potrebna sinhronizacija med celotnim procesom. \nC \nKer se asinhroni prenosi uporabljajo le za prenos majhne količine podatkov. \nD \nKer se pri asinhronem prenosu uporabljata za sinhronizacijo prenosa start in stop bit. \nE \nKer je pri sinhronem prenosu pri oddaji paketov blok že pripravljen, pri asinhronem pa ga \noblikujemo sproti.",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2008_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Podatkovna baza je: \nA \nmnožica podatkov; \nB \nmnožica informacij; \nC \nurejena zbirka logično povezanih podatkov; \nD \nzbirka datotek, v katerih so podatki in informacije; \nE \nskupek podatkov, ki so zapisani na nekem računalniškem trajnem pomnilniškem mediju.",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2008_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Šolski informacijski sistem (IS), ki omogoča vnos in vpogled v ocene dijakov, lahko \nopredelimo kot: \nA \nsistem za podporo odločanju, \nB \ntransakcijski IS, \nC \nsistem za avtomatizacijo pisarniškega poslovanja, \nD \nvodstveni IS, \nE \nekspertni IS.",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Informacijski sistemi",
+    "id": "2008_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Kdo nadzoruje spoštovanje integritetnih omejitev, ki so zapisane v podatkovni bazi? \n A \nUporabnik. \nB \nSistem za upravljanje podatkovne baze (SUPB). \nC \nUpravitelj podatkovne baze. \nD \nProgramer. \nE \nUporabniška aplikacija.\n5",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2008_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Dan je naslednji diagram ER: \nRaziskovalec\nRaziskovalecID (PK)\nNalogaID (PFK)\nPriimek\nIme\nNaloga\nNalogaID (PK)\nNaslov\nDela\nŠtevnost razmerja Dela pomeni, da: \nA \nvsak raziskovalec dela natanko eno nalogo; \nB \nvsako nalogo dela obvezno več raziskovalcev; \nC \nvsako nalogo dela natanko en raziskovalec; \nD \nvsak raziskovalec obvezno dela več nalog; \nE \nvsak raziskovalec obvezno dela eno nalogo in vsako nalogo dela natanko en raziskovalec.",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2008_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Osnova za delovanje sistema za podporo odločanju je odločitveni model. Kaj je značilnost \nodločitvenega modela?  \n(vsi pravilni odgovori 2 točki \n1 pravilni odgovor 1 točka \nže en nepravilni odgovor 0 točk) \nA \nVsi parametri (kriteriji) odločanja so enakovredni. \nB \nOdločitveni modeli omogočajo odločanje na osnovi največ 5 do 7 parametrov (kriterijev). \nC \nFunkcija koristnosti odločitvenega modela upošteva vrstni red zaloge vrednosti posameznega \nparametra (kriterija). \nD \nZa vse parametre (kriterije) odločanja mora biti opredeljena zaloga vrednosti. \nE \nZaloge vrednosti parametrov (kriterijev) morajo biti iz zveznega numeričnega intervala.",
+    "points": 1,
+    "year": 2008,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2008_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Kateri od navedenih elementov se NE pojavlja v diagramu toka podatkov? \nA \nTok podatkov. \nB \nVejitev. \nC \nZunanja entiteta. \nD \nProces. \nE \nZbirka podatkov.\n6 \nM081B-781-1-2",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2008_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Dani relaciji izdelek in dobavitelj sta opisani s shemami:  \nIzdelek(IzdelekID, Opis, Cena, DobavIDÆDobavitelj) \nDobavitelj(DobavID, ImeD, Naslov, Kraj) \nVsebini tabel sta: \nIzdelek \nDobavitelj \nIzdelekID \nOpis \nCena \nDobavID \nDobavID \nImeD \nNaslov \nKraj \n100 \nŽivila \n27 \n1 \n1 \nBonko \nHrastov 3 \nLJ \n200 \nIgrače \n25 \n4 \n2 \nLumpi \nBrestov 2 \nMB \n204 \nKozmetika \n46 \n2 \n3 \nPiki \nBrestov 4 \nMB \n208 \nŽivila \n33 \n1 \n4 \nJurček \nPrimorska 4 \nLJ \n211 \nŽivila \n29 \n1 \nKaj vrne naslednji izraz relacijske algebre? Rešitev prikažite v obliki tabele: \nπ[izdelek.opis]σ[dobavitelj.kraj='LJ'] (izdelek |x| dobavitelj) \n Rešitev:",
+    "points": 2,
+    "year": 2008,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2008_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Navedite dve značilnosti redkega indeksa. \n(dva odgovora  2 točki \n1 pravilni odgovor 1 točka \nže en nepravilni odgovor 0 točk) \nRešitev:\n7",
+    "points": 1,
+    "year": 2008,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2008_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Navedite vsaj štiri funkcije, ki jih omogoča orodje CASE. \nRešitev:",
+    "points": 2,
+    "year": 2008,
+    "image": "assets/images/2008_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2008_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Narišite grafične simbole: \ngradnik \ngrafični simbol \nentitetni tip \nrazmerje \nštevnost povezave \n1 : 1 \n1 : N \nN : M\n8 \nM081B-781-1-2",
+    "points": 2,
+    "year": 2008,
+    "image": "assets/images/2008_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2008_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Podatkovna baza je sestavljena iz tabel, ki jih opisujejo naslednje sheme: \nVozilo (VoziloID, Znamka, Model, Letnik) \nStranka(StrankaID, Priimek, Ime, DatumRojstva, Email, Telefon) \nVoznja (VoznjaID, StrankaIDÆStranka, VoziloIDÆVozilo, Datum, Cena, StatusVoznje) \nOpomba: StatusVoznje =[izvedena|preklicana|trcenje] \na) \nNapišite stavek SQL, ki vožnje, opravljene januarja leta 2007, poceni za 5 %. \nRešitev: \nb) Napišite stavek SQL, ki izpiše podatke o vozilih (voziloID, znamko in model), ki so imela \nvsaj tri trčenja. Izpis naj bo urejen po znamkah vozil. \nRešitev:\n9",
+    "points": 1,
+    "year": 2008,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2008_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Narišite kontekstni in prvi nivo diagramov toka podatkov za problemsko področje \nspremljanja poslovanja avtošole. Od informacijskega sistema, ki ga nameravamo razviti, \npričakujemo, da bo omogočal vzdrževanje podatkov o prijavljenih kandidatih, \ninštruktorjih in vozilih. Podatke vnaša administrator. Kandidati ob prijavi plačajo in \ndobijo evidenčni kartonček in potrdilo o vplačilu. Za inštruktorje sistem izdela urnik dela in \njim na podlagi opravljenih ur izda plačilo. Za avtomobile je treba voditi evidenco \nzasedenosti, poškodb ter urnik tehničnih pregledov in servisov. \nRešitev:",
+    "points": 4,
+    "year": 2008,
+    "image": "assets/images/2008_IP2_p09.jpg",
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2008_IP2_16"
+  }
+]

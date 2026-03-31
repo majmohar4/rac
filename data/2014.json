@@ -1,0 +1,409 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Katera od naštetih rezerviranih besed programskega jezika Java predstavlja zanko? \nA \nfor \nB \nint \nC \nif \nD \nswitch",
+    "points": 1,
+    "year": 2014,
+    "solution": "26",
+    "solution_points": 20,
+    "topic": "Programiranje",
+    "id": "2014_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Katere izmed naštetih so ključne besede programskega jezika Java: \nlogical, boolean, jar, break, java, class, extends, ram?",
+    "points": 2,
+    "year": 2014,
+    "solution": "25\nDve vrstici 1 točka.\nŠtiri vrstice 2 točki.\nVse vrstice 3 točke.\n\nNaloga Točke\nRešitev\nDodatna navodila\n13\n1\n D\n\n\nNaloga Točke\nRešitev\nDodatna navodila\n14\n1\nfalse\n\n1\n 34\n\nSkupaj\n2\n\nNaloga Točke\nRešitev\nDodatna navodila\n15\n3\n\npublic static boolean metoda3(int tab[][]) {\nfor(int i=0; i<tab.length; i++)\nfor(int j=0; j<tab[i].length; j++)\nif (i==j && tab[i][j]==0)\nreturn false;\nreturn true;\n}\nGlava metode 1 točka.\nPregled tabele 1 točka.\nPreverjanje vrednosti na diagonali in\nvračanje vrednosti 1 točka.",
+    "solution_points": 20,
+    "topic": "Programiranje",
+    "id": "2014_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Spremenljivki A in B sta tipa boolean. Katera izmed naštetih možnosti predstavlja enakovreden \nlogični izraz izrazu !(A && B)? \nA \n(! A) && (! B) \nB \n(! A) || (! B) \nC \n1 \nD \nA || B",
+    "points": 1,
+    "year": 2014,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2014_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Po izvedbi zaporedja stavkov \nfloat a=8; float b=16; \nlogični izraz ((a/b==0) || (b/a==0)) vrne \nA \ntrue \nB \nfalse \nC \nPri vrednotenju pride do napake.",
+    "points": 1,
+    "year": 2014,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2014_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Stavek int [] x={1,2,3,4,5}; \nA \nustvari enodimenzionalno tabelo petih elementov. Vrednosti elementov so 1, 2, 3, 4, 5. \nB \npri prevajanju povzroči napako. \nC \nustvari enodimenzionalno tabelo petih elementov. Indeksi elementov so 0, 1, 2, 3, 4. \nD \nustvari enodimenzionalno tabelo s poljubnim številom elementov. Pri tem so vrednosti \nzačetnih elementov 1, 2, 3, 4, 5, vrednosti drugih elementov pa 0. \n V sivo polje ne pištie.",
+    "points": 2,
+    "year": 2014,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2014_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Deklarirana je tabela: int [][] tab= new int[3][5]; \nKaj izpiše stavek: System.out.print(tab[0].length);? \nA \n3 \nB \n5 \nC \n8 \nD \n15",
+    "points": 1,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Ime razreda \nA \nmoramo uporabiti kot ime za natanko enega izmed konstruktorjev.  \nB \nmoramo uporabiti kot ime za vse konstruktorje. \nC \nlahko uporabimo za ime poljubne metode. \nD \nse ne sme uporabiti za poimenovanje metod niti za poimenovanje konstruktorjev.",
+    "points": 1,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Obkrožite pravilno trditev. \nRazred je splošna predloga, ki se uporablja za definiranje in kreiranje konkretnih primerkov, \nimenovanih objekti. \nDA \nNE",
+    "points": 1,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Definiran je razred: \nclass Razred {  \n   private int a; \n   private char c; \n   public int vrniA() { return a;} \n   public char vrniC() { return c; } \n} \nV programu imamo te stavke: \nRazred r1= new Razred(); \n//1. vrstica \nr1.A=34; \n//2. vrstica \nSystem.out.print(vrniA()); \n//3. vrstica \nSystem.out.print(r1.vrniC()); \n//4. vrstica \nV katerih vrsticah programa pride do napake?",
+    "points": 2,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Dana je spremenljivka double y; Katere prireditve so veljavne? \nA \ny=65; \nB \ny=\"A\"; \nC \ny=65.0; \nD \ny=new Double();",
+    "points": 2,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "V tabeli x imamo cela števila. Napišite metodo vsota, ki vrne vsoto vseh števil iz tabele, ki so \nvečkratniki števila k. Glava metode: int vsota(int [] x, int k).",
+    "points": 3,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Kaj izpiše ta izsek programa? \nint x=0; int y=30; \nwhile (x<y){ \n   for (int k=x*10; k < y; k+=10){ \n      System.out.println(x+\" \"+k+\" \"+y); \n      y--; \n   } \n   x++; \n} \n V sivo polje ne pištie.",
+    "points": 3,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Dane imamo te programske stavke: \nString s= \"sonce\"; \ns=\"dober dan, \"+s; \nSystem.out.println(s); \nKakšen izpis povzročijo ti stavki? \nA \ndober dan, \nB \nsonce \nC \nnič \nD \ndober dan, sonce",
+    "points": 1,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Kaj izpiše to zaporedje stavkov? \nint i=15, j=34; \nSystem.out.println(i==j); \nSystem.out.println(i=j);",
+    "points": 2,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Napišite metodo, ki za parameter prejme dvodimenzionalno tabelo. Metoda naj vrne true, če so \nvsi elementi na glavni diagonali različni od nič, in false v nasprotnem primeru.",
+    "points": 3,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Napišite razred Oseba tako, da bo ustrezal spodnjemu programu: \npublic static void main (String[] args) { \n   Oseba o1 = new Oseba(\"Janez\", \"Novak\", 18); \n   o1.izpis(); \n   o1.spremeniStarost(16); \n   o1.izpis(); \n} \n// izpis programa: \nJanez Novak je star(a) 18 let. \nJanez Novak je star(a) 16 let. \n V sivo polje ne pištie.",
+    "points": 3,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Napišite zaporedje stavkov, ki tvori enak izpis kakor navedena spodnja koda, pri čemer ne smete \nuporabiti zanke for. \nfor(int i=0; i<2000; i+=2) { \n   System.out.print(i+\" \"); \n} \nSystem.out.println();",
+    "points": 2,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Na tekmovanju iz kemije je bilo 40 ekip, v vsaki po 5 tekmovalcev. Ekipe so bile označene z \nzaporednimi številkami od 0 do 39, tekmovalci posamezne ekipe pa so imeli zaporedne številke \nod 0 do 4. \nDeklarirajte ustrezno tabelo za hranjenje podatkov.",
+    "points": 1,
+    "year": 2014,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2014_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Pri delu z besedili se pogosto pojavi potreba po njihovem spreminjanju glede na dane zahteve. \n19.1. Napišite funkcijo, ki v besedilu vse pike, vejice, vprašaje in klicaje zamenja z znakom #, \ndruge znake pa ohrani. \nPrimer delovanja funkcije: če je niz s \nKaj? To je besedilo! ... In kaj še???? \nfunkcija vrne: \nKaj# To je besedilo# ### In kaj še####\n19.2. Napišite funkcijo, ki iz besedila odstrani vsak drugi znak, če ta ni presledek. Če je drugi \nargument funkcije 0, funkcija odstrani znake na sodih mestih (0., 2., 4., ...), če je drugi \nargument 1, funkcija odstrani znake na lihih mestih (1., 3., 5., ...). \nPrimer delovanja funkcije: če je niz s \nKaj? To je besedilo! ... In kaj še???? \nin vrednost drugega argumenta 1, funkcija vrne \nKj o j eeio . n kj š?? \nin vrednost drugega argumenta 0, funkcija vrne \na? T e bsdl! .. I a e?? \n V sivo polje ne pištie.",
+    "points": 2,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "V eni reži avtomata za osvežilne napitke je prostor za 10 pločevink. Avtomat se polni z desne \nstrani, osvežilni napitek pride ven skozi odprtino, ki je na levi. Podatki, ki so shranjeni v razredu, \nso identifikacijske številke (oznake) pločevink. Za avtomat je definiran razred Avtomat: \npublic class Avtomat { \n   private int [] IDPlocevinka = new int[10]; \n   /* \n     Spremenljivka zadnja pomeni indeks mesta, na katerega smo nazadnje  \n     dali pločevinko. \n     Vrednost – 1 pomeni, da je avtomat prazen. \n   */ \n   private int zadnja; \n   Avtomat(){ \n      zadnja=-1; \n      for (int i=0;i<10;i++) \n         IDPlocevinka[i]=0; \n   } \n   public int dodajPlocevinko(int ID){ \n/* a del naloge */ \n   } \n   public int vzemiPlocevinko(){ \n/* b del naloge */  \n   } \n} \nTreba je napisati metode, ki bodo ponazarjale delovanje avtomata.  \n20.1. Napišite metodo dodajPlocevinko, ki bo ponazorila dogajanje ob polnjenju avtomata z \neno pločevinko. Če polnjenje ne uspe, ker je reža že polna, metoda vrne –1, sicer 1.\n20.2. Napišite metodo vzemiPlocevinko, ki bo ponazarjala dogajanje ob jemanju pločevinke \niz avtomata. Če jemanje pločevinke ne uspe, ker je reža prazna, metoda vrne –1, sicer \nvrne ID pločevinke, ki je bila vzeta iz avtomata.",
+    "points": 2,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP1_20"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Število A7(16), zapisano v šestnajstiškem številskem sestavu, zapišite v desetiškem in dvojiškem \nštevilskem sestavu.",
+    "points": 2,
+    "year": 2014,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2014_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Pri prenosu zaporedja vsebin smo računali prečno in vzdolžno pariteto, pri čemer smo uporabili \nsodo pariteto. Pri prenosu je prišlo do natanko ene napake, določite vrstico in stolpec elementa, \nkjer se je pojavila napaka. \nStolpci \n1 \n2 \n3 \n4 \n5 \nVrstice \n1 \n1 \n1 \n0 \n1 \n0 \n1 \n2 \n1 \n0 \n1 \n0 \n1 \n1 \n3 \n0 \n1 \n1 \n0 \n1 \n0 \n4 \n0 \n0 \n0 \n1 \n0 \n1 \n5 \n1 \n0 \n1 \n0 \n1 \n1 \n1 \n0 \n1 \n0 \n0 \n0 \nNapaka je v vrstici in stolpcu .",
+    "points": 2,
+    "year": 2014,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2014_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Izberite trditvi, ki ustrezata opisu programskega števca (PŠ). \nA \nPŠ je register, ki vsebuje naslov pomnilniške lokacije naslednjega ukaza za izvajanje. \nB \nPŠ je register, v katerega se shranjujejo prekoračitve aritmetičnih operacij. \nC \nPŠ je register, ki šteje, koliko ukazov je CPE že izvedla. \nD \nVsebina PŠ se lahko poveča za več kot 1. \nV sivo polje ne pištie.",
+    "points": 2,
+    "year": 2014,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2014_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Koliko prostora na disku zavzame datoteka, ki je dolga 3 zloge, če je disk razdeljen na gruče \n(cluster), ki so dolge 4 bloke (4 * 512 zlogov)? \nA \n512 zlogov. \nB \n1024 zlogov. \nC \n4 zloge. \nD \n2048 zlogov.",
+    "points": 1,
+    "year": 2014,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2014_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Kako imenujemo skupino programske opreme, ki upravlja delovanje računalnika? \nA \nUporabniška programska oprema. \nB \nOperacijski sistem. \nC \nPodatkovna zbirka. \nD \nPrevajalnik.",
+    "points": 1,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Povežite ustrezne enote s kategorijo, v katero spadajo. \nflash \nram \nCPE \ndisk \ntiskalnik \npomnilne enote \nmikroprocesor \nDVD-predvajalnik \nvhodno/izhodne enote \nUSB-ključek",
+    "points": 3,
+    "year": 2014,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2014_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Razporedite postopke ob zagonu računalnika v pravilni vrstni red. \nBIOS prebere MBR (zagonski sektor). \nNalaganje gonilnikov naprav. \nBOOTMGR prebere zagonsko konfiguracijsko datoteko in razbere lokacijo jedra OS na  \n             zagonski particiji.",
+    "points": 3,
+    "year": 2014,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2014_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Kateri ukaz uporabimo, če želimo izpisati le konec konfiguracijske datoteke? \nA \nuniq \nB \ncut \nC \ntail \nD \nwc",
+    "points": 1,
+    "year": 2014,
+    "image": "assets/images/2014_IP2_p05.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Kateri trditvi veljata za fizični naslov (naslov MAC) mrežne kartice? \nA \nFizični naslov je tovarniško dodeljen.  \nB \nFizični naslov se dodeli ob priklopu v lokalno omrežje. \nC \nVsaka mrežna kartica ima svoj fizični naslov. \nD \nMrežna kartica pridobi fizični naslov skupaj z IP-naslovom.",
+    "points": 2,
+    "year": 2014,
+    "image": "assets/images/2014_IP2_p05.jpg",
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2014_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Usmerjevalnik usmerja pakete v omrežju. Na podlagi katere tabele se odloči, v katero smer (skozi \nkateri vmesnik) bo poslal paket? \nA \nARP-tabele. \nB \nMAC-tabele. \nC \nStikalne tabele (switching table). \nD \nUsmerjevalne tabele (routing table).",
+    "points": 1,
+    "year": 2014,
+    "image": "assets/images/2014_IP2_p05.jpg",
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2014_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Koliko omrežij je na sliki? \nV sivo polje ne pištie.",
+    "points": 1,
+    "year": 2014,
+    "image": "assets/images/2014_IP2_p05.jpg",
+    "solution": null,
+    "topic": "Splošno računalništvo",
+    "id": "2014_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Povežite protokole aplikacijske plasti s pripadajočimi številkami vrat (portov). \nhttp  \n23 \nFTP  \n110 \ntelnet \n20, 21 \nPOP3 \n80",
+    "points": 3,
+    "year": 2014,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2014_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Analiza uporabnikovih potreb je pokazala, da so bodoči uporabniki informacijskega sistema \ntrgovine prodajalci Marko, Jure in Peter ter skladiščnika Andrej in Žiga. Obkrožite črki pred akterji \ndiagrama UseCase. \nA \nMarko, Jure, Peter, Andrej in Žiga. \nB \nProdajalec. \nC \nMarko in Andrej. \nD \nUporabnik. \nE \nSkladiščnik.",
+    "points": 2,
+    "year": 2014,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2014_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Kaj pomeni znak +, ki je zapisan pred imenom metode v diagramu Class? \nA \nMetoda je zasebna. \nB \nMetoda je podedovana. \nC \nV metodi se izvaja seštevanje. \nD \nMetoda je javna.",
+    "points": 1,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Standardni stavek jezika SQL, s katerim se ustvari tabela, je \nA \nCREATE TABLE \nB \nALTER TABLE \nC \nDEFINE TABLE \nD \nDECLARE TABLE",
+    "points": 1,
+    "year": 2014,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Dana je relacijska shema Izdelek(IzdelekID:N, Ime:A20, Cena:N, Opombao:A20). \nDopolnite stavek SELECT tako, da vrne vse podatke o izdelkih, pri katerih je podatek Opomba \nprazen. \nSELECT * FROM Izdelek WHERE  \n;",
+    "points": 1,
+    "year": 2014,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2014_IP2_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP2",
+    "text": "Med funkcijske diagrame UML štejemo tudi diagrame aktivnosti (activity). Povežite vrsto lika (na \nlevi strani) v diagramu aktivnosti s pomenom te oblike (na desni strani). \nAKTIVNOST \nZAČETNO STANJE \nKONČNO STANJE \nODLOČITEV",
+    "points": 3,
+    "year": 2014,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2014_IP2_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP2",
+    "text": "Za relacijo Vozilo(RegSt:N, Znamka:A10, Letnik:N, Cena:N) zapišite stavek SQL, ki \nizpiše vse različne znamke vozil, urejene po padajoči ceni vozila.  \n V sivo polje ne pištie.",
+    "points": 2,
+    "year": 2014,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2014_IP2_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP2",
+    "text": "Razred Krog vsebuje dve zasebni spremenljivki: radij (tipa double) in barva (tipa \nString), ki imata privzeti vrednosti 1.0 in \"črna\". Razred vsebuje zraven privzetega \nkonstruktorja še konstruktor, ki za parameter prejme radij kroga, ter dve javni metodi \nvrniRadij() in vrniPloscino(). Razred Valj ima ti zasebni spremenljivki: \nosnovnaPloskev (tipa Krog) in visina (tipa double). Privzeta vrednost za \nspremenljivko visina je 1.0. Zraven privzetega konstruktorja razred Valj vsebuje še \nkonstruktor, ki prejme za parametra radij osnovne ploskve in višino, ter metodi vrniVisino() in \nvrniProstornino(). \n19.1. Narišite diagram class za opisana razreda in razmerja med njima.",
+    "points": 4,
+    "year": 2014,
+    "image": "assets/images/2014_IP2_p08.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2014_IP2_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP2",
+    "text": "Relacijsko podatkovno bazo sestavljajo te relacije: \n \nKupec(IDKupca:N, Naziv:A10, Naslov:A20) \n \nIzdelek(IDIzdelka:N, Naziv:A15, Opis:A80, Cena:N) \n \nNakup(IDKupca:N->Kupec, IDIzdelka:N->Izdelek, DatumNakupa:D) \n20.1. Napišite stavek SQL, ki izpiše vse različne nazive kupcev izdelka, za katerega je \nIDIzdelka = 2. \n 20.2. Napišite stavek SQL, ki izpiše skupno ceno vseh izdelkov, kupljenih 24. 12. 2013.",
+    "points": 2,
+    "year": 2014,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2014_IP2_20"
+  }
+]

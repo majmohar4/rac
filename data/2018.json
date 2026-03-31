@@ -1,0 +1,437 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Kako lahko zapišemo algoritme? \nA \nZ UML-diagrami. \nB \nZ diagramom poteka. \nC \nZ modelom ER. \nD \nS psevdokodo.",
+    "points": 2,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Programsko okolje, namenjeno razvoju in preizkušanju javanskih programov, se imenuje \nA \nJava JDK. \nB \nJava API. \nC \nJava VM. \nD \nJava IDE.",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Dopišite termina, ki pomensko pravilno dopolnita povedi. \nNapisali smo program v programskem jeziku Java. Datoteka z napisanim programom ima  \nkončnico java. Programu v taki obliki pravimo  . \nS prevajalnikom prevedemo program in dobimo datoteko s končnico class. Programu v taki  \nobliki pravimo  .",
+    "points": 2,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Kateri izmed opisov velja za stavek if? \nA \nStavek if omogoča ponavljanje drugih stavkov. \nB \nStavek if ni stavek programskega jezika Java. \nC \nStavek if omogoča, da nekatere stavke izvedemo le, če je izpolnjen neki pogoj. \nD \nStavek if predstavlja zanko s pogojem na začetku.",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Naj bo x celoštevilska spremenljivka. Kateri izmed naslednjih izrazov se ovrednoti na vrednost \ntrue natanko tedaj, ko je vrednost spremenljivke x sodo število? \nA \nx >= 2 \nB \nx % 2 != 1 \nC \nx != 1 \nD \nx == 2*k",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Naj velja int a=5, b=2;. Koliko je vrednost izraza (a / b) v programskem jeziku Java? \nA \n0 \nB \n2 \nC \n2.5 \nD \n5",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "S katero izmed navedenih rezerviranih besed v programskem jeziku Java prekinemo izvajanje \nzanke for? \nA \nwhile \nB \nstop \nC \nbreak \nD \nvoid",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Kolikokrat se izpiše beseda Pozdrav? \nint a = 4; \nint b = 12; \nwhile(a<b){ \n   System.out.println(\"Pozdrav\"); \n   a+=4; \n   b-=4; \n} \nA \n1 \nB \n2 \nC \n3 \nD \n4",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Dani izsek diagrama poteka pretvorite v kodo programskega jezika Java. \n x = 1\ny = 10\na = y\nx <= 5\nx%2 == 0\na = a - 1\nx = x * 2\ny = y * a\nx = x + 1\nizhod: y\ntrue\nfalse\ntrue\nfalse",
+    "points": 3,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "V programu imamo to deklaracijo:  \nString niz = new String(\"Dober dan.\"); \nKaj izpiše stavek? \nSystem.out.println(niz.charAt(niz.length()-1)); \nA \nD \nB \na \nC \nn \nD \n.",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Kaj se izpiše po izvedbi zaporedja stavkov? \nint[] x = {1,2,3,4,5}; \nint[] y = x; \ny[2] = 99; \nSystem.out.println(x[2]); \nA \n2 \nB \n3 \nC \n4 \nD \n99",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Kaj se izpiše na zaslon po izvedbi spodnje kode? \nString niz = new String(\"MATURA\"); \nfor(int i=niz.length()-1; i>=0; i--) \n   System.out.print(niz.charAt(i)); \nA \nMATURA \nB \nMATUR \nC \nRUTAM \nD \nARUTAM",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Androidov robotek je na vhodu v labirint. Robotek se premika z ukazom naprej za 1 korak. V \nprogramskem jeziku imamo še metodo obrat(smer), ki robotku omogoči, da se obrne v izbrano \nsmer. Parameter metode je lahko desno ali levo. Z uporabo gnezdenih zank, ukaza naprej in \nmetode obrat(smer)napišite program, ki bo robotku omogočil, da bo v labirintu prišel do cilja.",
+    "points": 3,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Dani imate trditvi. Obkrožite črko D, če je trditev pravilna, oziroma črko N, če je trditev napačna. \nImena metod razreda morajo biti razločevalna. \nD \nN \nDostopno določilo private pomeni, da je metoda oz. spremenljivka neposredno \ndostopna le znotraj razreda. \nD \nN",
+    "points": 2,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Kaj izpiše navedeni program? \npublic class NalogaArgumenti { \n   static int metoda(int [] z){ \n      z[2]=50; \n      return 1; \n   } \n   static int metoda1(int a){ \n      a=50; \n      return 1; \n   } \n   public static void main(String[] args) { \n      int [] x={1,2,3,4}; \n      metoda(x); \n      System.out.println(x[2]);  \n      int y = 2; \n      metoda1(y); \n      System.out.println(y);  \n} \n}",
+    "points": 2,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "V programu imamo zanko for, s katero na zaslon zaporedoma izpišemo 1000 znakov '*'. \nZapišite kodo v programskem jeziku Java, ki stori enako, pri čemer ne smete uporabiti zanke \nfor.",
+    "points": 3,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Recimo, da imamo metodo double povprecje(double polje[]), ki vrne povprečno \nvrednost elementov tabele polje. Zapišite metodo, ki vrne število elementov tabele polje, ki \nima vrednost pod povprečjem vseh elementov v tabeli polje.",
+    "points": 3,
+    "year": 2018,
+    "solution": null,
+    "topic": "Splošno računalništvo",
+    "id": "2018_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Pretvorite navedeno zaporedje stavkov if v stavek switch. \nif (dan==1)  \n   danIme=\"ponedeljek\"; \nelse \n   if (dan==2) \n      danIme = \"torek\"; \n   else  \n      if (dan ==3) \n         danIme = \"sreda\"; \n      else  \n         if (dan ==4) \n            danIme = \"četrtek\"; \n         else  \n            if (dan ==5) \n               danIme = \"petek\";     \n            else  \n               if (dan ==6) \n                  danIme =\"sobota\"; \n               else \n                  if (dan ==7) \n                     danIme =\"nedelja\"; \n                    else \n                       danIme = \"dan ne obstaja\"; \nSystem.out.println(danIme);",
+    "points": 3,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Delamo s tabelo realnih števil.  \n19.1. Napišite metodo, ki vrne indeks največjega elementa v tabeli. Če je takih elementov več, \nvrne prvega, ki ga najde. \n 19.2. Napišite metodo, ki največji element tabele prestavi tako, da bo na prvem mestu največji \nelement, drugi elementi pa mu sledijo v takem vrstnem redu, kot so bili prvotno shranjeni v \npolje.",
+    "points": 2,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Navedeno imamo kodo in izpis.  \nKoda: \nPosoda p1 = new Posoda(2.5); \nSystem.out.println(p1); \np1.dotoci(1.4); \nPosoda p2 = new Posoda(p1); \np2.iztoci(0.6); \nSystem.out.println(p1); \nSystem.out.println(p2); \np1.dotoci(1.7); \nSystem.out.println(p1); \np2.iztoci(0.9); \nSystem.out.println(p2); \npovzroči izpis: \nZasedeno je 0.0L od 2.5L \nZasedeno je 1.4L od 2.5L \nZasedeno je 0.8L od 2.5L \nZasedeno je 2.5L od 2.5L \nZasedeno je 0.0L od 2.5L \n20.1. Zapišite celotno kodo razreda, ki ustreza zgornji kodi in izpisu.",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP1_20"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "V standardni tabeli ASCII je za predstavitev enega znaka na voljo 7 bitov. Koliko različnih znakov \nje lahko tako predstavljenih? \nA \n64 \nB \n128 \nC \n256 \nD \n512",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2018_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Osnovna enota za mero informacije je bit, pogosto pa uporabljamo za osnovno enoto zlog \noziroma bajt (1 B). Koliko bitov vsebuje 1 bajt? Koliko bajtov pa je 1 kilobajt (1 KB)? \n1 bajt vsebuje  bitov. \n1 KB vsebuje  bajtov.",
+    "points": 2,
+    "year": 2018,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2018_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Ali lahko na računalniku, ki ima 32 MB glavnega pomnilnika, odpremo datoteko, ki je velika 40 \nMB? \nA \nLahko, če operacijski sistem podpira upravljanje navideznega pomnilnika. \nB \nNe moremo. \nC \nLahko, če je datoteka tekstovna. \nD \nLahko, vendar le, če uporabljamo operacijski sistem v realnem času.",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2018_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Katero število v dvojiškem zapisu predstavlja število 120 (zapisano v desetiškem številskem \nsestavu)? \nA \n1110000(2) \nB \n1111000(2)  \nC \n1111100(2) \nD \n1111110(2)",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2018_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Osnovna naloga CPE je, da \nA \nzagotavlja prenos informacije med zunanjim svetom in pomnilnikom. \nB \nhrani programe in podatke. \nC \niz glavnega pomnilnika jemlje ukaze in jih izvaja (angl. fetch-execute). \nD \nnadzoruje in usklajuje delovanje posameznih enot.",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2018_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Kateri od navedenih izjav sta resnični za datotečne sisteme s hierarhično strukturo imenikov? \nA \nDatoteke so dostopne zaporedno (sekvenčno). \nB \nKorenski imenik vsebuje podimenike in datoteke, podimeniki lahko spet vsebujejo \npodimenike in datoteke. \nC \nDve datoteki imata lahko enaki imeni, če sta v različnih imenikih. \nD \nVsak imenik ima lahko največ en podimenik.",
+    "points": 2,
+    "year": 2018,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2018_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Katera ukaza v operacijskem sistemu Linux se lahko uporabita za prikaz tekočih procesov?  \nA \nkill \nB \nps \nC \nrenice \nD \ntop",
+    "points": 2,
+    "year": 2018,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2018_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Operacijski sistem pozna preimenovanje datotek. Kaj se dogodi ob preimenovanju datoteke?  \nA \nDatoteka se kopira, nova datoteka dobi novo ime, stara datoteka je še vedno dosegljiva pod \nprejšnjim imenom. \nB \nSpremeni se ime v seznamu datotek. \nC \nSpremeni se ime v glavi datoteke. \nD \nVsi operacijski sistemi ne podpirajo preimenovanja datotek.",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2018_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Dopišite besedi, ki pomensko pravilno dopolnita povedi. \nNačin pošiljanja sporočila v omrežju, ki pošlje sporočilo enemu končnemu cilju z določenim  \nenoličnim naslovom, imenujemo  . Način pošiljanja sporočila v  \nomrežju, ki sporočilo pošlje vsem napravam v omrežju, imenujemo  .",
+    "points": 2,
+    "year": 2018,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2018_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "V omrežju imamo računalnik, ki ima ti nastavitvi: številka IP 192.168.168.188, omrežna maska \n255.255.255.192. Kateremu omrežju le-ta pripada in kakšen je naslov broadcasta v tem omrežju? \nOmrežje:  Broadcast:",
+    "points": 2,
+    "year": 2018,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2018_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Koliko bitov je v fizičnem naslovu (Ethernet)? \n00-0d-65-ac-50-7f",
+    "points": 1,
+    "year": 2018,
+    "image": "assets/images/2018_IP2_p05.jpg",
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2018_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Omrežni protokol določa \nA \npravila in konvencije, po katerih komunicirajo omrežni elementi. \nB \nsamo format sporočila. \nC \nkateri omrežni element začne komuniciranje. \nD \naplikacije, ki lahko komunicirajo.",
+    "points": 1,
+    "year": 2018,
+    "image": "assets/images/2018_IP2_p05.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Poglejte sliko lokalnega omrežja. Kateri vmesnik v omrežju, katerega člana sta računalnika \nAdministracija in Skladišče, predstavlja privzeti prehod (angl. default gateway)? \nA \nVmesnik Fana preklopniku (angl. switch). \nB \nVmesnik Fa0 na strežniku Strežnik. \nC \nVmesnik Fana usmerjevalniku (angl. router) Prevalje. \nD \nVmesnik Se/0 na usmerjevalniku Prevalje.",
+    "points": 1,
+    "year": 2018,
+    "image": "assets/images/2018_IP2_p05.jpg",
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2018_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Obkrožite črko D, če je trditev pravilna, sicer obkrožite črko N. \nV podatkovni bazi imamo lahko več atributov, ki so opisani z istim podatkovnim tipom.  \nD \nN \nRelacija in relacijska shema imata enak pomen. \nD \nN \nModel entiteta-razmerje (ER) je neodvisen od sistema za upravljanje podatkovnih  \nbaz (SUPB).  \nD \nN",
+    "points": 3,
+    "year": 2018,
+    "image": "assets/images/2018_IP2_p05.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2018_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Dan imamo ta model ER: \nNapišite relacijske sheme za relacije Disciplina, Tekma in Tekmovalec. \n Drzava\nDrzavaID (PK) NN\nChar(5)\nDrzavaIme NN\nChar(20)\nTekmovalec\nTekmovalecID (PK) NN\nChar(3)\nDrzavaID (PFK) NN\nChar(5)\nIme NN\nChar(20)\nPriimek NN\nChar(20)\nTekma\nDisciplinaID (PK) NN\nInteger\nTekmovalecID (PFK) NN\nChar(3)\nDrzavaID (PFK) NN\nChar(5)\nDatum NN\nDate\nTocke NN\nInteger\nSportID (PFK) NN\nChar(5)\nDisciplina\nDisciplinaID (PK) NN\nInteger\nImeDiscipline NN\nChar(20)\nOpis\nChar(40)\nSportID (PFK) NN\nChar(5)\nSport\nSportID (PK) NN\nChar(5)\nIme NN\nChar(20)\n1\nn\n1\nn\n1\nn\n1\nn",
+    "points": 3,
+    "year": 2018,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2018_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Za podatkovno bazo, ki je predstavljena z diagramom ER v prejšnji nalogi, napišite stavek SQL, \nki v tabelo Disciplina doda zapis, pri katerem je vrednost atributa: DisciplinaID je 101, \nImeDiscipline je Slalom, SportID pa je 00022.",
+    "points": 2,
+    "year": 2018,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2018_IP2_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP2",
+    "text": "Povežite vrsto informacijskega sistema s pravilnim opisom ali lastnostjo tega sistema. \nA Transakcijski informacijski sistemi",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Informacijski sistemi",
+    "id": "2018_IP2_17"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Izdelajo preprosta poročila. \nB Ekspertni informacijski sistemi",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Pomagajo pri procesu, pri katerem  \nizbiramo med več možnostmi – variantami. \nC Informacijski sistemi za podporo odločanju",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Uporabljamo jih za napovedovanje,  \ndiagnosticiranje, načrtovanje … \nA \nB \nC",
+    "points": 3,
+    "year": 2018,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2018_IP2_03"
+  },
+  {
+    "num": 18,
+    "pola": "IP2",
+    "text": "K posameznim znakom, ki jih zapišemo pred metodami ali lastnostmi v RAZREDNEM \nDIAGRAMU (Class), dopišite pomen znaka. \n–  + #",
+    "points": 3,
+    "year": 2018,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP2_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP2",
+    "text": "Relacijsko podatkovno bazo sestavljajo tabele Knjiga, JePrebrala in Oseba. \nStrukture tabel opisujejo relacijske sheme: \nKnjiga(ISBN:N, Imeknjige:A40) \nJePrebrala(EMSO:A13→Oseba, ISBN:N→Knjiga, Datum:D) \nOseba(EMSO:A13, Priimek:A20, Ime:A10, Naslov:A30, Kraj:A20) \n19.1. Napišite ukaz SQL, ki izpiše priimke in imena oseb iz Ljubljane.  \n 19.2. Napišite ukaz SQL za izpis abecedno urejenega seznama knjig, ki jih je prebrala Milena \nJošt.",
+    "points": 1,
+    "year": 2018,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2018_IP2_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP2",
+    "text": "Z diagramom primerov uporabe (angl. use-case) želimo prikazati sistem redovalnice. Učitelj \nzapiše ocene in jih pregleda, razrednik, ki je lahko tudi učitelj, pregleduje ocene in pripravlja \nporočila, dijaki in starši pa ocene le pregledujejo.  \n20.1. Identificirajte akterje in primere uporabe. \nAkterji so:  Primeri uporabe so:  20.2. Narišite diagram primera uporabe.",
+    "points": 2,
+    "year": 2018,
+    "image": "assets/images/2018_IP2_p09.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2018_IP2_20"
+  }
+]

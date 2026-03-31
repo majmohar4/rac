@@ -1,0 +1,424 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Kateri od naštetih trditev sta resnični za algoritme? Obkrožite črki pred resničnima trditvama. \nA \nAlgoritem mora biti nedvoumen. \nB \nAlgoritem je enak rešitvi problema. \nC \nAlgoritem mora biti zapisan v programskem jeziku. \nD \nAlgoritmov ne moremo izvajati z računalnikom. \nE \nAlgoritem se mora končati.",
+    "points": 2,
+    "year": 2023,
+    "solution": "3 0 5 0 7 0 9 0\nVsaka pravilno izpisana vrstica 1 točka.\n16\n2\n žoga 0\nmedvedek 0\nžoga 0\nmedvedek 0\nIzmenične vrednosti žoga/medvedek\n1 točka,\nvrednost i je povsod 0 1 točka.",
+    "solution_points": 0,
+    "topic": "Programiranje",
+    "id": "2023_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Obkrožite črko pred resnično trditvijo. \nA \nJVM prevede vmesno (Byte) kodo v izvršno. \nB \nJVM prevede izvorno kodo programa v vmesno kodo. \nC \nJRE ne vsebuje JVM. \nD \nZa prevajanje javanskih programov potrebujemo JRE.",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Dani javanski program pretvorite v diagram poteka. \npublic class programcek { \n   public static void main(String[] args) { \n      int j=2020, i=30; \n      while (j > i) { \n         System.out.println(\"j=\"+j+\"   i=\"+i); \n         j = j / i; \n         if (i % 2 == 0) \n            i = i – 5; \n         else  \n            i = i – 10; \n      }; \n      System.out.println(\"j=\"+j+\"   i=\"+i); \n   } \n}",
+    "points": 3,
+    "year": 2023,
+    "image": "assets/images/2023_IP1_p06.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Kaj izpiše programski stavek?  \nSystem.out.println(11./4); \nA \nNe izpiše ničesar, prevajalnik javi napako.  \nB \n3 \nC \n2.75  \nD \n2",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Dan je izsek programa: \nint a = 10; \nint x = 20; \nswitch(x) { \n   case 20: a += 20; \n   case 30: a += 10; \n   case 40: a += 30; break; \n   case 50: a += 10; \n} \nKoliko je vrednost spremenljivke a po izvedbi programa?  \nA \n30 \nB \n70 \nC \n80 \nD \n10",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Dani sta deklaraciji: \nint x = 30; \nfinal int y = 40; \nPri prevajanju katerega stavka pride do napake? \nA \nx=y; \nB \ny=x; \nC \nif (x==y) { /* stavki */} \nD \nx+=y;",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Splošno računalništvo",
+    "id": "2023_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Kaj izpiše izsek programa? \nboolean a = false; \nboolean b = true; \nSystem.out.print(!a || !b); \nSystem.out.print(!a || !b && a);",
+    "points": 2,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "V izvorni kodi imamo zapisano kodo: \npublic class Dijak extends Oseba { /* koda razreda */ } \nKatera od naštetih trditev je resnična v dani situaciji? \nA \nVsak objekt tipa Dijak ima vse lastnosti objekta tipa Oseba. \nB \nVsak objekt tipa Dijak ima nekatere lastnosti objekta tipa Oseba, ne pa nujno vseh. \nC \nTip Dijak je nadrazred tipa Oseba. \nD \nVsak objekt tipa Oseba, je hkrati tudi objekt tipa Dijak.",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Katera od zapisanih deklaracij metod predstavlja zasebno metodo, ki vrača realno število in za \nparameter prejme logično vrednost? \nA \npublic boolean metoda(double x); \nB \nprivate boolean metoda(double x); \nC \nprivate void metoda(boolean x, double y); \nD \nprivate double metoda(boolean x);",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Obkrožite črko pred programskim stavkom, ki izpiše ime spremenljivke in njeno vrednost. \nA \nSystem.out.println(\"x=\"+x); \nB \nSystem.out.println(ʹx=ʹx); \nC \nsystemoutprintln(\"x=\"+x); \nD \nSystem.out.println(x=);",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Kaj izpiše program? \npublic class Test  \n{   \n    public static void Metoda1() throws Exception  \n    { \n        try  \n        { \n            throw new Exception();  \n        }  \n        finally  \n        { \n            System.out.print(\"izhod \");  \n        }  \n    }  \n    public static void main(String args[])  \n    { \n        try  \n        { \n            Metoda1();   \n        }  \n        catch (Exception e)  \n        { \n            System.out.print(\"izjema \");  \n        }  \n        System.out.print(\"konec \");  \n    }  \n}",
+    "points": 2,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Skrbniki spletne strani bi radi shranjevali gesla uporabnikov, ampak samo v zgoščeni obliki, ki je \npodana z algoritmom. Napišite funkcijo GenHash, ki iz niza (geslo uporabnika) generira zgoščeno \nobliko.  \nAlgoritem: \nVsak znak iz niza geslo nadomestimo z njegovo ASCII kodo, kateri prištejemo dolžino niza, ki \nje naše geslo. Iz dobljene vrednosti upoštevamo le celoštevilski ostanek pri deljenju s številom",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_12"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "To vrednost dodamo k zgoščeni obliki. \nRešite nalogo tako, da uporabite StringBuffer.",
+    "points": 3,
+    "year": 2023,
+    "image": "assets/images/2023_IP1_p12.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_17"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Zapišite zanko for, v kateri števec preteče vsa zaporedna liha cela števila med 999 in 111, \nvključno z mejama, vsako natanko enkrat, pričnemo pa s številom 999. Telo zanke naj bo prazen \nstavek.",
+    "points": 2,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Želimo ustvariti tabelo, ki ima 102 celoštevilska elementa. Zapišite celotno deklaracijo tabele.",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2023_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Kaj izpiše izsek programa? \nint x[] = new int[10]; \nfor (int i=0; i<x.length; i++){ \n   System.out.print(x[i]+ \" \"); \n} \nSystem.out.println(); \nfor (int i=0; i<x.length; i++){ \n   x[i]=++i; \n} \nfor (int i=0; i<x.length; i++){ \n   System.out.print(x[i]+ \" \"); \n}",
+    "points": 2,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Kaj izpiše program? \npublic class Igraca { \n   String ime; \n   public static int x=100; \n   Igraca(){ \n      ime=\"medvedek\"; \n      x=0; \n   } \n   Igraca(String a){ \n      ime=a; \n      x++; \n   } \n   public void izpis(){ \n      System.out.println(ime + \" \" + x); \n   } \n   public static void main(String args[]) { \n      Igraca[] a=new Igraca[4]; \n      int i; \n      for (i=0;i<4; i++) \n         if (i%2==0)  \n            a[i]=new Igraca(\"žoga\");  \n         else  \n            a[i]=new Igraca(); \n      for (i=0;i<4; i++) \n         a[i].izpis();       \n   } \n}",
+    "points": 2,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Zapišite metodo vsiSamoglasniki, ki vrne true natanko tedaj, ko niz vsebuje samo znake, ki \npredstavljajo samoglasnike. Niz naj bo podan kot parameter metode. Predpostavite lahko, da je \nniz sestavljen le iz malih črk angleške abecede.",
+    "points": 3,
+    "year": 2023,
+    "image": "assets/images/2023_IP1_p12.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Napišite metodo static void trikotnik (int n), ki nariše enakokraki trikotnik višine n, ki \nje podana kot parameter. Primer: za vrednost parametra n = 4 bi na zaslonu izrisala to sliko:",
+    "points": 3,
+    "year": 2023,
+    "image": "assets/images/2023_IP1_p12.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Seštevanje velikih celih števil.  \n19.1. Sešteti moramo dve tridesetmestni števili, ki sta zapisani v tabeli tako, da je vsaka števka \nštevila v svoji celici. Napišite metodo sum, ki prejme kot parameter obe tabeli in vrne vsoto, \nkot je opisana v nadaljevanju. Vsoto zapišite v novo tabelo tako, da bo njena velikost ravno \ndovolj velika, ne glede na dejstvo, da lahko seštevamo tudi števila, ki imajo manj mest. \nUpoštevajte, da so enice zapisane v zadnji celici tabele in da pri seštevanju lahko pride do \nprenosa.",
+    "points": 4,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Z razredom Oseba želimo predstaviti podatke o neki osebi. Podatki, ki nas zanimajo, so ime in \npriimek, starost ter hobiji. Hobije predstavimo z nizom znakov, v katerem so posamezni hobiji \nločeni z vejico. Če oseba nima hobijev, je ta niz prazen. \n20.1. Zapišite deklaracijo razreda Oseba, vključno s konstruktorjem, ki za vse lastnosti prejme \npripadajoče vrednosti prek parametrov. Vse lastnosti razreda naj bodo zaščitene. \n 20.2. Za razred Oseba napišite javno metodo, ki vrne število hobijev, ki jih ima oseba.",
+    "points": 2,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP1_20"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Katero od naprav uvrščamo med notranje pomnilnike? \nA \nRAM. \nB \nSSD-disk. \nC \nTrdi disk. \nD \nUSB-ključek.",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2023_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Podano imamo nenegativno celo število, predstavljeno v dvojiškem številskem sestavu. O številu \nimamo te informacije: število je predstavljeno z 8 biti in najbolj desni bit je enak 0.  \nObkrožite črki pred trditvama, ki sta resnični za to število. \nA \nŠtevilo je zagotovo sodo. \nB \nŠtevilo je zagotovo liho. \nC \nŠtevilo je zagotovo enako 0. \nD \nŠtevilo je med 0 in 63. \nE \nŠtevilo je med 0 in 127. \nF \nŠtevilo je med 0 in 255.",
+    "points": 2,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Katere tri ključne dele lahko razberemo iz ukaza, ki ga prejme centralna procesna enota.",
+    "points": 3,
+    "year": 2023,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2023_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "V katero plast referenčnega modela ISO/OSI sodita protokola TCP in UDP?",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2023_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Povežite omrežno napravo z opisom, ki je za to napravo resničen. \nOPIS \nNAPRAVA \nTa naprava ne preverja vsebine paketa, ampak le \nojača signal. \nusmerjevalnik  \nTa naprava je stičišče med dvema različnima \nomrežjema. \nponavljalnik \nTa naprava omogoča razdelitev nekega omrežja na \npodomrežja. \nprehod",
+    "points": 2,
+    "year": 2023,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2023_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "S katero storitvijo lahko povežemo protokol UDP? \nA \nZ elektronsko pošto. \nB \nZ internetnim radiem. \nC \nS ftp-strežnikom. \nD \nS spletno banko.",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2023_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Za omrežje 192.168.4.0 in masko 255.255.255.0 bi radi ustvarili štiri enako velika podomrežja. \nDopolnite vrednosti omrežnih nastavitev za prvo podomrežje: \nMaska: \n Obseg vseh IP-naslovov: Poplavni naslov:",
+    "points": 3,
+    "year": 2023,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2023_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Ena od nalog operacijskega sistema je upravljanje z vhodno-izhodnimi napravami. Obkrožite črko \npred zapisom, ki opisuje nalogo gonilnika naprave. \nA \nNaloga gonilnika je omogočiti električno napajanje naprave. \nB \nNaloga gonilnika je prikaz standardnega splošnega vmesnika gonilnikov, tako da ga lahko \nuporabljajo ostali deli operacijskega sistema. \nC \nNaloga gonilnika je prikaz specifičnega vmesnika za napravo, tako da ga lahko uporablja \nneki izbrani uporabniški program. \nD \nNaloga gonilnika je skrb za pravilno delovanje naprave na strojnem nivoju.",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2023_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Pri pregledu datotek smo opazili zaščito datoteke, zapisano v obliki r-x r-x r--. Katera \nvrednost ustreza temu zapisu? \nA \n223 \nB \n555 \nC \n554 \nD \n222",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Splošno računalništvo",
+    "id": "2023_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Del operacijskega sistema so sistemski in uporabniški programi. Vsakega od teh programov: \ninterpreter, prevajalnik, nalagalnik, brskalnik, predvajalnik video datotek in povezovalnik, \nrazvrstite v eno od skupin, ki ji pripada:  \nsistemski programi: \n uporabniški programi:",
+    "points": 2,
+    "year": 2023,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Veljavne vrednosti podatka statusNarocila so: 1 – dobavljeno, 2 – preklicano, 3 – zaključeno, \n4 – posredovano, 5 – izgubljeno. Najmanj koliko bitov je potrebnih za predstavitev statusa \nnaročila? \nA \n3 biti. \nB \n5 bitov. \nC \n8 bitov. \nD \n10 bitov.",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2023_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Naštejte vse štiri temeljne aktivnosti, ki se izvajajo znotraj informacijskega sistema.",
+    "points": 2,
+    "year": 2023,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2023_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Katera trditev je resnična za ekspertne informacijske sisteme? Obkrožite R, če je trditev resnična, \nin N, če trditev ni resnična. \nNamenjen je reševanju problemov širokega spektra. \nR \nN \nOmogoča boljše delo ekspertom in neekspertom. \nR \nN \nPodpira veliko število uporabnikov. \nR \nN",
+    "points": 3,
+    "year": 2023,
+    "image": "assets/images/2023_IP2_p08.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Kateri trditvi sta resnični za diagrame primera uporabe (angl. Use Case)? \nA \nDiagram primera uporabe predstavlja tok podatkov znotraj IS. \nB \nDiagram primera uporabe se uporablja za predstavitev funkcionalnosti IS. \nC \nZ diagramom primera uporabe se grafično predstavijo uporabniki IS. \nD \nDiagram primera uporabe se uporablja za predstavitev poteka obdelave podatkov znotraj IS. \nE \nDiagram primera uporabe je grafična predstavitev razredov, njihovih lastnosti in metod.",
+    "points": 2,
+    "year": 2023,
+    "image": "assets/images/2023_IP2_p08.jpg",
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2023_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Kateri trditvi sta resnični za tuji ključ tabele? \nA \nMora biti celoštevilskega tipa. \nB \nSestavljen je lahko iz več kot dveh atributov. \nC \nBiti mora razločevalen (unique). \nD \nEnolično identificira posamezni zapis (vrstico) tabele. \nE \nPredstavlja eno od integritetnih omejitev.",
+    "points": 2,
+    "year": 2023,
+    "image": "assets/images/2023_IP2_p08.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2023_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Katera vrsta programske opreme zagotavlja spoštovanje integritetnih omejitev, ki so opredeljene \nza tabele podatkovne baze? \nA \nUporabniška aplikacija. \nB \nSistem za upravljanje podatkovne baze. \nC \nBrskalnik. \nD \nOperacijski sistem.",
+    "points": 1,
+    "year": 2023,
+    "image": "assets/images/2023_IP2_p08.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2023_IP2_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP2",
+    "text": "Dana je tabela T (ID:N, Ime:A20, Komentaro:A20). \nDopolnite stavek, s katerim v tabelo dodamo zapis, v katerem podamo samo podatka ID \n(vrednost 320) in Ime (vrednost Luka). \ninsert into T  ; \nZapišite stavek, s katerim iz tabele T odstranite atribut Ime.",
+    "points": 2,
+    "year": 2023,
+    "image": "assets/images/2023_IP2_p09.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2023_IP2_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP2",
+    "text": "Spodnja relacijska shema opisuje podatke in povezave med strankami ter njihovimi agenti v \nturistični agenciji. \nStranka(IDStranke:N, ime:A, IDAgenta:N->Agent, boniteta:N) \nAgent(IDAgenta:N, ime:A, podrocjeO:A, telefon:A) \nPotovanje(IDPotovanja:N,znesek:N, IDStranke:N->Stranka,  \nIDAgenta:N->Agent) \nObkrožite črki pred resničnima trditvama. \nA \nVsaka stranka pripada vsaj enemu zapisu v tabeli Potovanje. \nB \nVsaka stranka lahko pripada nič ali več zapisom v tabeli Potovanje. \nC \nTabeli Stranka in Potovanje nista povezani. \nD \nEno potovanje združuje natanko enega agenta in natanko eno stranko. \nE \nEno potovanje združuje natanko enega agenta s poljubno mnogo strankami. \nF \nEno potovanje združuje poljubno mnogo agentov z natanko eno stranko.",
+    "points": 2,
+    "year": 2023,
+    "image": "assets/images/2023_IP2_p09.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2023_IP2_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP2",
+    "text": "V podatkovni bazi Univerza sta tabeli:  \nStatus(StatusID:N, ImeStatusa:A20) \nStudent(StudentID:N, Ime:A20, Priimek:A20, StatusID:N->Status, \nDatumRojstva:D) \n19.1. Zapišite stavek SQL, ki spremeni priimke študentov v velike črke. \n 19.2. Zapišite stavek SQL, ki vrne šifre, imena in priimke izrednih študentov (ime statusa je \n'izredni'), rojenih pred letom 2000.",
+    "points": 1,
+    "year": 2023,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2023_IP2_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP2",
+    "text": "Stranka je oseba z veljavno bančno kartico. Banka je finančna institucija, ki nudi storitve prek \nbankomata. Tako stranka kot tudi banka lahko iz bankomata dvigneta ali vanj položita denar. \nStranka lahko s pomočjo bankomata tudi napolni predplačniški telefonski račun. Vsako dejanje \nstranke ali banke zahteva preverjanje pristnosti uporabnika. Varnostna služba lahko izprazni \npologe na bankomat, ki so jih opravile stranke. \n20.1. Narišite diagram primera uporabe (angl. Use Case) za bankomat, kot je opisano.",
+    "points": 4,
+    "year": 2023,
+    "image": "assets/images/2023_IP2_p11.jpg",
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2023_IP2_20"
+  }
+]

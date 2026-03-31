@@ -1,0 +1,406 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Kateri izmed navedenih izrazov se ovrednoti na vrednost true, če je spremenljivka x celo število \nin ima vrednost 10? \nA \nx < 0 && x > 5 \nB \nx < 0 || x > 5 \nC \nx % 2 != 0 \nD \nx == 2*x/5",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "V programu imamo to deklaracijo:  \nString niz = new String(\"Matura je lahka.\"); \nKaj izpiše stavek System.out.println(niz.length());? \nA \n13 \nB \n14 \nC \n15 \nD \n16",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Definirano imamo to metodo: \nint metoda(double x); \nIz tega lahko razberemo, da ta metoda za parameter prejme \nA \ncelo število in vrne celo število. \nB \nrealno število in vrne celo število. \nC \nrealno število in vrne realno število. \nD \ncelo število in vrne realno število.",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Kateri izmed opisov velja za stavek break? \nA \nStavek break nemudoma prekine izvajanje metode, v kateri je zapisan. \nB \nStavek break nemudoma skoči na ponovno preverjanje pogoja zanke, v kateri je zapisan. \nC \nStavka break ne moremo uporabiti znotraj stavka switch. \nD \nStavek break nemudoma prekine izvajanje zanke, v kateri je zapisan. \nV sivo polje ne pištie.",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Naj velja int a=4, b=8;. Koliko je vrednost izraza (a % b) v programskem jeziku Java? \nA \n0 \nB \n2 \nC \n4 \nD \n6",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Katera izmed navedenih rezerviranih besed predstavlja zanko? \nA \nstatic \nB \nswitch \nC \nwhile \nD \ntry",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Kateri izmed navedenih stavkov deklarira niz znakov in ga inicializira na prazen niz? \nA \nstring niz; \nB \nString niz; \nC \nstring niz = new string(); \nD \nString niz = new String();",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Kaj se izpiše na zaslonu po izvedbi spodnje kode? \nint x=25; \nwhile (x>0) { \n   x = x / 2; \n   System.out.print(\"X\"); \n} \nA \nXXXXXX \nB \nXXXXX \nC \nXXXX \nD \nXXX",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Katera izmed deklaracij ustvari tabelo? \nA \nint a[]=new int[5]; \nB \nint a = new int[5]; \nC \nint a = {1}; \nD \nint a [] [] = {1,2,3},{8,6,3};",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Splošno računalništvo",
+    "id": "2015_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Dano kodo programskega jezika Java pretvorite v diagram poteka. \nint x = 5, y = 2; \nint a = y; \nwhile (x > 0) { \n   if (x%2 == 0) { \n      y = y*y; \n      x = x/2; \n   } else { \n      y = y*a; \n      x--; \n   } \n} \nSystem.out.println(y);",
+    "points": 3,
+    "year": 2015,
+    "image": "assets/images/2015_IP1_p05.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Dan je logični izraz: !(x>0 && x<10). Zapišite enakovreden pogoj, pri čemer ne smete \nuporabiti negacije. \n V sivo polje ne pištie.",
+    "points": 2,
+    "year": 2015,
+    "image": "assets/images/2015_IP1_p05.jpg",
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2015_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Z gnezdenimi zankami realizirajte programsko kodo v Javi, s katero zagotovite izpis v tej obliki:  \n*ooo \n**oo \n***o \n****",
+    "points": 3,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Brez uporabe zanke for zapišite kodo, ki naredi isto kakor spodnja koda. \nfor(int i=0; i<10000; i++)  \n   System.out.println(i);",
+    "points": 2,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Naj bo x celoštevilska spremenljivka. Obkrožite črko pred pogojema, ki se ovrednotita na true, \nče je x sodo število. \nA \nx % 2 == 0 \nB \nx == 2*k \nC \nx / 2 == 0 \nD \nx % 2 != 1",
+    "points": 2,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Napišite metodo, ki za parameter prejme polje realnih števil in vrne true, če so vsa števila v \npolju pozitivna, in false v nasprotnem primeru.",
+    "points": 3,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Dan je izsek programa: \nint x=40; \nint y=6; \nwhile (x>0){ \n   x-=y; \n   y+=6; \n   System.out.println(x+y); \n} \nKolikokrat se izvede zanka?  Katere vrednosti se izpišejo med izvajanjem zanke?  V sivo polje ne pištie.",
+    "points": 3,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Naj bo deklarirana ta metoda: void test(String niz);. Zapišite telo metode, če naj metoda \nizpiše prvi in zadnji znak niza, vsakega v svoji vrstici. Predpostavite, da niz ni prazen.",
+    "points": 2,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Za metode objektov (to so metode, ki so deklarirane brez določila static) je značilno, da \nA \nlahko obstajajo samostojno, ne da bi bile povezane z objekti. \nB \nobstajajo samo v povezavi z objekti. \nC \nlahko spreminjajo vrednosti nestatičnih atributov v posameznih objektih. \nD \njih pri dedovanju ni mogoče redefinirati. \nE \nje treba ob klicu metode najprej navesti ime objekta, nato piko in šele nato ime metode.",
+    "points": 3,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Za slovenski loto moramo staviti kombinacijo sedmih števil med 1 in 39, vključno z mejama. \n19.1. Zapišite metodo public boolean vsebuje(int[] polje, int i, int x), ki vrne \ntrue, če se število x pojavi v polju polje na katerem koli indeksu med 0 in i, vključno z \nmejama, ter false v nasprotnem primeru. \n 19.2. Z uporabo metode iz naloge 19.1. zapišite kodo, ki v polje shrani sedem naključnih celih \nštevil med 1 in 39, ki predstavljajo kombinacijo slovenske loterije. Pazite, da se števila v \nkombinaciji ne ponavljajo. \n V sivo polje ne pištie.",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2015_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Napisali bomo razreda, s katerima bomo implementirali telefonski imenik.  \n20.1. Napišite razred Oseba, ki vsebuje javne podatke – ime, priimek in telefonsko številko \nosebe, vse troje v obliki niza. Privzeti konstruktor naj podatke nastavi na ime Janez, \npriimek Novak in telefonsko številko +386 99 999 999. \n 20.2. Napišite razred Imenik, ki hrani polje oseb (razred naloge 20.1.) in dejansko število \nshranjenih podatkov. Konstruktor razreda prejme celo število, ki pomeni največje mogoče \nštevilo oseb, shranjenih v imeniku. Zapišite še metodo, ki v imenik doda podatke o novi \nosebi, vendar samo, če je v njem še dovolj prostora ter še ni vpisana oseba z enakim \nimenom in priimkom.",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP1_20"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Katero pozitivno število v desetiškem zapisu predstavlja število 011110000(2), zapisano v \ndvojiškem številskem sestavu?  \nA \n220 \nB \n240 \nC \n260 \nD \n280",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2015_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Katera izmed naštetih trditev velja za von Neumannov model računalnika? \nA \nJe model stroja s programom, shranjenim v pomnilniku. \nB \nModel ne predvideva vhodno-izhodnih naprav. \nC \nModel predvideva, da so v pomnilniku shranjeni le podatki, ne pa tudi program. \nD \nModel predvideva pomnilnik posebej za podatke in posebej za program.",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2015_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "V ukazni lupini operacijskega sistema Linux ste natipkali ukaz echo $PROC. Na zaslonu se je \nizpisal napis KONEC. Kaj to pomeni? \nA \nPomeni, da se je proces zaključil. \nB \nV računalniku teče preveč procesov, za nadaljevanje morate zaključiti njihovo izvajanje. \nC \nSpremenljivka PROC vsebuje vrednost KONEC. \nD \nKončal se je vaš delovni čas.",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Povežite črko pred vrsto datoteke s številko pred primernimi opisi datotek. \nDatoteka mp3 \nA \n1 \nImenik \nTekstovna datoteka ASCII \nB \n2 \nTok binarnih podatkov \nDatoteka, ki vsebuje  \nmetapodatke o datotekah \nC \n3 \nIzvorna koda programa, \nzapisanega v Javi",
+    "points": 3,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Na izhodu vrat NE-ALI dobimo logično stanje \"1\", kadar \nA \nso vsi vhodi v stanju \"1\". \nB \nje vsaj eden od vhodov v stanju \"1\". \nC \nsta stanji na vhodih različni. \nD \nso vsi vhodi v stanju \"0\". \nV sivo polje ne pištie.",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2015_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Kateri računalniki so na istem omrežju?  \nA \nPC0, PC1, PC5 \nB \nPC3, PC4 \nC \nPC2, PC3, PC4 \nD \nPC1, PC2",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2015_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Računalnik PC0 smo priklopili na stikalo S1, kakor kaže slika.  \nNapišite nastavitve naslova IP, maske in prehoda na računalniku. \nNaslov IP:  Maska:  Prehod:",
+    "points": 3,
+    "year": 2015,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2015_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Kateri prenosni medij je odporen proti radijskim in elektromagnetnim valovom? \nA \nKoaksialni kabel. \nB \nParica. \nC \nBrezžični medij. \nD \nOptični kabel.",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2015_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "V računalniškem omrežju imamo po topologiji vsak-z-vsakim povezanih 5 računalnikov. Koliko je \npovezav v tem omrežju? \nA \n5 \nB \n10 \nC \n15 \nD \n20",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2015_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Obkrožite pravilno nadaljevanje trditve. V razredu A naslovov IPv4 se za naslov omrežja uporabi \nA \nprvih 8 bitov. \nB \nprvih 16 bitov. \nC \nprvih 24 bitov. \nD \nprvih 32 bitov.",
+    "points": 1,
+    "year": 2015,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2015_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Naštejte vse tri nivoje ANSI/SPARC arhitekture podatkovne baze.",
+    "points": 3,
+    "year": 2015,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2015_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "V podatkovni bazi s terminom redundanca podatkov opišemo stanje, ko so isti podatki v bazi \nshranjeni večkrat. Obkrožite črki pred resničnima trditvama. \nA \nRedundanca podatkov ne vpliva na velikost podatkovne baze. \nB \nRedundanca podatkov poveča potrebo po vnosu in posodabljanju podatkov. \nC \nRedundanca podatkov vpliva na konsistentnost (skladnost) podatkovne baze. \nD \nRedundanca podatkov poveča varnost podatkov, shranjenih v podatkovni bazi, saj so \nshranjeni večkrat. \nV sivo polje ne pištie.",
+    "points": 2,
+    "year": 2015,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2015_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Vrsto diagrama, s katerim opišemo funkcionalno obnašanje sistema, \nimenujemo  . Diagram, s katerim opišemo statično strukturo  \nsistema – objekte, atribute in asociacije, pa imenujemo  .",
+    "points": 2,
+    "year": 2015,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Z diagramom use-case želimo opisati restavracijo takole: stranka naroči hrano. Natakar sprejme \nnaročilo in hrano prinese, ko je pripravljena. Ko stranka konča obrok, natakar prinese račun, ki ga \nstranka plača, natakar pa sprejme plačilo. Obkrožite črko pred akterjema diagrama. \nA \nNatakar. \nB \nHrana. \nC \nStranka. \nD \nPlačilo.",
+    "points": 2,
+    "year": 2015,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2015_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Obkrožite DA, če je trditev resnična, ali NE, če je trditev neresnična. \nFunkcije orodja CASE so \nrisanje oz. ustvarjanje diagramov.  \nDA \nNE \nnormalizacija podatkovne baze. \nDA \nNE",
+    "points": 2,
+    "year": 2015,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2015_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Kateri izmed naštetih lastnosti lahko opredelimo kot lastnost transakcijskega informacijskega \nsistema (TIS)? \nA \nImajo največ enega uporabnika. \nB \nHranijo in obdelujejo velike količine podatkov. \nC \nUporablja se samo na mobilnih napravah. \nD \nOdzivni časi so zelo pomembni.",
+    "points": 2,
+    "year": 2015,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2015_IP2_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP2",
+    "text": "Dan imamo ta model ER. Napišite pripadajoče relacijske sheme.",
+    "points": 3,
+    "year": 2015,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2015_IP2_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP2",
+    "text": "Za primer iz naloge 17 napišite stavek SQL, ki prešteje preglede, ki jih je opravil zdravnik, z \nZdravnikID=1.  \n V sivo polje ne pištie.",
+    "points": 2,
+    "year": 2015,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2015_IP2_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP2",
+    "text": "V podatkovni bazi želimo hraniti športne dejavnosti. Vsaka od njih ima svojo enolično kodo in ime. \nKer imamo na voljo le tri dvorane, želimo hraniti tudi urnik, kdaj se lahko katera dejavnost opravlja \n(datum in ura) in v kateri dvorani. Istočasno se v isti dvorani ne more izvajati več kot ena \ndejavnost. V enem dnevu se v eni dvorani lahko ena aktivnost izvaja le enkrat. \n19.1. Narišite ustrezen diagram ER te podatkovne baze. \nNa diagramu prikažite entitetne tipe, razmerja, vse primarne in tuje ključe in druge atribute \nskupaj z oznako za obvezne oziroma opcijske atribute. \n19.2. Napišite SQL-stavek, ki vrne imena dvoran, datume in termine, v katerih se igra košarka.",
+    "points": 2,
+    "year": 2015,
+    "image": "assets/images/2015_IP2_p08.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2015_IP2_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP2",
+    "text": "Z razredom BancniRacun želimo predstaviti bančni račun neke osebe. Ta razred vsebuje ime \nlastnika računa in trenutno stanje (v evrih). Razred vsebuje tudi metodo nakazi(znesek), ki na \nračun doda podan znesek evrov, in metodo dvigni(znesek), ki z računa odšteje dani znesek v \nevrih. Varčevalni račun je posebne vrste bančni račun, ki ima zraven vseh omenjenih lastnosti in \nmetod še podatek o letni obrestni meri (v odstotkih, npr. 3,5 %) ter metodo \npristejMesecneObresti(), ki na račun na koncu meseca doda ustrezen znesek denarja. \n20.1. Narišite razredni diagram, ki ustreza zgornjemu opisu.",
+    "points": 4,
+    "year": 2015,
+    "image": "assets/images/2015_IP2_p09.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2015_IP2_20"
+  }
+]

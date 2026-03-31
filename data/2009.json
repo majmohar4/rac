@@ -1,0 +1,404 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Značilni gradnik večopravilnega operacijskega sistema je: \nA \nukazni interpreter, \nB \nprevajalnik, \nC \nnalagalnik, \nD \nupravljalnik s procesi, \nE \npovezovalnik.",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2009_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Preliv (overflow) pri računanju razlikujemo od prenosa (carry), ker: \nA \nse prenos pojavi pri seštevanju, preliv pa pri odštevanju; \nB \nse prenos pojavi pri računanju s 16-bitnimi števili, preliv pa z 8-bitnimi; \nC \nse prenos uporablja pri računanju s celimi števili, preliv pa pri računanju z realnimi števili; \nD \nprenos pomeni, da smo presegli maksimalno vrednost, preliv pa minimalno; \nE \nima preliv pomen le pri računanju s predznačenimi števili.",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2009_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Preslikava naslovov pomnilniških lokacij iz logičnih v fizične je pri uporabi navideznega \npomnilnika potrebna, da:  \nA \nse vsak blok programa lahko naloži na različne naslove v fizičnem pomnilniku; \nB \nse lahko vsak ukaz ali spremenljivka med izvajanjem poljubno premešča po fizičnem \npomnilniku; \nC \nse lahko program (software) poveže s strojno opremo (hardware) na fizični ravni; \nD \nlahko uporabimo hkrati pomnilnike z različno hitrostjo dostopa; \nE \nso deli programa, ki so med seboj povezani, v istem naslovnem področju.\n4",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Pri katerem izmed danih zaporedij vsebin je pravilno izračunana prečna in vzdolžna \npariteta (parnost), če se odločimo za liho pariteto (parnost): \nA \n1 \n1 \n0 \n0 \n1 \n0 \n0 \n1 \n0 \n1 \n0 \n0 \n0 \n1 \n1 \n1 \n1 \n1 \n0 \n0 \n0 \n1 \n1 \n0 \n1 \n0 \n1 \n1 \n1 \n1 \n1 \n1 \n0 \n1 \n1 \n1 \n1 \n0 \n1 \n0 \n0 \n1 \n1 \n1 \n1 \nB \n1 \n1 \n0 \n0 \n1 \n0 \n0 \n1 \n1 \n1 \n0 \n0 \n0 \n1 \n1 \n1 \n1 \n0 \n0 \n0 \n0 \n1 \n1 \n0 \n1 \n0 \n0 \n1 \n1 \n1 \n1 \n1 \n0 \n1 \n1 \n0 \n0 \n1 \n0 \n1 \n1 \n0 \n0 \n0 \n0 \nC \n1 \n1 \n0 \n0 \n1 \n0 \n0 \n1 \n1 \n1 \n0 \n0 \n0 \n1 \n1 \n1 \n1 \n0 \n0 \n0 \n0 \n1 \n1 \n0 \n1 \n0 \n0 \n1 \n1 \n1 \n1 \n1 \n0 \n1 \n1 \n0 \n1 \n0 \n1 \n0 \n0 \n1 \n1 \n1 \n1 \nD \n1 \n1 \n0 \n0 \n1 \n0 \n0 \n1 \n0 \n1 \n0 \n0 \n0 \n1 \n1 \n1 \n1 \n1 \n0 \n0 \n0 \n1 \n1 \n0 \n1 \n0 \n1 \n1 \n1 \n1 \n1 \n1 \n0 \n1 \n1 \n1 \n0 \n1 \n0 \n1 \n1 \n0 \n0 \n0 \n1 \nE \n1 \n1 \n0 \n0 \n1 \n0 \n0 \n1 \n1 \n1 \n0 \n0 \n0 \n1 \n1 \n1 \n1 \n1 \n0 \n0 \n0 \n1 \n1 \n0 \n1 \n0 \n1 \n1 \n1 \n1 \n1 \n1 \n0 \n1 \n1 \n0 \n0 \n0 \n0 \n1 \n0 \n1 \n0 \n1 \n0\n5",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2009_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Kolikšna je vrednost programskega števca (PC), ko se izvede vrstica 4 pri MC6803? \n1         org     $A000 \n2 zacetek lds     #$00ff \n3         ldaa    #5 \n4         inca \n5         jsr     podpr \n6         bra     zacetek \n7 podpr   rts \nA \nA006 \nB \nA00B \nC \n00FF \nD \n00FD \nE \nA005",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "V operacijskem sistemu Linux si prijavljen kot Uporabnik1. Kakšne morajo biti dovolilnice \ndatoteke prog, da bi jo lahko izvajali vsi uporabniki sistema? \nA \n-rwx r-x --- 1 moj group1 20471 feb 4 2000 prog \nB \n-rwx r-x --x 1 moj group1 20471 feb 4 2000 prog \nC \n---x --x --- 1 moj group1 20471 feb 4 2000 prog \nD \n---x --x rw- 1 moj group1 20471 feb 4 2000 prog \nE \nd--x --x rw- 1 moj group1 20471 feb 4 2000 prog",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2009_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Danes prevladujejo procesorji, ki izkoriščajo registrsko naslavljanje (model register-\nregister). Ta model se je uveljavil, ker: \nA \nlahko realiziramo veliko število registrov; \nB \nporabimo za naslov operanda manj binarnih mest v polju ukaza za operand; \nC \nlahko samo v registre hranimo vmesne izračunane vrednosti; \nD \nje niz registrov po času dostopa najhitrejši pomnilnik; \nE \nje le iz registrov mogoča istočasna dostava dveh operandov v izvršilno enoto (ALE).\n6",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2009_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Z ukazom del naročimo operacijskemu sistemu MS DOS, naj datoteko »odstrani«. Kaj se \ndejansko dogodi ob izvedbi tega ukaza? \n A \nV tabeli oziroma na seznamu datotek se zbriše vnos za datoteko. \nB \nNa seznamu oziroma v tabeli datotek se zbriše vnos za datoteko. Sektorji, ki jih je zasedala \ndatoteka, se lahko ponovno uporabijo. \nC \nOdvisno od medija (disketa/trdi disk) se vsebina datoteke zbriše ali ohrani. \nD \nV tabeli oziroma na seznamu datotek se prostor, ki je pripadal datoteki, označi kot prost. \nE \nTo je odvisno od operacijskega sistema. \nSKLOP PROGRAMSKI JEZIKI IN PROGRAMIRANJE  \nNALOGE IZBIRNEGA TIPA \nObkrožite pravilno trditev.",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2009_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Obkrožite tiste deklaracije, ki pravilno kreirajo niz z vsebino \"Matura iz računalništva\": \nA \nString niz=\"Matura iz računalništva\"; \nB \nString niz=new(\"Matura iz računalništva\"); \nC \nString niz; niz=new String(\"Matura iz računalništva\"); \nD \nString niz=new String(\"Matura iz računalništva\"); \nE \nString niz='Matura iz računalništva';",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Kaj vrne naslednja metoda? \npublic static int nekaj(int n, int x) \n{ \n  int rezultat=0; \n  for(int i=1; i<=n; ++i) \n    rezultat=rezultat+x; \n  return rezultat; \n} \nA \nProdukt števil rezultat in x. \nB \nVsoto števil rezultat in x. \nC \nVsoto števil n in x. \nD \nProdukt števil n in x. \nE \nProdukt števil i in x.\n7",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Kaj se izpiše med izvajanjem spodnjega programa: \npublic class Izpis  \n{ \n  public static void main(String[] args)  \n  {  \n    int x=10; \n    spremeniX(x); \n    System.out.print(x+\" \");   \n  } \n  public static void spremeniX(int x)  \n  { \n    x+=2; \n    System.out.print(x+\" \" );   \n  } \n} \nA \n10 12 \nB \n12 12 \nC \n2 10 \nD \n12 10 \nE \n2 2",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Atribut, ki ga deklariramo z dostopnim določilom protected, je dostopen: \nA \nsamo v razredu, v katerem je deklariran; \nB \nv razredu, iz katerega je dani razred izpeljan; \nC \nv vseh razredih, ne glede na to, v katerem paketu so; \nD \nv vseh podrazredih, ki so izpeljani iz razreda, v katerem je deklariran; \nE \nsamo v tistih podrazredih, ki so v istem paketu.",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Katera izmed naštetih trditev NE velja za konstruktorje objektov: \nA \nČe napišemo lastni konstruktor, potem standardni (default) konstruktor ni več na razpolago. \nB \nIme konstruktorja mora biti enako imenu razreda, v katerem je konstruktor deklariran. \nC \nAbstraktni razredi nimajo konstruktorjev. \nD \nKonstruktor lahko pokličemo samo v povezavi z operatorjem new. \nE \nV vsakem razredu lahko deklariramo več konstruktorjev z različnimi argumenti.\n8",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Dana je tabela t, ki vsebuje števila 1, 2, 3, 4, 5, 6, 7, 8. Kakšna je vsebina te tabele po \nizvršitvi metode obdelaj, če ima parameter n vrednost 3? \npublic static void obdelaj(int[] t, int n) \n{ \n  int x; \n  for (int i=1; i<=n; ++i) \n  { \n    x=t[t.length-1]; \n    for (int j=t.length-1; j>0; --j) \n      t[j]=t[j-1]; \n    t[0]=x; \n  }  \n} \nA \n3,4,5,6,7,8,9,10 \nB \n6,7,8,1,2,3,4,5 \nC \n4,5,6,7,8,1,2,3 \nD \n3,4,5,6,7,8,1,2 \nE \n0,0,0,1,2,3,4,5",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Katere izmed naštetih lastnosti izražajo obvezne lastnosti algoritma? \nA \nCenenost. \nB \nNedvoumnost. \nC \nKončnost. \nD \nEnostavnost. \nE \nUčinkovitost.",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2009_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Katere programske jezike štejemo med nižje programske jezike? \nA \nPoljuben postopkovni jezik. \nB \nSQL. \nC \nZbirni jezik (assembler). \nD \nMakrozbirni jezik. \nE \nNestrukturirani programski jezik.\n9 \nSKLOP PROGRAMSKI JEZIKI IN PROGRAMIRANJE \nNALOGE S KRATKIMI ODGOVORI",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Na najkrajši možen način napišite deklaracijo tabele a, ki bo vsebovala števila od 1 do 10. \nRešitev:",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Splošno računalništvo",
+    "id": "2009_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Naslednji del programa zapišite s stavkom switch: \nif (ocena==1) \n  System.out.println(\"nezadostno\"); \nelse if (ocena==2) \n  System.out.println(\"zadostno\"); \nelse if (ocena==3) \n  System.out.println(\"dobro\"); \nelse if (ocena==4) \n  System.out.println(\"prav dobro\"); \nelse \n  System.out.println(\"odlično\"); \nRešitev:\n10",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Poleg vsakega izmed spodaj naštetih podatkov napišite ime podatkovnega tipa, ki bi bil \nnajprimernejši za njegovo predstavitev: \nRešitev: \npodatek \npodatkovni tip \n64215 \ntrue \n\"zaporedje znakov\" \n'A'",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2009_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Realizirajte spodnjo zanko s stavkom do while:  \nfor (int i=1; i<=10; ++i) \n  System.out.println(i); \nRešitev:\n11 \nSKLOP PROGRAMSKI JEZIKI IN PROGRAMIRANJE \nSTRUKTURIRANE NALOGE",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_20"
+  },
+  {
+    "num": 21,
+    "pola": "IP1",
+    "text": "Napišite program, ki z uporabo generatorja naključnih števil simulira metanje kocke in \nizpiše, koliko šestic, petic, štiric, trojk, dvojk in enk je bilo pri 200 metih. \n Rešitev:\n12",
+    "points": 4,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_21"
+  },
+  {
+    "num": 22,
+    "pola": "IP1",
+    "text": "Sprogramirajte razred MotornoVozilo, ki bo osnova za predstavitev različnih motornih \nvozil. Vsak objekt tega razreda naj ima tri atribute: proizvajalec (npr. BMW, Peugeot, \nScania), moč motorja (v kW) in maksimalna hitrost (v km/h). Za izpis vsebine objekta \ndeklarirajte metodo izpisiVse, ki izpiše vrednosti vseh atributov. \nIz razreda MotornoVozilo izpeljite podrazred Tovornjak z dodatnim atributom \nnosilnost (v tonah) in redefinirano metodo izpisiVse, ki izpiše vrednosti vseh atributov. \nRešitev:\n14",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_22"
+  },
+  {
+    "num": 23,
+    "pola": "IP1",
+    "text": "V zdravstvenem domu so tri ambulante. V tabeli obisk so shranjeni podatki o skupnem \nštevilu obiskov vsake ambulante v posameznih mesecih preteklega leta. Tabela je \ndvodimenzionalna: prva dimenzija predstavlja 3 ambulante, druga pa 12 mesecev.  \nNapišite metodo stPacientovPoMesecih, ki na podlagi podatkov iz tabele obisk za vsak \nmesec v letu izpiše skupno število pacientov, ki so obiskali zdravstveni dom. Izpis naj ima \nnaslednjo obliko: \njanuar \n1291 \nfebruar \n1187 \nmarec \n1062 \napril \n987 \nitd. \nGlava metode stPacientovPoMesecih naj bo deklarirana kot \npublic static void stPacientovPoMesecih(int[][] obisk) \nRešitev:\n16",
+    "points": 4,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_23"
+  },
+  {
+    "num": 24,
+    "pola": "IP1",
+    "text": "Napišite metodo urediZnake, ki znake v nizu a uredi po angleški abecedi. Glava metode \nnaj ima naslednjo obliko: \npublic static void urediZnake(StringBuffer a) \nRešitev:",
+    "points": 4,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP1_24"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Protokol IP temelji na pošiljanju: \nA \nsporočil, \nB \ntočno določenega števila bajtov, \nC \ndatagramov, \nD \nniza binarnih vrednosti, v katerega vrivamo binarne vrednosti za sinhronizacijo, \nE \nniza bajtov, ki ga začenja in zaključuje bajt s samimi 1.",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2009_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Kateri od navedenih standardnih protokolov se uporablja na aplikacijski plasti? \nA \nSMTP (Simple Mail Transfer Protocol). \nB \nUDP (User Datagram Protocol). \nC \nCSMA/CD (Carrier Sense Multiple Access/Collision Detection). \nD \nRJ 45 TIA/EIA 568A standard (Registered Jack – Telephone Industry Association/ \nElectronics Industry Association). \nE \nIP (Internet Protocol).",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2009_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Pri uporabi protokola CSMA/CD:  \nA \nprihaja do trkov paketov, kar pa ne zmanjšuje učinkovitosti prenosov, saj kolizijski   \nprotokol trke predvideva; \nB \nse zmanjša učinkovitost prenosov, če oddajnik pred oddajo ne preveri zasedenosti medija; \nC \nni trkov; \nD \nse prenaša paket od postaje do postaje, kjer vsaka postaja tudi ojača signal; \nE \nse zmanjša učinkovitost prenosov pri povečanju prometa.",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2009_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Širina oziroma velikost okna (window size) pri uporabi protokola z drsečim oknom (sliding \nwindow) za kontrolo pretoka (flow control) določa:  \nA \nštevilo paketov, ki jih je oddajnik oddal; \nB \nmaksimalno število paketov, ki še niso potrjeni; \nC \nminimalno število paketov, ki še niso potrjeni; \nD \nmaksimalno število paketov, ki jih oddajnik lahko naenkrat odda; \nE \nmaksimalno število paketov, ki jih sprejemnik lahko sprejme.\n4",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2009_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Osnovni namen odločitvenih informacijskih sistemov je: \nA \npredstavitev podatkov na vseh tipih naprav, tudi mobilnih; \nB \nzagotoviti standardni videz vseh aplikacij; \nC \nzagotoviti osnovo za sprejem odločitev; \nD \nomogočiti poslovanje preko spleta; \nE \npospešiti izmenjavo informacij.",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2009_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Orodje za računalniško podprto programsko inženirstvo (orodja CASE) \nNE zagotavlja samodejnega: \nA \nodkrivanja sintaksnih napak v modelih, ki jih oblikujemo; \nB \npreverjanja skladnosti med modeli; \nC \ngeneriranja programske kode oziroma skeleta programov na osnovi modelov; \nD \nodkrivanja semantičnih napak v modelih; \nE \nosveževanja podatkov v repozitoriju kot posledice sprememb modelov.",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2009_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Preveri veljavnost trditev o diagramih toka podatkov v spodnji tabeli. Za posamezno \ntrditev obkroži DA, če je pravilna, oziroma NE, če ni pravilna. \nTrditev \nPravilnost \nZ diagrami toka podatkov določimo arhitekturo programskega sistema. \nDA \nNE \nProces ima lahko več izhodnih podatkovnih tokov. \nDA \nNE \nPodatkovni tok lahko povezuje dve podatkovni zbirki. \nDA \nNE \nSestavljen podatkovni tip razgradimo v podatkovnem slovarju. \nDA \nNE \nMinispecifikacije moramo zapisati za vse procese v diagramih toka podatkov. \nDA \nNE\n5",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2009_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Entiteta Oseba je opisana z atributi: davcnastevilka, priimek, ime, spol, \nstopnjaizobrazbe. Kateri atribut je primeren za primarni indeks tabele? \nA \ndavcnastevilka \nB \npriimek \nC \nime \nD \nspol \nE \nstopnjaizobrazbe",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2009_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Značilnost (karakteristika) redke datoteke je, da: \nA \nso med zapisi posebne oznake za prazen prostor; \nB \nso prazni (nezasedeni) zapisi lahko kjer koli v datoteki; \nC \nso med fizičnimi bloki posebne oznake za prazen prostor; \nD \nso podatkovni elementi lahko zapisani z vmesnimi oznakami za prazen prostor; \nE \nda je njena vsebina fragmentirana na zunanjem pomnilniku.",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2009_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Kateri od navedenih atributov NE sodi med obvezne lastnosti kakovostne sodobne \nprogramske opreme: \nA \nustreznost, \nB \nenostavnost, \nC \npravilnost, \nD \nučinkovitost, \nE \ncenenost, \nF \nprenosljivost.\n6",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Poiščite vse napake v danem abstraktnem diagramu toka podatkov. \nRešitev:",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Relacije so opisane s shemami: \nDobavitelj (DobaviteljID:N, ImeDob:A20, Naslov:A50) \nIzdelek(IzdelekID:N, ImeIzdelka:A10, Barva:A10) \nKatalog(DobaviteljID:NÆDobavitelj,IzdelekID:NÆIzdelek,Cena:N) \nNapišite izraz relacijske algebre za izpis imen izdelkov, ki niso v katalogu. \nRešitev:",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2009_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Naštejte vsaj dva razloga, ki utemeljujeta smiselnost oblikovanja modelov in uporabo \ntehnik za razvoj in dokumentiranje informacijskih rešitev. \nRešitev:\n7",
+    "points": 2,
+    "year": 2009,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2009_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Katere tehnike oziroma predstavitve lahko uporabimo za opis elementarnih procesov? \nRešitev:",
+    "points": 2,
+    "year": 2009,
+    "image": "assets/images/2009_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2009_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Narišite diagram entitete-razmerja (ER) za preprost zdravstveni informacijski sistem, v \nkaterem beležimo podatke o izdanih receptih. V sistemu nastopajo entitetni tipi zdravnik, \npacient, recept, zdravilo, zavarovalnica in tovarna zdravil. Upoštevajte, da lahko vsak \nzdravnik predpiše več receptov. Vsak recept pripada točno določenemu pacientu in vsebuje \neno samo zdravilo. Vsako zdravilo proizvaja točno določena tovarna. Večina pacientov (ne \npa vsi) je zavarovanih pri neki zavarovalnici.  \n Rešitev:\n8",
+    "points": 4,
+    "year": 2009,
+    "image": "assets/images/2009_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2009_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Relacijsko podatkovno bazo sestavljata relaciji: Delavec in Oddelek. Shemi relacij sta: \nDelavec(DelavecID, Priimek, Ime, OddelekIDÆOddelek, Poklic, Naslov, \nKraj, Izobrazba, Datumrojstva, Placa) \nOddelek(OddelekID, ImeOddelka, Naslov, Kraj) \na) \nNapišite stavek SQL za izpis abecedno urejenega seznama vseh delavcev, ki so po \npoklicu komercialisti.  \nb) Napišite stavek SQL, ki izpiše imena oddelkov in skupno izplačilo plač po oddelkih.  \nRešitev: \na)",
+    "points": 1,
+    "year": 2009,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2009_IP2_16"
+  }
+]

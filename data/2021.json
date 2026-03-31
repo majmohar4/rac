@@ -1,0 +1,409 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Kateri izmed naštetih trditev sta resnični za algoritem? \nA \nAlgoritem mora biti zapisan v programskem jeziku. \nB \nAlgoritem mora v končnem številu korakov privesti do rešitve problema. \nC \nAlgoritem ne sme vsebovati zank. \nD \nAlgoritem mora vsebovati aritmetične operacije. \nE \nAlgoritem je lahko podan v slovenskem jeziku, vendar mora biti nedvoumen.",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Programer je naredil napako v programu. Med postopkom prevajanja prevajalnik ni javil napake. \nOb izvajanju programa so bili pričakovani rezultati napačni. Ali je programer naredil sintaktično ali \nsemantično napako?",
+    "points": 1,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Deklarirani in inicializirani sta naslednji spremenljivki: int x=5; char y='3'; \nDa bi se stavek z=x+y; uspešno izvedel, mora biti spremenljivka z tipa \nA \nint. \nB \nchar. \nC \nString. \nD \nZ operatorjem + ne moremo seštevati vrednosti tipa int in char.",
+    "points": 1,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "V programu imamo definirano tabelo na naslednji način:  \nint[] tab = new int[] {1,2,3,4,5}; \nDopolnite spodnji stavek tako, da bo v spremenljivko x shranjeno število elementov tabele tab. \nint x = tab.;",
+    "points": 1,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Narišite diagram poteka, s katerim preberete 2 naravni števili in znak. Algoritem naj izpiše \nprebrani znak tolikokrat, kot je razlika med manjšo in večjo prebrano vrednostjo. Primer: če je \nvrednost prvega prebranega števila 5, drugega 8 in prebrani znaki G, algoritem izpiše: GGG.",
+    "points": 2,
+    "year": 2021,
+    "image": "assets/images/2021_IP1_p06.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Kakšna je vrednost spremenljivke b? \nboolean b; \nb = 3 > 2 && 12 < 7 || 5 > 3; \nOdgovor:",
+    "points": 1,
+    "year": 2021,
+    "image": "assets/images/2021_IP1_p06.jpg",
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2021_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "V programu imamo zaporedje stavkov: \nint i=0; \nwhile (true) { \n   System.out.println(++i); \n   if (i==10) \n      break; \n} \nObkrožite črko pred trditvijo, ki je za navedene programske stavke resnična. \nA \nIzvajanje se nikoli ne zaključi. \nB \nPri prevajanju programa pride do napake, ker stavka break ne smemo uporabiti v zanki. \nC \nPrvo število, ki ga stavki izpišejo, je število 0. \nD \nPrvo število, ki ga stavki izpišejo, je število 1.",
+    "points": 1,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Kaj izpiše naslednji del programa? \npublic static void main(String[] args) { \n   String s1=\"xyz\"; \n   String s2=\"xyz\"; \n   String s3= new String(\"xyz\"); \n   System.out.println(s2==s3); \n   System.out.println(s1.equals(s2)); \n   System.out.println(s2.equals(s3)); \n}",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Podan imamo naslednji del programa. Kaj se izpiše po naslednjih stavkih? \nint st = 3; \nswitch (st) { \ncase 1: \n   System.out.println(1); \ncase 2: \n   System.out.println(2); \ncase 3: \n   System.out.println(3); \ndefault: \n   System.out.println(\"Privzeto\"); \n   break; \n}",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Del programa, ki izračuna vsoto naravnih števil iz intervala [1..100], zapišite z uporabo zanke do \nwhile. \nfor(int num = 100, sum=0;  num>0; num--) \n{ \n   sum += num; \n}",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Zapišite vrednosti spremenljivk x in y po izvedbi zaporedja naslednjih stavkov: \nString x = \"ABC\"; \nString y = \"abc\"; \nx.concat(y); \n   x = y =",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Za tabelo celih števil napišite metodo vsotaBrezMin, ki vrne vsoto elementov tabele brez \nvrednosti najmanjšega elementa. Če je najmanjših elementov več, nobenega od njih ne prištejemo \nk vsoti. Primer: če je argument tabela t z vrednostmi 2, 7, 3, 4, 6, 2, 5, potem metoda vrne 25. \nGlava metode: private static int vsotaBrezMin(int [] t){ /* koda*/}",
+    "points": 3,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Deklarirana je tabela int[] t = {1,2,3,4,5};. \nV programski kodi je zapisan stavek t[5]=6;. \nObkrožite pravilno trditev. \nA \nDo napake pride pri prevajanju programa v vmesno kodo. \nB \nProgram se prevede, vendar pride do napake pri izvajanju programa. \nC \nProgram se prevede in izvede, nova vsebina tabele bo 1, 2, 3, 4, 6. \nD \nProgram se prevede in izvede, nova vsebina tabele bo 1, 2, 3, 4, 5, 6.",
+    "points": 1,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Dana imate seznama besed. Napišite programske stavke, ki bodo sestavili in izpisali frazo tako, \nda se naključno izbereta besedi z obeh seznamov. \nSeznama sta na primer: \nString[] seznam1 = {\"prednostno naravnani\", \"usmerjeni\", \"centralni\", \n\"porazdeljen\", \"v gručah\", \"z blagovno znamko\",\"izven okvirjev\", \n\"pozicioniran\", \"omrežen\", \"fokusiran\", \"nivojski\", \"poravnan\", \n\"deljen\"}; \nString[] seznam2 = {\"proces\", \"algoritem\", \"ključni korak\", \"strateški \ncilj\",  \"portal\", \"prostor\", \"pogled\",  \"pristop\"};",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Dani sta tabeli šestih celih števil a1 in a2.  \nDopišite metodo racun, ki sprejme dva argumenta (tabeli a1 in a2) in vrne tabelo šestih celih \nštevil. \nČe sta vrednosti na mestu i v tabelah a1 in a2 enaki, tabela rezultat dobi na mesto i \nvrednost –1, sicer razliko med večjo in manjšo vrednostjo.  \npublic class DemoTab { \n   private static int[] racun(int [] x, int [] y){ \n } \n   public static void main(String[] args) { \n      int[] a1 = {2,3,4,6,7,2}; \n      int[] a2 = {3,11,4,9,1,2}; \n      int[] p=racun(a1,a2); \n   } \n}",
+    "points": 3,
+    "year": 2021,
+    "image": "assets/images/2021_IP1_p11.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Dopolnite metodo podvoji tako, da za prejeto tabelo celih števil ustvari novo tabelo celih števil, \nv kateri so podvojeni vsi elementi prve tabele. Na primer, klic metode podvoji nad tabelo z \nelementi {1, 2, 3} vrne novo tabelo z elementi {1, 1, 2, 2, 3, 3}. \npublic static int[] podvoji(int[] x) { \n   int[] y = int j = 0; \n   for(int i=0; i<x.length; i++) { \n   } \n   return y; \n}",
+    "points": 2,
+    "year": 2021,
+    "image": "assets/images/2021_IP1_p11.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Dan imamo spodnji program. Kaj ta program izpiše? \nclass Test { \n   public static void main(String [] args) { \n      int x = 0;    \n      int y = 0;     \n      while ( x < 5 ) { \n         if ( y < 5 ) \n            {  x = x + 1; \n               if ( y < 3 ) \n                  {    x = x - 1;  } \n            }  \n         y = y + 2; \n         System.out.print(x + \"\" + y +\" \"); \n         x = x + 1;  } \n   } \n}",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Električno kolo je opisano s podatki: znamka (niz znakov), zavore (niz znakov) in cena (realno \nštevilo), doseg (celo število) in odstotekEKOpopusta (realno število).  \nDefinirajte razred Kolo s konstruktorjem, ki vrednosti vseh lastnosti prejme prek parametrov, in \nmetodo, ki izpiše znamko in prodajno ceno kolesa (prodajna cena kolesa je enaka podatku \ncena).",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "V razredu RezultatMature imamo zasebne lastnosti kodaDijaka, ki je niz, v katerem je \nshranjena identifikacijska koda dijaka, sifraPredmeta, ki je celoštevilska identifikacija \npredmeta, in dosezenRezultat, ki je celo  število iz intervala [0...100] in predstavlja odstotek \ndoseženih točk. \n19.1. Zapišite razred RezultatMature vključno s konstruktorjem, ki vrednosti vseh lastnosti \nprejme prek parametrov. \n 19.2. Predpostavimo, da je v razredu Predmet javna statična metoda z imenom \nvrniMaxTocke, ki za parameter prejme šifro predmeta (kot opisano zgoraj) in vrne celo \nštevilo, ki predstavlja največje možno število točk pri tem predmetu. \nZa razred RezultatMature napišite metodo public int vrniStTock(), ki vrne število \ntočk, ki jih je kandidat pri danem predmetu dosegel. Vrnite samo celi del števila.",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Pozitivno celo število z n števkami se imenuje Armstrongovo število, če velja, da je enako vsoti  \nn-tih potenc svojih števk. \nPrimera: \n153 je Armstrongovo število, ker ima tri števke in velja 153 = 13 + 53 + 33 \n1634 je Armstrongovo število, ker ima 4 števke in velja 1634 = 14 + 64 + 44 + 34 \n20.1. Dopišite manjkajoči metodi steviloStevk, ki vrne število števk celega števila, in \nsteviloArmstrong, ki vrne true, če je število Armstrongovo, sicer vrne false. \npublic class JavaApplication7 { \n   public static int steviloStevk(int x){ \n } \n      public static boolean steviloArmstrong(int x){ \n } \n    public static void main(String[] args) { \n        int random = (int)(Math.random() Integer.MAXVALUE); \n        System.out.println(steviloArmstrong(random)); \n    } \n}",
+    "points": 4,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP1_20"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Pošiljatelj je prejemniku poslal 10-bitno nenegativno celo število. Pri prenosu je prišlo do napake \nv natanko enem bitu. V katerem bitu je prišlo do napake, če je pošiljatelj poslal število 777, \nprejemnik pa prejel število 905? Najbolj desni bit je bit z zaporedno številko 0, najbolj levi pa bit z \nzaporedno številko 9.  \nDo napake je prišlo v bitu z zaporedno številko . \nOdgovor utemeljite:",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2021_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Barva besedila je kodirana s šestimi biti. Koliko različnih barv imamo na voljo?",
+    "points": 1,
+    "year": 2021,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2021_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Centralna procesna enota (CPE) računalnika je sestavljena iz aritmetično-logične enote, krmilne \nenote in registrov. Katera izmed naštetih nalog ni naloga krmilne enote? \nA \nKrmilna enota krmili, nadzoruje in usklajuje delovanje vseh enot računalnika. \nB \nKrmilna enota izvaja celoštevilske aritmetične operacije. \nC \nKrmilna enota jemlje in dekodira podatke iz glavnega pomnilnika. \nD \nKrmilna enota skrbi za pravilno izvajanje ukazov.",
+    "points": 1,
+    "year": 2021,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2021_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "V von Neumannovi arhitekturi računalnika sta centralna procesna enota (CPE) in pomnilnik \nločena. Ker je prepustnost podatkov med CPE in pomnilnikom majhna v primerjavi z velikostjo \npomnilnika, le-ta predstavlja ozko grlo von Neumannove arhitekture.  \nObkrožite črki pred trditvama, ki sta resnični. \nA \nUporaba predpomnilnika med CPE in pomnilnikom omili učinek ozkega grla von \nNeumannove arhitekture. \nB \nDo pojava ozkega grla pride, ker CPE porabi za izvedbo ukaza manj časa kot za \nbranje/pisanje iz/v pomnilnik. \nC \nOzko grlo von Neumannove arhitekture ne predstavlja težav v praksi, zato predpomnilniki ne \nomilijo tega učinka. \nD \nNa prepustnost podatkov med CPE in pomnilnikom hitrost CPE ne vpliva. \nE \nDo pojava ozkega grla pride samo pri pomnilnikih, ki imajo kapaciteto večjo od 4GB.",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2021_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Naloga zagonskega nalagalnika (angl. bootloader) je \nA \nnalaganje aplikacije v pomnilnik.  \nB \ndoločiti začetne nastavitve, kot je na primer omrežni naslov.  \nC \nnaložiti jedro operacijskega sistema po zagonu računalnika.  \nD \nnamestiti programsko opremo z interneta ali s prenosnega medija.",
+    "points": 1,
+    "year": 2021,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2021_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Kateri trditvi opisujeta značilnost DMA (Direct memory access)? \nA \nHitrost prenosa podatkov je z uporabo DMA večja. \nB \nDMA omogoča, da CPE dostopa do pomnilnika. \nC \nNaprave lahko dostopajo do pomnilnika brez CPE. \nD \nDMA se danes ne uporablja več.",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2021_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "V oknu terminala v operacijskem sistemu Linux smo naredili datoteko imena.txt, v kateri je \nseznam imen. \nuporabnik@As:~$ cat > imena.txt \nAna \nMiha \nPetra \nJanez \n<ctrl>D \nNato smo želeli seznamu imen dodati še ime Zarja. Napišite ukaz, ki bo v datoteko k obstoječemu \nseznamu dodal še ime Zarja.",
+    "points": 1,
+    "year": 2021,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2021_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Operacijski sistem Linux je napisan v programskem jeziku \nA \nPerl. \nB \n.NET. \nC \nC. \nD \nJava.",
+    "points": 1,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Kaj je značilno za omrežno arhitekturo P2P oziroma vsak z vsakim?",
+    "points": 1,
+    "year": 2021,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2021_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Kateri izmed podanih trditev sta resnični za fizični sloj modela ISO/OSI? \nA \nDoloča prenosni medij, prek katerega se prenašajo podatki. \nB \nDoloča načine kodiranja podatkov pri prenosu. \nC \nNadzira komunikacijo med napravami. \nD \nDoloča največjo možno hitrost prenosa podatkov. \nE \nRazbija dolga sporočila na manjše dele.",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2021_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Brezžični usmerjevalnik ima tudi vlogo strežnika DHCP, ki dodeljuje naslove v domačem omrežju \nod številke 192.168.132.130 do 192.168.132.150. Prva številka v podomrežju je privzeti prehod. \nNa omrežje se je pred telefonom priklopil računalnik PC0. Kakšne nastavitve je strežnik DHCP \ndodelil računalniku? \nNaslov IP: Maska: Privzeti prehod:",
+    "points": 3,
+    "year": 2021,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2021_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Pri vsaki trditvi dopišite R, če je trditev resnična, ali N, če je trditev neresnična. \nČe pošljemo dve sporočili od pošiljatelja do prejemnika eno za drugim, bosta vedno potovali \npo isti poti v medomrežju. \nPošiljatelj in prejemnik imata enolično določen naslov v medomrežju, v katerem poteka \nkomunikacija.",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2021_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Katera načina povezovanja dveh primerov uporabe (use case) sta v diagramih primerov uporabe \nveljavna? \nA \nconnect \nB \nextend \nC \nlink \nD \ninclude",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2021_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Obkrožite črko R, če je trditev resnična, oziroma N, če je neresnična.  \nZa transakcijske informacijske sisteme je značilno: \nHranijo in obdelujejo velike količine podatkov. \nR \nN \nOdzivni časi niso pomembni. \nR \nN",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2021_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Razvoj informacijskih sistemov zajema številna opravila, navadno razdeljena v faze. Dopišite \nmanjkajoči fazi.  \n Načrtovanje \nImplementacija \n Uvedba \nVzdrževanje",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Spodnja relacijska shema opisuje podatke in povezave med strankami in njihovimi osebnimi \nsvetovalci v banki. \nStranka(IDStranke:N, ime:A20, IDSvetovalca:N->Svetovalec) \nSvetovalec(IDSvetovalca:N, ime:A20, starostO:N) \nKateri dve izmed naštetih trditev sta resnični za podano relacijsko shemo? \nA \nVsaka stranka ima natanko enega svetovalca. \nB \nVsak svetovalec svetuje natanko eni stranki. \nC \nVrednost atributa IDStranke je tuji ključ tabele Stranka. \nD \nVrednost atributa IDSvetovalca je tuji ključ tabele Svetovalec. \nE \nVrednost atributa starost v tabeli Svetovalec je lahko tudi NULL.",
+    "points": 2,
+    "year": 2021,
+    "image": "assets/images/2021_IP2_p10.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2021_IP2_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP2",
+    "text": "Dana je tabela Primer(X:N,Yo:A10). Katera stavka v tabelo vstavita zapis, v katerem je \nvrednost atributa X 30, vrednost atributa Y pa ni podana? \nA \ninsert into Primer values (30,NULL); \nB \ninsert into Primer values (30,'NULL'); \nC \ninsert into Primer values (30); \nD \ninsert into Primer (x) values (30);",
+    "points": 2,
+    "year": 2021,
+    "image": "assets/images/2021_IP2_p10.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2021_IP2_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP2",
+    "text": "V relacijskem modelu sta definirani tabeli  \nNaloga(NID:N, besedilo:A30) in  \nOpomba(NID:NNaloga, st:N, besedilo:A50). \nZapišite stavek SQL, s katerim ustvarite tabelo Naloga. \n (1) \nZapišite stavek SQL, s katerim ustvarite tabelo Opomba. \n (2)",
+    "points": 3,
+    "year": 2021,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2021_IP2_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP2",
+    "text": "Pri razvoju računalniške igrice je programer ustvaril razred Zmaj, ki vsebuje zaščiteno lastnost \nime, ki predstavlja ime zmaja, in javno metodo napad() za  izvedbo napada. V sami igri se \nbosta pojavili dve vrsti zmajev: ognjeniZmaj in ledeniZmaj. Obe vrsti zmajev bosta imeli \nlasten način napadanja (prvi z ognjem, drugi z ledom). Ognjeni zmaji se lahko skrijejo za dimno \nzaveso, zato imajo tudi javno metodo kamuflaza. Posamezne vrste zmajev bodo izpeljane iz \nosnovnega razreda Zmaj. Vse metode vračajo String. \n19.1. Narišite razredni diagram za opisani primer. Iz razrednega diagrama morajo biti razvidni \nrazredi, lastnosti, metode, dostopna določila in povezave med razredi.",
+    "points": 4,
+    "year": 2021,
+    "image": "assets/images/2021_IP2_p12.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2021_IP2_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP2",
+    "text": "Dan imamo naslednji diagram ER. \n20.1. Napišite stavek SQL, ki izpiše vse podatke o osebah, ki jih zanima lokostrelstvo. \n 20.2. Napišite stavek SQL, ki za vsak hobi izpiše število oseb, ki jih ta hobi zanima.",
+    "points": 2,
+    "year": 2021,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2021_IP2_20"
+  }
+]

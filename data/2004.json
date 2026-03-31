@@ -1,0 +1,402 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Po vodilu lahko potekata dva prenosa podatkov istočasno. Trditev je: \nA \npopolnoma pravilna; \nB \npopolnoma napačna; \nC \ndelno pravilna, prenos je mogoč, če je vodilo dvosmerno; \nD \ndelno pravilna, če je vodilo optično; \nE \ndelno pravilna, če je vodilo serijsko.",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2004_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Predpomnilnik poveča zmogljivost računalnika, ker \nA \nso v njem vedno na razpolago vsi potrebni podatki in programi; \nB \nima krajši čas dostopa kot glavni pomnilnik; \nC \nje lahko širina vodila med procesorjem in predpomnilnikom večja; \nD \nomogoča uvedbo dveh ločenih pomnilnikov: za podatke in ukaze; \nE \nvmesnih rezultatov ni treba shranjevati v registre.",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2004_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Za dodeljevanje prostora na sekundarnem pomnilniku skrbi: \n A \nrazvrščevalnik opravil; \nB \nprevajalnik; \nC \nuporabnik z uporabo ukazov za odpiranje datotek; \nD \naparaturna oprema krmilnika sekundarnega pomnilnika; \nE \noperacijski sistem.",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2004_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Prevajalnik je:  \n A \ndel sistemske programske opreme; \nB \ndel operacijskega sistema, ki olajša uporabo računalnika; \nC \nprogramska oprema, s katero spremenimo operacijski sistem; \nD \nprogramska oprema, ki omogoča delovanje računalnika; \nE \nnujni del operacijskega sistema.\n4",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "V čem je bistvena razlika med dinamičnim (DRAM) in statičnim (SRAM) bralno-pisalnim  \npomnilnikom? \nA \nDinamični pomnilnik (DRAM) zahteva osveževanje, ima krajši dostopni čas, večjo  \nkapaciteto in manjšo porabo energije. \nB \nDinamični pomnilnik (DRAM) zahteva osveževanje, ima daljši dostopni čas, večjo \nkapaciteto in manjšo porabo energije. \nC \nStatični pomnilnik (SRAM) ne zahteva osveževanja, ima krajši dostopni čas in večjo \nkapaciteto na enoto volumna. \nD \nStatični pomnilnik (SRAM) zahteva osveževanje, ima daljši dostopni čas in večjo kapaciteto \nna enoto volumna. \nE \nNi bistvenih razlik.",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2004_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Dano je zaporedje ukazov v operacijskem sistemu: \nMS-DOS: \nUNIX/LINUX: \ncd delo \ncd delo \ncd naloge \ncd naloge \ndel ?ma?.txt \nrm ?ma?.txt \ncopy *.doc \\users\\tmp \ncp *.doc /users/tmp \ncd.. \ncd .. \nObkrožite odgovor, ki v popolnosti opisuje dogajanje. \nA \nV poddirektoriju naloge se brišejo vse datoteke, ki v imenu vsebujejo ma, in kopirajo vse \ndatoteke s podaljškom doc na direktorij \\users\\tmp (MS DOS) ali /users/tmp (Unix/Linux). \nB \nIz poddirektorija naloge se kopirajo vse datoteke s podaljškom doc na direktorij \\users\\tmp \n(MS DOS) ali /users/tmp (Unix/Linux), iz trenutnega direktorija se nato odstranijo vse \ndatoteke, ki v imenu vsebujejo niz ma in imajo podaljšek txt. \nC \nIzbran je poddirektorij naloge, na izbranem poddirektoriju se brišejo datoteke, ki v imenu \nvsebujejo ma in imajo podaljšek txt, iz izbranega poddirektorija se kopirajo vse datoteke s \npodaljškom doc na direktorij \\users\\tmp (MS DOS) ali /users/tmp (Unix/Linux), izbran je \nponovno koren direktorijev na disku C (MS-DOS) oziroma / (Unix/Linux). \nD \nV zaporedju ukazov je napaka in ukazi ne bodo izvedeni v celoti. \nE \nNobeden od odgovorov A, B, C in D ne opisuje pravilnega dogajanja.\n5",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2004_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Kolikšna šestnajstiška vrednost je v akumulatorju A po izvedbi naslednjih ukazov? \nldaa #$3D          \nadda #$08 \n A \n$46 \nB \n$55 \nC \n$54 \nD \n$45 \nE \n$A8",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2004_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Pri izvajanju programa procesor določi vrsto naslavljanja in dolžino operanda tako, da:  \nA \niz ukaza izloči operacijsko kodo; \nB \nprogramer zapiše vsak ukaz v novo vrsto, procesor pa tako ugotovi dolžino ukaza in \noperanda; \nC \niz dostavljenega ukaza razbere format ukaza; \nD \nje vrsta naslavljanja in dolžina operanda značilna in v vseh primerih enaka za določen tip \nprocesorja; \nE \nse dolžina operanda sklada z velikostjo delovnega registra. \nObkrožite pravilno trditev.",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Deklarirana je spremenljivka: \nPascal: \nC: \nvar x : string[10]; \nchar x[10]; \nKateri ukaz priredi spremenljivki x vrednost okno? \nPascal: \nC: \nA \nx=\"okno\"; \nA  x=\"okno\"; \nB \nx:='okno'; \nB  strcpy(x,\"okno\"); \nC \ncopy(x,'okno'); \nC  strcat(x,'okno'); \nD \ninsert(x,'okno'); \nD strcpy(\"okno\",x); \nE \nx:=\"okno\"; \nE  strcat(x,\"okno\");\n6",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Želimo napisati podprogram za zamenjavo vrednosti spremenljivk (parametrov) x in y, ki \nsta realni števili. \nPravilna oblika glave podprograma je: \nPascal: \nA \nprocedure zamenjaj(var x,y : real); \nB \nprocedure zamenjaj(var x: real; y : real); \nC \nprocedure zamenjaj(x : real; var y : real); \nD \nprocedure zamenjaj(x,y : real); \nE \nprocedure zamenjaj(var x : real, y : real); \nC: \nA \nvoid zamenjaj(float *x, float *y); \nB \nvoid zamenjaj(float *x, float y); \nC \nvoid zamenjaj(float *x,*y); \nD \nvoid zamenjaj(float x,y); \nE \nvoid zamenjaj(float x, float y);\n7",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Kaj izpiše naslednji program? \nPascal: \nvar a,b : integer; \nbegin \n   a:=1; b:=20; \n   while a<b do begin \n     a:= a + (a mod 2) + 4; \n     b:= 4 + (b div 2) ;      \n   end; \n   writeln(a,' ',b); \nend. \nC: \n#include <stdio.h> \nvoid main() \n{ \n  int a=1,b=20; \n  while (a<b) { \n    a= a + (a % 2) + 4; \n    b= 4 + (b / 2);     \n  } \n  printf(\"%d %d\",a,b); \n} \n A \n10 8 \nB \n4 4 \nC \n11 10 \nD \n14 9 \nE \n5 5\n8",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Dan imamo podprogram za jemanje elementa iz sklada, ki je realiziran kot tabela realnih  \nštevil.  \nPascal: \nprocedure Pop(var x :real); \nbegin \n  if kazalec >0 then \n  begin \n    x := sklad[kazalec]; \n    dec(kazalec) \n  end \n  else \n    write('Sklad je prazen'); \nend; \nC: \nvoid pop(float *x) \n{ \n  if (kazalec>-1){ \n    *x=sklad[kazalec]; \n    kazalec--; \n  } \n  else \n    printf(\"Sklad je prazen\"); \n} \nUgotovite, kam se sklad širi in kam kaže kazalec sklada. \nA \nSklad se širi od manjših naslovov (indeksov) proti večjim, kazalec kaže na zadnjo zasedeno \nlokacijo. \nB \nSklad se širi od manjših naslovov (indeksov) proti večjim, kazalec kaže na prvo prosto \nlokacijo. \nC \nSklad se širi od večjih naslovov (indeksov) proti manjšim, kazalec kaže na prvo prosto \nlokacijo. \nD \nSklad se širi od večjih naslovov (indeksov) proti manjšim, kazalec kaže na zadnjo zasedeno \nlokacijo. \nE \nNobena trditev ne opisuje v nalogi zapisane realizacije sklada.\n9",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Indeks elementa tabele je lahko tipa: \n(1 pravilen odgovor 1 točka, 2 pravilna odgovora 2 točki) \nPascal: \nA \ninteger \nB \nreal \nC \nchar \nD \nrecord \nE \nLahko uporabljamo vse navede podatkovne tipe. \nC: \nA \nint \nB \nreal \nC \nchar \nD \nstruct \nE \nLahko uporabljamo vse navede podatkovne tipe",
+    "points": 1,
+    "year": 2004,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2004_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Programska jezika Pascal in C sodita v skupino: \nA \nstrojnih jezikov, \nB \nzbirnih jezikov, \nC \nnepostopkovnih višjih programskih jezikov, \nD \nnaravnih jezikov, \nE \npostopkovnih višjih programskih jezikov.\n10",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Če želimo dodati zapis na konec že odprte binarne tipizirane datoteke, moramo pred  \nukazom write oziroma fwrite uporabiti: \nPascal: \nA \nreset (f); \nB \nseek (f, filesize(f)); \nC \nseek (f, 1); \nD \nseek (f, filesize(f)-1); \nE \nrewrite (f); \nC: \nA \nf = fopen(\"imedatoteke\",\"r\"); \nB \nfseek(f,0,SEEKEND); \nC \nfseek(f,1,SEEKSET); \nD \nfseek(f,-1,SEEKEND); \nE \nf= fopen(\"imedatoteke\",\"w\");\n11",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2004_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Dani sta deklaraciji zapisa in datoteke: \nPascal: \nType x=record \nstev:integer; \nend; \ndat = file of x; \nvar \n podatek:x;  \n f:dat;  \n i:integer; \nC: \nstruct x { \n  int stev; \n} ; \nx podatek; \nint i; \nFILE *f; \nKateri od navedenih ukazov za branje je pravilno napisan?  \nPascal: \nA \nread(f,x); \nB \nreadln(f,i); \nC \nread(f,podatek);  \nD \nreadln(f,podatek); \nE \nNobeden izmed predhodno navedenih. \nC: \nA \nfread(&x,sizeof(x),1,f); \nB \nfread(x,sizeof(x),1,f); \nC \nfread(&podatek,sizeof(podatek),1,f); \nD \nfread(podatek,sizeof(podatek),1,f); \nE \nVsi ukazi so napačni.\n12",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Za zaposlenega potrebujemo naslednje podatke: \npriimek (30 znakov), \nime (20 znakov), \nosebne dohodke za zadnjih 12 mesecev (12 realnih števil). \nNapišite deklaracijo tipa za zapis, ki bo ustrezal zgoraj navedenim zahtevam. \n 13",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2004_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Na osnovi sledi spreminjanja tabelarične spremenljivke Tabela ugotovite, kateri algoritem  \nje bil uporabljen pri urejanju. \nPrehod \nTabela \n0 \n[2, 8, 9, 3, 1, 6] \nzačetna vrednost \n1 \n[1, 8, 9, 3, 2, 6] \n2 \n[1, 2, 9, 3, 8, 6] \n3 \n[1, 2, 3, 9, 8, 6] \n4 \n[1, 2, 3, 6, 8, 9] \n5 \n[1, 2, 3, 6, 8, 9] \nkončna vrednost",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "V katero skupino programskih jezikov sodi jezik SQL? \n 14",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Sledite izvajanju naslednjega programa in ugotovite, kaj ta program izpiše. \nPascal: \nvar x,y : integer; \nbegin \n  x:=22; y:=10; \n  while (x<50) or (y mod 2 =1) do \n  begin \n    x:=x+ (y div 2); \n    y:=x + (y div 3); \n    if ((y+x) div 2)<20 then  \n      y:=y+10; \n    writeln(x,' ',y); \n  end; \nend. \nC: \n#include <stdio.h> \nvoid main() \n{ \n  int x=22,y=10; \n  while ((x<50) || (y%2==1)) { \n    x=x+(y/2); \n    y=x+(y/3); \n    if ((x+y)/2<20) \n      y=y+10; \n    printf(\"%d %d \\n\",x,y); \n  } \n}\n15",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_20"
+  },
+  {
+    "num": 21,
+    "pola": "IP1",
+    "text": "Deklarirajte tabelo stotih pozitivnih celih števil. Napišite podprogram, ki izpiše tiste  \nelemente tabele, katerih vrednost se razlikuje od povprečja tabele za več kakor 10 %. \n17",
+    "points": 4,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_21"
+  },
+  {
+    "num": 22,
+    "pola": "IP1",
+    "text": "Na disku imamo tipizirano datoteko REZULTAT.DAT. Zapis na datoteki sestavljata  \npodatka: vzdevek osebe (niz 10 znakov) in rezultat (celo število). Napišite vse potrebne \ndeklaracije in program, ki bo izpisal vzdevek in rezultat vseh oseb, ki imajo najboljši \nrezultat. \n 19",
+    "points": 4,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_22"
+  },
+  {
+    "num": 23,
+    "pola": "IP1",
+    "text": "Dano imamo naslednje zaporedje: 1, 5, 6, 11, 17, 28, 45 … \nNapišite podprogram, ki vrne n-ti element zaporedja. N je argument podprograma. \n20",
+    "points": 4,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_23"
+  },
+  {
+    "num": 24,
+    "pola": "IP1",
+    "text": "Napišite program, ki bo na tekstovno datoteko izpisal števila v naslednji obliki:  \n1 2 3 4 5 \n1 2 3 4 \n1 2 3 \n1 2 \n1",
+    "points": 4,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP1_24"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Obkrožite pravilno nastavitev maske naslova IP razreda B. \n A \n255.0.0.0 \nB \n255.255.255.255 \nC \n255.255.0.0 \nD \n255.0.255.0 \nE \n255.255.255.0",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Telnet spada na plast ISO/OSI referenčnega modela: \nA \naplikacijsko, \nB \nmrežno, \nC \ntransportno, \nD \nfizično, \nE \nsejno.",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2004_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Prednosti fizične topologije zvezde so: \n(vsi pravilni odgovori – 2 točki \nen pravilen ali dva odgovora – 1 točka \nže en nepravilen odgovor – 0 točk) \nA \nena točka porušitve; \nB \nvečja propustnost od drugih topologij; \nC \nmanjša dolžina fizičnih vodov; \nD \nenostavnejši nadzor in upravljanje omrežja od drugih topologij; \nE \nlažje lociranje mesta napake.\n4",
+    "points": 1,
+    "year": 2004,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2004_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Žeton v omrežju omogoča, da: \nA \nvsaka postaja »ve«, kdaj lahko odda paket, kdaj pa ga lahko le sprejme; \nB \nnekatere postaje pridejo na vrsto pogosteje, kakor druge, ker imajo žeton; \nC \nje delovanje omrežja laže razumljivo uporabniku; \nD \nomrežje ni nikoli preobremenjeno zaradi velikega prometa; \nE \npaket poteka vedno v istem zaporedju med postajami.",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2004_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Tipičen predstavnik sistema za podporo odločanju je: \nA \ntransakcijski sistem, namenjen beleženju poslovnih dogodkov; \nB \nsistem, ki omogoča analizo podatkov v smislu »kaj-če«; \nC \nsistem, ki omogoča komunikacijo med zaposlenimi; \nD \nsistem, ki podpira skupinsko delo; \nE \nsistem za avtomatizacijo pisarniškega poslovanja.",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2004_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Razlike med primarnim in sekundarnim indeksom (ključem) tabele relacijske podatkovne \nbaze so: \nA \nPrimarni indeks tabele je en sam, sekundarnih je lahko več, primarni indeks je razločevalen, \nsekundarni so lahko razločevalni ali nerazločevalni. \nB \nPrimarni indeks tabele je en sam, sekundarnih je lahko več, primarni indeks je razločevalen, \nsekundarni so lahko samo nerazločevalni. \nC \nPrimarni indeks tabele je en sam, sekundarnih je lahko več, primarni in sekundarni indeksi \nso razločevalni ali nerazločevalni. \nD \nPrimarnih in sekundarnih indeksov je lahko več, lahko so razločevalni ali nerazločevalni. \nE \nVse trditve so napačne.\n5",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2004_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Sistem številčenja procesov v diagramih toka podatkov omogoča, da \nA \nugotovimo globino posameznega procesa oziroma identificiramo diagram, na katerem je \nproces; \nB \nugotovimo zaporedje izvajanja posameznih procesov; \nC \nprocesov ni treba poimenovati; \nD \nlaže opišemo podatkovne tokove v podatkovnem slovarju; \nE \nuporabniku predstavimo obseg zahtevane funkcionalnosti.",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2004_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Na entitetno–relacijskem diagramu lahko zasledimo: \n (vsi pravilni odgovori 2 točki \n1 ali 2 pravilna odgovora 1 točka \nen napačen – 0 točk) \nA \npodatkovne tokove in njihov izvor/ponor; \nB \nkardinalnost oziroma števnost povezav (relacij); \nC \nkontrolne tokove; \nD \nrelacije; \nE \nentitete s pripadajočimi atributi.",
+    "points": 1,
+    "year": 2004,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2004_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Obkrožite vse pravilne trditve. Katere faze načrtovanja podatkovne baze so neodvisne od \nsistema za upravljanje podatkovne baze (SUPB-ja)? \n(vsi pravilni odgovori 2 točki \nen napačen – 0 točk) \nA \nZbiranje in analiza zahtev. \nB \nIzdelava konceptualnega modela. \nC \nLogično načrtovanje. \nD \nFizično načrtovanje. \nE \nVse faze so odvisne od izbranega SUPB-ja.\n6",
+    "points": 1,
+    "year": 2004,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2004_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Katero rezervirano besedo jezika SQL bi uporabili v ukazu, s katerim bi želeli spremeniti \nstrukturo (ne podatkov!) tabele? \nA \nALTER \nB \nINSERT \nC \nSELECT \nD \nUPDATE \nE \nDROP",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2004_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Naštejte vsaj štiri osnovne funkcije informacijskih sistemov: \n(3 ali več pravilnih odgovorov – 2 točki \n2 pravilna odgovora – 1 točka) \nOdgovor:\n7",
+    "points": 1,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Navedite vsaj 4 težave pri razvoju programske opreme:",
+    "points": 2,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Razen funkcionalnih zahtev v specifikacijah zahtev za programsko opremo običajno \nnavedemo tudi nefunkcionalne zahteve. Zapišite vsaj tri primere nefunkcionalnih zahtev. \n (3 ali več pravilnih odgovorov – 2 točki \n2 pravilna odgovora – 1 točka)",
+    "points": 1,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Za atomarne (elementarne) procese diagramov toka podatkov izdelamo minispecifikacije, v \nkaterih opišemo preslikavo vhodnih podatkov v izhodne. V ta namen lahko razen \nstrukturiranega besedila uporabimo tudi: \n (2 pravilna odgovora – 2 točki \n1 pravilen odgovor – 1 točka)\n8 \nSKLOP INFORMATIKA \nKOMPLEKSNE NALOGE",
+    "points": 1,
+    "year": 2004,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2004_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Z notacijo podatkovnega slovarja opišite podatkovni tok Račun. Uporabite vse konstrukte \npodatkovnega slovarja. Naslov prejemnika računa in dostave nista nujno enaka. Različnih \nizdelkov na računu je lahko največ pet. Za vsako postavko računa je na računu navedena \nenota mere (kos, liter ali meter), količina, cena brez DDV, stopnja DDV in skupna cena. \nStopnja davka na dodano vrednost je lahko 20 %, 8,5 % ali 0 %.  \n(4 točke \n 2 točki – pravilno uporabljena vsaj 2 konstrukta)",
+    "points": 1,
+    "year": 2004,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2004_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Podatkovno bazo sestavljajo tabele: \nDijak(Sifradijaka, Priimekdijaka, Imedijaka, Razred) \nPredmet(Sifrapredmeta,Imepredmeta) \nUspeh(Sifrapredmeta,Sifradijaka,Ocena) \nNapišite stavek SQL, ki izpiše abecedno urejen seznam dijakov razreda G1A.",
+    "points": 1,
+    "year": 2004,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2004_IP2_16"
+  }
+]

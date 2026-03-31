@@ -1,0 +1,403 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Kolikšna binarna vrednost je v akumulatorju A po izvedbi naslednjih ukazov? \nZnak # pomeni takojšnje naslavljanje, znak $ pa šestnajstiški številski sistem.  \nldaa \n#$7E \nadda \n#$3E \nA \n10111101 \nB \n11011100 \nC \n11001100 \nD \n10111100 \nE \n10101000",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2011_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Kam operacijski sistem shrani strani navideznega pomnilnika, ki jih mora izločiti iz \nglavnega pomnilnika? \nA \nV jedro operacijskega sistema. \nB \nV začasni imenik. \nC \nV zamenjevalno (swap) datoteko na disku. \nD \nV arhivsko datoteko na glavnem imeniku diska. \nE \nV datoteko virtual.dat na imeniku moji dokumenti.",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2011_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Med dele računalnika sodi tudi RAM, ki ga uvrščamo med: \nA \nzunanje pomnilnike; \nB \nnotranje pomnilnike; \nC \nvhodne enote; \nD \nizhodne enote; \nE \nprocesorje.\n4",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2011_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Kakšna je vzdolžna pariteta naslednjega zaporedja podatkov, če smo se dogovorili za sodo \npariteto? \nb0 \nb1 \nb2 \nb3 \nb4 \nb5 \nb6 \nb7 \npariteta\n1 \n1 \n0 \n1 \n0 \n0 \n1 \n0 \n0 \n0 \n0 \n1 \n0 \n1 \n1 \n0 \n1 \n0 \n1 \n0 \n1 \n0 \n1 \n0 \n1 \n1 \n0 \n0 \n1 \n1 \n0 \n1 \n1 \n1 \n1 \n0 \n0 \n0 \n1 \n0 \n0 \n1 \n0 \n0 \n1 \n1 \n1 \n1 \n1 \n1 \n0 \n1 \n0 \n0 \n0 \n0 \n1 \n1 \n0 \n1 \n0 \n0 \n0 \n0 \nA \nB \nC \nD \nE \npariteta \n0 \n1 \n0 \n1 \n1 \n0 \n0 \n1 \npariteta \n1 \n1 \n0 \n1 \n0 \n0 \n1 \n0 \npariteta \n1 \n0 \n1 \n0 \n1 \n0 \n0 \n0 \npariteta \n0 \n1 \n0 \n1 \n0 \n1 \n1 \n1 \npariteta \n0 \n0 \n0 \n1 \n0 \n1 \n1 \n0",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2011_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Katere vrste pomnilnikov NE sodijo med bralno-pisalne pomnilnike? \n(Vsi pravilni odgovori 2 točki, en pravilen odgovor 1 točka, že en nepravilen odgovor 0 točk.) \nA \nSRAM \nB \nPROM \nC \nEPROM \nD \nDRAM \nE \nROM\n5",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2011_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "V skladu z računalniško arhitekturo von Neummana zasledimo pri izvajanju posameznega \nukaza korake v naslednjem vrstnem redu: \nA \nPridobitev ukaza (fetch),  dekodiranje ukaza (decode), izvedba ukaza (execute), zapis \nrezultata (writeback). \nB \nDekodiranje ukaza (decode), pridobitev ukaza (fetch),  izvedba ukaza (execute), zapis \nrezultata (writeback). \nC \nPridobitev ukaza (fetch),  izvedba ukaza (execute), dekodiranje ukaza (decode), zapis \nrezultata (writeback). \nD \nPridobitev ukaza (fetch),  dekodiranje ukaza (decode), zapis rezultata (writeback), izvedba \nukaza (execute). \nE \nDekodiranje ukaza (decode), pridobitev ukaza (fetch),  zapis rezultata (writeback), izvedba \nukaza (execute).",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2011_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "S katero kodo predstavimo vsako desetiško števko z natanko štirimi biti? \nA \nKodo ASCII. \nB \nKodo BCD. \nC \nGrayevo kodo. \nD \nČrtno kodo. \nE \nKodo EBCDIC.",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "V sistemu imamo napisano skriptno datoteko z imenom brisi. Dovolilnice za to datoteko so: \n-rwx r-- --- 1 moj group1 20471 maj 30 2009 brisi \nObkrožite ukaz, s katerim spremenite pravice datoteke v naslednjo obliko: \n-rwx r-x r-x 1 moj group1 20471 maj 30 2009 brisi \n(Vsi pravilni odgovori 2 točki, en pravilen odgovor 1 točka, že en nepravilen odgovor 0 točk.) \nA \nchmod brisi rwx rwx rwx \nB \nchmod rwx r-x r-x brisi \nC \nchmod 755 brisi \nD \nchmod a+rw brisi \nE \nchmod go=rx brisi\n6",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2011_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Spremenljivka je deklarirana: \nint x = 36; \nČe želimo vrednost spremenljivke x spremeniti na 12, moramo uporabiti stavek: \nA \nx % 3; \nB \nx = x % 3; \nC \nx / 3;  \nD \nx / = 3; \nE \nx = (x / 3) % 3;",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Po izvedbi naslednjega dela programa je vrednost spremenljivke x: \nint x = - 4; \nif (x < 0) \n{ \n      if (x % 2 == 0) \n      { \n        x = x + 2; \n      } \n      x = 2; \n} \nA \n–4 \nB \n–2 \nC \n0 \nD \n2 \nE \n4\n7",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Kaj izpiše naslednji program? \nclass Izpis { \n  static int m(int i) { \n    System.out.print(i + \", \");  \n    return i; \n  } \n  public static void main(String s[]) { \n    int i = 1;  \n    m(m(++i) + m(i++) + m(-i) + m(i++)); \n  } \n} \nA \n1, 2, -3, 4, 4, \nB \n2, 2, -3, -3, -2, \nC \n2, 2, -3, 3, 4, \nD \n2, 3, -3, -2, 0, \nE \n2, 3, -3, 4, 6,",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Katera od naslednjih trditev je resnična? \nA \nKljučno besedo this lahko uporabimo v telesu statične metode. \nB \nMetoda razreda je vedno povezana z določenim primerkom razreda. \nC \nKljučna beseda super se ne more uporabiti v telesu statične metode. \nD \nStatične metode so metode primerka razreda. \nE \nNobena od gornjih trditev ni resnična.",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "V kateri vrstici programske kode bo prevajalnik javil napako? \nclass NapakaPriPrevajanju { \n  public static void main (String[] args) { \n    String a1 = null;        // 1. vrstica \n    String b1 = 'null';      // 2. vrstica \n    String c1 = \"null\";      // 3. vrstica \n    String d1 = \"'null'\";    // 4. vrstica \n  } \n} \nA \nV 1. vrstici. \nB \nV 2. vrstici. \nC \nV 3. vrstici. \nD \nV 4. vrstici. \nE \nPrevajalnik pri prevajanju ne bo javil nobene napake.\n8",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Kaj izpiše naslednji program? \nclass Tabela { \n  public static void main(String[] args) { \n    int[][] tab = {{2,2},{1,2,3},{4,3,2,1},{}}; \n    System.out.print(tab.length); \n  } \n} \nA \nMed izvajanjem programa pride do napake. \nB \n0 \nC \n2 \nD \n3 \nE \n4",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Katera od naslednjih trditev je pravilna? \n(Vsi pravilni odgovori 2 točki, en pravilen odgovor 1 točka, že en nepravilen odgovor 0 točk.) \nA \nLahko deklariramo razred, ki nima zapisanega konstruktorja. \nB \nV deklaraciji razreda moramo zapisati natanko en konstruktor. \nC \nV deklaraciji razreda moramo zapisati vsaj dva konstruktorja. \nD \nKonstruktor je metoda, ki ni povezana z razredom. \nE \nV deklaraciji razreda lahko zapišemo poljubno število konstruktorjev.",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Kaj izpiše naslednji program? \nclass Besedilo { \n  static void m1(String s1) { \n    s1.replace('A','Y'); System.out.print(s1); \n  } \n  static void m2(String s1) { \n    s1 = s1.replace('A','Z'); System.out.print(s1); \n  } \n  public static void main(String[] s) { \n    String s1 = \"A\";  \n    m1(s1);  \n    m2(s1); \n    System.out.print(s1); \n  } \n} \nA \nAZA \nB \nYZA \nC \nAZZ \nD \nYZZ \nE \nAAA\n9",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Kaj in kako izpiše naslednji program? \nclass Sled { \n  public static void main (String[] args) { \n    int j = 0; \n    for (int i = 0; i < 2; i++) \n    do \n      System.out.println(\"i=\" + i + \" j=\" + j); \n    while (j++ < 2); \n}}",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Napišite program, ki numerično ovrednoti in izpiše podobnost dveh besed. Za vsako črko, \nki je na istem mestu v obeh besedah, se podobnost poveča za ena. Če imata besedi različno \nštevilo znakov, se preverja le toliko znakov,  kolikor jih je v krajši besedi. \nPrimera:  \nPodobnost besed \"lino\" in \"film\" je 1, ker je le črka i na istem mestu v obeh besedah. \nPodobnost besed \"telefon\" in \"velikost\" je 3 zaradi druge, tretje in šeste črke. \n10",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Kaj in kako izpiše spodnji del programa: \nfor (int i = 1; i < 6; i++) \n{ \n    for (int j = 1; j <= i; j++) \n    { \n        System.out.print(i); \n    } \n        System.out.println(); \n} \n 11",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Napišite razred telefon, ki ima lastnosti: barva, proizvajalec, stevilka, za vsak nov \nobjekt pa se nastavijo vrednosti komponent: siva, Nokia, +38641123456. \n12",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_20"
+  },
+  {
+    "num": 21,
+    "pola": "IP1",
+    "text": "V podjetju zapisujejo podatke o inventarju. Podatki o osnovnem inventarju so inventarna \nštevilka (celo število), ime predmeta (niz znakov) in nabavna cena (realno število). \nVrednost osnovnega inventarja je enaka nabavni ceni. Za delovni inventar se poleg \nnavedenega zabeleži še starost predmeta (celo število) in odstotek letne amortizacije \n(celo število). Vrednost delovnega inventarja se izračuna tako, da se za vsako leto starosti \nnjegova trenutna vrednost zmanjša za odstotek letne amortizacije. Če je nabavna cena več \nkakor 1000 €, se izhodiščna cena za izračun vrednosti delovnega inventarja zmanjša za 200 €. \nČe je izračunana vrednost delovnega inventarja manjša od 1, se vrednost zaokroži na 0. \na) \nNapišite definicije obeh razredov: inventar in delovni inventar. Za vsak razred \nnapišite dva konstruktorja. Prvi konstruktor naj inicializira podatke na dane vrednosti. \nDrugi konstruktor, ki je brez parametrov, pa naj vse številske podatke postavi na 0, nize pa \nna prazen niz. \nb) Za oba razreda napišite metodo, ki vrne vrednost inventarja. \nc) \nNapišite metodo, ki za navadni in delovni inventar izpiše podatke v naslednji obliki: \nInventarna številka = 3 \nIme = stol \nVrednost = 14.00 \n15",
+    "points": 4,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_21"
+  },
+  {
+    "num": 22,
+    "pola": "IP1",
+    "text": "Napišite program, ki bo v besedilu, shranjenem v spremenljivki tipa StringBuffer, \npoiskal pike, vprašaje in klicaje. Besedilo bo prepisoval v novo spremenljivko, v kateri bo za \nvsakim ločilom (piko, vprašajem ali klicajem) vrinil presledek. Če je prvi znak, ki sledi \nločilu oziroma vrinjenemu presledku, mala črka, potem naj jo program nadomesti z \nustrezno veliko črko. Lahko uporabljate angleško abecedo, prav tako pa lahko upoštevate, \nda besedilo pred vrivanjem ni vsebovalo nobenega presledka. \n17",
+    "points": 4,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_22"
+  },
+  {
+    "num": 23,
+    "pola": "IP1",
+    "text": "Napišite metodo, ki vrne true, če je nenegativni celoštevilski vhodni parameter n \npraštevilo. Drugače vrne false. Spomnimo, da je naravno število n praštevilo, če ima \nnatanko dva delitelja: 1 in samega sebe. Praštevila so npr. 2, 3, 5, 7, 11, 13, 17, 19 itd. \nNapišite tudi program, ki bo uporabljal opisano metodo in bo za vpisano naravno število n \nizpisal najbližje praštevilo. Če program najde dve rešitvi, enako oddaljeni od n, potem naj \nizpiše manjšo izmed njiju. Če je n praštevilo, naj ga program izpiše.  \n19",
+    "points": 4,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_23"
+  },
+  {
+    "num": 24,
+    "pola": "IP1",
+    "text": "Po Sloveniji imamo nameščenih osem merilnih naprav za temperaturo zraka. Vsaka \nnaprava trikrat na dan samodejno pošilja podatke v zbirni center. V tem centru imamo \nzbrane podatke za preteklih 30 dni. Napišite program, ki izpiše povprečno temperaturo v \ndržavi v preteklih 30 dneh in številko postaje, na kateri je izmerjena najnižja temperatura. \nČe je na več postajah izmerjena enaka najnižja temperatura, naj program izpiše zaporedne \nštevilke vseh teh postaj. Dana je metoda preberiIzDatoteke(tabela3D), ki napolni \ntridimenzionalno tabelo s podatki.",
+    "points": 4,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP1_24"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Izberite naslov IP, ki pripada razredu C. \nA \n10.0.0.2 \nB \n173.4.5.18 \nC \n194.15.6.7 \nD \n191.168.7.2 \nE \n23.12.5.7",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Omrežje ima dodeljen omrežni naslov 192.168.5.0 in masko 255.255.255.0. Omrežje \nrazdelimo na šest podomrežij. Kateri izmed naštetih naslovov je lahko naslov podomrežja v \nomrežju z naslovom 192.168.5.0? \nA \n192.168.4.64 \nB \n192.168.5.32 \nC \n192.168.5.65 \nD \n192.168.5.11 \nE \n192.168.5.63",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2011_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Katere so glavne značilnosti topologije zvezde? \nA \nPri tej topologiji so vse postaje povezane v osrednje vozlišče ali zvezdišče. Napako je \nmogoče odkriti dokaj preprosto. \nB \nVse naprave so priključene na en sam skupni medij, po katerem se prenašajo podatki vseh \npriključenih naprav. Medij je pogosto koaksialni kabel.  \nC \nVsak računalnik je priključen neposredno na sosednji računalnik v omrežju. Dobra stvar pri \ntem načinu je, da je polaganje kablov zelo preprosto, slabost pa, da omrežje preneha delovati \npri vsaki prekinitvi stika na kateremkoli kablu. \nD \nZahteva neposredne povezave med vsemi pari vozlišč. V praksi tako topologijo srečamo le \nredko, večinoma v omrežjih s posebnim namenom.\n4",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2011_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Na kateri plasti referenčnega modela ISO/OSI poskrbimo za varnost in šifriranje? \nA \nNa sejni plasti. \nB \nNa predstavitveni plasti. \nC \nNa transportni plasti. \nD \nNa omrežni plasti. \nE \nNa aplikacijski plasti.",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2011_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Informacijski sistem, ki ga uporabljajo učitelji pri vnosu in pregledu ocen dijakov, sodi v \nkategorijo: \nA \ntransakcijskih informacijskih sistemov; \nB \nsistemov za podporo odločanju; \nC \nmenedžerskih informacijskih sistemov; \nD \ndirektorskih informacijskih sistemov; \nE \nekspertnih sistemov.",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Informacijski sistemi",
+    "id": "2011_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Da bi pridobili informacije, moramo: \nA \nzbrati več podatkov; \nB \npodatkom pripisati pomen; \nC \npreoblikovati podatke; \nD \nzdružiti podatke; \nE \nformatirati podatke.",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2011_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Katerih elementov diagrama toka podatkov ni dovoljeno povezati neposredno? \n(Vsi pravilni odgovori 2 točki, en pravilen odgovor 1 točka, že en nepravilen odgovor 0 točk.) \nA \nDveh procesov. \nB \nProcesa in zbirke podatkov. \nC \nDveh terminatorjev. \nD \nDveh zbirk podatkov. \nE \nProcesa in terminatorja.\n5",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2011_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Sistem za upravljanje podatkovne baze zagotavlja \n(Vsi pravilni odgovori 2 točki, en pravilen odgovor 1 točka, že en nepravilen odgovor 0 točk.) \nA \nintegriteto podatkov; \nB \ntočnost podatkov; \nC \nustrezno obliko uporabniškega vmesnika; \nD \nustrezno hitrost dostopa do podatkov; \nE \nnedeljivost (atomarnost) transakcij.",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2011_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Kateri stavek najpopolneje opisuje namen orodja CASE? \nA \nOrodje CASE je namenjeno izdelavi sodobnih grafičnih vmesnikov spletnih aplikacij. \nB \nOrodje CASE je namenjeno računalniški podpori pri razvoju in vzdrževanju programske \nopreme. \nC \nOrodje CASE je namenjeno ustvarjanju in vzdrževanju podatkovnih baz in drugih zbirk \npodatkov. \nD \nOrodje CASE je namenjeno testiranju programske opreme, izobraževanju uporabnikov in \nizdelavi uporabniške dokumentacije. \nE \nOrodje CASE je namenjeno dokumentiranju težav uporabnikov, odpravljanju napak in \ndrugemu vzdrževanju programske opreme.",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Če na nivoju k diagrama toka podatkov obstaja tok podatkov p1 in so vsi procesi na nivoju \nk razdeljeni na podprocese, potem: \nA \nmora tok podatkov p1 obstajati vsaj na enem diagramu toka podatkov na nivoju k+1. \nB \nmora tok podatkov p1 obstajati na vseh diagramih toka podatkov na nivoju k-1. \nC \nmora tok podatkov p1 obstajati vsaj na enem diagramu toka podatkov na nivoju k-1. \nD \nmora tok podatkov p1 obstajati na vseh diagramih toka podatkov na nivoju k+1. \nE \nlahko tok podatkov p1 ostane samo na nivoju k.\n6",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2011_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Dani sta relaciji Oseba (OsebaID, Priimek, Ime, KrajIDÆKraj) in  \nKraj (KrajID,ImeKraja) s podatki: \nKraj \nKrajID \nImeKraja \n1000 \nLjubljana \n2000 \nMaribor \n4000 \nKranj \nOseba \nOsebaID \nPriimek \nIme \nKrajID \n10 \nMedved \nJanez \n1000 \n20 \nPuh \nTina \n2000 \n30 \nKos \nJanez \n4000 \n40 \nSenica \nJanez \n1000 \n50 \nMedved \nJana \n1000 \n60 \nVolk \nTina \n2000 \nKaj vrne naslednji izraz relacijske algebre?  \nΠ[Oseba.Ime] σ[Kraj.ImeKraja='Ljubljana'](Oseba |X| Kraj)  \nOdgovor navedite v tabelarični obliki, tako da zapišete ime in vrednosti atributov.",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2011_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Dane so relacijske sheme:  \nRacun(RacunID,Datum,Opombeo),  \nVrsticaRacuna(RacunIDÆRacun,ZapStevilka,IzdelekIDÆIzdelek,Kolicina) in \nIzdelek(IzdelekID,ImeIzdelka,Cena) \nOpredelite, v kakšnem vrstnem redu je treba vpisovati podatke v relacije. \n7",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2011_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Podatkovni tok VozniskoDovoljenje ima naslednje podatke: EMSO, Priimek, Ime, Spol, \nKategorijaVozila, DatumIzdaje in Opombe. Dovoljeni vrednosti za Spol sta M ali Ž. \nDovoljene vrednosti za KategorijoVozila so A, B, C, D, E ali F. Na enem vozniškem \ndovoljenju je označena vsaj ena, največ pa vseh šest kategorij. Podatek Opombe je opcijski.  \nZ notacijo podatkovnega slovarja, ki se uporablja pri diagramih toka podatkov, zapišite \npodatkovni tok VozniskoDovoljenje.",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2011_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Naštejte osnovne datotečne organizacije: \n8",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2011_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Narišite diagram ER (entiteta razmerje) za podatkovno bazo, v kateri bodo zapisani \npodatki o prostih izbirnih vsebinah. Proste izbirne vsebine pripravijo organizatorji, za \nkatere zapišemo davčno številko, ime, telefonsko številko in e-poštni naslov. \nOrganizator lahko pripravi eno ali več izbirnih vsebin. Za vsako izbirno vsebino so zapisani \nnjena šifra, ime, kratek opis, trajanje, cena in datum začetka. Dijak mora izbrati \nin opraviti eno ali več izbirnih vsebin. Pri tem se zabeleži še status opravila ('opravljeno \nv celoti', 'opravljeno delno', 'prekinjeno opravljanje', 'ni opravil'). Vrednost statusa \nopravila je vedno omejena s točno določenim naborom vrednosti. Za dijaka se beležijo EMSO, \npriimek, ime, letnik in program izobraževanja ('gimnazija', 'tehnik', 'tecajnik' …). \n9",
+    "points": 4,
+    "year": 2011,
+    "image": "assets/images/2011_IP2_p08.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2011_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Podatkovno bazo sestavljajo relacije, opisane z naslednjimi relacijskimi shemami: \nDrzava(DrzavaID,ImeDrzave) \nProizvajalec(ProizvajalecID,ImeProizvajalca,DrzavaIDÆDrzava) \nProgram(ProgramID,ProizvajalecIDÆProizvajalec,ImePrograma,CenaEneLicence) \nNakup(Zapstevilka,Datum,ProgramIDÆProgram,SteviloLicenc, \nOdstotekPopusta) \na) \nNapišite stavek SQL, ki vrne abecedni seznam imen programov, kupljenih leta 2009 brez \npopusta (OdstotekPopusta=0). \nb) \nNapišite stavek SQL, ki podraži vse programe proizvajalcev iz ZDA za 10 %.",
+    "points": 2,
+    "year": 2011,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2011_IP2_16"
+  }
+]

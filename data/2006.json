@@ -1,0 +1,408 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Stalno prisotni program BIOS je shranjen v pomnilniku, katerega izvedbo imenujemo: \n(vsi pravilni odgovori 2 točki, en pravilen odgovor 1 točka, že en nepravilen odgovor 0 točk) \nA \nRAM \nB \nDISK \nC \nEEPROM \nD \nROM \nE \nUSB key",
+    "points": 1,
+    "year": 2006,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2006_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Pri izvedbi maskirane vektorske prekinitve najprej: \n A \nprocesor prevzame s sklada povratni naslov; \nB \nperiferna enota pošlje procesorju prekinitveni vektor; \nC \nprocesor ugotovi začetni naslov prekinitvenega strežnega programa; \nD \nprocesor začne izvajati prekinitveni strežni program; \nE \nperiferna enota sproži signal za prekinitveno zahtevo.",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2006_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "V ukazu procesorja sta lahko prisotna naslova dveh operandov. To je: \nA \nnemogoče; \nB \nres, če lahko na vhoda aritmetično-logične enote vodimo vsebini dveh različnih \npomnilniških lokacij; \nC \nres, če ima ukaz dovolj binarnih mest; \nD \nres, kadar je v ukazu prisoten tudi naslov za rezultat operacije; \nE \nvedno mogoče.\n4",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2006_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Procesor lahko naenkrat računa rezultat samo ene operacije. Trditev je: \nA \npravilna; \nB \npravilna, če procesor nima več aritmetično-logičnih enot; \nC \npravilna, če procesor deluje kot cevovod; \nD \nvedno napačna; \nE \npravilna, če ima procesor več aritmetično-logičnih enot.",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2006_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Lupina predstavlja v operacijskem sistemu vmesnik med: \n A \noperacijskim sistemom in strojno opremo; \nB \nuporabnikom in strojno opremo; \nC \nuporabnikom in operacijskim sistemom; \nD \nveč uporabniki; \nE \nne predstavlja vmesnika.",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2006_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Ali je lahko ista datoteka prisotna v več seznamih pod različnimi imeni? \nA \nTo ni mogoče. \nB \nDa, če seznami niso koren datotečnega sistema. \nC \nTo je vedno mogoče. \nD \nDa, če datotečni sistem omogoča simbolično povezovanje (link) datotek. \nE \nTo je mogoče, če so ti seznami na fizično različnih pomnilniških enotah.",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2006_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Vzrok za fragmentacijo (razdrobljenost) diska je predvsem odstranjevanje datotek. \nPosledica razdrobljenosti pa je: \n(vsi pravilni odgovori 2 točki, en pravilen odgovor 1 točka, že en nepravilen odgovor 0 točk) \nA \ndobra izkoriščenost pomnilnega prostora; \nB \npodaljšanje dostopnih časov; \nC \nskrajšanje dostopnih časov; \nD \nslaba izkoriščenost pomnilnega prostora; \nE \nskrajšanje odzivnih časov.\n5",
+    "points": 1,
+    "year": 2006,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2006_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Ali lahko z dvema ukazoma operacijskega sistema Linux izpišemo vse procese, ki jih izvaja \nneki uporabnik? \nA \nLahko. \nB \nNe moremo. \nC \nLahko, če je operacijski sistem večprocesorski. \nD \nLahko, če procesi niso aktivni. \nE \nLahko, če je vsaj en proces neaktiven. \nSKLOP  PROGRAMSKI JEZIKI IN PROGRAMIRANJE \nNALOGE IZBIRNEGA TIPA \nObkrožite pravilno trditev.",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2006_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Kaj se izpiše med izvajanjem naslednjega zaporedja stavkov: \nPascal: \nC: \nfor m:=0 to 3 do \nfor (int m=0;m<=3;m++){ \n   for n:= 0 to 2 do \n for (int n=0;n<=2;n++){ \n     write(m:2,n:2); \n       printf(\"%2d%2d\",m,n);}} \nPascal: \nA \n3 2 \nB \n0 1 2 3 0 1 2 \nC \n0 0 0 1 0 2 1 0 1 1 1 2 2 0 2 1 2 2 3 0 3 1 3 2 \nD \n0 0 0 1 0 2 0 3 1 0 1 1 1 2 1 3 2 0 2 1 2 2 2 3 \nE \n2 2",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Za zanko while je značilno, da: \nA \nse pogoj preverja na koncu, stavki v telesu zanke se izvajajo, dokler pogoj ni izpolnjen; \nB \nse stavki v telesu zanke izvedejo vsaj enkrat; \nC \nse stavki v telesu zanke nikoli ne izvedejo, če že na začetku zanke ni izpolnjen pogoj; \nD \njo uporabimo, kadar je točno znano število ponavljanj; \nE \nse pogoj preverja na začetku, stavki v telesu zanke pa se izvajajo, dokler je pogoj napačen.\n6",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Deklarirane so spremenljivke \nPascal: \nC: \nvar x,y : integer; z: real;             int x,y; float z; \nKateri stavek priredi spremenljivki z rezultat realnega deljenja spremenljivke x s \nspremenljivko y? \n Pascal: \nC: \nA z:= x div y; \nA \nz= x/y; \nB \nz:= x % y; \nB \nz= x % y; \nC \nz:= x mod y; \nC \nz=float(x/y); \nD z:= x divide y; \nD \nz= x divide y; \nE \nz:= x / y; \nE \nz= float(x)/y;",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Imamo tabelo desetih celih števil. Podatki v tabeli so urejeni v naraščajočem vrstnem redu. \nKateri od navedenih iskalnih algoritmov je najhitrejši: \nA \nalgoritem zaporednega iskanja; \nB \nalgoritem linearnega iskanja; \nC \nalgoritem naključnega iskanja; \nD \nalgoritem binarnega (dvojiškega) iskanja; \nE \nhitrost vseh navedenih algoritmov je enaka.",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Kaj od navedenega sodi v skupino programskih orodij za hiter razvoj aplikacij (orodja \nRAD): \n(vsaj en pravilen odgovor 2 točki, že en nepravilen odgovor 0 točk) \nA \nMicrosoft Visual Studio; \nB \nTurbo Pascal; \nC \nmySQL; \nD \nDelphi; \nE \nWindows Movie Maker.\n7",
+    "points": 1,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Dana je deklaracija in stavki za odpiranje datoteke: \nPascal: \nC: \nvar f : text; \nFILE *f; \nassign(f,'vaja'); reset(f); \nf=fopen(\"vaja\",\"r\"); \nKatera trditev velja po izvedbi stavka reset oziroma fopen? \nA \nVsebina datoteke se ohrani, datotečni kazalec kaže na začetek datoteke, lahko izvajamo  \noperacije branja in zapisovanja v datoteko. \nB \nVsebina datoteke se izbriše, datotečni kazalec kaže na začetek datoteke, lahko izvajamo \noperacije branja in zapisovanja v datoteko. \nC \nVsebina datoteke se ohrani, datotečni kazalec kaže na začetek datoteke, lahko izvajamo le \noperacije branja iz datoteke. \nD \nVsebina datoteke se ohrani, datotečni kazalec kaže na konec datoteke, lahko izvajamo le \noperacije branja iz datoteke. \nE \nVsebina datoteke se izbriše, datotečni kazalec kaže na začetek datoteke, lahko izvajamo le \noperacije zapisovanja v datoteko.",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Programski jeziki Pascal, C in Basic sodijo v skupino: \nA \nstrojnih jezikov; \nB \nvišjih programskih jezikov; \nC \nzbirnikov; \nD \njezikov HTML; \nE \npovpraševalnih (query) jezikov.",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Kateri sortirni algoritem v povprečju primerja n*log(n) elementov, če je le-teh n? \n A \nSortiranje z mehurčki. \nB \nQuicksort. \nC \nSortiranje z vstavljanjem. \nD \nSortiranje z izbiranjem. \nE \nPopravljeno sortiranje z mehurčki.\n8 \nSKLOP PROGRAMSKI JEZIKI IN PROGRAMIRANJE \nNALOGE S KRATKIMI ODGOVORI",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Napišite stavek case (Pascal) oziroma switch (C), ki bo enakovreden naslednjim stavkom \nif: \nPascal: \nif ocena = 6 then \n  writeln('zadostno') \nelse \n  if ocena = 7 then \n    writeln('dobro') \n  else \n    if (ocena=8) or (ocena=9) then  \n      writeln('prav dobro') \n    else \n      if ocena=10 then \n        writeln('odlično') \n      else \n        writeln('nezadostno'); \nC: \nif (ocena == 6){ \n  printf(\"zadostno \\n\");} \nelse { \n  if (ocena ==7) { \n    printf(\"dobro\");} \n  else { \n    if ((ocena==8) || (ocena==9)) { \n      printf(\"prav dobro \\n\");} \n    else { \n      if (ocena==10) { \n        printf(\"odlično \\n\");} \n      else { \n        printf(\"nezadostno \\n\");};};};} \nRešitev:\n9",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Naslednjo iteracijo zapišite z zanko while: \nPascal: \nC: \nfor x:='A' to 'F' do begin \nfor (x='A';x<='F';x++) { \n  writeln (pred(x),' ',succ(x)); \n  printf(\"%c %c\\n\",x-1,x+1); \n  writeln(x:2); \n  printf(\"%2c\\n\",x); \nend; \n} \nRešitev:\n10",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Kaj izpiše naslednji program? \nPascal: \nC: \nvar a,b,c : integer; \n#include <stdio.h> \nbegin \nint main() \n  a:=17; b:=3; c:=0; \n{ \n  while (a>b) do begin \n  int a=17,b=3,c=0; \n    inc(c); \n  while (a>b) { \n    a:=a-b; \n    c++; \n  end; \n    a-=b; \n  writeln(c,' ',a); \n  } \nend. \n  printf(\"%d %d\\n\",c,a); \n  return 0; \n} \nRešitev:",
+    "points": 1,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Kaj naredi naslednji program? \nPascal: \nvar stevilo:integer; \nbegin \n   for stevilo := 1 to 10 do \n     begin \n      writeln('stevilo: ',stevilo); \n      writeln('kvadrat: ',sqr(stevilo)); \n      writeln('kub: ',stevilo*(sqr(stevilo))); \n     end; \nend. \nC: \nint c=1; \nint main(){ \n   for(int stevilo=1;stevilo<=10;stevilo++){ \n     printf(\"stevilo: %d \\n\",stevilo); \n     printf(\"kvadrat: %d \\n\",stevilo*stevilo); \n     printf(\"kub: %d \\n\",stevilo*stevilo*stevilo); \n  }; \nreturn 0;} \nRešitev:\n11 \nSKLOP PROGRAMSKI JEZIKI IN PROGRAMIRANJE \nSTRUKTURIRANE NALOGE",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_20"
+  },
+  {
+    "num": 21,
+    "pola": "IP1",
+    "text": "V tekstovni datoteki 'test.txt' so zapisana cela števila. \nNapišite podprogram, ki vrne povprečno vrednost zapisanih števil. Če je datoteka prazna \n(nima zapisanih števil), naj podprogram vrne 0.  \nNapišite podprogram, ki vrne število vrstic v datoteki 'test.txt'.  \nNapišite glavni program s klici podprogramov.  \nRešitev:\n15",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_21"
+  },
+  {
+    "num": 22,
+    "pola": "IP1",
+    "text": "Napišite podprogram crkaV, ki glede na vrednost parametra stVrstic z zvezdicami \nizpiše sliko v obliki črke V. Prikazani so primeri izpisa za vrednost parametra 3, 4 in 5. \n **  ** \n **** \n  ** \n**    ** \n **  ** \n  **** \n   ** \n**      ** \n **    ** \n  **  ** \n   **** \n    ** \nRešitev:\n17",
+    "points": 4,
+    "year": 2006,
+    "image": "assets/images/2006_IP1_p15.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_22"
+  },
+  {
+    "num": 23,
+    "pola": "IP1",
+    "text": "Dani sta dve enako dolgi tabeli celih števil (tabeli a in b). Napišite podprogram, ki ugotovi, \nali sta v obeh tabelah shranjeni različni permutaciji istih števil. Upoštevajte naslednje \ndeklaracije: \n Pascal: \nconst n = 5; \ntype tabela=array[1..n] of integer; \nfunction staPermutaciji (a,b:tabela):boolean; \nC: \nconst n = 5; \nint a[n],b[n]; \nint staPermutaciji(int a[n],int b[n]); \nRešitev:\n19",
+    "points": 4,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_23"
+  },
+  {
+    "num": 24,
+    "pola": "IP1",
+    "text": "Deklarirajte podatkovno strukturo avto z dvema komponentama: znamka (niz 80 znakov) \nin hitrost (celo število). Deklarirajte tabelo desetih takšnih struktur. Napišite \npodprogram za vnos podatkov v tabelo in podprogram za iskanje ter izpis hitrosti, ki jo \ndoseže najhitrejši avto. \nRešitev:",
+    "points": 4,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP1_24"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Aplikacijska storitev FTP (File Transfer Protocol) se na transportni plasti povezuje s/z: \n A \nprotokolom FTP komunikacijskega modela TCP/IP; \nB \nprotokolom TCP ali UDP, odvisno od velikosti datoteke, ki se prenaša; \nC \nprotokolom UDP, če ne potrebujemo prenosa brez napak; \nD \nprotokolom TCP, ki vključuje tudi potrjevanje prenosov; \nE \nnobenim od naštetih protokolov.",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2006_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Katera je glavna prednost protokola CSMA/CD?  \nA \nJe zelo učinkovit pri veliki obremenjenosti omrežja, saj onemogoča sinhronizacijo trkov po \nsprostitvi prenosnega medija. Ko ugotovi zasedenost prenosnega medija, sproži časovno \nkontrolo in šele po izteku ponovno preverja zasedenost prenosnega medija. \nB \nOddajniku omogoča ugotavljanje zasedenosti prenosnega kanala in ugotavljanje trkov. Ker \nima možnost ugotavljanja trkov, lahko takoj po trku ustavi oddajo in tako sprosti prenosni \nmedij. \nC \nPrednost je v enostavnosti, saj ne preverja zasedenosti prenosnega medija in ne glede na \nzasedenost odda paket. \nD \nIzključuje možnost trkov z uporabo faze rezervacije oziroma žetonov. Le postaja, ki ima \nžeton, lahko odda paket in tako ne pride do trkov. \nE \nPonovni poskusi oddaje niso potrebni.",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2006_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Glavni namen preklapljanja je usmerjanje sporočil. To se dogaja na: \n A \naplikacijski plasti referenčnega modela ISO/OSI; \nB \ntransportni plasti referenčnega modela ISO/OSI; \nC \nomrežni plasti referenčnega modela ISO/OSI; \nD \nfizični plasti referenčnega modela ISO/OSI; \nE \nsejni plasti referenčnega modela ISO/OSI.\n4",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2006_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Most (bridge): \n A \npovezuje LAN-e; \nB \npovezuje WAN-e; \nC \nojača signale na fizični plasti; \nD \npovezuje omrežja z različnimi protokoli; \nE \nloči logični segment omrežja na fizične segmente.",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2006_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Katere aktivnosti se izvajajo v prvi fazi razvoja informacijskega sistema: \n A \nprogramiranje; \nB \nzbiranje in analiza zahtev uporabnikov; \nC \nizdelava načrta podatkovne baze in aplikacij; \nD \nizdelava testnih primerov; \nE \nizbira programske in strojne opreme.",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Katero tehniko lahko uporabimo pri pisanju minispecifikacij procesov: \n (vsi odgovori 2 točki, en odgovor 1 točka, že en nepravilen odgovor 0 točk) \nA \npsevdokodo; \nB \nentitetno-relacijske diagrame; \nC \nodločitvene tabele; \nD \nodločitvena drevesa; \nE \ndiagrame prehajanja stanj.",
+    "points": 1,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Kateri gradniki se NE pojavljajo na kontekstnem nivoju DTP-jev: \n (vsi odgovori 2 točki, en odgovor 1 točka, že en nepravilen odgovor 0 točk) \nA \nzbirke; \nB \nzunanje entitete; \nC \nprocesi; \nD \ntokovi podatkov; \nE \natributi.\n5",
+    "points": 1,
+    "year": 2006,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2006_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Kateri od navedenih uporabnikov podatkovne baze je odgovoren za spreminjanje njene \nstrukture: \n A \nsistemski analitik; \nB \nsistemski programer; \nC \naplikacijski programer; \nD \nskrbnik (administrator) podatkovne baze; \nE \nvsi navedeni uporabniki lahko spreminjajo strukturo podatkovne baze.",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Kaj NI namen vzdrževanja programske opreme: \n A \npocenitev programa; \nB \nizboljšanje (dopolnjevanje) funkcij programa; \nC \nodpravljanje napak v programu; \nD \npodaljšanje življenjske dobe programa; \nE \nvečje zadovoljstvo uporabnikov s programom.",
+    "points": 2,
+    "year": 2006,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Katera od navedenih značilnosti velja za entitetno-relacijske diagrame: \n (vsi odgovori 2 točki, en odgovor 1 točka, že en nepravilen odgovor 0 točk) \nA \nprikazujejo vse podatke in procese v informacijskem sistemu; \nB \nsodijo med grafične načine predstavitve podatkovnega modela; \nC \nponazarjajo entitetne tipe in povezave med entitetnimi tipi; \nD \nprikazujejo logično in fizično predstavitev podatkov v podatkovni bazi; \nE \nnazorno prikazujejo strukturo sistema za upravljanje podatkovne baze.\n6",
+    "points": 1,
+    "year": 2006,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2006_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Podjetje Poliglot izvaja tečaje tujih jezikov. Za vsak jezik je razpisanih več tečajev, na vsak \ntečaj se lahko prijavi več tečajnikov. Isti tečajnik lahko obiskuje več tečajev (npr. tečaj \nnemščine in italijanščine). Narišite entitetno-relacijski diagram, iz katerega bodo razvidna \nrazmerja med entitetnimi tipi Jezik, Tečaj in Tečajnik. \n Odgovor:",
+    "points": 2,
+    "year": 2006,
+    "image": "assets/images/2006_IP2_p06.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2006_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Dana je tabela Dijak s podatki: \nDijakID \nPriimek \nIme \nRazred \n003 \nDolinar \nMatej \nG1A \n004 \nMlinar \nMarko \nG1A \n008 \nKralj \nMatej \nG1A \n010 \nKoželj \nPeter \nG1C \n012 \nDolenc \nMiha \nG1B \n013 \nMihevc \nMatjaž \nG1A \nKaj vrne naslednji stavek SQL? \nSELECT Ime FROM Dijak WHERE Razred='G1A'; \nOdgovor:",
+    "points": 2,
+    "year": 2006,
+    "image": "assets/images/2006_IP2_p06.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Zakaj uporabljamo indekse? \nOdgovor:\n7",
+    "points": 2,
+    "year": 2006,
+    "image": "assets/images/2006_IP2_p06.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2006_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Navedite vsaj tri prednosti uporabe računalniško podprtih informacijskih sistemov: \n Odgovor:",
+    "points": 2,
+    "year": 2006,
+    "image": "assets/images/2006_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2006_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Podatkovno bazo sestavljajo naslednje tabele: \nKrozek(KrozekID:N,ImeKrozka:A20) \nDijak(DijakID:N, Priimek:A20, Ime:A10, Razred:A3) \nObiskuje(DijakID:N, KrozekID:N,Solskoleto:A9) \nNarišite ustrezni entitetno-relacijski diagram. \nRešitev:  \nNapišite stavek SQL, ki izpiše abecedni seznam priimkov in imen dijakov, obiskovalcev \nkrožka PHP. \nRešitev:\n8",
+    "points": 1,
+    "year": 2006,
+    "image": "assets/images/2006_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2006_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Za elementarni proces vzgojniukrepi napišite minispecifikacijo v obliki odločitvene \ntabele. Vhoda v proces sta število neopravičenih ur in predhodni ukrep. Izhod iz \nprocesa pa je izrečeni ukrep.  \n\u0001\u0002\nČe je neopravičenih ur manj ali enako 10, ni vzgojnega ukrepa. \n\u0001\u0002\nČe je število neopravičenih ur med 10 in 30, dobi dijak ukor razrednika, če zanj še ni \nbil izrečen predhodni ukrep. \n\u0001\u0002\nČe je število neopravičenih ur med 10 in 30, dobi dijak ukor oddelčnega učiteljskega \nzbora, če je bil zanj že izrečen predhodni ukrep. \n\u0001\u0002\nČe je število neopravičenih ur večje ali enako 30, dobi dijak ukor ravnatelja, če zanj še \nni bil še izrečen predhodni ukrep. \n\u0001\u0002\nČe je število neopravičenih ur večje ali enako 30, dobi dijak ukor celotnega učiteljskega \nzbora, če je bil zanj že izrečen predhodni ukrep. \n Rešitev:",
+    "points": 4,
+    "year": 2006,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2006_IP2_16"
+  }
+]

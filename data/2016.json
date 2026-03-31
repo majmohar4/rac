@@ -1,0 +1,464 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Izvorna koda javanskega programa se \nA \ninterpretira. \nB \nprevede v izvršno kodo in potem izvaja. \nC \nprevede v vmesno (byte) kodo in potem interpretira. \nD \nlahko takoj izvaja.",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Kakšen pomen ima simbol  \n v diagramu poteka? \nA \nZačetek postopka. \nB \nVhodna ali izhodna operacija. \nC \nOdločitveni stavek, vejitev. \nD \nPrireditveni stavek.",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2016_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Dani algoritem spremenite v program.",
+    "points": 3,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Deklarirani sta spremenljivki: \nint x=1; Integer y=new Integer(0); \nIzvedba katerega stavka sproži izjemo (napako med izvajanjem)? \nA \nx=x%y; \nB \nx=x*y; \nC \nx=x-y; \nD \nx=x+y;",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Kakšne vrednosti so v spremenljivkah x, a in b po izvršitvi naslednjih stavkov? \nint x = 1; \nint a = 5; \nint b = ++x+a--; \na= b= x=",
+    "points": 3,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Na ekranu želimo dobiti naslednji izpis: \n1-2-3-4-5-6-7-8-9-10- \nZapišite del kode, ki z uporabo zanke for doseže gornji izpis.",
+    "points": 2,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Metoda razreda String v programskem jeziku Java je dana z naslednjo glavo (z naslednjim \nprototipom): boolean endsWith(String suffix). Obkrožite črko pred stavkom, ki pomeni \nveljavni klic metode, če imamo definiran objekt niz, ki je tipa String. \nA \nboolean t = String.endsWith(niz); \nB \nboolean t = niz.endsWith(\"a\"); \nC \nboolean t = endsWith(niz); \nD \nString t = niz.endsWith(true);",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Kaj izpiše program? \npublic class IzpisUganke { \n  public static void main(String[] args) { \n     String s=new String(\"uganka\"); \n     int i=0; int n=0; \n     while (i<s.length()){ \n       switch (s.charAt(i)){ \n           case 'a': \n           case 'e': \n           case 'i': \n           case 'o': \n           case 'u': n++; \n       } \n       i++; \n     } \n     System.out.println(n); \n  } \n}",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Konstruktor je posebna oblika \nA \nrazreda. \nB \nobjekta. \nC \nspremenljivke. \nD \nmetode.",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Dano imamo naslednjo deklaracijo: int tab[] = new int[100]; \nZapišite kodo, ki z uporabo zanke while napolni tabelo tab tako, da bo na začetku vsebovala \nvsa cela števila od 50 do 99, nato pa vsa cela števila od 0 do 49.",
+    "points": 3,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Zapišite metodo, ki vrne, koliko lihih deliteljev ima argument x. Zgled: Če je argument x 75, ima 6 \nlihih deliteljev (1, 3, 5, 15, 25, 75). Glava metode:  \nint lihiDelitelji(int x)",
+    "points": 2,
+    "year": 2016,
+    "solution": null,
+    "topic": "Splošno računalništvo",
+    "id": "2016_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "V programskem jeziku Java je objekt primerek \nA \npodatka. \nB \nrazreda. \nC \nprograma. \nD \nmetode.",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Kateri od trditev spodaj veljata za statične komponente razreda? \nA \nStatične komponente razreda so lahko različne za posamezne objekte tega razreda. \nB \nStatične komponente razreda so skupne vsem objektom tega razreda. \nC \nDostop do statičnih komponent ni možen prek objekta tega razreda. \nD \nDostop do statičnih komponent je možen prek objekta tega razreda ali prek imena razreda.",
+    "points": 2,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Kaj izpiše program? \npublic class TestReplace {     \n  public static void main(String[] args) { \n    String s = \"vaja\"; \n    s.replace('A', 'B'); \n    System.out.println(s);  \n  } \n} \nA \nvAja \nB \nvAjA \nC \nvajA \nD \nvaja",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Kateri operator sproži izvedbo konstruktorja? Izvedbo konstruktorja sproži operator .",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Napišite metodo, ki za dano leto ugotovi, ali je to leto prestopno. Leto je prestopno, če je letnica \ndeljiva s 4, ni pa deljiva s 100. Obstaja tudi izjema. Če je letnica deljiva s 400, je leto prestopno. \nMetoda vrne vrednost true, če letnica označuje prestopno leto.",
+    "points": 3,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Kaj izpiše naslednji program? \npublic class Izpis {  \n    public static void main(String[] args) { \n        String str= new String (\"Maturanti\");         \n        int i=0; int j=str.length()-1; \n        while (i<=str.length()/2){ \n          System.out.println(str.charAt(i)+\" \"+str.charAt(j-i)); \n          i=i+2; \n        }     \n    } \n}",
+    "points": 3,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Deklarirani sta spremenljivki: \nString str= new String (\"abc\"); \ndouble[] A = new double[20]; \nNapišite stavek, ki spremenljivki i priredi dolžino spremenljivke str, in stavek, ki spremenljivki j \npriredi dolžino spremenljivke A.",
+    "points": 2,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Met igralne kocke lahko v računalniku simuliramo z izbiro naključnega celega števila med 1 in 6. \n19.1 Napišite razred Kocke, ki se bo uporabljal za met več kock hkrati. Razred naj vsebuje celo \nštevilo, ki pomeni število kock, in tabelo, v katero za vsako kocko shranimo vrednost meta \nte kocke. Konstruktor prejme za parameter celo število, ki določa, koliko kock mečemo. V \nkonstruktorju tudi določimo vrednosti vseh kock in jih shranimo v razredno tabelo.",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "V programu je deklarirana in inicializirana tabela celih števil  \nint [][] t = {{10,22,33,44,50},{61,12,13,19,12},{0,0,0,0,0}}; \nProgram: \npublic class NalogaTabela { \n    public static void main(String[] args) { \n        int [][] t = {{10,22,33,44,50},{61,12,13,19,12},{0,0,0,0,0}}; \n        zamenjaj(t); \n        izpisi (t);   \n    } \n} \nNapišite metodi zamenjaj() in izpisi(). \n20.1 Metoda zamenjaj() naj zamenja vrednosti prve in druge vrstice tabele, v tretjo vrstico pa \nzapiše vsoto istoležnih elementov prve in druge vrstice.",
+    "points": 3,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP1_20"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Katere operacije izvaja aritmetično-logična enota? \nA \nBranje iz pomnilnika. \nB \nSeštevanje in odštevanje. \nC \nPrimerjave. \nD \nDekodiranje ukazov.",
+    "points": 2,
+    "year": 2016,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2016_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "V centralni procesni enoti sta: \nA \nurin register \nB \nprogramski števec \nC \nsmerni register \nD \nskladovni kazalec \nE \nštevni register",
+    "points": 2,
+    "year": 2016,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2016_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Kateri od navedenih pomnilniških medijev ima zaporedni dostop do podatkov? \nA \nTrdi disk. \nB \nKljuč USB. \nC \nMagnetni trak. \nD \nCD.",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2016_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Dvojiški komplement števila 00010111 je \nA \n11101000 \nB \n11101001 \nC \n10010111 \nD \n10011000",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2016_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "V šestnajstiškem sestavu imamo števili 8C in 29, ki ju želimo sešteti. Koliko je rezultat seštevanja \nteh dveh števil?",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Splošno računalništvo",
+    "id": "2016_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "V kateri mapi na operacijskem sistemu Linux so shranjene nastavitve sistema in aplikacij? \nA \n/etc \nB \n/lib \nC \n/usr \nD \n/var",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2016_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Med izvajanjem programa je prišla zahteva za prekinitev. S številkami od 1 do 4 razvrstite korake \nspodaj tako, da bodo pravilno opisovali potek prekinitve: \nObnovitev stanja CPE na stanje pred prekinitvijo. \nShranjevanje sedanjega stanja CPE. \nCPE dokonča izvrševanje sedanjega ukaza. \nIzvrševanje ukazov prekinitvenega servisnega programa.",
+    "points": 3,
+    "year": 2016,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2016_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Dve od nalog jedra operacijskega sistema sta: \nA \nprenos elektronske pošte med napravami \nB \nupravljanje sistemskih virov \nC \npretvorba izvorne kode v strojno kodo \nD \nnalaganje operacijskega sistema po zagonu računalnika \nE \nupravljanje datotečnih sistemov",
+    "points": 2,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Kateri ukaz operacijskega sistema Linux izpiše seznam ukazov, ki smo jih že izvedli? \nA \nexec \nB \nlist \nC \neval \nD \nhistory",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2016_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Katera nivoja modela OSI sovpadata s fizičnim nivojem modela TCP/IP? \nA \nFizični. \nB \nNivo seje. \nC \nTransportni. \nD \nOmrežni. \nE \nPovezavni.",
+    "points": 2,
+    "year": 2016,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2016_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Katera vrsta povezav v internet ne potrebuje fizičnega kabla? \nA \nDSL. \nB \nSatelit. \nC \nKlicni dostop. \nD \nOptična povezava.",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2016_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Izberite protokola aplikacijske plasti. \nA \nARP \nB \nTCP \nC \nFTP \nD \nUDP \nE \nSMTP",
+    "points": 2,
+    "year": 2016,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2016_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Topologijo omrežja, v katerem so naprave povezane po načelu »Vsak z vsakim«, imenujemo  \ntopologija.",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2016_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Kateri stavek SQL ustvari tabelo Tab(A:N,B:N,C:N)? \nA \ncreate table Tab(a int not null primary key, b int not null primary \nkey, c int no null); \nB \ncreate table Tab(a int not null, b int not null, c int not null, \nprimary key(a), primary key(b)); \nC \ncreate table Tab(a int not null, b int not null, c int not null, \nprimary key(b,c)); \nD \ncreate table Tab(a int not null, b int not null, c int not null, \nprimary key(a,b));",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2016_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Povežite vsak nivo ANSI/SPARC arhitekture podatkovne baze na levi strani z ustreznimi opisi, ki \nza povezani nivo veljajo, na desni strani. Vsakemu nivoju pripadata natanko dva ustrezna opisa. \nA \nZunanji nivo",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2016_IP2_15"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Opisuje datotečno organizacijo shranjevanja \npodatkov v podatkovni bazi.",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Vsebuje celovito informacijo o strukturi podatkovne \nbaze. \nB \nKonceptualni nivo",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2016_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Prikazuje različne poglede uporabnikov na \npodatkovno bazo.",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2016_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Opisuje podatke in povezave med podatki v \npodatkovni bazi. \nC Notranji nivo",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2016_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Vsakemu pogledu ustreza po ena zunanja shema.",
+    "points": 1,
+    "year": 2016,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2016_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Opisuje fizično predstavitev podatkovne baze v \nračunalniku.",
+    "points": 3,
+    "year": 2016,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2016_IP2_06"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Dana je tabela Tab(A:N, B:N). Podatki v tabeli so: \nA \nB \n10 \n1 \n15 \n2 \n20 \n1 \n30 \n1 \n35 \n2 \nKaj vrne stavek SQL select sum(a) from Tab group by B?",
+    "points": 2,
+    "year": 2016,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2016_IP2_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP2",
+    "text": "Kateri diagrami so diagrami UML? \nA \nDiagrami primerov uporabe. \nB \nRazredni diagrami. \nC \nDiagrami toka podatkov. \nD \nDiagrami ER. \nE \nMrežni diagram.",
+    "points": 3,
+    "year": 2016,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP2_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP2",
+    "text": "Dan je razred Telefon. \nDopolnite tabelo tako, da iz razrednega diagrama (class) prepišete vrstice, ki veljajo za \nposamezne elemente diagrama. \nTip gradnika \nimena \nLastnosti razreda \nKonstruktorji razreda \nMetode razreda \nDostopno določilo private velja za \nDostopno določilo public velja za \nDostopno določilo protected velja za",
+    "points": 3,
+    "year": 2016,
+    "image": "assets/images/2016_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2016_IP2_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP2",
+    "text": "Spletna trgovina želi imeti podatkovno bazo, v kateri bo hranila podatke o izdelkih in o \nuporabnikih. Spletna trgovina ponuja več izdelkov in vsak izdelek sodi v neko kategorijo. Osnovni \npodatki o izdelkih so šifra izdelka, ime izdelka, opis izdelka, ena ali več ključnih besed izdelka \n(tag), cena izdelka in uporabniške ocene izdelka. Posamezna ključna beseda se lahko uporabi za \noznačevanje več izdelkov. En izdelek lahko oceni več uporabnikov in en uporabnik lahko oceni \nveč izdelkov, vendar vsak uporabnik lahko oceni vsak izdelek le enkrat. Če uporabniki želijo \nocenjevati izdelke, se morajo najprej registrirati. Pri registraciji dobijo enolično številko (ID), \nzraven se vpišejo še podatki: uporabniško ime, geslo, ime, priimek in elektronski naslov.  \n19.1 Narišite diagram ER. Na diagramu prikažite entitetne tipe, povezave, primarne in tuje ključe \nin vse druge atribute.",
+    "points": 4,
+    "year": 2016,
+    "image": "assets/images/2016_IP2_p08.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2016_IP2_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP2",
+    "text": "Dane imamo relacijske sheme: \nkupec (stkupca:N, priimek:A(15), ime:A(15), naslov:A(20), kraj:A(20)) \ntrgovina (sttrgovine:N, imetrgovine:A(20), kraj:A(20)) \nracun (stracuna:N, sttrgovine:N->trgovina, stkupca:N->kupec, datum:D, \nznesek:N) \n20.1 Napišite stavek SQL, ki vrne seznam vseh kupcev (priimek, ime, naslov, kraj), ki so v \ntrgovini Abrakadabra v Butalah hkrati kupili za več kakor 100 € izdelkov. \n 20.2 Napišite stavek SQL, ki za vsak dan izpiše skupen znesek prodanega blaga v trgovini \nAbrakadabra v Butalah.",
+    "points": 2,
+    "year": 2016,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2016_IP2_20"
+  }
+]

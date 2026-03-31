@@ -1,0 +1,404 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "V računalnikih imamo tudi pogone za zgoščenke (CD) in (DVD). Pogone skupaj z mediji \nprištevamo: \nA \nsamo med pomnilnike; \nB \nsamo med vhodno/izhodne enote; \nC \nmesto v zgradbi računalnika ni določeno; \nD \npogone za CD prištevamo samo med vhodno/izhodne enote, za DVD samo med pomnilnike; \nE \nmed pomnilnike in tudi med vhodno/izhodne enote.",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2007_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Ukaz je sestavljen iz operacijske kode in \n(obkrožite vse pravilne trditve): \n(Vsi pravilni odgovori 2 točki, en pravilen odgovor 1 točka, že en nepravilen odgovor 0 točk) \nA \noperacije; \nB \noperandov; \nC \nnaslovov operacije; \nD \nkode; \nE \nnaslovov operandov.",
+    "points": 1,
+    "year": 2007,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2007_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Kolikšna je vrednost skladovnega kazalca (SP), ko se izvede vrstica 5? Sklad se širi proti \nnižjim pomnilniškim lokacijam. \n1 \norg \n$A000 \n2 \nlds \n#$00ff \n3 \nldaa \n#5 \n4 \npula \n5 \npula \nA \n0100 \nB \n00FD \nC \n00FF \nD \n00FE \nE \n0101\n4",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2007_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Kaj določa obseg naslovnega prostora pri posrednem naslavljanju? \nA \nDolžina akumulatorja. \nB \nDolžina podatkovnega registra primarnega pomnilnika. \nC \nOrganizacija primarnega pomnilnika. \nD \nDolžina registrov v procesorju. \nE \nDolžina programskega števca.",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2007_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Za prenos podatkov med CPE, vhodno/izhodnimi napravami in pomnilnikom imamo \nrazlične načine. Eden izmed njih je neposredni dostop do pomnilnika (DMA – Direct \nMemory Access). Pri tem načinu: \nA \nCPE izvaja program za V/I, vsi podatki gredo prek CPE. Enostavna izvedba, za manjše \nkoličine podatkov, CPE mora neprestano preverjati stanje vzhodno/izhodne naprave. \nB \nCPE pošlje ukaz za prenos in nadaljuje delo. Ko je podatek pripravljen, pošlje naprava \nzahtevo za prekinitev. Imamo boljšo izkoriščenost računalnika. \nC \nPodatki ne gredo skozi CPE, ampak po neposredni povezavi med V/I in glavnim \npomnilnikom. Krmilnik DMA ima nadzor nad prenosi. Naslove in vrsto zahteve mu zagotovi \nCPE. \nD \nV/I procesorji izvajajo program za svojo V/I enoto in ponavadi še funkcijo krmilnika DMA. \nE \nNič od naštetega.",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2007_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "V nekem trenutku je aktivnih več procesov. Kako lahko izpišemo procese, ki pripadajo \nnekemu uporabniku. \nTo naredimo s pomočjo: \nA \nwhoami, \nB \ncat, \nC \nps, \nD \nsed, \nE \nps in grep.\n5",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Računalniški sistemi vsebujejo poleg procesorja in glavnega pomnilnika tudi množico \nperifernih enot (vhodno/izhodnih enot). Dele sistemske programske opreme – programe, ki \nomogočajo uporabniku računalnika dostop do teh perifernih naprav, imenujemo: \nA \nvmesniki (interfaces); \nB \nslužnostni programi (utilities); \nC \nrazvrščevalniki (schedulers); \nD \ngonilniki (drivers); \nE \nravnalniki (handlers).",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2007_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Nepredznačeno binarno število 10011010011011 je v šestnajstiškem sistemu: \nA \n115154 \nB \n9A6C \nC \n39532 \nD \n269B \nE \nNič od naštetega.\n6 \nSKLOP PROGRAMSKI JEZIKI IN PROGRAMIRANJE  \nNALOGE IZBIRNEGA TIPA \nObkrožite pravilno trditev.",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Dana je deklaracija spremenljivke x. \nPascal: \nC: \nvar x : integer; \nint x; \nKateri od navedenih pogojev je resničen, če je vrednost spremenljivke x sodo število? \n (Vsi pravilni odgovori 2 točki, en pravilen odgovor 1 točka, že en nepravilen odgovor 0 točk) \nPascal: \nA \nif ((x div 2) = 0) \nB \nif ((x mod 2) = 0) \nC \nif ((x / 2) = 0) \nD \nif ((x and 1) = 0) \nE \nif ((x – 2) = 0)  \nC: \nA \nif ((x / 2) == 0) \nB \nif ((x % 2) == 0) \nC \nif ((x && 1) == 0) \nD \nif ((x & 1) == 0) \nE \nif ((x-2) == 0)",
+    "points": 1,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Dan je izsek programa: \nPascal: \nvar x : real; \nbegin \nx:=14.863; \nwrite(x:8:1); \nC: \nfloat x; \nx=14.863; \nprintf(\"%8.1f\",x); \nPosledica izvedbe stavka za izpis je: \n(opomba: vsak izpisani znak je predstavljen v eni celici) \nA \n1 \n4 \n. \n8 \n6 \nB \n1 \n4 \n. \n8 \nC \n1 \n4 \n. \n9 \nD \n1 \n4 \n. \n9 \nE \n1 \n4 \n. \n8 \n6 \n3\n7",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Imamo naslednjo zanko for: \nPascal: \nfor i:=7 to 9 do write(i); \nC: \nfor (int i=7;i<=9;i++) \n{ printf(\"%d\",i);} \nZapisati jo želimo z enakovredno zanko while. Ta je: \nPascal: \nA \nwhile i<=9 do write(i); \nB \ni:=7; \nwhile i<=9 do begin \nwrite(i); inc(i); end; \nC \ni:=7; \nwhile i<=9 do write(i);  \nD \ni:=7;  \nwhile i<9 do begin \nwrite(i); inc(i); end; \nE \ni:=7;  \nwhile i<=9 do begin \ninc(i); write(i); end; \nC: \nA \nwhile (i<=9) do { printf(\"%d\",i);} \nB \nint i=7;  \nwhile (i<=9) { \nprintf(\"%d\",i); i++; } \nC \nint i=7;  \nwhile (i<=9) printf(\"%d\",i);  \nD \nint =7;  \nwhile (i<9) { \nprintf(\"%d\",i); i++;} \nE \nint i=7;  \nwhile (i<=9) {i++; printf(\"%d\",i);}\n8",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Med osnovne zahteve za algoritem sodi: \n(Vsi pravilni odgovori 2 točki, en pravilen odgovor 1 točka, že en nepravilen odgovor 0 točk) \nA \nnedvoumnost, \nB \noptimalnost, \nC \nkončnost, \nD \nprijaznost do uporabnika, \nE \nskromnost glede porabe računalniških resursov (pomnilnika in procesorja).",
+    "points": 1,
+    "year": 2007,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2007_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Programski jezik Pascal oziroma C uvrščamo med: \nA \nprogramske jezike prve generacije, \nB \nprogramske jezike druge generacije, \nC \nprogramske jezike tretje generacije, \nD \nprogramske jezike četrte generacije, \nE \npoizvedovalne jezike.\n9",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Dana je naslednja deklaracija podatkovnega tipa: \nPascal: \ntype zapis1 = record \n  x: char; \n  y: integer; \nend; \ntype zapis2 = record \n  tab: array [1..10] of zapis1; \n  x : char; \nend; \nvar z : zapis2; \nC: \nstruct zapis1 { \n      char x; \n      int y; \n}; \nstruct zapis2 { \n  zapis1 tab [10]; \n  char x; \n}; \nzapis2 z; \nKatera izmed naslednjih prireditev se izvede uspešno? \n (Vsi pravilni odgovori 2 točki, en pravilen odgovor 1 točka, že en nepravilen odgovor 0 točk) \nPascal: \nA \nz.tab [1].x:='A'; \nB \nz.x:='A'; \nC \nz.zapis1 [1].x:='A'; \nD \nz.zapis2 [1].x:='A'; \nE \nz.x.tab [1]:='A'; \nC: \nA \nz.tab [1].x='A'; \nB \nz.x='A'; \nC \nz.zapis1 [1].x='A'; \nD \nz.zapis2 [1].x='A'; \nE \nz.x.tab [1]='A';\n10",
+    "points": 1,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Kaj izpiše naslednji program? \nPascal: \nvar n:integer; \nfunction ugani(var x:integer) : integer; \nvar i:integer; \nbegin \n  for i:=1 to 3 do inc(x); \n  ugani:=x; \nend; \nbegin \n  n:=50; \n  while (n<=60) do begin \n    write (ugani(n):3); \n  end; \nend. \nC: \n#include <stdio.h> \nint n; \nint ugani (int *x) \n{ \n  for (int i=1; i<4; i++) \n    (*x)++; \n  return *x; \n} \nvoid main() \n{ \n  n=50; \n  while (n<=60) { \n     printf(\"%3d\",ugani(&n)); \n  } \n} \nA \n53 56 59 62 \nB \n50 53 56 59 \nC \n50 51 52 53 54 55 56 57 58 59 60 \nD \n50 50 50 50 50 50 50 50 50 50 50 ...................... (neskončnokrat) \nE \n53 53 53 53 53 53 53 53 53 53 53 ...................... (neskončnokrat)",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Za algoritem Quicksort velja: \n(Vsi pravilni odgovori 2 točki, en pravilen odgovor 1 točka, že en nepravilen odgovor 0 točk) \nA \nPričakovani čas za urejanje tabel je velikostnega reda n*log2n. \nB \nV nekaterih primerih porabi za urejanje podatkov toliko časa kakor enostavne metode. \nC \nTemelji na porazdelitvi tabele na dva dela, v enem so le elementi, ki so večji od izbranega \nelementa, v drugem pa elementi, ki so manjši od izbranega elementa. \nD \nPrimeren je samo za urejanje podatkov na sekundarnem pomnilniku. \nE \nPričakovani čas za urejanje tabel je velikostnega reda n2.\n11 \nSKLOP  PROGRAMSKI JEZIKI IN PROGRAMIRANJE \nNALOGE S KRATKIMI ODGOVORI",
+    "points": 1,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Dan je podprogram izracun(): \nPascal: \nC: \nvar x:integer; \nint x; \nprocedure izracun(var x:integer); \nvoid izracun(int *x){ \nvar i:integer; \nint i; \nbegin \nfor(i=1;i<=5;i++) \n for i:=1 to 5 do x:=x+2*i \nx+=2*i; \nend; \n} \nbegin \nvoid main(){ \n   x:=2; izracun(x); \nx=2; izracun(&x); \nend. \n} \nKakšno vrednost ima celoštevilska spremenljivka x, ki je definirana v glavnem programu \noziroma v glavni funkciji, po izvršitvi gornjih stavkov? \n12",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Napišite podprogram, ki sešteje vsa negativna števila v tabeli t in vrne njihovo vsoto. Pri \npisanju podprograma uporabite naslednje deklaracije: \nPascal: \nType tab = array [1..50] of integer; \nFunction vsotanegativnih(var t:tab):integer; \nC: \nint vsotanegativnih(int t [50]); \nRešitev:\n13",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Kaj izpiše dani program? \nPascal: \nVar s : string [10]; \n    i : integer; \n    c : char; \nBegin \n  S:='matura'; \n  For i:=1 to length(s) div 2 do begin \n     c:=s [i]; \n     s [i]:=s [length(s)+1-i]; \n     s [length(s)+1-i]:=c; \n     writeln(s); \n  End; \nEnd. \nC: \n#include <string.h> \n#include <stdio.h> \nvoid main() \n{ \n     char s [10]=\"matura\"; \n     int i; \n     char c; \n     for (i=0;i<strlen(s)/2;i++) { \n         c=s [i]; \n         s [i]=s [strlen(s)-i-1]; \n         s [strlen(s)-i-1]=c; \n         printf(\"%s\\n\",s); \n     } \n} \nRešitev:\n14",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Deklarirana je enodimenzijska tabela t desetih znakov. Podatki so že vpisani. Napišite \nzaporedje stavkov, ki vsebino tabele premakne za k mest v desno. V izpraznjene elemente \nvpišite ' ' (presledek). \n Rešitev:\n15 \nSKLOP PROGRAMSKI JEZIKI IN PROGRAMIRANJE \nSTRUKTURIRANE NALOGE",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_20"
+  },
+  {
+    "num": 21,
+    "pola": "IP1",
+    "text": "a) \nNapišite podprogram, s katerim v novo tekstovno datoteko 'ZNAKI.TXT' vpišete 20 \nnaključnih velikih črk. Med njimi naj bo en presledek. V eni vrstici naj bo pet črk. V \npodprogramu tudi zaprite datoteko. \nGlava pascalskega podprograma: procedure ustvari; \nPrototip C funkcije: void ustvari(); \nb) Napišite podprogram, ki izpiše, kolikokrat se v datoteki 'ZNAKI.TXT' pojavi črka, ki ima \nASCII kodo n. Koda iskanega znaka naj bo argument podprograma. \nGlava pascalskega podprograma: procedure isci(n:integer); \nPrototip C funkcije: void isci(int n); \nRešitev:\n17",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_21"
+  },
+  {
+    "num": 22,
+    "pola": "IP1",
+    "text": "Deklarirana je dvodimenzijska tabela, ki ima pet vrstic in pet stolpcev realnih števil. V \ntabelo so vpisana le pozitivna realna števila. \na) \nNapišite podprogram, ki izpiše indeksa tistega diagonalnega elementa, ki ima največjo \nvrednost dela števila, ki je za decimalno piko. Pri reševanju naloge upoštevajte, da ima \ntabela dve diagonali. \nb) Napišite podprogram, ki preslika oziroma transponira vsebino tabele (zamenja vrednosti \nstolpcev in vrstic). \nRešitev:\n19",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_22"
+  },
+  {
+    "num": 23,
+    "pola": "IP1",
+    "text": "Napišite podprogram (Pascal: Procedure lovec(x:integer; y:integer);)oziroma \nfunkcijo (C: void lovec(int x, int y)), ki izpiše položaje, na katere lahko na prazni \nšahovnici prestavimo lovca, v naslednji obliki: \nPozicija pozx,pozy \nParametra x in y predstavljata zaporedno številko vrstice in stolpca, v katerem je lovec. Za \ntiste, ki ne poznate šaha, podajamo sliko: \n- B - belo polje, \n- C - črno polje, \n- : - pozicija lovca, \n- * - pozicija, kamor lahko prestavimo lovca. \nBC*C*CBC \nCBC:CBCB \nBC*C*CBC \nC*CBC*CB \n*CBCBC*C \nCBCBCBC* \nBCBCBCBC \nCBCBCBCB \nRešitev:\n20",
+    "points": 4,
+    "year": 2007,
+    "image": "assets/images/2007_IP1_p19.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_23"
+  },
+  {
+    "num": 24,
+    "pola": "IP1",
+    "text": "Napišite podprogram, ki vrne vsoto 1! + 2! + 3! + 4! + … + n!, n je argument podprograma. \nRešitev:",
+    "points": 4,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP1_24"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Pri prenosu elektronske pošte se standardni aplikacijski protokol SMTP uporabi za: \nA \nprenos od pošiljatelja do prejemnika pošte; \nB \nprenos od pošiljatelja do strežnika, ki prevzame pošiljateljevo pošto; \nC \nprenos od pošiljatelja do strežnika prejemnika pošte; \nD \nprenos od strežnika prejemnika pošte do prejemnika pošte; \nE \n prenos paketov na transportni plasti.",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2007_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Omrežni protokol določa: \nA \n»jezik« pravil in konvencij, po katerih komunicirajo omrežni elementi; \nB \nsamo format sporočila; \nC \nkateri omrežni element začne komunikacijo; \nD \nsamo dolžino sporočila; \nE \naplikacije, ki lahko komunicirajo.",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Maska omrežja (network mask) določa: \n(vsi pravilni odgovori 2 točki, en pravilen odgovor 1 točka, že en nepravilen odgovor 0 točk) \nA \nnajvečje možno število računalnikov v omrežju, \nB \nime podomrežja, \nC \nkateri del naslova IP se uporabi za omrežni naslov, \nD \ndel omrežja, do katerega nimamo dostopa, \nE \nkoliko računalnikov lahko uporablja isti naslov IP.",
+    "points": 1,
+    "year": 2007,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2007_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Protokol IP temelji na pošiljanju: \nA \nsporočil, \nB \ntočno določenega števila bajtov, \nC \ndatagramov, \nD \nniza binarnih vrednosti, v katerega vrivamo binarne vrednosti za sinhronizacijo, \nE \nniza bajtov, ki ga začenja in zaključuje bajt s samimi 1.\n4",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2007_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Ključ, ki funkcionalno opredeljuje vse druge atribute relacije, se imenuje: \nA \nsestavljeni ključ, \nB \nprimarni ključ, \nC \nkandidat za ključ, \nD \nzunanji ključ, \nE \nsekundarni ključ.",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2007_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Kateri od navedenih vrst informacijskih sistemov zahtevajo najvišjo stopnjo zanesljivosti \ndelovanja? \nA \nVodstveni IS. \nB \nEkspertni sistemi. \nC \nOdločitveni sistemi. \nD \nManagerski IS. \nE \nTransakcijski IS.",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Logična datoteka je \nA \nmnožica logičnih zapisov enakega tipa, \nB \nurejena množica povezanih zapisov, \nC \nmnožica podatkovnih elementov enakega tipa, \nD \nmnožica opisov zapisov, \nE \nmnožica opisov podatkovnih elementov.",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2007_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Odločitvena tabela ima tri pogoje. Pogoj A ima štiri vrednosti, pogoj B ima tri vrednosti in \npogoj C ima pet vrednosti. Število pravil odločitvene tabele je: \nA \n16 \nB \n12 \nC \n36 \nD \n60 \nE \n180\n5",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2007_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Kateri gradnik NI del modela entitete-razmerja (ER)? \nA \nEntiteta. \nB \nPovezava. \nC \nObjekt. \nD \nAtribut. \nE \nKardinalnost.",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2007_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Kateri element diagrama toka podatkov predstavimo s simbolom \n? \nA \nTok podatkov. \nB \nTerminator. \nC \nProces. \nD \nMinispecifikacijo. \nE \nZbirko podatkov.",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2007_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Katere tabele bodo nastale iz naslednjega diagrama entiteta razmerja (ERD)? \nKrožek\nVodi\nUčitelj\n(1,1)\n(0, n)\nRešitev:",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2007_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Diagram toka podatkov, ki smo ga naredili v fazi analize, v fazi načrtovanja pretvorimo v  \nRešitev:\n6",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2007_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Podatkovno bazo sestavljajo naslednje tabele: \nDobavitelj (DobaviteljID:N, ImeDob:A20, Naslovo:A50) \nIzdelek(IzdelekID:N, ImeIzdelka:A10, Barvao:A10) \nKatalog(DobaviteljIDÆDobavitelj:N,IzdelekIDÆIzdelek:N,Cena:N) \nKaj vrne naslednji izraz relacijske algebre?  \nπ[Izdelek.ImeIzdelka]Izdelek - π[Izdelek.ImeIzdelka](Izdelek|x|Katalog) \nRešitev:",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2007_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Naštejte vsaj dve nalogi, ki jih opravlja sistem za upravljanje podatkovnih baz (SUPB).",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2007_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Relacijsko podatkovno bazo (PB) sestavljata relaciji Delavec in Oddelek. Shemi relacij \nsta: \nDelavec(DelavecID, Priimek, Ime, OddelekIDÆOddelek, Poklic, Naslov, \nKraj, Izobrazba, Datumrojstva, Placa) \nOddelek(OddelekID, ImeOddelka, Naslov, Kraj) \na) \nZapišite SQL stavek, ki vrne abecedno urejen seznam vseh delavcev s poklicem \n'komercialist'. \nRešitev:\n7 \nb)  Zapišite SQL stavek, ki vrne imena oddelkov iz Ljubljane, ki imajo več kakor deset \nzaposlenih računalniških tehnikov (računalniški tehnik je poklic). \nRešitev:",
+    "points": 2,
+    "year": 2007,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2007_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Študent mora med študijem opraviti več izpitov iz več predmetov. Vsak izpit dela pri točno \ndoločenem učitelju, lahko tudi večkrat. Za vsak izpit se beležijo StudentID, UciteljID, \nPredmetID, datumizpita in ocena. \na) \nNarišite entitetnorelacijski (ER) diagram. \nb) Na osnovi entitetnorelacijskega (ER) digrama zapišite relacijske sheme relacij. \nRešitev: \na)",
+    "points": 2,
+    "year": 2007,
+    "image": "assets/images/2007_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2007_IP2_16"
+  }
+]

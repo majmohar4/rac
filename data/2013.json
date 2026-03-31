@@ -1,0 +1,403 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Naslednji diagram poteka pretvorite v program. \nSTART\nx < 5\nDA\nx < y\nx, y → \nDA\nSTOP\nNE\ny ←0\nx←0\ny ← y-3\nx = y\nNE\nDA\ny ← 2\ny ← y+3\nx ← x+1\nNE\n4",
+    "points": 2,
+    "year": 2013,
+    "image": "assets/images/2013_IP1_p03.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Z gnezdenimi zankami napišite del programa, s katerim dobimo izpis v tej obliki: \n1 \n22 \n333 \n4444 \n55555 \n 5",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Kako iz operacijskega sistema pokličemo izvajanje prevedenega javanskega programa, \nshranjenega v datoteki Naloga.class? \nA \nC:\\...>java Naloga \nB \nC:\\...>javac Naloga.java \nC \nC:\\...>execute Naloga.class \nD \nC:\\...> Javanskih programov ne moremo klicati iz konzole operacijskega sistema.",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Kaj izpiše navedeni program? \npublic class Primer1 { \n  public static void main(String[] args) { \n    int a=5,b=50; \n    while (b>a) { \n      b=b/2; \n      a=a*2; \n      System.out.println(\"a=\"+a+\" b=\"+b); \n    } \n  } \n}",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "V katerem stavku je zanesljivo vrednost pogoja true, če je vrednost spremenljivke a v intervalu \n[20..40]? \nA \nif ((a=<20)&&(a=>40)) {...} \nB \nif ((20<=a<=40)) {...} \nC \nif ((a>=20)&(a<=b)) {...} \nD \nif ((a>=20)&&(a<=40)) {...}",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Dana je tabela: \nint[][][] tabela = new int[2][4][6]; \nPri kateri prireditvi bo prišlo do napake? \nA \ntabela[0][0][0]=4; \nB \ntabela[1][3][5]=4; \nC \ntabela[2][4][6]=4; \nD \nVsi stavki se prevedejo in izvedejo brez napak. \n6",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Kaj izpiše navedeni program? \npublic class PrimerNizi { \npublic static void main(String[] args) { \n  String str1 = \"MATEMATIKA\"; \n  String str2 = str1.toLowerCase(); \n  System.out.print (\"Prvi niz: \" + str1); \n  System.out.println(\" Drugi niz: \" + str2); \n  } \n} \nA \nPrvi niz: matematika Drugi niz: MATEMATIKA \nB \nPrvi niz: MATEMATIKA Drugi niz: matematika \nC \nPrvi niz: matematika Drugi niz: matematika \nD \nPrvi niz: MATEMATIKA Drugi niz: MATEMATIKA",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Kaj izpiše navedeni program? \npublic class PrimerNizi1 { \n  public static void main(String[] args) { \n    String str1 = \"MATEMATIKA\"; \n    int i=0; \n    for (i=1;i<str1.length();i++){ \n    System.out.print (str1.charAt(i)+ \" \"); \n    } \n  } \n} \nA \nMATEMATIKA ATEMATIKA TEMATIKA EMATIKA MATIKA ATIKA TIKA  \nB \nM A T E M A T I K A \nC \nMMM AAA TTT EEE MMM AAA TTT III KKK AAA \nD \nA T E M A T I K A",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Kako deklariramo metodo, ki vrne vrednost največjega celoštevilčnega parametra med tremi?  \nA \npublic void max(); \nB \npublic int max (int x, int y, int z); \nC \npublic int max(int x, y, z); \nD \npublic void max(int x,int y,int z); \n7",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Deklarirana sta RazredEna in RazredDve: \npublic class RazredEna { \n  public int x = 3;  \n  public void izpis() {  \n    System.out.println(x);  \n  } \n} \npublic class RazredDve extends RazredEna { \n  public int x = 6;  \n  public void izpis() {  \n    System.out.println();  \n    System.out.println();  \n  } \n} \nDopolnite kodo tako, da se v prvi vrstici izpisa izpiše vrednost podatka x, ki pripada razredu \nRazredDve, v drugi vrstici izpisa pa vrednost podatka x, ki pripada razredu RazredEna.",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Napišite program, ki v tabelo (3 vrstice, 5 stolpcev) vpiše naključna števila po pravilu: \nče je vsota indeksov elementa tabele soda, se vpiše naključno število iz intervala [0..100], sicer \npa se vpiše naključno število iz intervala [100..200]. Primer vsebine tabele:  \n59 118 50 120 95  \n180 72 155 48 159  \n72 106 79 135 85\n8",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Kakšna je vsebina tabele podatki po izvedbi metode obdelava(podatki)? \npublic int[] podatki = { 10, 20, 30, 40, 50 }; \n... \npublic void obdelava(int[] tabela) { \n    int tmp = tabela[tabela.length - 1]; \n    for (int i = 1; i < tabela.length; i++) { \n         tabela[i] = tabela[i-1]; \n    } \n    tabela[0] = tmp; \n}",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Ustvariti želimo naključna cela števila iz intervala. \n13.1. Napišite program, ki generira naključna cela števila iz intervala [10..20], dokler je vsota \ngeneriranih števil manjša od 120. Ko vsota prvič preseže mejo 120, program izpiše \nvrednost vsote in tudi pri katerem zaporednem poskusu generiranja naključnega števila se \nje to zgodilo.  \nPrimer: če so generirana števila:  \n10 10 12 10 13 17 16 10 19 10 \nbo program izpisal: \nPo 10. stevilu je vsota 127\n9",
+    "points": 4,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Dano je zaporedje 10, –20, 30, –40, 50, –60, 70, –80, ...... \n14.1. Napišite program, ki v tabelo vpiše prvih n členov zaporedja. Število n naj bo naključno \nštevilo iz intervala [10..30]. Nato izpišite vsebino tabele. Med posameznimi elementi tabele \nnaj bo po en presledek.  \n 10",
+    "points": 4,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Stavek je sestavljen iz besed, ki so med seboj ločene s presledki. \n15.1. Napišite metodo, ki vrne število besed v stavku.",
+    "points": 4,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Na atletskem tekmovanju udeleženci skačejo v daljino trikrat. \n16.1. Ustvarite primerno strukturo, v katero bi lahko vnesli podatke o rezultatih posameznega \ntekmovalca (za vsakega tekmovalca: ime, priimek, državo, doseženo daljino pri treh \nskokih). Vse lastnosti morajo biti zasebne, metode za dostop do podatkov pa javne. Primer \nuporabe strukture: \nTekmovalec x=new Tekmovalec(\"Jaka\",\"Kos\",\"Slovenija\",7.60,7.88,7.72);\n11 \n 16.2. Denimo, da so podatki o tekmovalcih shranjeni v tabeli desetih elementov:  \nTekmovalec[] t=new Tekmovalec[10]; \nNapišite metodo, ki bo poiskala in izpisala najboljšega tekmovalca. Kot rezultat \nupoštevamo le najboljšega med tremi skoki. Primer zahtevane oblike izpisa: \nNajboljši tekmovalec je Peter Stumf Slovenija  \nNajboljši rezultat je 7.92 \nPri več enakih rezultatih, izpišite le enega.",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP1_16"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Pretvorite DEF16 v dvojiško število. \nA \n1011 1101 1111 \nB \n1111 1110 1101 \nC \n1101 1110 1111 \nD \n1011 1010 1111",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2013_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Pravilnostna tabela za logično operacijo OR je \nA \nVhod 1 \nVhod 2 \nIzhod \n0 \n0 \n1 \n0 \n1 \n0 \n1 \n0 \n0 \n1 \n1 \n1 \nB \nVhod 1 \nVhod 2 \nIzhod \n0 \n0 \n1 \n0 \n1 \n0 \n1 \n0 \n0 \n1 \n1 \n0 \nC \nVhod 1 \nVhod 2 \nIzhod \n0 \n0 \n0 \n0 \n1 \n0 \n1 \n0 \n0 \n1 \n1 \n1 \nD \nVhod 1 \nVhod 2 \nIzhod \n0 \n0 \n0 \n0 \n1 \n1 \n1 \n0 \n1 \n1 \n1 \n1 \n4",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2013_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Pri izvedbi prekinitve se najprej zgodi, da \nA \nprocesor prevzame s sklada povratni naslov. \nB \nperiferna enota sproži signal za prekinitveno zahtevo. \nC \nperiferna enota pošlje procesorju prekinitveni vektor. \nD \nprocesor ugotovi začetni naslov prekinitvenega strežnega programa.",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2013_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Dopolnite stavek, ki se nanaša na izvajanje programa v zbirnem jeziku. \nNaslov naslednjega ukaza se shrani v . \nKako imenujemo podatkovno strukturo, ki nam omogoča uporabo nazadnje shranjenega podatka  \n(LIFO)?",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2013_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Pri takojšnjem naslavljanju je operand \nA \nkonstanta. \nB \nspremenljivka. \nC \nnaslov. \nD \nizraz.",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Navidezni pomnilnik omogoča \nA \nda se program izvaja z diska namesto iz glavnega (primarnega) pomnilnika. \nB \npremeščanje programov po disku. \nC \nizvajanje programov, ki presegajo velikost glavnega (primarnega) pomnilnika, večopravilnost \nin premeščanje programov po glavnem (primarnem) pomnilniku. \nD \nsimulacijo oziroma navidezno izvajanje programov.",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2013_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "V imeniku c:/vaje/test imamo  datoteko besedilo.doc . Napišite ukaz, ki je potreben, če \nsmo v imeniku c:/users in želimo brisati omenjeno datoteko. \n 5",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2013_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Katera od naštetih mask za pravice datotek povzroči izpis pravic v obliki   \nrw-rw-r-x? \nA \n225 \nB \n665 \nC \n640 \nD \n440",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Obkrožite protokol, ki je definiran na drugi (omrežni plasti) modela TCP/IP. \nA \nFTP (File Transfer Protocol). \nB \nTCP (Transmission Control Protocol). \nC \nHTTP (Hypertext Transfer Protocol). \nD \nIP (Internet Protocol).",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2013_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Pri kateri omrežni topologiji nastajajo kolizije (trki)? \nA \nDrevo. \nB \nVodilo. \nC \nObroč. \nD \nZvezda.",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2013_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Dan je naslov IP 101.54.255.47 /13. Izračunajte naslov omrežja.",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2013_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Na stikalo imamo priključen računalnik, ki ima nastavljen naslov IP 192.168.0.2 in masko \n255.255.255.0. Kateri naslov IP lahko dodelimo novemu računalniku, ki mora biti v isti skupini \nkakor obstoječi računalnik? \nA \n192.168.1.3 \nB \n192.167.0.3 \nC \n192.168.0.3 \nD \n191.168.0.3 \n6",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2013_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Katere trditve so pravilne za dani diagram ER podatkovne baze? (Več pravilnih trditev.) \nA \nVsakemu vozilu je dodeljeno natanko eno parkirno mesto. \nB \nVsakemu parkirnemu mestu je dodeljeno natanko eno vozilo. \nC \nVozilu je lahko dodeljenih več parkirnih mest.  \nD \nEnemu parkirnemu mestu je lahko dodeljenih več vozil.",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2013_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "V podatkovni bazi je shranjena relacija Placilo(PlaciloID:N, DatumPlacila:D, \nZnesek:N, Opombeo:A20). \nDopolnite stavke. \nPrimarni ključ relacije Placilo je [PlaciloID | DatumPlacila | \nZnesek | Opombe | relacija nima primarnega ključa.] \nOpcijski atribut relacije Placilo je [PlaciloID | DatumPlacila | \nZnesek | Opombe | relacija nima opcijskega atributa.]",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2013_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Na katerem nivoju diagrama toka podatkov nastopa obvezno le en proces? \nA \nNa vseh nivojih diagrama toka podatkov. \nB \nNa najnižjih nivojih diagrama toka podatkov. \nC \nNa poljubnem nivoju diagrama toka podatkov. \nD \nNa kontekstnem nivoju diagrama toka podatkov.",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2013_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "V osnovni tabeli ASCII je za kodiranje enega znaka uporabljenih bitov, v razširjeni  \npa bitov.  \n 7",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Splošno računalništvo",
+    "id": "2013_IP2_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP2",
+    "text": "S katero ključno besedo se v stavku SELECT odstranijo podvojeni zapisi iz odgovora? \nA \nUNIQUE \nB \nDISTINCT \nC \nORDER BY \nD \nCOUNT",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2013_IP2_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP2",
+    "text": "V diagramu toka podatkov je dovoljena neposredna povezava \ndveh procesov: \nDA \nNE \nprocesa in zbirke podatkov:   \nDA \nNE",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2013_IP2_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP2",
+    "text": "Osnovni namen primarnega ključa tabele je \nA \nenolična identifikacija posamezne vrstice tabele. \nB \nenolična identifikacija posameznega stolpca tabele. \nC \nenolična identifikacija posamezne tabele. \nD \npovezovanje tabel.",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2013_IP2_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP2",
+    "text": "V kateri fazi razvoja informacijskega sistema (IS) je smiselno začeti uporabljati orodja CASE? \nA \nPri načrtovanju IS. \nB \nPri implementaciji IS. \nC \nPri preizkušanju (testiranju) IS. \nD \nPri prenosu IS v ciljno okolje.",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Informacijski sistemi",
+    "id": "2013_IP2_20"
+  },
+  {
+    "num": 21,
+    "pola": "IP2",
+    "text": "Skrbnik podatkovne baze (administrator) skrbi za \nA \nvnos podatkov. \nB \nobdelavo podatkov. \nC \nizdelavo arhivskih kopij. \nD \nizpis podatkov. \n8",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP2_21"
+  },
+  {
+    "num": 22,
+    "pola": "IP2",
+    "text": "Katera datotečna organizacija je performančno najslabša za iskanje nekega zapisa po ključu \nzapisa? \nA \nZaporedna. \nB \nNeurejena. \nC \nRazpršena. \nD \nDatotečna organizacija ne vpliva na čas, potreben za iskanje enega zapisa.",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2013_IP2_22"
+  },
+  {
+    "num": 23,
+    "pola": "IP2",
+    "text": "Dan je model ER podatkovne baze: \n23.1. Zapišite stavek SQL DDL, s katerim ustvarite tabelo Kraj. \n 23.2. Napišite stavek SQL, ki vrne število hotelov v Ljubljani.  \n 9",
+    "points": 2,
+    "year": 2013,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2013_IP2_23"
+  },
+  {
+    "num": 24,
+    "pola": "IP2",
+    "text": "Na diagramih toka podatkov imamo atomarni proces Prijavanaizpit. \n24.1. Za omenjeni proces izdelajte minispecifikacijo z odločitveno tabelo. Kot vhod v proces \ndobimo število dosedanjih opravljanj izpita in podatek, ali je kandidat že opravil seminarsko \nnalogo. Kot izhod dobimo podatkovni tok PrijavaOK in Potrebnakomisija. \nUpoštevajte, da je prijava uspešna le, če je kandidat opravil seminarsko nalogo. Če je izpit \nopravljal več kot trikrat, pa je potrebna komisija.",
+    "points": 4,
+    "year": 2013,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2013_IP2_24"
+  }
+]

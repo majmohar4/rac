@@ -1,0 +1,402 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Končnica imena datoteke, v kateri je shranjena izvorna koda programa, napisanega v Javi, je  \n .",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Ali je treba pri deklaraciji spremenljivk te tudi inicializirati? \nA \nDa, pri deklaraciji vseh spremenljivk moramo te tudi inicializirati. \nB \nNe, inicializirati je treba le numerične spremenljivke. \nC \nNe, inicializacijo lahko naredimo pozneje. \nD \nNe, inicializacije sploh ni treba narediti.",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "V programu imamo deklarirano celoštevilsko spremenljivko x z vrednostjo 10. Kateri izmed \nizrazov se ovrednoti na vrednost true? \nA \nx < 0 \nB \nx % 2 == 0 \nC \nx != 10 \nD \nx == 5",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Kateri izmed naslednjih blokov stavkov se uspešno prevede in izvede? \nA \n{Integer a = Integer(3); System.out.println(a);} \nB \n{Integer a = new(3); System.out.println(a);} \nC \n{Integer a = new Integer(3); System.out.println(a);} \nD \n{Integer a = int(3); System.out.println(a);}",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Splošno računalništvo",
+    "id": "2020_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Kaj izpiše navedeni programski stavek? \nSystem.out.println(); \nA \n2 \nB \n1 \nC \n2.333333 \nD \nV sivo polje ne pištie.",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "V programskem jeziku Java želimo ustvariti spremenljivko x z vsebino \"Lahka naloga\".  \nS katerima stavkoma to dosežemo? \nA \nString x = \"Lahka naloga\"; \nB \nString x = new String(\"Lahka naloga\"); \nC \nString x = new String('Lahka naloga'); \nD \nString x(\"Lahka naloga\");",
+    "points": 2,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Dan je ta stavek for: \nfor (int i=1; i<5; i++) System.out.print(i); \nKatero zaporedje stavkov povzroči enak izpis kakor zanka for?  \nA \ni=0; \n   while (i<5)  \n      System.out.print(++i); \nB \ni=0; \n   do  \n      System.out.print(++i); \n   while (i<5); \nC \ni=0; \n   do \n      System.out.print(++i); \n   while (++i<5); \nD \ni=0; \n   while (++i<5) { \n      System.out.print(i); \n   }",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Dan je program: \npublic class DosegSpremenljivk { \n  public static void main(String[] args) { \n    int x=3; \n    { \n      int z=x+1; \n      { \n        int y= z+1; \n        System.out.println(\"Prvi izpis\" + x + \" \" + y + \" \" + z); \n      } \n      System.out.println(\"Drugi izpis\" + x + \" \" + y + \" \" + z); \n    } \n    System.out.println(\"Tretji izpis\" + x + \" \" + y + \" \" + z); \n  } \n} \nObkrožite vse pravilne trditve: \nA \nProgram se bo prevedel in izvedel brez napak. \nB \nNapaka se pojavi pri prvem izpisu. \nC \nNapaka se pojavi pri drugem izpisu. \nD \nNapaka se pojavi pri tretjem izpisu.",
+    "points": 2,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Po izvedbi navedenega zaporedja stavkov: \nint a=8; int b=16; \nlogični izraz ((a%b==0) || (b%a==0)) vrne \nA \ntrue \nB \nfalse \nC \nprogramsko napako",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2020_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Deklarirano imamo spremenljivko tabela.  \nfloat[][] tabela=new float[10][3]; \nKaj izpiše navedeni stavek? \nSystem.out.println(tabela.length); \nA \n10,3 \nB \n10 \nC \n3 \nD \n3,10 \nV sivo polje ne pištie.",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Imamo enodimenzionalno tabelo z imenom meritev z vsebino: \n5 \n3 \n1 \n2 \n7 \n8 \nKakšna bo vsebina tabele po izvedbi navedenega algoritma, če za vrednost spremenljivke nova \nvpišemo 9 in je vrednost spremenljivke n enaka 4?",
+    "points": 3,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Kaj in kako se izpiše med izvajanjem naslednjega zaporedja stavkov? \nint i=0; \n   do { \n      int j=0; \n      while (j<=i){ \n         System.out.print(i); \n         j++; \n      } \n      System.out.println(); \n      i++; \n   } while (i<4);",
+    "points": 2,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Celo pozitivno število je popolno, če je enako vsoti vseh svojih deliteljev, razen števila samega. \nTako je na primer število 6 popolno. Delitelji števila 6 so 1, 2, 3 in 6. Vsota deliteljev števila 6 brez \nštevila samega je enaka 1 + 2 + 3 = 6.  \nNapišite metodo jePopolno, ki za dano celo pozitivno število vrne true, če je število popolno, \nin false, če ni popolno.\nV sivo polje ne pištie.",
+    "points": 3,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Za vrednost naključnega celega števila iz intervala [4..16] želimo izpisati črto dolžine izbranega \nštevila. Če je vrednost števila liha, se oblika črte izpiše z znakom $, sicer z znakom &. Primer \nizpisa: \nČe je število 6, bo izpis: \n&&&&&& \nČe pa je število 5, bo izpis: \n$$$$$ \nNapišite metodo, ki bo povzročila ustrezen izpis.",
+    "points": 3,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Kaj in kako izpiše naslednji del programa? \npublic static void main(String [] args){ \n   for(int i = 0; i <=3; i++){ \n      for (int j=5; j>=i;j--){ \n         System.out.print(j);} \n      System.out.println(); \n   } \n}",
+    "points": 3,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Kaj izpiše naslednji program? \npublic class KajIzpise \n{ \n   public static void main(String[] args)  \n   { \n      int stevec=1; \n      int rezultat=1; \n      while (stevec<=5) \n      { \n         rezultat=rezultat+podvoji(rezultat); \n         stevec=stevec+1; \n         System.out.println(rezultat); \n      } \n   } \n   private static int podvoji(int n) \n   { \n      return 2*n; \n   } \n} \n V sivo polje ne pištie.",
+    "points": 3,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Kaj izpiše naslednji program? \npublic class KajIzpise1 { \n   public static void main(String[] args) { \n   String s= \"radio\"; \n   for (int i = s.length()-1; i>=0; i--){ \n      System.out.print(s.charAt(i)); \n      } \n   } \n}",
+    "points": 2,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Deklariran je razred: \npublic class Primer { \n   private double c;  \n   public double preberi(){ \n      return c; \n   } \n} \nKaj je posledica izvedbe naslednjega programskega stavka? \nPrimer r = new Primer();",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Večkratnik števila je število, ki ga dobimo kot produkt števila s katerim koli naravnim številom. \n19.1. Deklarirajte razred Veckratniki. Razred naj ima celoštevilski podatek x in celoštevilsko \nkonstanto z, ki ji priredite vrednost 12. Razred naj ima konstruktor, s katerim se inicializira \nvrednost podatka x z vrednostjo parametra konstruktorja. Razred naj ima še metodo \nizpis, ki izpiše prvih z večkratnikov števila x.\n19.2. Napišite glavni program, ki naj vsebuje stavek, s katerim ustvarite objekt razreda \nVeckratniki, in podatek x postavite na vrednost 7. Nad objektom izvedite metodo \nizpis.",
+    "points": 3,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Točka v 3D-prostoru je določena s tremi koordinatami (realnimi števili) x, y in z.  \n20.1. Deklarirajte razred Tocka3D. Napišite konstruktor brez parametrov, ki točko postavi na \nkoordinate (0,0,0), in konstruktor, ki nastavi koordinate točke na dane vrednosti. Za razred \nTocka3D napišite še metodo, ki izračuna razdaljo točke od izhodišča koordinatnega \nsistema. Formula za izračun razdalje točke s koordinatami (x,y,z) od izhodišča \nkoordinatnega sistema je \n2\n2\n2\nx +y +z .\nV sivo polje ne pištie. \n 20.2. Iz razreda Tocka3D izpeljite razred PoimenovanaTocka3D, ki ima poleg koordinat še ime \ntočke.",
+    "points": 3,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP1_20"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Pretvorite število 3F8(16) v osmiški sestav:",
+    "points": 2,
+    "year": 2020,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2020_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Vzroka za fragmentacijo (razdrobljenost) diska sta   \nA \ndodeljevanje nepopolno izkoriščenih sektorjev. \nB \nodstranjevanje datotek. \nC \nrazlična velikost datotek. \nD \nuporaba seznamov. \nE \nzaščita datotek.",
+    "points": 2,
+    "year": 2020,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2020_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Razporedite postopke ob zagonu računalnika v pravilni vrstni red. \nZagon grafičnega vmesnika \nPOST (Power on self test) \nPrenos OS v primarni pomnilnik",
+    "points": 3,
+    "year": 2020,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2020_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Za predstavitev nepredznačenih celih števil želimo uporabiti 10 bitov. Koliko je največje \nnepredznačeno celo število v takšni predstavitvi? \nA \n1024 \nB \n1023 \nC \n511 \nD \n2047",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2020_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Kaj naredi ukaz pwd v ukazni lupini Linux-a? \nA \nIzpiše ime delovnega imenika. \nB \nSpremeni trenutni delovni imenik. \nC \nNatisne datoteke v razširjeni obliki. \nD \nRazbere URL-naslov datoteke. \nV sivo polje ne pištie.",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2020_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Operacijski sistem pozna preimenovanje datotek. Kaj se dogodi ob preimenovanju datoteke?  \nA \nDatoteka se kopira, nova datoteka dobi novo ime, stara datoteka je še vedno dosegljiva pod \nprejšnjim imenom. \nB \nSpremeni se ime v seznamu datotek. \nC \nSpremeni se ime v glavi datoteke. \nD \nOperacijski sistem v resnici ne pozna ukaza za preimenovanje. To je poseben primer \nkakšnega drugega ukaza.",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2020_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Kateri izmed naštetih nalog sta nalogi operacijskega sistema? \nA \nOmogoča prevajanje javanskih programov. \nB \nUpravljanje vhodno-izhodnih naprav. \nC \nSkrb za protivirusno zaščito. \nD \nUpravljanje datotečnih sistemov.",
+    "points": 2,
+    "year": 2020,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2020_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Kaj določa URL? \nA \nIme mojega računalnika na internetu. \nB \nSamo storitev, ki jo želim na gostitelju. \nC \nIP-naslov računalnika, s katerim se želim povezati. \nD \nKje točno je na internetu informacija, ki jo želim videti, in kateri protokol bomo uporabili za \ndostop do nje.",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2020_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Kateri program je namenjen poročanju o odzivanju računalnika na nekem IP-naslovu? \nA \ntraceroute \nB \nttcp \nC \nnetstart \nD \nping",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2020_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Kateri nalogi sta nalogi usmerjevalnika? \nA \nUsmerjanje paketov. \nB \nShranjevanje paketov. \nC \nDelitev omrežij na podomrežja. \nD \nPošiljanje paketov po najdaljši možni poti.",
+    "points": 2,
+    "year": 2020,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2020_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Katera standardna protokola spadata na aplikacijsko plast komunikacijskega modela?  \nA \nSMTP (Simple Mail Transfer Protocol) \nB \nUDP (User Datagram Protocol) \nC \nCSMA/CD (Carrier Sense Multiple Access/Collision Detection) \nD \nIP (Internet Protocol) \nE \nHTTP.",
+    "points": 2,
+    "year": 2020,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2020_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Analiza uporabnikovih potreb je pokazala, da so bodoči uporabniki IS-trgovine prodajalci Marko, \nJure in Peter ter skladiščnika Andrej in Žiga. Obkrožite črki pred akterji diagrama UseCase. \nA \nMarko, Jure, Peter, Andrej in Žiga \nB \nProdajalec \nC \nMarko in Andrej \nD \nUporabnik \nE \nSkladiščnik",
+    "points": 2,
+    "year": 2020,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2020_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Dana je relacija Izdelek(IzdelekID:N, Ime:A20, Cena:N, Opombao:A20). Dopolnite \nstavek SELECT tako, da vrne imena izdelkov, pri katerih je podatek Opomba prazen. \nSELECT FROM Izdelek WHERE  ;",
+    "points": 2,
+    "year": 2020,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2020_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Kaj določa fizični sloj v arhitekturi ANSI/SPARC podatkovne baze? \nA \nDoloča povezave med podatki. \nB \nDoloča uporabniške poglede na podatke. \nC \nDoloča fizični način shranjevanja in dostopa do podatkov. \nD \nDoloča vsebino podatkovne baze.",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2020_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Dana je relacija Vozilo(RegSt:A10, Znamka:A20, Letnik:N, Lastnik:A20). Zapišite \nstavek SQL, ki izpiše vsa vozila letnik 2013. \n V sivo polje ne pištie.",
+    "points": 2,
+    "year": 2020,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2020_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Tabela Ponudba je ustvarjena s stavkom \nCREATE TABLE Ponudba(PonudbaID int not null primary key, \nVsebina varchar(10) not null, \nOpis varchar(200), \nKategorijaID int not null references Kategorija(KategorijaID)); \nObkrožite D, če je odgovor da, in N, če je odgovor ne. \nVrednost podatka KategorijaID se v tabeli Ponudba ne more ponoviti. \nD \nN \nVrednost podatka PonudbaID se v tabeli Ponudba ne more ponoviti. \nD \nN \nTabelo Kategorija lahko izbrišemo iz PB ne glede na to, da obstaja tabela Ponudba. \nD \nN",
+    "points": 3,
+    "year": 2020,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2020_IP2_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP2",
+    "text": "Na diagramu Class je simbol  \nPrviDel \nDrugiDel \nTretjiDel() \nDopolnite stavke z eno izmed besed: razred, akter, metoda, objekt, primerek, atribut, tabela. \nA \nPrviDel je  . \nB \nDrugiDel je  . \nC \nTretjiDel() je  .",
+    "points": 3,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP2_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP2",
+    "text": "S katerim programom se izdelujejo diagrami UML? \nA \nZ orodjem CASE. \nB \nS prevajalnikom. \nC \nS tekstovnim urejevalnikom. \nD \nZ urejevalnikom HTML.",
+    "points": 1,
+    "year": 2020,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2020_IP2_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP2",
+    "text": "Relacijsko podatkovno bazo sestavljajo te relacije: \n− \nKupec(IDKupca:N, Naziv:A20, Naslov:A30) \n− \nIzdelek(IDIzdelka:N, Naziv:A20, Opis:A100, Cena:N) \n− \nNakup(IDKupca:N->Kupec, IDIzdelka:N->Izdelek, DatumNakupa:D) \n19.1. Napišite stavek SQL, ki izpiše vse različne nazive kupcev izdelka, za katerega je  \nIDIzdelka = 2. \n 19.2. Napišite stavek SQL, ki izpiše skupno ceno vseh izdelkov, kupljenih na datum 24. 12. 2013. \n V sivo polje ne pištie.",
+    "points": 2,
+    "year": 2020,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2020_IP2_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP2",
+    "text": "V podatkovni bazi hranimo te podatke o gradivu: naziv, vrsta in opis. O datotekah hranimo te \npodatke: pot, ime in velikost. Eno gradivo lahko vsebuje več datotek, vendar ena datoteka lahko \npripada samo enemu gradivu. \n20.1. Izdelajte diagram entiteta-razmerje za shrambo gradiv. Na diagramu ER prikažite vse \nentitetne tipe (s pripadajočimi atributi), označite primarne in tuje ključe, relacije in števnosti \nrelacij.",
+    "points": 4,
+    "year": 2020,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2020_IP2_20"
+  }
+]

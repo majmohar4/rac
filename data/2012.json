@@ -1,0 +1,405 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Spremenljivka x je deklarirana in inicializirana s stavkom: \nint x = 36; \nČe želimo vrednost spremenljivke x spremeniti na 12, lahko uporabimo stavek: \nA \nx % 3; \nB \nx = x % 3; \nC \nx / 3; \nD \nx / = 3; \nE \nx = (x / 3) % 3;",
+    "points": 2,
+    "year": 2012,
+    "solution": "1 4 1 3 1 2",
+    "solution_points": 5,
+    "topic": "Programiranje",
+    "id": "2012_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Za deklaracijo konstant v programskem jeziku Java uporabljamo rezervirano besedo: \nA \nstatic. \nB \nfinal. \nC \nconst. \nD \ndefine. \nE \nprogramski jezik Java ne podpira konstant.",
+    "points": 2,
+    "year": 2012,
+    "solution": "2 4 2 3",
+    "solution_points": 5,
+    "topic": "Programiranje",
+    "id": "2012_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Katere trditve veljajo za zanko do while? \nA \nPogoj se preverja na začetku zanke. \nB \nStavki zanke se izvajajo, dokler je pogoj resničen. \nC \nPogoj se preverja na koncu zanke. \nD \nStavki v telesu zanke se nikoli ne izvedejo. \nE \nČe je pogoj že prvič neresničen, se stavki v telesu zanke vsaj enkrat izvedejo. \n4",
+    "points": 2,
+    "year": 2012,
+    "solution": "3 4\n4 5\nPravilno zapisana tretja vrstica\nprogramske kode:\nSystem.out.print(a+\" \"+b+\" \");\nprvi dve vrstici 1 točka,\nvse vrstice izpisa 1 točka,\nče je kandidat ugotovil napako v sintaksi,\n2 točki.\n13\n4\n\npublic static void nova(int[] tab1)\n{     int mest=0, stevec=0;\nint[] tab2=new int[10];\nfor (int i = 0; i < tab1.length; i++)\n{\nmest = tab1[i];\nif (mest==0) tab2[i]= 1;\nelse {\nstevec=0;\nwhile (mest != 0)\n{\nif (mest / 10 != 0)\n{\nmest = mest /10;\nstevec ++;\n}\nelse\n{    tab2[i] = stevec;\nbreak;\n}\n}}\n}\n}\nKreiranje tabele 1 točka,\nstavek for 1 točka,\nstavek while 1 točka,\nvejitev (if) 1 točka.",
+    "solution_points": 5,
+    "topic": "Programiranje",
+    "id": "2012_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Po izvedbi naslednjega dela programa je vrednost spremenljivke x: \nint x = - 4; \nif (x < 0) \n{ \n   if (x % 2 == 0) \n   { \n      x = x + 2; \n   } \n      x = 2; \n} \nA \n–4 \nB \n–2 \nC \n0 \nD \n2 \nE \n4",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Začetek deklaracije razreda: class Tocka extends Objekt pomeni, da: \nA \nimata razred Tocka in razred Objekt skupne lastnosti in skupne metode. \nB \nrazred Objekt podeduje vse lastnosti in metode razreda Tocka. \nC \nrazred Tocka podeduje vse lastnosti in metode razreda Objekt. \nD \nso vrednosti vseh skupnih lastnosti razreda Tocka in Objekt enake. \nE \nima razred Tocka le tiste lastnosti in metode, ki niso zajete v razredu Objekt.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Imamo tabelo 10000 imen. Podatki v njej so urejeni v naraščajočem vrstnem redu. Kateri iskalni \nalgoritem je v povprečnem primeru najhitrejši? \nA \nAlgoritem zaporednega iskanja. \nB \nAlgoritem linearnega iskanja. \nC \nAlgoritem naključnega iskanja. \nD \nAlgoritem binarnega (dvojiškega) iskanja. \nE \nHitrost vseh navedenih algoritmov je enaka. \n5",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Kaj je rezultat operacije 2.45 + \"1.55\"? \nA \nNiz \"2.451.55\". \nB \nRealno število 4.00. \nC \nCelo število 4. \nD \nNiz \"4.00\". \nE \nNič od navedenega.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Za obravnavo izjem v programskem jeziku Java uporabljamo: \nA \nblok stavkov while. \nB \nblok stavkov try. \nC \nblok stavkov exception. \nD \nblok stavkov debug. \nE \nblok stavkov for.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Dano imamo deklaracijo tabele znakov. \nchar[] tab=new char[10]; \nZ uporabo poljubne zanke napišite del programa, ki v obstoječo tabelo vpiše naslednje črke: \nA  C  E  G  I  K  M  O  Q  S \n 6",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Napišite stavek oziroma zaporedje stavkov, ki izpiše/izpišejo true, če ima tabela int[] več kot \npet elementov, sicer naj izpiše false.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Naštejte najmanj pet primitivnih (osnovnih) podatkovnih tipov v programskem jeziku Java.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Kaj in kako se izpiše med izvajanjem naslednjega zaporedja stavkov: \nfor (int a=0; a<5; ++a){ \n  for (int b=5; b>a; --b) \n    System.out.print(a+\" \"b+\" \"); \n  System.out.println(); \n} \n 7",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Imamo enodimenzijsko tabelo desetih celih števil. \n13.1. Napišite metodo, ki ustvari novo enodimenzijsko tabelo tab2[] tako, da v obstoječi tabeli \ntab1[] desetih celih števil prešteje število števk posameznega števila v njej. (Primer: če je \ntab1[1] = 142, potem dobimo tab2[1] = 3). \n8",
+    "points": 4,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Imamo razred Pica. Vsaka pica je sestavljena iz testa, paradižnikove omake in dodatkov, ki so \nodvisni od tipa pice. Primer: osnova kraške pice je testo s paradižnikovo omako, na katerem so \ndodatki (pršut, domača klobasa, sir, čebula). Vsi dodatki, vključno s testom in paradižnikovo \nomako, so označeni s številom kalorij. Tako nam atribut int testo pove, koliko kalorij ima \ntesto. \nImamo tudi tunino pico, ki ima poleg testa s paradižnikovo omako še tuno, sir in česen. \n14.1. Napišite razred Pica, ki ima lastnosti testo in paradiznikovaomaka. Napišite tudi \ndva podrazreda: KraskaPica in TuninaPica. Oba podrazreda naj dedujeta lastnosti \ntesto in paradiznikovaomaka. Napišite metodo vrnistevilokalorij, ki za \nvsak tip pice vrne njeno energijsko vrednost, izraženo v kalorijah. \n10",
+    "points": 4,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "V tekstovni datoteki so zapisana cela števila, vsako v svoji vrstici. \n15.1. Napišite program, ki iz ukazne vrstice prebere ime tekstovne datoteke, v kateri so napisana \ncela števila, vsako v svoji vrsti. Program naj prebere in sešteje ta števila ter vsoto izpiše na \nzaslon. Če datoteka ne obstaja, naj izpiše sporočilo \"Datoteka ne obstaja\". \n11",
+    "points": 4,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Pravokotnik ima dva podatka: celi števili a in b, ki predstavljata dolžino stranic a in b.  \n16.1. Deklarirajte razred Pravokotnik. Napišite konstruktor brez parametrov, ki nastavi obe \nstranici na 1, in še en konstruktor, ki nastavi dolžini stranic na dani vrednosti. Za razred \nPravokotnik napišite metodo, ki vrne površino pravokotnika (a*b), in metodo, ki izpiše \npodatke o pravokotniku v naslednji obliki: \"dolžina stranice a = nnn  dolžina \nstranice b=kkk  površina =mmm\". \n16.2. Iz razreda Pravokotnik izpeljite razred Kvader, ki ima poleg stranic a in b še stranico c \n(višino). Napišite dva konstruktorja: prvi konstruktor naj vse stranice postavi na 1, drugi pa \nna dane vrednosti. Razred Kvader naj ima metodi površina in volumen. Volumen \nkvadra dobimo po formuli a*b*c, površino kvadra pa po formuli 2*a*b + 2*a*c+2*b*c. \nNapišite še metodo, ki za Kvader izpiše podatke v naslednji obliki: \"dolžina stranice \na=nnn  dolžina stranice b=kkk  površina = ppp  dolžina stranice \nc=zzz  volumen kvadra=vvv\".",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP1_16"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Med dele računalnika sodi tudi RAM, ki ga uvrščamo med: \nA \nzunanje pomnilnike. \nB \nvhodne enote. \nC \nnotranje pomnilnike. \nD \nizhodne enote. \nE \nprocesorje.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2012_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Katerega od registrov ne najdemo v procesorju? \nA \nStatusni register. \nB \nSeštevalni register. \nC \nAkumulator. \nD \nŠtevni register. \nE \nSkladovni kazalec.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2012_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Katero število, zapisano v šestnajstiškem sistemu, ustreza desetiškemu številu 250? \nA \nFF \nB \n15 \nC \nAF \nD \nFA \nE \n150",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Splošno računalništvo",
+    "id": "2012_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Pri izvedbi maskirane vektorske prekinitve se najprej zgodi, da \nA \nprocesor prevzame s sklada povratni naslov. \nB \nperiferna enota pošlje procesorju prekinitveni vektor. \nC \nprocesor ugotovi začetni naslov prekinitvenega strežnega programa. \nD \nprocesor začne izvajati prekinitveni strežni program. \nE \nperiferna enota sproži signal za prekinitveno zahtevo. \n4",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2012_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Pomnilna hierarhija pomeni razvrstitev pomnilnikov po hitrosti dostopa do podatkov. Obkrožite \npravilno razporeditev od najpočasnejših do najhitrejših: \nA \npredpomnilnik, registri, disk. \nB \nregistri, predpomnilnik, primarni pomnilnik, disk. \nC \npredpomnilnik, primarni pomnilnik, registri, disk. \nD \ndisk, primarni pomnilnik, predpomnilnik, registri. \nE \ndisk, predpomnilnik, primarni pomnilnik.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2012_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Za klic oddaljene procedure je značilno, da \nA \nse uporablja le v internetnem omrežju. \nB \nuspešno nadomešča tudi klic lokalne procedure. \nC \nse zahteva s parametri prenese s pomočjo štrclja in jedra operacijskega sistema \noddaljenemu procesu. \nD \nse procedura z oddaljenega računalnika prenese na lokalni računalnik, kjer se izvede. \nE \nje mehanizem za izvedbo vgrajen v procesor, podobno kakor za klic lokalne procedure.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2012_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Za kopiranje datoteke v operacijskem sistemu Linux se uporablja ukaz: \nA \ncp \nB \nrm \nC \ncopy \nD \ncd \nE \nmove \n5",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2012_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Katero zaporedje ukazov izračuna dvojiški komplement števila, danega na naslovu $3000: \nldab – naloži vsebino v register b; \nldaa – naloži vsebino v register a; \ncomb – komplementira vrednosti bitov registra b; \naba – prišteje vsebino registra b k vsebini registra a; \nincb – vsebino registra b poveča za 1; \ninca – vsebino registra a poveča za 1. \nA \nldab     #$3000 \ncomb \nB \nldab     $3000 \ncomb \nC \nldab     $3000 \ncomb \naba \nD \nldab     $3000 \ncomb \nincb \nE \nldaa     $1000 \ncomb \ninca",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2012_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "IP-naslov uporabljamo za: \nA \nločevanje uporabnikov, ki se priključijo na internet. \nB \ndoločanje pravic, ki jih imajo uporabniki na internetu. \nC \nusmerjanje IP-datagramov v omrežju. \nD \npodporo UDP. \nE \ndelitev interneta v podomrežja.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2012_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Koncentrator za povezavo šestnajstih računalnikov v lokalno omrežje Ethernet povezuje \nračunalnike:  \nA \nfizično in logično s topologijo vodila. \nB \nfizično s topologijo zvezde, logično pa s topologijo obroča. \nC \nfizično s topologijo vodila, logično pa s topologijo zvezde. \nD \nfizično s topologijo zvezde, logično pa s topologijo vodila. \nE \nfizično in logično s topologijo zvezde. \n6",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2012_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Omrežje z IP-naslovom 200.42.129.0 je razdeljeno na osem enako velikih podomrežij. Določite \nmasko in naslovno področje (obseg IP-naslovov od prvega do zadnjega) za prvo podomrežje. \nA \nmaska: 255.255.255.192 \nnaslovno področje: 200.42.129.0 do 200.42.129.63 \nB \nmaska: 255.255.255.128 \nnaslovno področje: 200.42.129.0 do 200.42.129.31 \nC \nmaska: 255.255.255.63 \nnaslovno področje: 200.42.129.0 do 200.42.129.31 \nD \nmaska: 255.255.255.252 \nnaslovno področje: 200.42.129.0 do 200.42.129.63 \nE \nmaska: 255.255.255.224 \nnaslovno področje: 200.42.129.0 do 200.42.129.31",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2012_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Pri uporabi protokola CSMA/CD: \nA \nse zmanjšuje učinkovitost prenosa pri povečanju prometa. \nB \nprihaja do trkov paketov, kar pa ne zmanjšuje učinkovitosti prenosa, saj kolizijski protokol \npredvideva trke. \nC \nse zmanjšuje učinkovitost prenosa, če oddajnik pred oddajo ne preveri zasedenosti medija. \nD \nni mogoča uporaba brezžičnega prenosa. \nE \nse prenaša paket od postaje do postaje, kjer vsaka postaja tudi okrepi signal.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2012_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Kateri od navedenih atributov sodijo med obvezne lastnosti kakovostne sodobne programske \nopreme? \nA \nUstreznost. \nB \nEnostavnost. \nC \nPravilnost. \nD \nUčinkovitost. \nE \nCenenost. \nF \nPrenosljivost. \n7",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Za opisovanje podatkovnih tokov na diagramih tokov podatkov uporabljamo: \nA \ndiagrame poteka. \nB \ndiagrame ER. \nC \npodatkovne slovarje. \nD \nstavke SQL DDL. \nE \nminispecifikacije.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2012_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Za opisovanje procesov na najnižji ravni diagrama toka podatkov uporabljamo: \nA \nstavke SQL DML. \nB \ndiagrame ER. \nC \npodatkovne slovarje. \nD \nzbirni jezik. \nE \nminispecifikacije.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2012_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Dana je relacija Razred(IDrazreda:A5,Program:A30,Udelezenci:N). Katera trditev je \npravilna? \nA \nPodatki v vseh vrsticah relacije se morajo razlikovati vsaj po vrednosti atributa IDRazreda. \nB \nPodatki v vseh vrsticah relacije se morajo razlikovati vsaj po vrednosti atributa Program. \nC \nPodatki v vseh vrsticah relacije se morajo razlikovati vsaj po vrednosti enega (katerega koli) \nod atributov. \nD \nPodatki v vseh vrsticah relacije se morajo razlikovati po vrednosti vseh atributov. \nE \nV relacijo lahko zapišemo tudi podvojene vrstice.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP2_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP2",
+    "text": "Program e-redovalnica, ki omogoča vnos in pregled ocen, izostankov, vzgojnih ukrepov in drugih \npodatkov o dijaku, sodi v kategorijo: \nA \nsistemov za podporo odločanju. \nB \ntransakcijskih informacijskih sistemov. \nC \nekspertnih sistemov. \nD \nmenedžerskih informacijskih sistemov. \nE \nvodstvenih informacijskih sistemov. \n8",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP2_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP2",
+    "text": "Katera trditev je veljavna? \nA \nZa pripravo dobrih specifikacij zahtev ni potrebno sodelovanje naročnikov/uporabnikov. \nB \nDiagrami toka podatkov predstavljajo dogodkovni vidik sistema. \nC \nKomponente/moduli programskega sistema morajo biti čim bolj neodvisni. \nD \nS testiranjem programske opreme dokažemo, da v njej ni napak. \nE \nVzdrževanje programske opreme pomeni zgolj odpravljanje napak.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2012_IP2_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP2",
+    "text": "Dana je beseda Pozdrav. \nKoliko bitov bo dolga ta beseda, če jo kodiramo po osnovni kodi ASCII?  \n (1) \nKoliko bitov bo dolga ta beseda, ko za kodiranje uporabimo razširjeno kodo ASCII? \n (1)",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2012_IP2_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP2",
+    "text": "Naštejte štiri opravila, ki jih izvaja skrbnik (administrator) PB.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2012_IP2_20"
+  },
+  {
+    "num": 21,
+    "pola": "IP2",
+    "text": "Dana je relacija Vaja(VajaID,Ime,Opis,Tocke). Naslednji stavek SQL zapišite kot izraz \nrelacijske algebre:  \nSELECT Ime FROM Vaja WHERE Tocke >8; \n 9",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2012_IP2_21"
+  },
+  {
+    "num": 22,
+    "pola": "IP2",
+    "text": "Navedite dve metodologiji razvoja programske opreme. \n 10",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2012_IP2_22"
+  },
+  {
+    "num": 23,
+    "pola": "IP2",
+    "text": "V podatkovni bazi hranimo naslednje podatke o vozilih: znamko, model, letnik in ceno. O kupcih \nhranimo naslednje podatke: davčno številko, priimek, ime, naslov in kraj. Pri enem nakupu vozilo \nkupi le en kupec in proda le en prodajalec, vendar en kupec lahko kupi več vozil in en prodajalec \nlahko proda več vozil. Pri prodaji enega vozila zabeležimo tudi datum prodaje in odstotek \npopusta.  \n23.1. Izdelajte načrt podatkovne baze (diagram entitete razmerja) za prodajo vozil. \nOpomba: po potrebi lahko dodate še generične identifikatorje entitetnih tipov. Na diagramu \nER prikažite vse entitetne tipe (s pripadajočimi atributi), označite primarne in tuje ključe, \nrelacije in števnosti relacij. \n 11",
+    "points": 4,
+    "year": 2012,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2012_IP2_23"
+  },
+  {
+    "num": 24,
+    "pola": "IP2",
+    "text": "Relacijsko podatkovno bazo, v kateri hranimo podatke o uporabi spletnih portalov, sestavljajo \nrelacije: \n Oseba(OsebaID, Priimek, Ime) \n KategorijaP(KategorijaID, ImeKategorije, OpisKategorije) \n Portal(PortalID, ImePortala, KategorijaIDKategorija, CenaUporabe) \n Uporaba(OsebaIDOseba, PortalIDPortal, DatumRegistracije) \n24.1. Napišite stavek SQL, ki izpiše abecedni seznam priimkov in imen oseb, ki uporabljajo \nportal s šifro 707. \n 24.2. Napišite stavek SQL, ki za 10 % poceni uporabo vseh portalov iz kategorije Izobraževanje.  \nOpomba: Izobraževanje je ime kategorije.",
+    "points": 2,
+    "year": 2012,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2012_IP2_24"
+  }
+]

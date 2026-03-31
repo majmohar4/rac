@@ -1,0 +1,404 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Z osmimi biti lahko predstavimo s predznakom cela števila od –127 do 127, z dvojiškim \nkomplementom pa števila od –128 do 127. Zakaj lahko v predstavitvi s predznakom \npredstavimo samo 255 števil, v dvojiškem komplementu pa 256?  \nA \nVprašanje temelji na neveljavni trditvi, saj lahko tudi v predstavitvi s predznakom \npredstavimo 256 različnih števil, vključno z –128. \nB \nV predstavitvi s predznakom je ena izmed kod rezervirana za obveščanje o prekoračitvi. \nC \nV predstavitvi s predznakom imamo en bit rezerviran za predznak. \nD \nV predstavitvi s predznakom uporabimo za števili 0 in 1 le po štiri bite. \nE \nV predstavitvi s predznakom imamo dve različni kodi za število 0.",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2010_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Katero vodilo oziroma vhodno-izhodni vmesnik NE spada med serijske?  \nA \nUSB \nB \nPCI \nC \nPCI-E \nD \nSATA \nE \nRS 232",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2010_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Kolikšna je vrednost skladovnega kazalca (SP), ko se izvede vrstica 4? Sklad se širi proti \nnižjim pomnilniškim lokacijam. Znak # pomeni takojšnje naslavljanje, znak $ pa \nšestnajstiški številski sistem.  \n1         org     $A000 \n2         lds     #$00ff \n3         ldaa    #5 \n4         psha \nA \n0100 \nB \n00FF \nC \nA000 \nD \n00FE \nE \nFF00\n4",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2010_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "V čem je razlika pri izvajanju ukaznih datotek in drugih izvršljivih datotek v operacijskem \nsistemu?  \nA \nUkazne datoteke jedro operacijskega sistema najprej prevede, potem pa izvede, izvršljive \ndatoteke pa se ne prevajajo. \nB \nUkazne datoteke ukazni interpreter sproti interpretira, izvršljive pa je prevedel že \nprevajalnik. \nC \nUkazne datoteke operacijski sistem najprej prevede v izvršljive, nato pa se izvedejo. \nD \nIzvršljive datoteke izvede operacijski sistem, ukazne pa izvajamo ročno. \nE \nNi razlik.",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2010_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "V operacijskem sistemu Linux imamo datoteko DolgaDatoteka. S katerim ukazom \nprikažemo zadnjih 10 vrstic datoteke DolgaDatoteka?  \nA \nlast –10 DolgaDatoteka \nB \nhead –l 10 DolgaDatoteka \nC \nhead –10 DolgaDatoteka \nD \ntail –10 DolgaDatoteka \nE \ntail 10 DolgaDatoteka",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2010_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "75C(16) pretvorite v osmiški sistem.  \nA \n7551 \nB \n7263  \nC \n7270 \nD \n3534 \nE \n3533",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2010_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Pri procesorjih RISC se srečamo z registrsko-registrsko arhitekturo, ker:  \nA \nprogram sploh ne uporablja pomnilnika za shranjevanje spremenljivk; \nB \nprevajalniki laže prevedejo program, ki ne uporablja pomnilniških naslovov; \nC \nje arhitektura RISC tako poenostavljena, da procesor v ukazih dela le s kratkimi operandi; \nD \nje tako manj različnih naslavljanj in manj ukazov; \nE \nuporabljajo registre namesto predpomnilnika.\n5",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2010_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Med katere enote računalnika uvrščamo tipkovnico? \nA \nVhodno-izhodne enote. \nB \nZunanje pomnilnike. \nC \nVhodne enote. \nD \nIzhodne enote. \nE \nLahko v različne, odvisno od vrste tipkovnice.",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2010_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Denimo, da zahtevamo izvajanje aplikacije v programskem jeziku Java tako, da v sistemski \nprompt c:\\ vpišemo java mojRazred. Katera je prva metoda, s katero se bo začelo \nizvajanje programa? \nA \nMetoda mojRazred. \nB \nMetoda main() razreda mojRazred. \nC \nMetoda applet. \nD \nMetoda run() razreda mojRazred. \nE \nMetoda, ki je prva zapisana v razredu mojRazred.",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Kaj je značilnost statičnih podatkov in metod razreda? \nA \nTo so podatki in metode, ki si jih delijo (so v skupni rabi) vsi objekti tega razreda. \nB \nTo so podatki in metode, ki tvorijo osnovo vsakega objekta razreda. \nC \nTo so podatki in metode, ki pripadajo samo objektom tega razreda. \nD \nTo so podatki in metode, ki so le del definicije razreda in niso dostopni objektom razreda. \nE \nTo so podatki in metode, ki se inicializirajo oz. izvedejo samodejno ob kreiranju novega \nobjekta razreda.\n6",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Kaj izpiše naslednji program?  \nclass vprasanje3 \n{ \n  public static void main ( String[] args ) \n  { \n    int znesekRacuna = 8;     \n    int steviloIzdelkov = 10; \n    System.out.println(\"povprecna cena izdelka: \" + \nznesekRacuna/steviloIzdelkov); \n  } \n} \nA \npovprecna cena izdelka: 2 \nB \npovprecna cena izdelka: 0.8 \nC \npovprecna cena izdelka: 1 \nD \npovprecna cena izdelka: +E \npovprecna cena izdelka: 0",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Katere od navedenih trditev so resnične za blok stavkov try{}? \n(Vsi pravilni odgovori 2 točki, en pravilni odgovor 1 točka, že en nepravilni odgovor 0 točk) \nA \nBlok try{} se mora pojaviti pred blokom stavkov catch{}. \nB \nStavki bloka try{} lahko povzročijo več vrst izjem. \nC \nBlok try{} ne more vsebovati zank in vejitev. \nD \nNekateri stavki bloka try{} nikoli ne povzročijo izjem. \nE \nBlok try{} se uporablja samo v javnih metodah (metodah z dostopnim določilom public).",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Kaj vrne naslednji stavek? \nSystem.out.println(\"Miha je gledal zanimiv  \nfilm,ha,ha.\".indexOf(\"ha\")); \nA \n3 \nB \n–1 \nC \n2 \nD \n–2 \nE \n–3\n7",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Splošno računalništvo",
+    "id": "2010_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Imamo tabelo 10000 imen. Vrstni red podatkov je naključen. Kateri način iskanja podatkov \nje najprimernejši? \nA \nAlgoritem zaporednega iskanja. \nB \nAlgoritem izmeničnega iskanja. \nC \nAlgoritem naključnega iskanja. \nD \nAlgoritem binarnega (dvojiškega) iskanja. \nE \nUporaba razpršilne funkcije.",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2010_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Katere trditve veljajo za zanko while? \n(Vsi pravilni odgovori 2 točki, en pravilni odgovor 1 točka, že en nepravilni odgovor 0 točk) \nA \nPogoj se preverja na začetku. \nB \nStavki zanke se izvajajo, dokler je pogoj resničen. \nC \nV telesu zanke moramo vedno povečati vrednost števca zanke. \nD \nStavki v telesu zanke se nikoli ne izvedejo. \nE \nČe je pogoj na začetku neresničen, se stavki v telesu zanke ne izvedejo.",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Denimo, da je deklarirana spremenljivka izdelki: String[] izdelki = new \nString[10]; Deklaraciji spremenljivke sledijo stavki, s katerimi so le v nekatere celice \ntabele vpisani sklici (reference) na nize znakov. Kateri od naslednjih delov programske \nkode izpiše le vrednosti vseh celic, v katere so bili vpisani sklici – torej brez vrednosti celic, \npri katerih je vrednost null? \nA \nfor ( int j = 0; j<10; j++ ) \nSystem.out.println( izdelki[j] ); \nB \nfor ( int j = 0; izdelki[j] != null; j++ ) \nSystem.out.println( izdelki[j] ); \nC \nfor ( int j = 0; j < izdelki.length; j++ ) \nSystem.out.println( izdelki[j] ); \nD \nfor ( int j = 0; j < izdelki.length && izdelki[j] != null ; j++ ) \nSystem.out.println( izdelki[j] ); \nE \nfor ( int j = 0; j < izdelki.length; j++ ) \nif ( izdelki[j] != null ) \nSystem.out.println( izdelki[j] );\n8",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Kolikokrat naslednji program izpiše »blablabla«? \npublic class Blablabla {  \n     public static void main(String[] args) { \n           int i = 10; \n           while (i > 0) { \n                int j = 2 * i; \n                while (j > i) { \n                     j = j - 4; \n                     i = i - 1; \n                     System.out.println(\"blablabla\"); \n                } \n           } \n     } \n}",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Dan je naslednji program. \nclass Osebek \n{ \n  void pozdrav() \n  { \n    System.out.println( \"Zivijo!\" ); \n  } \n} \nclass OsebekDemo \n{ \n  public static void main ( String[] args ) \n  { \n    int   j = ; \n    Osebek oseba = new ; \n      while ( j 8 ) \n    { \n        Oseba.; \n        j = j + ; \n    } \n  } \n} \nDopolnite razred OsebekDemo tako, da se ustvari objekt razreda Osebek in se potem  \n8-krat izvede metoda pozdrav (na zaslon se 8-krat izpiše Zivijo!). \n10",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Naslednji del programske kode zapišite z uporabo zanke for: \nint sum =  0 ; \nint j   = -5 ; \nwhile ( sum <= 350 ) \n{ \n  sum += j ; \n  j   += 5 ; \n}",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Dana je enodimenzijska tabela osmih celih števil. Napišite sled izvajanja metode, ki razvrsti \nvrednosti elementov tabele v naraščajočem vrstnem redu ob upoštevanju, da je uporabljen \nalgoritem sortiranja z izbiranjem. Pri pisanju sledi zabeležite vrednosti v tabeli po VSAKI \nizvedbi zunanje zanke postopka. \n14 \n18 \n3 \n10 \n15 \n2 \n7 \n9\n11",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP1_20"
+  },
+  {
+    "num": 21,
+    "pola": "IP1",
+    "text": "Denimo, da šola hrani podatke o učiteljih v datoteki z naključnim dostopom Sola.dat. \nVsak zapis vsebuje podatke: maticnaStevilka (celo število do 1000), telefon (niz 12 \nznakov), naziv (niz 10 znakov) in delovnaDoba (celo število). \nNapišite program, ki podatke prebere v tabelo, jih razvrsti po padajoči vrednosti podatka \ndelovnaDoba in nato vse podatke izpiše na zaslon. \nPri izdelavi programa upoštevajte naslednjo definicijo razreda: \nclass Zapis { \nprivate int maticnaStevilka; \nprivate String telefon; \nprivate String naziv; \nprivate int delovnaDoba;  \npublic Zapis(int a, String f, String l, int b) { … \n// inicializira podatke \n} \npublic Zapis() { … \n// inicializira podatke na privzete vrednosti \n} \npublic void beri( RandomAccessFile datoteka ) throws IOException { … \n// iz datoteke prebere en zapis \n} \npublic void pisi( RandomAccessFile datoteka ) throws IOException { … \n// na datoteko zapise en zapis \n} \npublic void izpisNaZaslon () { … \n// na zaslon izpise en zapis \n} \npublic int getmaticnaStevilka(){ … \n// vrne maticno stevilko \n} \npublic String gettelefon(){ … \n// vrne telefon \n} \npublic String getnaziv(){ … \n// vrne naziv \n} \npublic int getdelovnaDoba(){ … \n// vrne delovno dobo \n} \npublic int velikost() { … \n// vrne velikost zapisa \n} \n}\n14",
+    "points": 4,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP1_21"
+  },
+  {
+    "num": 22,
+    "pola": "IP1",
+    "text": "Sestavite razred MojSklad. Sklad v objektu naj bo predstavljen kot tabela velikosti 100 \nnizov. Razred naj vsebuje konstruktor MojSklad(), ki ustvari prostor za vseh 100 nizov \nsklada. Napišite naslednje metode za delo s skladom: \n• \ndajNaSklad(niz), ki na sklad doda nov niz, \n• \nprazen(), ki vrne true, če je sklad prazen, in false, če ni prazen, \n• \nvrniIzSklada(), ki vzame vrhnji element iz sklada in vrne njegovo vrednost. \nČe je sklad poln, preprečite vstavljanje in izpišite obvestilo. Če je sklad prazen, preprečite  \njemanje iz sklada in izpišite obvestilo. \n16",
+    "points": 4,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP1_22"
+  },
+  {
+    "num": 23,
+    "pola": "IP1",
+    "text": "Napišite program, ki prebere pozitivno celo število, ga pretvori v dvojiško število in ga v \ndvojiški obliki izpiše. \n17",
+    "points": 4,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP1_23"
+  },
+  {
+    "num": 24,
+    "pola": "IP1",
+    "text": "Podatki o delavcih, ki so zaposleni v nekem podjetju, so shranjeni v tabeli delavci. \nVsakemu delavcu ustreza zapis, ki vsebuje naslednje podatke: matično številko, priimek, \nime, tabelo osebnih dohodkov za zadnjih 12 mesecev in oznako, ali je delavec zaposlen za \nnedoločen ali določen čas. \nclass Delavec \n   { \n              private int matSt; \n              private String   priimek, ime; \n              private int[] od =new int[12];   \n              private String zaposlitev;  //določen, nedoločen čas \n   } \nDelavec[] delavci=new Delavec[100] \na) \nNapišite program, ki izpiše priimek in ime tistega delavca, ki je v zadnjih 12 mesecih skupaj \nzaslužil najmanj.",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP1_24"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Katera je glavna značilnost protokola »Token Ring«? \nA \nOddajniku omogoča ugotavljanje zasedenosti prenosnega kanala in ugotavljanje trkov. Ker \nima možnost ugotavljanja trkov, lahko takoj po trku ustavi oddajo in tako sprosti prenosni \nmedij. \nB \nPrednost je v enostavnosti, saj ne preverja zasedenosti prenosnega medija in ne glede na \nzasedenost odda sporočilo. \nC \nIzključuje možnost trkov z uporabo faze rezervacije oziroma žetonov. Le postaja, ki ima \nžeton, lahko odda sporočilo in tako ni trkov. \nD \nOb trku sporočil ponovni poskusi oddaje niso mogoči. \nE \nVsak oddajnik ima lastni žeton, ki ga po potrebi uporabi.",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2010_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Obkrožite naprave, ki so definirane na drugi plasti (povezovalni plasti) referenčnega \nmodela ISO/OSI. \n(Vsi pravilni odgovori 2 točki, en pravilni odgovor 1 točka, že en nepravilni odgovor 0 točk) \nA \nPremoščevalnik ali most (ang. bridge). \nB \nUsmerjevalnik (ang. router). \nC \nStikalo ali preklopno stikalo (ang. switch). \nD \nKoncentrator (ang. hub). \nE \nObnavljalnik (ang. repeator).",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2010_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Katero fizično topologijo omrežja predstavlja slika? \nA \nTopologijo obroča. \nB \nTopologijo vodila. \nC \nTopologijo zvezde. \nD \nPolno topologijo. \nE \nTopologijo sestavljene zvezde.\n4",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2010_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Obkrožite, kaj je definirano na šesti plasti (predstavitveni plasti) referenčnega modela \nISO/OSI. \n(Vsi pravilni odgovori 2 točki, en pravilni odgovor 1 točka, že en nepravilni odgovor 0 točk) \nA \nŠifriranje podatkov za zaščito podatkov. \nB \nOmrežna topologija in mehanizmi dostopa do skupnega prenosnega medija. \nC \nUsmerjanje paketov na podlagi naslovov IP. \nD \nKompresija in dekompresija podatkov. \nE \nZagotovitev zanesljivega prenosa podatkov na prenosni poti.",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2010_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Sistemi za upravljanje podatkovnih baz MS Access, mySQL, Firebird, Oracle upravljajo \npodatkovne baze, ki so zasnovane: \nA \nna mrežnem podatkovnem modelu; \nB \nna hierarhičnem podatkovnem modelu; \nC \nna relacijskem podatkovnem modelu; \nD \nna entitetno-relacijskem podatkovnem modelu; \nE \nna objektnem podatkovnem modelu.",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2010_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Katera od navedenih opravil sodijo med opravila skrbnika podatkovne baze (DB \nadministratorja)? \n(Vsi pravilni odgovori 2 točki, en pravilni odgovor 1 točka, že en nepravilni odgovor 0 točk) \nA \nDodeljevanje uporabniških pravic. \nB \nIzdelava uporabniškega vmesnika. \nC \nPreverjanje pravilnosti vnesenih podatkov. \nD \nNadzor nad performansami in uglaševanje sistema. \nE \nIzdelava uporabniških aplikacij.\n5",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Denimo, da na ravni n diagrama toka podatkov obstaja tok podatkov 'prijavnica' in da \nnobeden od procesov na tej ravni ni atomaren. Katera od naslednjih trditev je pravilna? \nA \nTok podatkov 'prijavnica' mora obstajati vsaj na enem od diagramov na ravni n + 1 diagrama \ntoka podatkov. \nB \nTok podatkov 'prijavnica' mora obstajati na vseh diagramih, ki so na ravni n + 1 diagrama \ntoka podatkov. \nC \nTok podatkov 'prijavnica' mora obstajati vsaj na enem od diagramov na ravni n – 1 diagrama \ntoka podatkov. \nD \nTok podatkov 'prijavnica' mora obstajati na vseh diagramih, ki so na ravni n – 1 diagrama \ntoka podatkov. \nE \nTok podatkov 'prijavnica' se lahko pojavi samo na ravni n diagrama toka podatkov.",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2010_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Kakšna je korist uporabe sekundarnega indeksa tabele? \nA \nHitrejše izvajanje nekaterih operacij iskanja. \nB \nHitrejše izvajanje nekaterih operacij dodajanja. \nC \nPočasnejše izvajanje nekaterih operacij brisanja. \nD \nVečja poraba prostora na disku. \nE \nLahko se kršijo nekatere integritetne omejitve.",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2010_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Zaporedna datotečna organizacija je primerna, če: \n(Vsi pravilni odgovori 2 točki, en pravilni odgovor 1 točka, že en nepravilni odgovor 0 točk) \nA \nuporabniki zahtevajo branje vseh zapisov datoteke. \nB \nuporabniki iščejo posamezne zapise po vrednosti ključa. \nC \nuporabniki berejo zapise, ki sodijo v neki interval vrednosti ključa. \nD \nuporabniki zahtevajo statistično obdelavo podatkov. \nE \nuporabniki zahtevajo izpis vseh zapisov datoteke.\n6",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Tabela prva ima 10 vrstic (zapisov) in tabela druga ima 300 vrstic. Koliko vrstic (zapisov) \nbo imel rezultat izvedbe naslednjega stavka SELECT? \nSELECT * FROM prva, druga; \nA \nNič zapisov. \nB \n10 zapisov. \nC \n300 zapisov. \nD \n3000 zapisov. \nE \nNa podlagi danih podatkov se ne more določiti število zapisov v odgovoru.",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2010_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Dane so naslednje relacijske sheme: \nFilm (FilmID, DrzavaIDÆDržava, ImeFilma, Letnica) \nIgralec(IgralecID, PriimekIgralca, ImeIgralca) \nVloga(IgralecIDÆIgralec, FilmIDÆFilm) \nKatere od navedenih shem predstavljajo v ustreznem modelu ER razmerje števnosti M : N?",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2010_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Naslednji stavek SQL zapišite kot izraz relacijske algebre: \nSELECT F.FilmID, F.ImeFilma  \nFROM Film F, Država D  \nWHERE F.DržavaID=D.DržavaID AND D.ImeDržave='Slovenija';",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2010_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Dopolnite stavka z ustreznim pojmom:  \nZa vse atribute v odločitvenem modelu je treba opredeliti . \nZa sestavljene atribute v odločitvenem modelu je treba opredeliti . \nPojmi: zaloga vrednosti | funkcija koristnosti (preferenčna funkcija) | variante | verjetnost.\n7",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2010_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "V katero vrsto informacijskih sistemov spada program Kam in kako, ki pomaga pri izbiri \nfakultete?",
+    "points": 2,
+    "year": 2010,
+    "image": "assets/images/2010_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2010_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Podjetje potrebuje informacijski sistem, ki bo omogočal oglaševanje prostih delovnih mest, \nsprejemanje prijav na razpisana delovna mesta, pošiljanje vabil na razgovor in obveščanje \nkandidatov o izboru. Interesenti glede na oglas pošljejo prijavnico z navedbo svojih \nkvalifikacij. Kadrovska služba na podlagi prijav izvede predhodni izbor kandidatov. \nTistim, ki imajo ustrezne kvalifikacije, pošlje vabilo na razgovor. Po razgovoru se opravi \ndokončni izbor kandidata za delovno mesto. Vsi prijavljeni kandidati se obvestijo, da so \nbodisi izbrani ali ne. \na) \nNarišite kontekstno raven diagrama toka podatkov.  \n9",
+    "points": 2,
+    "year": 2010,
+    "image": "assets/images/2010_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2010_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Podatkovno bazo maturitetnih izpitov sestavljajo naslednje tabele: \n• \nPredmet(SifraPredmeta, ImePredmeta) \n• \nMaturitetnaPola(PolaID, SifraPredmetaÆPredmet, Leto, IzpitniRok, \nNivo) \n• \nOcenjevalec(SifraOcenjevalca,PriimekOcenjevalca,ImeOcenjevalca) \n• \nKandidat(SifraKandidata, PriimekKandidata, ImeKandidata) \n• \nOcenaIzpita(SifraKandidataÆKandidat, PolaIDÆMaturitetnaPola, \nSifraOcenjevalcaÆOcenjevalec, SteviloTock) \na) \nNapišite stavek SQL, ki izpiše abecedni seznam priimkov in imen kandidatov, ki so leta \n2008 opravljali vsaj en maturitetni izpit.  \nb) Napišite stavek SQL, ki za vse predmete vrne imena predmetov in povprečno število \ndoseženih točk za vsako od ravni v vsakem izpitnem roku (ne glede na leto) posebej.",
+    "points": 2,
+    "year": 2010,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2010_IP2_16"
+  }
+]

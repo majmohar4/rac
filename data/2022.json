@@ -1,0 +1,413 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Obkrožite črko pred trditvijo, ki je resnična za algoritem. \nA \nAlgoritem je postopek, ki vodi do rešitve nekega problema. \nB \nAlgoritem je problem, ki ga rešimo z nekim programom. \nC \nProgram, ki ga za rešitev problema zaženemo na računalniku, imenujemo algoritem. \nD \nAlgoritem je funkcija, če vrača neko vrednost.",
+    "points": 1,
+    "year": 2022,
+    "image": "assets/images/2022_IP1_p05.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Narišite simbol, ki ga v diagramih poteka uporabimo za vhodno-izhodne operacije.",
+    "points": 1,
+    "year": 2022,
+    "image": "assets/images/2022_IP1_p05.jpg",
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2022_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Program, ki izvorno kodo, napisano v programskem jeziku, prevede v vmesno kodo ali v izvršljivo  \nobliko, se imenuje  .",
+    "points": 1,
+    "year": 2022,
+    "image": "assets/images/2022_IP1_p05.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Kaj izpiše diagram poteka?",
+    "points": 2,
+    "year": 2022,
+    "image": "assets/images/2022_IP1_p06.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Zapišite oznako primitivnega tipa podatka v programskem jeziku Java za  \ncela števila  \n logično vrednost",
+    "points": 1,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Razred Igralec ima statično lastnost razreda IgralnaKocka z imenom kocka.  \nObkrožite črko pred resnično trditvijo. \nA \nČe imamo v programu več objektov razreda Igralec, potem ima vsak tak objekt svoj objekt \nrazreda IgralnaKocka. \nB \nČe imamo v programu več objektov razreda Igralec, potem si vsi delijo en objekt razreda \nIgralnaKocka. \nC \nLastnost kocka mora biti zaščitena (angl. protected). \nD \nDo lastnosti kocka lahko dostopamo le znotraj razreda Igralec in v njegovih izpeljanih \nrazredih.",
+    "points": 1,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Kaj izpiše izsek programa? \nint x=100, y=8; \ndo { \n  x=x/y; \n  y=y+1; \n  System.out.println(x + \" \" +y); \n} while (x>10);",
+    "points": 2,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Obkrožite črko pred opisom, ki je resničen za preoblaganje metod. \nA \nJava ne omogoča preoblaganja metod. \nB \nMetoda je preobložena, če je večkrat definirana in ima pri tem vsaka definicija metode \nrazličen tip rezultata, ime in parametri pa so pri vseh enaki. \nC \nMetoda je preobložena, če je večkrat definirana in ima pri tem vsaka definicija metode enako \nime, mora pa imeti različen seznam parametrov od vseh drugih. Tip rezultata metode ni \npomemben. \nD \nMetoda je preobložena, če je večkrat definirana in ima pri tem vsaka definicija metode \nrazlično ime, parametri pa so poljubni. Tip rezultata metode ni pomemben.",
+    "points": 1,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Deklarirani in inicializirani sta celoštevilski spremenljivki x in y. V katerem primeru je smiselna \nuporaba bloka try – catch? \nA \ntry { \n   System.out.println(\"Rezultat \" +  (x / y)); \n} catch (RuntimeException e) { \n   System.out.println(\"Napaka\");  \n} \nB \ntry { \n   System.out.println(\"Rezultat \" +  (x + y)); \n} catch (RuntimeException e) { \n   System.out.println(\"Napaka\");  \n} \nC \ntry { \n   System.out.println(\"Rezultat \" +  (x - y)); \n} catch (RuntimeException e) { \n   System.out.println(\"Napaka\");  \n} \nD \ntry { \n   System.out.println(\"Rezultat \" +  (x && y)); \n} catch (RuntimeException e) { \n   System.out.println(\"Napaka\");  \n}",
+    "points": 1,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Napišite metodo, ki v nizu poišče prvi samoglasnik in vrne njegov indeks v nizu. Predpostavite, da \nso v nizu le mali znaki. Če samoglasnika ni, vrne –1.",
+    "points": 3,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Kaj izpiše spodnje zaporedje stavkov? \nString n = \"MATURA\"; \nwhile(n.length()>0) { \n  System.out.println(n); \n  n = n.substring(0, n.length()-1); \n}",
+    "points": 2,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Zapišite stavek oz. zaporedje stavkov, s katerimi se na zaslon izpišejo vsi znaki tabele ASCII od \nznaka za presledek naprej.",
+    "points": 2,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Napišite metodo binarno, ki spremeni pozitivno desetiško vrednost stevilo v binarno vrednost \nin le-to vrne v obliki niza. \npublic static String binarno(int stevilo){",
+    "points": 3,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Zapišite metodo kolikoPozitivnih, ki vrne število pozitivnih elementov celoštevilske tabele. \nTabela naj bo podana kot parameter metode.",
+    "points": 2,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Kaj izpiše izsek programa? \nint a = 1; \nInteger b = 1; \nInteger c = new Integer(1); \nSystem.out.println(\"a == b \"+(a==b)); \nSystem.out.println(\"a == c \"+(a==c)); \nSystem.out.println(\"b == c \"+(b==c));",
+    "points": 3,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Kaj izpiše program? \npublic class MyClass { \npublic static class Razred1 { \n   public int x = 4; \n   private int y = 2; \n   Razred1 () { \n      x -= 1; \n      y += 1; \n   } \n   Razred1 (int i) { \n      this(); \n      y += x++; \n      if (metoda()) System.out.print(\"x\" + x + \" y\" + y); \n   } \n   private boolean metoda(){ \n       return (y%2==x%2); \n   } \n} \n    public static void main(String args[]) { \n       Razred1 x = new Razred1(1); \n    } \n}",
+    "points": 2,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Dopolnite spodnjo kodo z zanko do while, ki tvori naključna realna števila iz intervala [0, 1) in \ntvorjenje preneha, ko je zadnje naključno število večje od 0,75. \nimport java.util.Random; \npublic class MyClass { \n   public static void main(String args[]) { \n      Random rand = new Random(); \n } \n}",
+    "points": 2,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Metoda test39 vrne true, če so v tabeli tab zapisane le številke 3 ali 9, sicer vrne false. \nDopišite manjkajočo kodo metode test39. \npublic boolean test39(int[] tab) { \n }",
+    "points": 2,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "V programu potrebujemo silhueto mesta, ki ga določajo zgradbe. Vsako zgradbo si predstavimo \nkot pravokotnik, podan z levim spodnjim ogliščem (xL, yL) in desnim zgornjim ogliščem (xD, yD). \nPredpostavimo, da so možne le celoštevilske koordinate. Ker so spodnja oglišča vedno na višini 0 \n(yL = 0), si lahko vsako zgradbo predstavimo s tremi števili (xL, xD, yD). Ker imamo v splošnem \nveč zgradb, si podatke o vseh zgradbah predstavimo z dvodimenzionalno celoštevilsko tabelo \ndimenzij n x 3, pri čemer je n število zgradb, tri vrednosti v eni vrstici pa predstavljajo xL, xD in yD \nv tem vrstnem redu. \nPrimer silhuete mesta, ki ga dobimo, če imamo dano spodnjo tabelo, je prikazan na sliki desno. \n0 \n2 \n2 \n3 \n8 \n1 \n9 \n11 \n4 \n12 \n14 \n2 \n1 \n4 \n4 \n10 \n13 \n3 \nKer se zgradbe lahko prekrivajo (in celo prekrijejo), je Sandra našla učinkovitejšo predstavitev \nsilhuete mesta z enodimenzionalno tabelo, v katero je shranila le višine najvišje zgradbe na vsaki \nkoordinati. Za zgornji primer bi torej dobila enodimenzionalno tabelo s 14 elementi: \n2 \n4 \n4 \n4 \n1 \n1 \n1 \n1 \n0 \n4 \n4 \n3 \n3 \n2 \n19.1 Zapišite metodo, ki dano dvodimenzionalno tabelo pretvori v pripadajočo \nenodimenzionalno tabelo, kot je opisano zgoraj. Glava metode naj bo: \npublic static int[] kompresija(int[][] tabela) \nPredpostavite lahko, da je druga dimenzija tabele v parametru vedno enaka 3.",
+    "points": 4,
+    "year": 2022,
+    "image": "assets/images/2022_IP1_p14.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Vsak objekt razreda Igralec ima lastnost String ime, v kateri je shranjeno polno ime igralca. \nPredpostavite lahko, da so besede v lastnosti ime ločene z natanko enim presledkom. \n20.1 Zapišite metodo public void popraviZapis(), ki lastnost ime spremeni tako, da se \nvse besede pričnejo z veliko začetnico, ostale črke v besedi pa so zapisane z malimi \nčrkami. \nPRIMER: Lastnost ime z vrednostjo \"IME PRIIMEK\" se po klicu te metode spremeni  \nv \"Ime Priimek\". \nPOMOČ: Razred String programskega jezika Java vsebuje med drugimi tudi te metode: \nGlava metode \nOpis delovanja \nchar charAt(int indeks) \nVrne vrednost znaka na danem indeksu. \nString toLowerCase() \nVrne novi niz, v katerem so vse črke trenutnega \nniza pretvorjene v male črke.  \nString toUpperCase() \nVrne novi niz, v katerem so vse črke trenutnega \nniza pretvorjene v velike črke. \nString substring(int i) \nVrne novi niz, ki je podniz trenutnega niza in se \nprične z znakom na indeksu i. \nString substring(int i, int j) \nVrne novi niz, ki je podniz trenutnega niza in se \nprične z znakom na indeksu i in zaključi vključno \nz znakom na indeksu j–1.",
+    "points": 4,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP1_20"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Za vsak opis zapišite primer dveh binarnih števil z 8 biti, za katere je dani opis resničen, ali pa \nzapišite »NE OBSTAJA«, če menite, da takega para števil ni. \nOpis \nŠtevilo x \nŠtevilo y \nŠevilo x je večje od števila y in ima manjše število \nbitov enakih 1 kakor y. \nŠtevilo x in število y sta različni števili in imata \nenako liho pariteto. \nNajbolj levi bit števila x je različen od najbolj \nlevega bita števila y in obe števili imata desetiško \nvrednost večjo od 127.",
+    "points": 3,
+    "year": 2022,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2022_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Ukaz je sestavljen iz in .",
+    "points": 2,
+    "year": 2022,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2022_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Programski števec je register, v katerem se nahaja  \n .",
+    "points": 1,
+    "year": 2022,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2022_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Kdaj pomnilniku rečemo pomnilnik z naključnim dostopom (angl. Random Access Memory)? \nA \nHitrost dostopa do podatka je naključna. \nB \nHitrost dostopa do podatka v RAM-u je manjša od hitrosti dostopa do podatka v registru. \nC \nHitrost dostopa do podatka je neodvisna od njegove lokacije. \nD \nHitrost dostopa do podatka v RAM-u je večja od hitrosti dostopa do podatka v virtualnem \npomnilniku.",
+    "points": 1,
+    "year": 2022,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2022_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Uporabniki vnašajo ukaze operacijskega sistema prek \nA \ntelneta. \nB \ngonilnikov. \nC \nvmesnika ukazne vrstice (angl. Command-line interface). \nD \njedra.",
+    "points": 1,
+    "year": 2022,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2022_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "V operacijskem sistemu Linux želimo izpisati seznam ukazov, ki smo jih nedavno izvedli. \nZa to bomo uporabili ukaz",
+    "points": 1,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Kateri ukaz nastavi samo pravico branja za datoteko file lastniku in skupini? \nA \nchmod 771 file \nB \nchmod 442 file \nC \nchmod 414 file \nD \nchmod 521 file",
+    "points": 1,
+    "year": 2022,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2022_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Kateri način komunikacijskega medija uporablja brezžična povezava LAN? \nA \nOptični kabel. \nB \nRadijske valove. \nC \nIR-valove. \nD \nSukano parico.",
+    "points": 1,
+    "year": 2022,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2022_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Internetna televizija prenaša program z uporabo protokola UDP. Kaj se zgodi, ko del prenosa ni \ndostavljen do prejemnika? \nA \nSporočilo o nedostavljenem programu se pošlje pošiljatelju. \nB \nDel prenosa, ki se je izgubil, se pošlje ponovno. \nC \nCel program je ponovno poslan. \nD \nPrenos se nadaljuje brez izgubljenega dela.",
+    "points": 1,
+    "year": 2022,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2022_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Katere storitve sodijo na predstavitveno ali 6. plast modela ISO/OSI?",
+    "points": 2,
+    "year": 2022,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2022_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Povežite naslove IPv4 s pomenom v omrežju: \nNaslov naprave \n10.10.10.Naslov broadcast \n192.110.221.Naslov omrežja \n141.121.221.",
+    "points": 2,
+    "year": 2022,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2022_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Dano imamo sliko omrežja: \nKoliko podomrežij je na sliki? (1) \nNaslovno področje 192.168.100.0 /24 morate razdeliti na enaka podomrežja.  \nNapišite naslove vseh podomrežij in masko le-teh. \n (2)",
+    "points": 3,
+    "year": 2022,
+    "image": "assets/images/2022_IP2_p08.jpg",
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2022_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "V relacijskih podatkovnih bazah so podatki shranjeni v tabelah (relacijah). Vrstice v tabeli \nimenujemo zapisi, stolpce pa atributi. \nKateri dve od danih trditev veljata za dobro načrtovane relacijske podatkovne baze? \nA \nV relacijski podatkovni bazi ena tabela ne sme vsebovati dveh enakih zapisov. \nB \nV relacijski podatkovni bazi ne moremo opisovati razmerij med različnimi tabelami baze. \nC \nPrimarni ključ tabele mora biti natanko en atribut tabele. \nD \nVsi atributi tabele, ki niso del primarnega ključa, morajo biti med seboj popolnoma neodvisni. \nE \nPrimarni ključ ima lahko tudi vrednost NULL.",
+    "points": 2,
+    "year": 2022,
+    "image": "assets/images/2022_IP2_p09.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2022_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Dani sta relacijski shemi. \nStranka(IDStranke:N, ime:A, IDSvetovalca:N->Svetovalec) \nSvetovalec(IDSvetovalca:N, ime:A, starostO:N) \nNarišite diagram entiteta razmerje (ER).",
+    "points": 2,
+    "year": 2022,
+    "image": "assets/images/2022_IP2_p09.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2022_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "V podatkovni bazi je tabela Elipsa(id:N, a:N, b:N). Podatka a in b predstavljata dolžino \nglavnih polosi elipse. \nZapišite stavek SQL, s katerim tabeli Elipsa dodate zahtevani atribut barva – niz desetih \nznakov. \n (1) \nZapišite stavek SQL, ki vrne število elips s polosjo a med 10 in 20 (vključno z mejama). \n (1)",
+    "points": 2,
+    "year": 2022,
+    "image": "assets/images/2022_IP2_p10.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2022_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Podatka o oddelku sta: javni podatek oznaka (niz znakov) in zasebni podatek stDijakov (celo \nštevilo). Razred Oddelek ima tudi javno metodo izpisPodatkov, ki izpiše podatke. Narišite \nrazredni diagram.",
+    "points": 3,
+    "year": 2022,
+    "image": "assets/images/2022_IP2_p10.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP2_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP2",
+    "text": "Poimenujte tri vrste informacijskih sistemov.",
+    "points": 2,
+    "year": 2022,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2022_IP2_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP2",
+    "text": "Dva primera uporabe (angl. use case) v diagramu UML lahko povežemo s povezavo  \nali s povezavo .",
+    "points": 2,
+    "year": 2022,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2022_IP2_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP2",
+    "text": "V podatkovni bazi so tabele: \nBanka (BID:N, ImeBanke:A20) \nOseba(DavcnaSt:N, Ime:A20, Priimek:A20) \nRacun(StevilkaRacuna:N, DavcnaSt:N->Oseba, BID:N->Banka, Stanje:N, \nOpomba:A20) \n19.1 Napišite stavek SQL, ki vrne davčne številke ter imena in priimke oseb, pri katerih je vsota \nstanj na vseh računih večja od 10.000. \n 19.2 BID banke Kekec je 300. Ta banka podarja vsem računom z opombo 'kredit' 20 €. Napišite \nstavek SQL, ki posodobi podatke v tabeli Racun.",
+    "points": 3,
+    "year": 2022,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2022_IP2_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP2",
+    "text": "Na spletnem portalu beležimo aktivnosti uporabnikov. Vsaka aktivnost ima svojo enolično \nštevilko, ime in opcijski opis. Uporabnik ima svoj ID, ime, priimek in enega ali več e-poštnih \nnaslovov. Pri beleženju aktivnosti uporabnika se zabeležita tudi datum in čas začetka aktivnosti.  \n20.1 Narišite diagram ER podatkovne baze. Na njem prikažite entitetne tipe, atribute, primarne \nin tuje ključe, razmerja in števnosti.",
+    "points": 4,
+    "year": 2022,
+    "image": "assets/images/2022_IP2_p13.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2022_IP2_20"
+  }
+]

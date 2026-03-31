@@ -1,0 +1,416 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Ime programske datoteke, ki jo izvaja JVM (Java Virtual Machine), je: \nA \nProgram.class \nB \nProgram.bin \nC \nProgram.exe \nD \nProgram.java",
+    "points": 1,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Naj bo x celoštevilska spremenljivka. Kateri izmed naslednjih izrazov se ovrednoti na vrednost \ntrue natanko tedaj, ko je vrednost spremenljivke x večkratnik števila 10? \nA \nx > 10 \nB \nx % 10 == 0 \nC \nx != 10 \nD \nx == 10*k",
+    "points": 1,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Za naslednji algoritem napišite program.",
+    "points": 3,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Dan je izsek programa: \nint z=65; \ndouble d1=65.0; \nInteger i=65; \nString s=\"A\"; \nObkrožite veljavni primerjavi. \nA \nif (z==d1) {} \nB \nif (z==i) {} \nC \nif (z==s){} \nD \nif (d1==s) {}",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Kateri izmed opisov velja za stavek break? \nA \nStavek break omogoča ponavljanje drugih stavkov. \nB \nStavek break ni stavek programskega jezika Java. \nC \nStavek break omogoča takojšnjo prekinitev izvajanja stavka switch ali zanke, v kateri se \nnahaja. \nD \nStavek break predstavlja zanko s pogojem na začetku.",
+    "points": 1,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Kaj se izpiše na ekran po izvedbi spodnje kode? \nint x = 12345; \nif (x != 12345)  \n   System.out.print(\"XYZ\"); \nelse \n   System.out.print(\"ZYX\");",
+    "points": 1,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Spremenljivkama x in y tipa double smo že določili neničelne vrednosti. Zapišite pogojne \nstavke, s katerimi izpišemo, v katerem kvadrantu se nahaja točka s koordinatama x in y.",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Deklariran je razred Demo: \npublic class Demo { \n   public int dolzina; \n   public static int sirina; \n} \nKaj izpiše izsek programa? \nDemo x = new Demo(); \nx.dolzina=3; x.sirina=4; \nDemo y = new Demo(); \ny.dolzina=10; y.sirina=20; \nSystem.out.println(\"x.dolzina=\"+x.dolzina+\" x.sirina=\"+x.sirina); \nSystem.out.println(\"y.dolzina=\"+y.dolzina+\" y.sirina=\"+y.sirina);",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Zapišite stavke, s katerimi preverimo, ali je vrednost prvega znaka v nepraznem nizu niz enaka \n'A', in ugotovitev izpišemo.",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "V razredu imamo tabelo realnih števil z imenom tab. Zapišite metodo, ki vrne vsoto prvih n \nelementov tabele, pri čemer je n parameter metode. Če je n neustrezen, metoda vrne vrednost 0.",
+    "points": 3,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Deklarirana je metoda z imenom deli: \npublic static void deli(int a, int b){ \n   try { \n      int c=a/b; \n   } \n   catch (Exception e) { \n      System.out.print(\"Izjema\"); \n   } \n   finally { \n      System.out.print(\"Konec\"); \n   } \n   } \nZa vsakim klicem metode zapišite, kaj se izpiše?  \ndeli(3,0); \ndeli(0,3); \ndeli('A','B');",
+    "points": 3,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Metoda z imenom test za parameter prejme celo število in vrača logično vrednost. Katera izmed \nnaslednjih glav metod je pravilna za to metodo? \nA \nint test(double x); \nB \nboolean test(int x); \nC \nint test(boolean x); \nD \nboolean test(double x);",
+    "points": 1,
+    "year": 2017,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2017_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Dan je izsek programa: \nint x; \nString beseda=\"beseda\"; \nfor (x=0;x<7;x++) \n   System.out.println(beseda.charAt(x)); \nPri kateri iteraciji zanke for se sproži izjema? \nA \nKo ima spremenljivka x vrednost 0. \nB \nKo ima spremenljivka x vrednost 5. \nC \nKo ima spremenljivka x vrednost 7. \nD \nKo ima spremenljivka x vrednost 6.",
+    "points": 1,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "V katerem primeru dobi razred privzeti konstruktor? \nA \nKadar definiramo katerikoli razred. \nB \nKadar za razred definiramo vsaj en konstruktor. \nC \nKadar razred nima drugih konstruktorjev. \nD \nKadar ima razred zasebne podatke.",
+    "points": 1,
+    "year": 2017,
+    "image": "assets/images/2017_IP1_p08.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Kaj izpiše diagram poteka?",
+    "points": 3,
+    "year": 2017,
+    "image": "assets/images/2017_IP1_p08.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Napišite metodo int nenicelni(int polje[]), ki za parameter prejme tabelo celih števil in \nvrne število elementov v tabeli, ki so različni od 0.",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Kateri izmed naštetih podatkovnih tipov spada med osnovne/primitivne podatkovne tipe \nprogramskega jezika Java? Obkrožite črko pred pravilnim odgovorom. \nA \nStringBuffer \nB \nint \nC \nString \nD \nInteger",
+    "points": 1,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Kateri dve izmed deklaracij povzročita napako pri prevajanju programa? \nA \nString besedilo0[]={\"Matura\",\"java\",\"progamiranje\"}; \nB \nString besedilo1=\"Matura java programirnje\"; \nC \nString besedilo2[]=\"Matura java programiranje\"; \nD \nString besedilo3[]=new String {\"Matura\",\"java\",\"progamiranje\"}; \nE \nString besedilo4=new String(\"Matura java programirnje\");",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Tabela je deklarirana kot dvodimenzionalna tabela s podatki: \n4 \n1 \n5 \n6 \n3 \n3 \n2 \n8 \n1 \n2 \n3 \n7 \n7 \n5 \n1 \n5 \nint t[][]={{4,1,5,6},{3,3,2,8},{1,2,3,7},{7,5,1,5}}; \n19.1. Napišite metodo, ki obrne vrstni red podatkov znotraj ene vrstice tabele.  \nGlava metode: public static void obrniEno(int x[]). \n 19.2. Napišite metodo, ki obrne vrstni red vrstic tabele in hkrati obrne vrstni red podatkov znotraj \nvsake vrstice tabele. Glava metode naj bo: public static void obrniVse(int t \n[][]). \nTabela t bo po izvedbi metode obrniVse imela naslednjo vsebino: \n5 \n1 \n5 \n7 \n7 \n3 \n2 \n1 \n8 \n2 \n3 \n3 \n6 \n5 \n1 \n4",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Naravno število je harshadsko število, če je deljivo z vsoto svojih števk. Ime harshadsko prihaja iz \nsanskrta: harṣa (veselje) + da (dati), torej »nekaj, kar da veselje«.  \n20.1. Zapišite program, ki izpiše vsa harshadska števila med 1 in 200, vključno z mejama. \nPRIMERI harshadskih in neharshadskih števil: \n– število 18 je harshadsko število, ker je deljivo z vsoto svojih števk 1+8 = 9 \n– število 120 je harshadsko število, ker je deljivo z vsoto svojih števk 1+2+0 = 3 \n– število 19 ni harshadsko število, ker ni deljivo z vsoto svojih števk 1+9 = 10",
+    "points": 4,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP1_20"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Število 12 je v dvojiškem zapisu z osmimi biti 00001100. Zapišite dvojiški komplement tega \nštevila.",
+    "points": 1,
+    "year": 2017,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2017_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Kaj je naloga BIOS-a ? \nA \nOmogoči računalniku, da se poveže na internet. \nB \nZagotovi začasni pomnilni prostor za CPE. \nC \nZažene POST (power-on self test) internih komponent računalnika. \nD \nZagotovi grafično podporo igram in aplikacijam.",
+    "points": 1,
+    "year": 2017,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2017_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Ukaz je zgrajen iz in .",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2017_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Obkrožite P, če je trditev pravilna, oziroma N, če je trditev napačna.  \nV bralno-pisalne pomnilnike lahko piše le sistem,  \npodatke pa bere le uporabnik.  \nP \nN \nV bralnem pomnilniku se podatki ohranijo tudi po izklopu elektrike.  \nP \nN \nBralni pomnilniki so pomnilniki, iz katerih lahko bere le uporabnik. \nP \nN",
+    "points": 3,
+    "year": 2017,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2017_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "S katerim ukazom v operacijskem sistemu Linux izpišemo seznam in značilnosti procesov? \nA \nls \nB \ngrep \nC \npid \nD \nps",
+    "points": 1,
+    "year": 2017,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2017_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Za prikaz sporočila na ekran v operacijskem sistemu Linux uporabimo ukaz: \nA \ntype \nB \necho \nC \ndisplay \nD \nprint",
+    "points": 1,
+    "year": 2017,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2017_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Kateri izmed ukazov je ekvivalent ukazu chmod 761 datoteka.txt v operacijskem sistemu \nLinux? \nA \nchmod u+rwx, g+rw, o+x datoteka.txt \nB \nchmod a=761 datoteka.txt \nC \nchmod u=rwx, g=rw, o=x datoteka.txt \nD \nchmod a=rwx datoteka.txt",
+    "points": 1,
+    "year": 2017,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2017_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Uporabnik ima težave pri dostopu na internet. Ukaz ping www.arnes.si ne uspe. Ko \nposkusimo preveriti povezljivost IP-naslova arnesa z ukazom ping 193.2.1.67, pa le-ta uspe. \nKje je vzrok? \nA \nSpletni strežnik ni priklopljen. \nB \nNapačna konfiguracija privzetega prehoda. \nC \nStrežnik DHCP ni aktiven.  \nD \nProblem je v strežniku DNS.",
+    "points": 1,
+    "year": 2017,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2017_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Katera dela sestavljata naslov IPv4? \nA \nPodomrežni del. \nB \nOmrežni del. \nC \nLogični del. \nD \nDel, ki identificira naprave. \nE \nFizični del. \nF \nDel poplavljanja.",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2017_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "V podjetju imamo lokalno omrežje s številko IPv4 192.168.120.0 /24. Na usmerjevalniku imamo \nprvi uporaben naslov IPv4, na strežniku pa drugi uporaben naslov IPv4. Kakšne nastavite imamo \nna strežniku?  \nNaslov IPv4:  Maska:  Prehod:",
+    "points": 3,
+    "year": 2017,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2017_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Pri vsakem sloju modela TCP/IP zapišite ustrezni sloj oz. sloje modela OSI:",
+    "points": 1,
+    "year": 2017,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2017_IP2_11"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "aplikacijski, 2. predstavitveni, 3. sejni, 4. transportni, 5. omrežni, 6. povezovalni, 7. fizični \nAplikacijski sloj:  \n Transportni sloj:  \n Internetni sloj:  \n Sloj omrežnega vmesnika:",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2017_IP2_01"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Termine znanje, podatek in informacija razvrstite po kompleksnosti od najmanj do najbolj \nkompleksnega.  \n1 (enostaven)  \n 2  \n 3 (kompleksen)",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "S katerima vrstama diagramov lahko predstavimo model podatkov? \nA \nZ diagramom entiteta-razmerje (ER). \nB \nZ diagramom primer uporabe (use case). \nC \nZ diagramom poteka. \nD \nZ razrednim diagramom (Class). \nE \nZ diagramom toka podatkov.",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Katere so združevalne (agregacijske) funkcije v SQL? \nA \ncount \nB \navg \nC \nabs \nD \nextract \nE \nupper \nF \nmin",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2017_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Zapišite stavek SQL, s katerim ustvarite tabelo Disk(Proizvajalec:A20, Oznaka:A5, \nVelikost:N, Opomba:N).",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2017_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Razvoj informacijskega sistema zajema številna opravila, navadno razdeljena v faze. Dopišite \nfazi, ki smo ju izpustili. \nAnaliza \n Implementacija \n Uvedba  \nVzdrževanje",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2017_IP2_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP2",
+    "text": "Elektronska redovalnica je primer \nA \nsistema za podporo odločanju. \nB \nekspertnega sistema. \nC \ntransakcijskega informacijskega sistema. \nD \nmenedžerskega informacijskega sistema.",
+    "points": 1,
+    "year": 2017,
+    "image": "assets/images/2017_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Informacijski sistemi",
+    "id": "2017_IP2_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP2",
+    "text": "Dane imamo naslednje relacijske sheme.  \nZdravnik(ZdravnikID:N, Ime:A15, Priimek:A15, ordinacija:N) \nPacient(EMSO:A13, Ime:A15, Priimek:A15, stZavarovanja:N) \nPregled(EMSO:A13->Pacient, ZdravnikID:N->Zdravnik, Datum:D,  \nDiagnoza:A30) \nNarišite pripadajoči diagram ER. \nIz diagrama morajo biti razvidni entitetni tipi, atributi, ključi in povezave s števnostjo.",
+    "points": 3,
+    "year": 2017,
+    "image": "assets/images/2017_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2017_IP2_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP2",
+    "text": "Spletno borzo uporabljajo kupci in prodajalci. Oboji se morajo pred pričetkom trgovanja prijaviti. \nPostopek prijave obsega tudi preverjanje uporabniških podatkov. Kupec na borzi lahko opravlja \nanalizo tveganja, s prodajalcem pa še pogajanje in sklepanje pogodbe. Pri pogajanju in sklepanju \npogodb se pri prikazu cene uporablja pretvornik valut. Ko kupec izvaja analizo tveganja, ima na \nvoljo možnost analize valutnih tveganj in analize trga surovin. \n19.1. Izdelajte diagram primerov uporabe (use-case), na katerem boste predstavili akterje, \nprimere uporabe (use-case) in povezave.",
+    "points": 4,
+    "year": 2017,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2017_IP2_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP2",
+    "text": "V podatkovni bazi hranimo podatke o filmih. Bazo sestavljajo tabele: \nZvrst(ZID:N, ImeZvrsti:A20) \nFilm(FID:N, Naslov:A30, Leto:N, ZID:N-->Zvrst) \nIgralec(ID:N, Ime:A20, Priimek:A20) \nIgra(ID:N-->Igralec, FID:N-->Film, Vloga:A20) \n20.1. Zapišite stavek SQL, ki vrne abecedni seznam priimkov in imen igralcev v filmu Amarcord. \n 20.2. Zapišite stavek SQL, ki vrne imena filmov, v katerih igra najmanj pet igralcev.",
+    "points": 2,
+    "year": 2017,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2017_IP2_20"
+  }
+]

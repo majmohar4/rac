@@ -1,0 +1,407 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Programski jezik Java spada v kategorijo \nA \npoizvedovalnih jezikov. \nB \nhipertekstnih jezikov. \nC \nvišjih programskih jezikov. \nD \nnižjih programskih jezikov.",
+    "points": 1,
+    "year": 2025,
+    "image": "assets/images/2025_IP1_p05.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Java Virtual Machine (JVM) se uporablja za \nA \nizvajanje javanskih programov. \nB \nprevajanje javanskih programov. \nC \nrazhroščevanje javanskih programov. \nD \nspreminjanje oziroma vzdrževanje javanskih programov.",
+    "points": 1,
+    "year": 2025,
+    "image": "assets/images/2025_IP1_p05.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Narišite diagram poteka, ki izpiše prvih 30 elementov zaporedja s prvim členom 3 in splošnim \nčlenom an = 2 * an-1 + 1",
+    "points": 3,
+    "year": 2025,
+    "image": "assets/images/2025_IP1_p05.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Kaj izpiše izsek programa? \nint a = 19; \nint b = 3; \nint odg = a / b == 0 ? a + 2: b + 3; \nSystem.out.println(\"odg = \"+ odg);",
+    "points": 1,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Pri pregledu nekega programa smo zasledili izsek programa: \n   int stevilka = 18; \n   System.out.println(~stevilka); \nKaj izpiše ta izsek programa?",
+    "points": 1,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "V programu imamo celoštevilski neničelni spremenljivki x in y. Zapišite logični izraz, ki se \novrednoti na true natanko tedaj, ko je vrednost spremenljivke x večkratnik števila y.",
+    "points": 1,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Zapišite poljubno zanko, s katero izpišemo vsa naravna soda števila manjša od 100.",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Kaj izpiše izsek kode? \n   for(int i=0; i<5; i++) { \n      for(int j=0; j<5; j++) \n         if (i==j || j == 4 - i ) \n            System.out.print(\"X\"); \n         else \n            System.out.print(\"O\"); \n      System.out.println(); \n   }",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Kdaj moramo uporabiti določilo static pri deklaraciji metode? \nA \nKo je ta metoda objektna. \nB \nKo metoda ne zahteva uporabe objekta. \nC \nKo metoda ne sme biti dostopna vsem. \nD \nKo želimo omejiti dedovanje te metode.",
+    "points": 1,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Dana je metoda:  \npublic static void main(String args[]) { \nint [] t1={1,4,7,3,12}; \n/* 2. vrstica */      System.out.println((int)' '); \n/* 3. vrstica */      System.out.println(t1[1]+' '+t1[2]); \n/* 4. vrstica */      System.out.println(t1[1]+\" \"+t1[2]); \n/* 5. vrstica */      System.out.println(t1[1]+t1[2]); \n} \nIzpis 2. vrstice programa je 32. Kaj izpišejo 3., 4. in 5. vrstica programa?",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Napišite javno statično metodo public static boolean enolicni(String niz), ki za \nprejeti niz znakov vrne true, če se vsak znak niza pojavi v nizu natanko enkrat, in false, če se \nkaterikoli znak v nizu ponovi.",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Podan je niz1 = \"danes je lep dan\". Napišite program, ki vsako besedo v nizu zapiše v \nsvojo celico tabele besede, tabelo uredi po abecedi in jo izpiše.",
+    "points": 3,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Zapišite metodo preveriTabelo. Metoda prejme tabelo celih števil. Če je v tabeli sodo število \nelementov in so vsi elementi soda števila, metoda vrne 2. Če je v tabeli liho število elementov in \nso vsi elementi liha števila, metoda vrne 1. V vseh preostalih primerih in če je tabela prazna, \nmetoda vrne 0. \npublic static int preveriTabelo(int [] t){",
+    "points": 3,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Napisano imamo kodo, ki med prevajanjem programa sproži napako: \nclass Vozilo { \n  private String znamka; \n  public Vozilo() { \n    znamka = \"Proizvajalec\"; \n  } \n  public void zatrobi() { \n    System.out.println(\"Cin cin!\"); \n  } \n} \nclass Avto extends Vozilo { \n  private String model; \n  public Avto() { \n    model = \"Prvi model\"; \n  } \n  public static void main(String[] args) { \n    Avto mojAvto = new Avto(); \n    mojAvto.zatrobi(); \n    System.out.println(mojAvto.znamka); \n    System.out.println(mojAvto.model); \n  } \n} \nPrepišite vrstico glavne metode, ki povzroči napako. \n Kako je treba spremeniti razred Vozilo, da se ta napaka ne pojavi?",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Dve preobloženi (angl. overloaded) metodi razreda se morata razlikovati: \nA \npo imenu metode (metodi imata različni imeni). \nB \npo tipu vrednosti, ki jo vračata. \nC \npo številu argumentov. \nD \npo tipu argumentov. \nE \npo imenu argumentov.",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Katera od zapisanih povedi najbolje opisuje strokovni izraz izjema? \nA \nIzjema je del kode, ki jo posebej obravnavamo s stavkom if. \nB \nIzjema je del kode, ki prekine normalno izvajanje programa. \nC \nDo izjeme pride, kadar pričakujemo, da uporabnik vnese pozitivno celo število, prejmemo pa \nnegativno celo število. \nD \nDo izjeme pride, kadar prevajalnik zaradi sintaktičnih napak ne more prevesti programa.",
+    "points": 1,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Napišite program preveri. Če prvi argument programa NI celo število, program izpiše \nArgument ni celo število. \nPrimer: Če je klic programa  \njava preveri abc, program izpiše: Argument ni celo število \npublic class Preveri \n{ \npublic static void main(String[] args) { \n   int x=0; \n System.out.println(\"Vpisali ste veljavno vrednost.\"); \n   } \n}",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Napišite metodo public static double stdev(double []tabela), ki prejme tabelo in \nvrne rezultat naslednje formule: 끫뷾= ට∑(끫룊끫뢬−끫룊̅)2\n끫뢂−1\n. Nasvet: Najprej izračunajte aritmetično sredino \nvseh elementov tabele. Legenda uporabljenih simbolov v formuli: \n끫룊끫뢬… i-ti element tabele, \n끫룊̅… aritmetična sredina vseh elementov tabele, \n끫뢂… število elementov tabele, \nΣ… vsota vseh elementov tabele.",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Radi bi napisali metodo, ki pretvori število iz desetiškega v dvojiški zapis. \n19.1. Brez uporabe metode Integer.toBinaryString napišite metodo \nintToBinaryString, ki prejme naravno število, ga pretvori v dvojiško in vrne rezultat v \nobliki String.  \n 19.2. Napišite metodo primerjaj, ki prejme celo število in uporabi vgrajeno metodo \nInteger.toBinaryString. Dobljeni rezultat primerja z rezultatom prejšnje metode, in \nče sta oba niza enaka, vrne true, sicer vrne false.",
+    "points": 3,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Delo s točkami v ravnini in prostoru. \n20.1. Napišite razred Tocka3D, ki ustreza spodnjemu razredu Tocka2D, programu in izpisu. \nRAZRED Tocka2D \nclass Tocka2D { \n    protected double x; \n    protected double y; \n    public Tocka2D(double x, double y) { \n       this.x = x; \n       this.y = y; \n    } \n    public double vrniMin() { \n        return Math.min(x, y); \n    } \n} \nPROGRAM \npublic class Test{ \n     public static void main(String []args){ \n        Tocka2D t1 = new Tocka2D(-3.4, 2.5); \n        Tocka2D t2 = new Tocka3D(2.1, 1.3, -2); \n        System.out.println(t1.vrniMin()); \n        System.out.println(t2.vrniMin()); \n     } \n} \nIZPIS \n-3.4 \n-2.0",
+    "points": 1,
+    "year": 2025,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2025_IP1_20"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Izračunajte vsoto izraza in ga pretvorite v desetiški sistem. \n46(16)+ 70(10) + 1000110(2)",
+    "points": 1,
+    "year": 2025,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2025_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Katera od naštetih trditev je resnična za predpomnilnik? \nA \nPredpomnilnik shranjuje podatke trenutnega ukaza. \nB \nPredpomnilnik shranjuje pogosto uporabljene podatke, ki so sicer shranjeni v glavnem \npomnilniku. \nC \nPredpomnilnik se uporablja za trajno shranjevanje podatkov. \nD \nPredpomnilnik ima počasnejši dostopni čas kot trdi disk.",
+    "points": 1,
+    "year": 2025,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2025_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Primerjamo dve izvedbi RAM-pomnilnikov: statični (SRAM) in dinamični (DRAM). \nKatera izvedba ima večjo kapaciteto?  Katera izvedba ima krajši dostopni čas?",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2025_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Za preverjanje pravilnosti prenosa podatkov uporabimo liho pariteto. Pravilno izpolnite prečno in \nvzdolžno pariteto. \nPodatki \nVzdolžna pariteta \n1 \n0 \n1 \n0 \n1 \n0 \n1 \n0 \n1 \nPrečna pariteta",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2025_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "V operacijskem sistemu Linux bi želeli v trenutni mapi preimenovati datoteko vaja.txt v \nbesedilo.txt. Napišite ukaz, ki to izvede.",
+    "points": 1,
+    "year": 2025,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2025_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Denimo, da imamo v trenutni mapi datoteki pozdrav.txt in matura.txt.  \n[dijak@comp1 ~]# ls -l \n-rw-r--r-- 1 dijak vajenec  28 Feb  2 08:23 matura.txt \ndrwxr-xr-x 2 dijak vajenec  67 Feb  2 08:34 navodila \n-rw-r--r-- 1 dijak vajenec  14 Feb  2 08:22 pozdrav.txt \nZapišite ukaz, s katerim v datoteki obvestilo.txt združite vsebini datotek pozdrav.txt in \nmatura.txt. Datoteka obvestilo.txt naj se zapiše v mapo navodila.",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2025_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Datoteka v operacijskem sistemu LINUX ima \nA \nenega lastnika (angl. owner) in pripada eni skupini uporabnikov (angl. group). \nB \nenega lastnika in pripada več skupinam uporabnikov. \nC \nveč lastnikov in pripada eni skupini uporabnikov. \nD \nveč lastnikov in pripada več skupinam uporabnikov.",
+    "points": 1,
+    "year": 2025,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2025_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Kdaj uporabimo poplavni (angl. broadcast) naslov? \nA \nKo želimo preiti v drugo omrežje. \nB \nKo je ciljni naslov zunaj našega omrežja. \nC \nSamo takrat, ko je omrežje prezasedeno in je treba nujno poslati sporočilo v drugo omrežje. \nD \nKo želimo, da sporočilo prejmejo vse naprave našega omrežja.",
+    "points": 1,
+    "year": 2025,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2025_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Obkrožite črki pred trditvama, ki sta resnični za sejni sloj modela ISO/OSI? \nA \nOmogoča vzpostavljanje in uporabo povezave med dvema deležnikoma v omrežju. \nB \nSejni sloj določa način komunikacije: enosmerna, izmenično dvosmerna ali dvosmerna. \nC \nSejni sloj zagotavlja, da paketi prispejo v istem vrstnem redu, kot so bili poslani. \nD \nSejni sloj zagotavlja prenos podatkov znotraj istega omrežja. \nE \nSejni sloj zagotavlja enolično identifikacijo naprav v omrežju.",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2025_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Naslov IPv4 računalnika, zapisan v prefiksni notaciji, je 195.23.45.. \nZapišite masko omrežja v decimalni notaciji:  Zapišite naslov omrežja:  Zapišite broadcast naslov omrežja:",
+    "points": 3,
+    "year": 2025,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2025_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Dopolnite stavka, da bosta trditvi resnični. \nProtokol UDP dela na sloju protokolnega modela TCP/IP. \nProtokol HTTP dela na sloju protokolnega modela TCP/IP.",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2025_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Obkrožite črko pred resnično trditvijo. \nA \n1 KB je enako kot 1 KiB. \nB \n1 KiB je za 2,4 % manjši od 1 KB. \nC \n1 KiB je za 2,4 % večji od 1 KB. \nD \n1 KiB je za več kot 10 % večji od 1 KB.",
+    "points": 1,
+    "year": 2025,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2025_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Javne uslužbence ocenjujejo z ocenami 1 do 5. Najmanj koliko bitov je potrebnih, da shranimo \neno oceno? \n Najmanj koliko bitov je potrebnih, da shranimo dve oceni javnega uslužbenca?",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2025_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "Transakcijski informacijski sistem (TIS) je programska oprema, ki omogoča izvajanje in \nupravljanje poslovnih transakcij v računalniškem okolju. Kateri od naštetih lastnosti sta lastnosti \nTIS? \nA \nRazlične transakcije so med seboj neodvisne in se izvajajo izolirano ena od druge. \nB \nRazlične transakcije so med seboj odvisne in se izvajajo v odvisnosti ena od druge. \nC \nV primeru napake sistema so vse potrjene transakcije dosegljive tudi po odpravi napake. \nD \nV primeru napake sistema se lahko zgodi, da so potrjene transakcije po odpravi napake \nnedosegljive. \nE \nOdzivni časi v TIS niso pomembni.",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Informacijski sistemi",
+    "id": "2025_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Povezava include med dvema primeroma uporabe Izvedi in Zapisi na diagramu UML \npomeni, \nIzvedi\ninclude\nZapisi\nA \nda primer uporabe Zapisi vsebuje v primeru uporabe Izvedi. \nB \nda primer uporabe Izvedi obvezno izvrši tudi primer uporabe Zapisi. \nC \nda primer uporabe Izvedi lahko, vendar ne nujno, izvrši primer uporabe Zapisi. \nD \nda je primer uporabe Izvedi že vsebovan v primeru uporabe Zapisi.",
+    "points": 1,
+    "year": 2025,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2025_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Za entitetni tip Oseba imamo na voljo atribute: EMŠO, ime, priimek, datum rojstva in davčno \nštevilko.  \nZapišite vse atribute, ki so kandidati za entitetni identifikator entitetnega tipa Oseba.",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2025_IP2_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP2",
+    "text": "Zapišite stavek SQL, ki ustvari tabelo Predmet(PID:N,Letnik:N,Vsebina:A30). \n Zapišite stavek SQL, ki ustvari tabelo \nUcnaSnov((PID:N,Letnik:N)Predmet,Poglavje:A30,Opis:A100).",
+    "points": 3,
+    "year": 2025,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2025_IP2_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP2",
+    "text": "Po izvedbi stavka select * from podatki; smo dobili odgovor: \n+------+------+------+ \n| a    | b    | c    | \n+------+------+------+ \n|   10 |   20 |   30 | \n|   40 | NULL | NULL | \n|   50 |   60 | NULL | \n+------+------+------+ \nNarišite tabelo, ki jo vrne stavek select a+b+c as vsota from podatki;.",
+    "points": 3,
+    "year": 2025,
+    "image": "assets/images/2025_IP2_p10.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2025_IP2_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP2",
+    "text": "V podatkovni bazi (PB) Nepremicnine hranimo podatke o nepremičninah in njihovih lastnikih. \nNepremičnine so razvrščene v kategorije (npr. stanovanje, hiša, parcela, garaža, gospodarski \nobjekt, …). Vsaka nepremičnina ima svojo enolično številko, spada v eno kategorijo in ima enega \nali več lastnikov. Podatki o lastnikih so davčna številka in ime. En lastnik ima lahko tudi več \nnepremičnin. Če ima nepremičnina enega lastnika, je njegov delež 100-%, sicer se za vsakega \nsolastnika zabeleži odstotek njegovega deleža.  \n19.1. Narišite diagram ER za PB Nepremicnine. Na diagramu morajo biti prikazani entitetni tipi, \nrazmerja in števnosti, primarni ključi, tuji ključi in atributi.",
+    "points": 4,
+    "year": 2025,
+    "image": "assets/images/2025_IP2_p11.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2025_IP2_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP2",
+    "text": "V trgovini stranke pri zaposlenih kupujejo izdelke in zato prejmejo račun. Podatkovni model \nopisuje relacijska shema: \nZaposlen(IDzaposlen:N, ime:A20, priimek:A20) \nIzdelek(IDIzdelek:N, imeIzdelka:A20, cena:N) \nStranka(IDStranka:N, ime:A20, priimek:A20) \nRacun(IDRacun:N, IDStranka:N->Stranka,  \nIDIzdelek:N->Izdelek, IDzaposlen:N->Zaposlen, Datum:D) \n20.1. Zapišite stavek SQL, ki za vsako stranko vrne ID stranke, ime in skupno število kupljenih \nizdelkov.  \n 20.2. Zapišite stavek SQL, ki izpiše imena strank, ki so kupovale marca leta 2024.",
+    "points": 2,
+    "year": 2025,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2025_IP2_20"
+  }
+]

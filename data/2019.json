@@ -1,0 +1,404 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Da bi na računalniku izvajali javanske programe, moramo namestiti vsaj \nA \nJDK (Java Development Kit). \nB \nNetbeans. \nC \nJDBC (Java Database Connectivity). \nD \nJRE (Java Runtime Environment).",
+    "points": 1,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Katero izmed naštetih možnosti mora vsak algoritem gotovo izpolnjevati? \nAlgoritem mora  \nA \nbiti zapisan v programskem jeziku. \nB \nvsebovati vsaj eno vejitev. \nC \nvsebovati vsaj eno zanko. \nD \nbiti nedvoumen.",
+    "points": 1,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Kateri od navedenih podatkovnih tipov NE spada med primitivne tipe podatkov? \nA \nchar \nB \nint \nC \nString \nD \ndouble",
+    "points": 1,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Dan je ta diagram poteka: \nx >= 1\nx = 1.5\ny = 1\ni = 0\nfalse\ntrue\ny++\ni += 2*y\nx –= 0.5\nizpis: i, y\nkonec\nzačetek\nPretvorite dani diagram poteka v program, zapisan v Javi.",
+    "points": 3,
+    "year": 2019,
+    "image": "assets/images/2019_IP1_p04.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "Dan je ta stavek programskega jezika Java: \nint stevilo = -999; \nVsakemu pojmu v spodnji preglednici ustreza natanko en opis s seznama iz preglednice. \nDoločite, kateri opis je ustrezen, tako da pri vsakem pojmu zapišete ustrezno črko opisa. \nPojem \nKateri opis  \nmu ustreza? \nOpis \nint \nA Je ime spremenljivke. \n-999 \nB Je znakovna vrednost. \nC Je celoštevilska vrednost. \nD Je poljuben podatkovni tip. \nE Je niz. \nF \nJe ključna beseda programskega jezika Java.",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Katera izmed spodnjih trditev je resnična za sintakso in katera za semantiko programskega jezika \nJava?  \nA \nSemantika programskega jezika Java določa pomen zapisanih stavkov. \nB \nSemantika programskega jezika Java določa, kako moramo neki stavek zapisati. \nC \nSemantika programskega jezika Java določa, da se program izvaja s pomočjo tolmača. \nD \nSintaksa programskega jezika Java določa pomen zapisanih stavkov. \nE \nSintaksa programskega jezika Java določa, kako moramo neki stavek zapisati. \nF \nSintaksa programskega jezika Java določa, da se program izvaja s pomočjo tolmača.",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Deklarirani sta spremenljivki a in b tipa boolean in dan je stavek if (!a && !b) {/*…*/}. \nZapišite ekvivalentni stavek if brez uporabe operatorja &&.",
+    "points": 1,
+    "year": 2019,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2019_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "Izjemo v programskem jeziku Java sprožimo s stavkom \nA \nthrow \nB \ntry \nC \nwhile \nD \nreturn",
+    "points": 1,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "V programu je x celoštevilska spremenljivka. Za vsakega izmed navedenih logičnih izrazov \nzapišite enakovreden logični izraz, pri čemer ne smete uporabiti negacije. \n!(x >= 0)  !(x != 0)",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Zapišite zaporedje stavkov brez uporabe zanke for, ki nadomestijo zanko  \nfor(int i=0; i<1000000; i++)  \n   System.out.println(i);",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Kaj izpiše program? \npublic class RazredA { \n   static int x = 3; \n   int y; \n   RazredA() { \n      x++ ; \n      y++ ; \n   } \n   static void metodaA(int i, int i2){ \n      x = x + i + i2; \n      System.out.println(\"x=\" + x); \n   } \n   public static void main(String[] args) { \n      RazredA a1 = new RazredA(); \n      RazredA.metodaA(3,2); \n      RazredA a2 = new RazredA(); \n      RazredA.metodaA(4,2); \n    } \n}",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "Napišite del programa, ki izračuna in na zaslon izpiše vse pozitivne delitelje naravnega števila, \nshranjenega v celoštevilski spremenljivki x. Privzemite, da je spremenljivka x že definirana.",
+    "points": 3,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Deklarirana je tabela int[] t = {1,2,3,4,5}; \nV programski kodi je zapisan stavek t[5]=6; \nObkrožite črko pred resnično trditvijo. \nA \nDo napake pride pri prevajanju programa v vmesno kodo. \nB \nProgram se prevede, vendar pride do napake pri izvajanju programa. \nC \nProgram se prevede in izvede, nova vsebina tabele bo 1,2,3,4,6. \nD \nProgram se prevede in izvede, nova vsebina tabele bo 1,2,3,4,5,6.",
+    "points": 1,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Kateri definiciji razreda razredA dovoljujeta kreiranje novega objekta iz razreda s stavkom \nrazredA objX = new razredA();? \nA \nclass razredA{ \n   int x=55; \n   razredA(){} \n} \nB \nclass razredA{ \n   int x=55; \n} \nC \nclass razredA{ \n   int x=55; \n   razredA(int xx){ \n      x=xx; \n   } \n} \nD \nclass razredA{ \n   int x=55; \n   razredA(int xx){ \n      x=this.x; \n   } \n}",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Napišite metodo, ki za parameter prejme niz. Metoda vrne vrednost true, če so vsi znaki v nizu \nštevke, v nasprotnem primeru vrne vrednost false.",
+    "points": 3,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "Koliko je vrednost spremenljivke stevilo po izvedbi spodnjih stavkov? \nint stevilo = 123; \nif (stevilo % 10 == 3) \n   stevilo++; \nelse \n   stevilo--; \nVrednost spremenljivke stevilo po izvedbi zgornjih stavkov je .",
+    "points": 1,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Dan je izsek kode v programskem jeziku Java: \nint a = 14, b = 4; \nint c = a%b; \nfor(int i=0; i<c; i++) { \n   a = a + c; \n   double j = 0; \n   while (j<i) { \n      b = b + i; \n      j = j + 0.8; \n   } \n   System.out.println(a+\", \"+b); \n} \nKaj se med izvajanjem izpiše na zaslon?",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "Napišite program, ki ustvari tabelo 100 števil ter jo napolni z naključnimi števili med –500 do \n+500, vključno z mejama.",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "Dan imamo program in izpis, ki ga ta povzroči. \n19.1. Napišite razred Dvojica, ki bo ustrezal spodnjemu programu in izpisu. \nProgram: \npublic static void main(String[] args) \n{ \n   Dvojica[] p = new Dvojica[5]; \n   for(int i=0; i<5; i++) { \n      p[i] = new Dvojica(i, i+1); \n      System.out.println(p[i]); \n   } \n   p[3].povecajPrvo(); \n   System.out.println(p[3]); \n   p[3].povecajPrvo(4); \n   System.out.println(p[3]); \n} \nIzpis na zaslon: \n(0,1) \n(1,2) \n(2,3) \n(3,4) \n(4,5) \n(4,4) \n(8,4)",
+    "points": 1,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Dana je dvodimenzionalna tabela double podatki[][] = new double[12][28], v kateri \nso za vsak mesec in za 28 naključnih dni meseca shranjene povprečne dnevne temperature. Pri \ntem je januar predstavljen z indeksom 0, vsak naslednji mesec pa z za ena večjim indeksom. \n20.1. Napišite metodo z imenom najvisjaTemperatura, ki vrne indeks meseca, ki je imel dan \nz najvišjo povprečno dnevno temperaturo. Metoda prejme podatke s parametrom v obliki \nzgoraj opisane tabele. Privzamete lahko, da je tabela gotovo opisanih dimenzij.",
+    "points": 4,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP1_20"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Dnevi v tednu so: ponedeljek, torek, sreda, četrtek, petek, sobota in nedelja. Izvedeli ste, da je \ndanes sreda. Najmanj koliko bitov informacije ste prejeli? Odgovor utemeljite. \nA \n1 bit. \nB \n3 bite. \nC \n7 bitov. \nD \n8 bitov. \nUtemeljitev:",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2019_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Obkrožite črki pred resničnima trditvama. \nRegistri so \nA \nsestavni del CPE, imajo majhno kapaciteto. \nB \npomnilne enote z veliko kapaciteto, dostop do podatkov je počasen. \nC \npomnilne enote, pri katerih je dostop do podatkov hiter. \nD \nsestavni del glavnega pomnilnika. \nE \nsestavni del sekundarnega pomnilnika.",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2019_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Šestnajstiško število FACA zapišite v binarni in osmiški obliki.",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2019_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Za vsako trditev obkrožite R, če je trditev resnična, in N, če je trditev neresnična. \nVon Neumannov model računalnika ne vključuje vhodnih in izhodnih naprav. \nR \nN \nPrekinitve v računalniku so lahko strojne ali programske. \nR \nN",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2019_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Vsakega predstavnika programske opreme povežite z vrsto programske opreme, h kateri \npripada, in mu določite natanko eno izmed naštetih nalog, ki za tega predstavnika velja.  \nVsako nalogo smete povezati z največ enim predstavnikom. \nVrsta programske opreme \nPredstavnik \nNaloge \nsistemska programska oprema \nuporabniška programska oprema \nAndroid \nGoogle Chrome \nBeležnica \npisanje in urejanje izvorne  \nkode programov \nprotivirusni program \npravilno delovanje  \npriključene naprave \nnadzira delovanje  \nuporabniških programov \nprogram za vzpostavljanje \npovezav z drugimi napravami \nprikaz HTML strani",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2019_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "Obkrožite črki pred trditvama, ki nista resnični za večuporabniški operacijski sistem. \nA \nUporabnik z administratorskimi pravicami ekskluzivno zasede CPE. \nB \nSredstva so deljena med uporabniki. \nC \nVsak uporabnik se lahko prijavi v sistem le enkrat na dan. \nD \nVsak uporabnik se lahko prijavi v sistem kadarkoli s svojim enoličnim računom. \nE \nUporabniki lahko svoje podatke zavarujejo pred drugimi uporabniki.",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2019_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Uporabnica Maja mora izbrati varno geslo za prijavo v sistem. Katero izmed navedenih gesel je \nnajmanj primerno? \nA \nMaja123 \nB \nG3s10 \nC \nMat1jaM3t3j3 \nD \nH2Pw-s4*eR",
+    "points": 1,
+    "year": 2019,
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2019_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "Kateri dve navedeni trditvi sta resnični za fizični sloj modela ISO/OSI? \nA \nDoloča prenosni medij, po katerem se prenašajo podatki. \nB \nDoloča načine kodiranja podatkov pri prenosu. \nC \nNadzira komunikacijo med napravami. \nD \nDoloča največjo možno hitrost prenosa podatkov. \nE \nRazbija dolga sporočila na manjše dele.",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2019_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Obkrožite notacijo naslova IPv6. \nA \n2001,0db8,3c55,0015,abcd,ff13 \nB \n2001-0db8-3c55-0015-abcd-ff13 \nC \n2001.0db8.3c55.0015.abcd.ff13 \nD \n2001:0db8:3c55:0015::abcd:ff13",
+    "points": 1,
+    "year": 2019,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2019_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Katera naslova IPv4 sta rezervirana za privatno uporabo? \nA \n10.0.0.0 /8 \nB \n64.100.0.0 /14 \nC \n127.16.0.0 /12 \nD \n192.31.7.0 /24",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2019_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Na prenosniku smo pognali ukaz ipconfig /all in dobili spodnji izpis. \nKateri je, glede na izpis, naslov MAC brezžične omrežne kartice? \n Kateri je naslov IPv4 omrežja glede na pridobljeni naslov IPv4 in masko?",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2019_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Spletna trgovina ima informacijski sistem, namenjen sledenju naročil in sprotnemu obveščanju \nstrank o prispeli pošiljki. Ta informacijski sistem spada v kategorijo \nA \ntransakcijskih IS. \nB \nmenedžerskih IS. \nC \nsistemov za podporo odločanju (DSS). \nD \nekspertnih sistemov.",
+    "points": 1,
+    "year": 2019,
+    "solution": null,
+    "topic": "Informacijski sistemi",
+    "id": "2019_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Razredni diagram UML prikazuje \nA \nsamo razrede in lastnosti razreda (atribute).  \nB \nrazrede, razmerja med razredi, omejitve in lastnosti razreda (atribute). \nC \nrazrede, razmerja med razredi in lastnosti razreda (atribute), tok podatkov in procese. \nD \nsamo razrede, omejitve, lastnosti razreda (atribute) in uporabnike IS. \nE \ndoločila dostopa do komponent razredov.",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2019_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "ANSI/SPARC-arhitektura podatkovne baze opredeljuje, da je podatkovna baza opisana na treh \nnivojih: notranjem, konceptualnem in zunanjem. \nŠtevilo shem PB na notranjem nivoju je . \nŠtevilo shem PB na konceptualnem nivoju je . \nŠtevilo shem PB na zunanjem nivoju je .",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2019_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "Obkrožite črki pred resničnima trditvama. \nPrimarni ključ tabele \nA \nmora biti NOT NULL. \nB \nje lahko sestavljen iz največ dveh atributov. \nC \nne more vsebovati tujih ključev. \nD \nje po priporočilu tipa BLOB (binary large object). \nE \nenolično identificira posamezen zapis (vrstico) tabele.",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2019_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Dani sta naslednji tabeli. \ntabela Aplikacije \nID \nIDAvtorja \nime \nkategorija \nstPrenosov \ncena \n1000 \n1 \nSrečni Joža \nigra \n12675 \n0,00 \n1001 \n2 \nBloki \nigra \n212 \n0,99 \n1002 \n3 \nBrsk \nnovice \n4358 \n0,99 \n1003 \n3 \n321BUM \nigra \n11234 \n1,99 \ntabela Avtorji \nIDAvtorja \nnaziv \nletoUstanovitve \n1 \nMirkomehki s.p. \n2010 \n2 \nGamezzz \n2000 \n3 \nMaturko d.o.o \n2015 \nZapišite tabelo, ki jo dobimo, če izvedemo spodnji stavek SQL. \nSELECT Aplikacije.ime, Avtorji.naziv  \nFROM Aplikacije INNER JOIN Avtorji  \nON Aplikacije.IDAvtorja = Avtorji.IDAvtorja  \nWHERE Avtorji.IDAvtorja = 3",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2019_IP2_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP2",
+    "text": "Zapišite stavek ali stavka SQL, s katerima v tabelo Vaja(NalogaID:N, Besedilo:A20, \nTocke:N, Datum:D) dodate opcijski atribut Opomba (niz največ petdesetih znakov) in izbrišete \natribut Datum.",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2019_IP2_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP2",
+    "text": "Pri dodajanju in brisanju zapisov iz podatkovne baze posodabljanje vsebine indeksov izvaja \nA \nuporabniška aplikacija. \nB \nsistem za upravljanje podatkovnih baz. \nC \nposebni programi oz. orodja, ki so nameščeni na podatkovnem strežniku. \nD \nposebni programi oz. orodja, ki so nameščeni na aplikacijskem strežniku.",
+    "points": 1,
+    "year": 2019,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2019_IP2_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP2",
+    "text": "Šolski informacijski sistem uporabljajo učitelji, dijaki in vodstvo šole. Vodstvo šole se mora prijaviti \nin potem ima vpogled v vse ocene dijakov, lahko tudi objavlja okrožnice. Dijaki imajo le možnost \nvpogleda v lastne podatke (ocene in izostanke) in pregled objav. Za pregledovanje ocen in \nizostankov se morajo prijaviti, objave so prosto dostopne. Učitelji lahko vpisujejo ocene in \nizostanke. Šolski pravilnik opredeljuje, da se v nekaterih primerih po vnosu izostankov izrekajo \ntudi vzgojni ukrepi. Za vnos ocen in izostankov morajo biti učitelji prijavljeni, objave vodstva lahko \npregledujejo prosto dostopno.  \n19.1. Narišite diagram primerov uporabe (Use Case), na katerem bodo razvidni akterji, elementi \nprimerov uporabe (Use Case) in povezave med njimi.",
+    "points": 4,
+    "year": 2019,
+    "image": "assets/images/2019_IP2_p09.jpg",
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2019_IP2_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP2",
+    "text": "Dani imamo relacijski shemi. \nVozilo(voziloID:A10, model:A10, \nproizvajalecid:A20→Proizvajalec,letoizdelave:N, tipopreme:A15, \nstevilovrat:N, menjalnik:A20, tipgoriva:A20) \nProizvajalec(proizvajalecid:A20, ime:A20, drzava:A20) \n20.1. Napišite stavek SQL, ki ustvari tabelo Vozilo. \n 20.2. Napišite stavek SQL, ki izpiše, koliko vozil je letos izdelalo posamezno podjetje.",
+    "points": 2,
+    "year": 2019,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2019_IP2_20"
+  }
+]

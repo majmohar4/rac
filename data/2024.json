@@ -1,0 +1,414 @@
+[
+  {
+    "num": 1,
+    "pola": "IP1",
+    "text": "Kako imenujemo pravila programskega jezika, ki določajo pomen stavkov tega jezika? \nTa pravila imenujemo  .",
+    "points": 1,
+    "year": 2024,
+    "image": "assets/images/2024_IP1_p05.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP1",
+    "text": "Kaj predstavlja datotečna končnica .class? \nA \nIzvorno kodo programa. \nB \nVmesno kodo javanskega programa. \nC \nIzvršno kodo javanskega programa. \nD \nIzvorno kodo javanske knjižnice.",
+    "points": 1,
+    "year": 2024,
+    "image": "assets/images/2024_IP1_p05.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP1",
+    "text": "Kako lahko predstavimo algoritem? Obkrožite črki pred pravilnima odgovoroma.  \nA \nZ diagramom primera uporabe (angl. Use Case). \nB \nZ diagramom poteka. \nC \nS psevdo kodo. \nD \nZ razrednim diagramom (angl. Class Diagram). \nE \nZ diagramom ER.",
+    "points": 2,
+    "year": 2024,
+    "image": "assets/images/2024_IP1_p05.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP1",
+    "text": "Napišite program za dani diagram poteka.",
+    "points": 2,
+    "year": 2024,
+    "image": "assets/images/2024_IP1_p05.jpg",
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP1",
+    "text": "V programu imamo celoštevilsko spremenljivko x. Obkrožite črko pred logičnim izrazom, ki je \nenakovreden izrazu !(0 <= x && x <=10)? \nA \n0 > x && x > 10 \nB \n0 >= x && x >= 10 \nC \n0 > x || x > 10 \nD \n0 >= x || x >= 10",
+    "points": 1,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP1",
+    "text": "Katera pogoja vrneta true natanko takrat, ko je vrednost celoštevilske spremenljivke x sodo \nštevilo? \nA \n((x%2)==0) \nB \n((x&2)==0) \nC \n((x&1)==0) \nD \n((x/2)==0)",
+    "points": 2,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP1",
+    "text": "Kaj se izpiše na zaslonu pri izvedbi spodnje kode? \nfor (int i = -5; i < 5; i++){ \n   if (-2*i > 3) \n      continue; \n   else  \n      if (i > 1) \n         break; \n   System.out.println(\"i= \" + i); \n}",
+    "points": 2,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP1",
+    "text": "V nizu je napisano sporočilo, ki bi ga radi kodirali s Cezarjevo kodo. Ta koda deluje tako, da \npremaknemo abecedo za dogovorjeno število znakov. Na primer, če premaknemo za tri znake, \nbo namesto črke ‘A’ izpisana črka ‘D’. Izpis celotne abecede in njene tajne različice, če je \npremaknjena izvorna abeceda za tri znake:  \n      abeceda: A B C D E F G H I J K L M N O P R S T U V Z \ntajna abeceda: D E F G H I J K L M N O P R S T U V Z A B C \nNapišite metodo static String kodiraj(String niz, int premik), ki vrne kodirano \nsporočilo.",
+    "points": 3,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP1",
+    "text": "Kaj je izpis izseka programa? \nint [] x = {14, 18, 2, 5, 5, 7, 10, 15};   \nint y=0; \nint z=x.length; \nfor (int i=0; i<z; i++){ \n  for (int j=z-1; j>0; j--) \n    y+=x[i]+x[j]; \n  System.out.print(\"y = \" + y + \" \"); \n  i++; \n}",
+    "points": 2,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP1",
+    "text": "Napišite metodo popravi, ki je podana s to glavo: \npublic static int[] popravi(int tab[], int min, int max). \nMetoda iz podane tabele tvori novo tabelo, sestavljeno le iz vrednosti, ki so med vrednostma min \nin max (vključno z obema mejama).",
+    "points": 3,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP1",
+    "text": "Napišite metodo, ki prejme dimenzijo n in generira tabelo velikosti n x n. \nTabelo napolnite tako, do so vsi robni elementi in elementi na obeh diagonalah enaki 1, vsi ostali \npa 0 (glejte vzorec tabele 9 x 9)  \nNASVET: Črte predstavljajo enice v tabeli. \n1 \n1 \n1 \n1 \n1 \n1 \n1 \n1 \n1 \n1 \n1 \n0 \n0 \n0 \n0 \n0 \n1 \n1 \n1 \n0 \n1 \n0 \n0 \n0 \n1 \n0 \n1 \n1 \n0 \n0 \n1 \n0 \n1 \n0 \n0 \n1 \n1 \n0 \n0 \n0 \n1 \n0 \n0 \n0 \n1 \n1 \n0 \n0 \n1 \n0 \n1 \n0 \n0 \n1 \n1 \n0 \n1 \n0 \n0 \n0 \n1 \n0 \n1 \n1 \n1 \n0 \n0 \n0 \n0 \n0 \n1 \n1 \n1 \n1 \n1 \n1 \n1 \n1 \n1 \n1 \n1",
+    "points": 3,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP1",
+    "text": "V Javi uporabljamo rezervirano besedo super: \nA \nza dostop do nadrazreda. \nB \npri enkapsulaciji razredov. \nC \nsamo pri statičnih metodah. \nD \nvedno, kadar je obstoječi podatkovni tip premajhen za naš primer.",
+    "points": 1,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP1",
+    "text": "Kaj izpiše spodnji program? \nclass BazniRazred { \n  BazniRazred(){ \nSystem.out.println(\"BazniRazred()...\"); \n  } \n} \nclass IzpeljaniRazred extends BazniRazred { \n  IzpeljaniRazred(){ \nSystem.out.println(\"IzpeljaniRazred()...\"); \n  } \n} \npublic class Test { \n  public static void main(String[] args) { \nIzpeljaniRazred objekt = new IzpeljaniRazred();   \n  } \n}",
+    "points": 2,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP1",
+    "text": "Denimo, da definiramo razred mojRazred, ki ima tri lastnosti tipa int: a, b in c. Koliko \nkonstruktorjev moramo eksplicitno zapisati za razred mojRazred? \nA \nNobenega konstruktorja. \nB \nNatanko en konstruktor. \nC \nDva konstruktorja. \nD \nTri konstruktorje.",
+    "points": 1,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP1",
+    "text": "Metoda oblika je deklarirana s to glavo metode: \npublic static double oblika(String a). \nObkrožite črko pred glavo metode, ki predstavlja preobloženo metodo metode oblika, ali pa \nčrko D, če menite, da nobena glava ne ustreza opisu? \nA \npublic static int oblika(String a) \nB \npublic static double oblika(String a, boolean x) \nC \npublic static double oblikapreoblozena(String a) \nD \nNobena zapisana glava metode ne predstavlja preobložene metode.",
+    "points": 1,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP1",
+    "text": "V programu imamo to metodo: \npublic static void vprasanje(double tab[]) { \n   tab[0] = -1; \n} \nObkrožite črko pred trditvijo, ki je resnična po izvedbi teh dveh stavkov: \ndouble tabela[] = { 3.14, 45.6521, -5.788, 12.9}; \nvprasanje(tabela); \nTrditve so sledeče: \nA \nDrugi stavek sproži napako, saj se ime tabele razlikuje od napovedanega imena v metodi. \nB \nPo izvedbi drugega stavka je tabela nespremenjena glede na tabelo pred izvedbo tega \nstavka. \nC \nPrvi stavek sproži napako, ker nismo podali števila elementov v tabeli. \nD \nPo izvedbi drugega stavka se tabela razlikuje od tabele pred izvedbo tega stavka. \nE \nNobena od zgornjih trditev ni resnična.",
+    "points": 1,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP1",
+    "text": "Dopolnite izsek programa, ki primerja prvo in zadnjo črko niza s ter izpiše ustrezno ugotovitev: \nString s=\"vsebina niza\"; \nif () \n  System.out.println(\"Prva in zadnja črka sta enaki.\"); \nelse \n  System.out.println(\"Prva in zadnja črka niza nista enaki.\");",
+    "points": 2,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP1",
+    "text": "V programu je definiran String niz = \"obred\". Želeli bi spremeniti zadnjo črko v črko 'z'. \nNapišite del programa, ki to izvede s pomočjo razreda StringBuffer.",
+    "points": 2,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP1",
+    "text": "V tabeli imamo zapisane podatke, ki bi jih radi gladili. Podatek zgladimo tako, da vzamemo \npovprečje elementa in dveh elementov pred njim. Če element nima dveh predhodnikov, povprečje \nnadomestimo z vrednostjo 0 (ker vzamemo po tri elemente tabele tabela, bosta prvi dve mesti v \nnovatabela enaki 0). Če je velikost prejete tabele manjša od 3, vrne tabelo, ki ima en element \nz vrednostjo 0. \nPrimer: \ntabela: 2, 4, 6, 2, 7, 9, 2, 1, 6, 8 \nnovatabela: 0, 0, 4, 4, 5, 6, 6, 4, 3, 5 \n19.1. Napišite metodo static double[] glajenje(int tabela[]), ki vrne tabelo v obliki \nnovatabela. \n 19.2. Napišite glavno metodo (main), ki ustvari tabelo tabela s podatki iz primera in po klicu \nmetode glajenje izpiše tabelo novatabela.",
+    "points": 3,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP1",
+    "text": "Delo z razredom za predstavitev časa. \n20.1. Napišite razred Ura, ki ima podatke o času v urah (veljavna vrednost med 0 in 23) in minutah \n(veljavna vrednost med 0 in 59). V osnovnem konstruktorju se vse lastnosti nastavijo na 0. \nDodajte konstruktor, ki prejme vrednosti za obe komponenti prek parametrov, metodo za izpis \nure v obliki UU:MM in metodo, ki poveča trenutni čas za 1 minuto. \nPRIMER uporabe razreda Ura: \nUra u = new Ura(); \nu.povecaj(); \nu.izpis();  // izpiše 00:01 \nUra v = new Ura(23,59); \nv.izpis();  // izpiše 23:59 \nv.povecaj(); \nv.izpis();  // izpiše 00:00",
+    "points": 4,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP1_20"
+  },
+  {
+    "num": 1,
+    "pola": "IP2",
+    "text": "Obkrožite črko pred trditvijo, ki je resnična za von Neumannov model računalnika. \nA \nCentralna procesna enota v tem modelu ne vsebuje aritmetično-logične enote. \nB \nTa model je model računalnika brez vhodno-izhodnih enot. \nC \nRegistri so edina vrsta pomnilnika v tem modelu. \nD \nGlavni pomnilnik je enota, v kateri so shranjeni podatki in program.",
+    "points": 1,
+    "year": 2024,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2024_IP2_01"
+  },
+  {
+    "num": 2,
+    "pola": "IP2",
+    "text": "Obkrožite črko pred trditvama, ki sta resnični za pomnilnike. \nA \nPomnilnik s tehnologijo SRAM je hitrejši od pomnilnika s tehnologijo DRAM. \nB \nPomnilnik s tehnologijo DRAM je hitrejši od pomnilnika s tehnologijo SRAM. \nC \nPomnilniki s tehnologijo SRAM omogočajo trajno hranjenje podatkov.  \nD \nPomnilniki s tehnologijo DRAM se uporabljajo kot predpomnilniki centralne procesne enote. \nE \nPomnilniki s tehnologijo SRAM se uporabljajo kot predpomnilniki centralne procesne enote.",
+    "points": 2,
+    "year": 2024,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2024_IP2_02"
+  },
+  {
+    "num": 3,
+    "pola": "IP2",
+    "text": "Pomembno vlogo pri zagonu računalnika ima BIOS. Kateri stavek ga najbolje opisuje? \nA \nJe program, nameščen v EEPROM. \nB \nJe drugo ime za računalniški ROM. \nC \nJe pomemben čip na osnovni plošči, ki skrbi za zagon računalnika. \nD \nJe zelo pomemben del operacijskega sistema, namenjen zagonu računalnika. \nE \nJe del diska, na katerem so podatki, potrebni za zagon operacijskega sistema.",
+    "points": 1,
+    "year": 2024,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2024_IP2_03"
+  },
+  {
+    "num": 4,
+    "pola": "IP2",
+    "text": "Vrednost podatka x, zapisanega v dvojiškem sestavu, je 00100111(2). \nZapišite vrednost v šestnajstiškem številskem sestavu. \n Zapišite vrednost v desetiškem številskem sestavu.",
+    "points": 2,
+    "year": 2024,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2024_IP2_04"
+  },
+  {
+    "num": 5,
+    "pola": "IP2",
+    "text": "Koliko bitov vsebuje 1 KiB (kibi byte)?",
+    "points": 1,
+    "year": 2024,
+    "solution": null,
+    "topic": "Strojna oprema",
+    "id": "2024_IP2_05"
+  },
+  {
+    "num": 6,
+    "pola": "IP2",
+    "text": "V operacijskem sistemu Linux bi želeli izpisati vsebino imenika vaje, ki se nahaja v korenskem \nimeniku. Kateri ukaz moramo uporabiti? \nA \ndir -l /vaje \nB \necho /vaje \nC \nls -l /vaje \nD \nhead /vaje",
+    "points": 1,
+    "year": 2024,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2024_IP2_06"
+  },
+  {
+    "num": 7,
+    "pola": "IP2",
+    "text": "Izvedba ukaza ls -l izpiše: \n-rw-r--r--   1 user  user   394 2020-08-30 09:53 matura.rtf \nZapišite ukaz, s katerim trenutni uporabnik, ki ni nujno skrbnik, spremeni lastništvo datoteke \nmatura.rtf na uporabnika nekdo.",
+    "points": 2,
+    "year": 2024,
+    "solution": null,
+    "topic": "Operacijski sistemi",
+    "id": "2024_IP2_07"
+  },
+  {
+    "num": 8,
+    "pola": "IP2",
+    "text": "S katero storitvijo lahko povežemo protokole SMTP, POP3 in IMAP? \nA \nS ftp-strežnikom. \nB \nZ elektronsko pošto. \nC \nZ internetnim radiem. \nD \nS spletno banko.",
+    "points": 1,
+    "year": 2024,
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2024_IP2_08"
+  },
+  {
+    "num": 9,
+    "pola": "IP2",
+    "text": "Zapišite ime sloja oz. plasti modela TCP/IP, na katerem se uporablja fizični naslov mrežne kartice \nza razlikovanje med napravami istega omrežja. \n Iz koliko bitov je sestavljen fizični naslov mrežne kartice?",
+    "points": 2,
+    "year": 2024,
+    "image": "assets/images/2024_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2024_IP2_09"
+  },
+  {
+    "num": 10,
+    "pola": "IP2",
+    "text": "Pri omrežnih nastavitvah uporabimo prehod, ko želimo: \nA \ndoločiti vhod naprave, prek katere bomo dostopali v druga omrežja. \nB \ndoločiti razred, v katerem bo IP-naslov naše naprave. \nC \ndoločiti unikatno oznako mrežne kartice naše naprave. \nD \ndoločiti IP-naslov naše naprave.",
+    "points": 1,
+    "year": 2024,
+    "image": "assets/images/2024_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2024_IP2_10"
+  },
+  {
+    "num": 11,
+    "pola": "IP2",
+    "text": "Dve lokalni omrežji smo povezali z dvema usmerjevalnikoma, tako kot vidimo na sliki: \n− \nprvo lokalno omrežje s številko IPv4: 192.168.1.0 /24, v katerem je PC 1, in  \n− \ndrugo lokalno omrežje s številko IPv4: 192.168.2.0 /24, v katerem je PC 2. \nKako bi nastavili omrežne nastavitve na vhodu usmerjevalnika, ki povezuje drugi usmerjevalnik? \nUsmerjevalnik 1: \nUsmerjevalnik 2: \nNaslov IPv4:  Naslov IPv4:  Maska:  Maska:",
+    "points": 2,
+    "year": 2024,
+    "image": "assets/images/2024_IP2_p07.jpg",
+    "solution": null,
+    "topic": "Omrežja",
+    "id": "2024_IP2_11"
+  },
+  {
+    "num": 12,
+    "pola": "IP2",
+    "text": "Informacijski sistem (IS), katerega namen je pomoč uporabnikom pri nakupu novega izdelka, sodi  \nA \nv menedžerske IS. \nB \nv sisteme za podporo odločanju. \nC \nv transakcijske IS. \nD \nv nobenega od navedenih vrst IS.",
+    "points": 1,
+    "year": 2024,
+    "image": "assets/images/2024_IP2_p08.jpg",
+    "solution": null,
+    "topic": "Informacijski sistemi",
+    "id": "2024_IP2_12"
+  },
+  {
+    "num": 13,
+    "pola": "IP2",
+    "text": "Denimo, da fazo načrtovanja IS označimo z oznako A in fazo implementacije IS z oznako B. Za \nvsakim opravilom zapišite oznako faze, ki jih pripada. \nZapis programske kode \n Izdelava diagrama razreda \n Pisanje stavkov SQL DDL \n Pisanje stavkov SQL DML \n Izdelava diagrama ER",
+    "points": 2,
+    "year": 2024,
+    "image": "assets/images/2024_IP2_p08.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2024_IP2_13"
+  },
+  {
+    "num": 14,
+    "pola": "IP2",
+    "text": "V razrednih diagramih UML uporabljamo oznake za vidnost članov razreda. Dopolnite imena za \nposamezno notacijo: \n+ \n – \n #",
+    "points": 3,
+    "year": 2024,
+    "image": "assets/images/2024_IP2_p08.jpg",
+    "solution": null,
+    "topic": "Logika in sistemi",
+    "id": "2024_IP2_14"
+  },
+  {
+    "num": 15,
+    "pola": "IP2",
+    "text": "ANSI/SPARC-arhitektura podatkovne baze opredeljuje, da je podatkovna baza opisana na treh \nnivojih: notranjem, konceptualnem in zunanjem. \nDiagram ER predstavlja zapis podatkovne baze na nivoju. \nMetapodatki tabele, shranjeni na disku, predstavljajo zapis na nivoju.",
+    "points": 2,
+    "year": 2024,
+    "image": "assets/images/2024_IP2_p08.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2024_IP2_15"
+  },
+  {
+    "num": 16,
+    "pola": "IP2",
+    "text": "Povežite skupine uporabnikov SUPB in njihove tipične naloge:  \nupravitelji podatkovne baze \nizdelava aplikacij \nosnovni uporabniki \nuporaba aplikacije \nprogramerji \nopisovanje shem \nnapredni uporabniki \npisanje poizvedb",
+    "points": 2,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP2_16"
+  },
+  {
+    "num": 17,
+    "pola": "IP2",
+    "text": "V podatkovni bazi želimo imeti tabeli: \nProizvajalec(PID:N, imeProizvajalca:A20) in \nCepivo(CID:N, PID:N →Proizvajalec, imeCepiva:A20, datumRegistacije:D, \ndatumOdobritveo:D) \nZapišite stavke SQL, s katerim ustvarite obe tabeli.",
+    "points": 3,
+    "year": 2024,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2024_IP2_17"
+  },
+  {
+    "num": 18,
+    "pola": "IP2",
+    "text": "Dan je diagram ER. \nNapišite vse relacijske sheme.",
+    "points": 3,
+    "year": 2024,
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2024_IP2_18"
+  },
+  {
+    "num": 19,
+    "pola": "IP2",
+    "text": "V spletni igralnici so registrirani igralci, ki igrajo različne igrice. Za vsakega igralca se zabeleži \nnjegov ID, ime, priimek, država, iz katere prihaja, in en ali več vzdevkov. Igralec prihaja iz ene \ndržave, vendar je iz ene države lahko tudi več igralcev. Podatki o spletni igrici so ID, ime igrice in \ndatum objave igrice. Eno igrico lahko igra več igralcev in igralec lahko igra igrico tudi večkrat. Za \nvsako igrico se zabeležita datum in čas začetka igranja, ko igralec konča z igrico, se zabeleži \nnjegov rezultat.  \n19.1 Narišite ER-diagram, na katerem so razvidni entitetni tipi, primarni in tuji ključi, števnosti \npovezav in vsi ostali atributi.",
+    "points": 4,
+    "year": 2024,
+    "image": "assets/images/2024_IP2_p11.jpg",
+    "solution": null,
+    "topic": "Podatkovne baze",
+    "id": "2024_IP2_19"
+  },
+  {
+    "num": 20,
+    "pola": "IP2",
+    "text": "V podatkovni bazi eDnevnikRazred so shranjene tabele: \nPredmet (PID:N, imePredmeta:A20) \nUcitelj (UID:N, ime:A20, priimek:A20) \nucnaUra(PID:N→Predmet, zaporednaStevilka:N, datum:D, UID:N→Ucitelj, \nvsebina:A50, nacinIzvedbe:A10) \n20.1. Zapišite stavek SQL, ki vrne abecedno urejen seznam priimkov in imen učiteljev, ki izvajajo \nučne ure iz matematike. \n 20.2. Zapišite stavek SQL, ki vrne število učnih ur, ki so bile izvedene na daljavo. “na \ndaljavo” je način izvedbe učne ure.",
+    "points": 3,
+    "year": 2024,
+    "solution": null,
+    "topic": "Programiranje",
+    "id": "2024_IP2_20"
+  }
+]
