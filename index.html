@@ -4,24 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matura Računalništvo — Naloge & Rešitve</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-<!-- ─── NAV ─────────────────────────────────────────────────────── -->
 <nav class="nav" id="nav">
   <div class="nav-inner">
-    <a href="#" class="nav-logo" onclick="showHome(); return false;">
-      <span class="nav-logo-mark">&#9670;</span>
-      <span>Matura RČN</span>
-    </a>
+    <a href="#" class="nav-logo" onclick="showHome(); return false;"><span class="nav-logo-mark">◆</span><span>Matura RČN</span></a>
     <div class="nav-links">
-      <a href="#" class="nav-link active" id="nav-home" onclick="showHome(); return false;">Domov</a>
-      <a href="#" class="nav-link" id="nav-topics" onclick="showTopics(); return false;">Po temah</a>
-      <a href="#" class="nav-link" id="nav-years" onclick="showYears(); return false;">Po letih</a>
+      <a href="#" class="nav-link active" id="nav-home"   onclick="showHome();   return false;">Domov</a>
+      <a href="#" class="nav-link"        id="nav-topics" onclick="showTopics(); return false;">Kategorije</a>
+      <a href="#" class="nav-link"        id="nav-exams"  onclick="showExams();  return false;">Izpiti</a>
+      <a href="#" class="nav-link"        id="nav-years"  onclick="showYears();  return false;">Po letih</a>
     </div>
     <div class="nav-search-wrap">
       <input type="search" id="global-search" class="nav-search" placeholder="Iskanje nalog…" autocomplete="off">
@@ -30,130 +27,105 @@
     <button class="nav-burger" id="nav-burger" aria-label="Menu">&#9776;</button>
   </div>
 </nav>
-
-<!-- Mobile nav overlay -->
 <div class="mobile-nav" id="mobile-nav">
   <button class="mobile-nav-close" id="mobile-nav-close">✕</button>
-  <a href="#" class="mobile-nav-link" onclick="showHome(); closeMobileNav(); return false;">Domov</a>
-  <a href="#" class="mobile-nav-link" onclick="showTopics(); closeMobileNav(); return false;">Po temah</a>
-  <a href="#" class="mobile-nav-link" onclick="showYears(); closeMobileNav(); return false;">Po letih</a>
-  <div class="mobile-nav-search-wrap">
-    <input type="search" id="mobile-search" class="mobile-search" placeholder="Iskanje nalog…">
-  </div>
+  <a href="#" class="mobile-nav-link" onclick="showHome();   closeMobileNav(); return false;">Domov</a>
+  <a href="#" class="mobile-nav-link" onclick="showTopics(); closeMobileNav(); return false;">Kategorije</a>
+  <a href="#" class="mobile-nav-link" onclick="showExams();  closeMobileNav(); return false;">Izpiti</a>
+  <a href="#" class="mobile-nav-link" onclick="showYears();  closeMobileNav(); return false;">Po letih</a>
+  <div class="mobile-nav-search-wrap"><input type="search" id="mobile-search" class="mobile-search" placeholder="Iskanje nalog…"></div>
 </div>
-
-<!-- ─── MAIN ─────────────────────────────────────────────────────── -->
 <main id="main">
-
   <!-- HOME -->
   <section id="view-home" class="view active">
     <div class="hero">
       <div class="hero-bg"></div>
       <div class="hero-content">
         <div class="hero-badge">Splošna Matura · 2004–2025</div>
-        <h1 class="hero-title">Računalništvo<br><span class="hero-accent">Naloge & Rešitve</span></h1>
-        <p class="hero-desc">Vse maturitetne naloge iz računalništva z rešitvami, razvrščene po temah in letih. Primerno za učenje in utrjevanje snovi.</p>
-        <div class="hero-stats" id="hero-stats">
+        <h1 class="hero-title">Računalništvo<br><span class="hero-accent">Naloge &amp; Rešitve</span></h1>
+        <p class="hero-desc">Vse maturitetne naloge iz računalništva z rešitvami, razvrščene po temah in letih.</p>
+        <div class="hero-stats">
           <div class="stat"><span class="stat-num" id="stat-tasks">—</span><span class="stat-label">Nalog</span></div>
           <div class="stat"><span class="stat-num" id="stat-solved">—</span><span class="stat-label">Z rešitvami</span></div>
           <div class="stat"><span class="stat-num" id="stat-years">22</span><span class="stat-label">Let</span></div>
-          <div class="stat"><span class="stat-num" id="stat-topics">8</span><span class="stat-label">Tem</span></div>
+          <div class="stat"><span class="stat-num" id="stat-topics">—</span><span class="stat-label">Kategorij</span></div>
         </div>
         <div class="hero-actions">
-          <button class="btn-primary" onclick="showTopics()">Brskaj po temah →</button>
-          <button class="btn-secondary" onclick="showYears()">Po letih</button>
+          <button class="btn-primary" onclick="showTopics()">Kategorije →</button>
+          <button class="btn-secondary" onclick="showExams()">Vsi izpiti</button>
         </div>
       </div>
     </div>
-
-    <!-- Quick topic cards -->
-    <div class="section">
-      <h2 class="section-title">Teme</h2>
-      <div class="topic-grid" id="home-topic-grid"></div>
-    </div>
-
-    <!-- Recent years quick links -->
-    <div class="section">
-      <h2 class="section-title">Zadnja leta</h2>
-      <div class="year-chips" id="home-year-chips"></div>
-    </div>
+    <div class="section"><h2 class="section-title">Kategorije</h2><div class="topic-grid" id="home-topic-grid"></div></div>
+    <div class="section"><h2 class="section-title">Zadnja leta</h2><div class="year-chips" id="home-year-chips"></div></div>
   </section>
 
-  <!-- TOPICS VIEW -->
+  <!-- CATEGORIES -->
   <section id="view-topics" class="view">
     <div class="view-header">
-      <h1 class="view-title">Naloge po temah</h1>
+      <h1 class="view-title">Kategorije</h1>
       <div class="filter-bar">
-        <div class="filter-group">
-          <label class="filter-label">Tema</label>
-          <div class="chip-group" id="topic-filter-chips"></div>
-        </div>
-        <div class="filter-group">
-          <label class="filter-label">Leto</label>
-          <select class="select-filter" id="topic-year-filter">
-            <option value="">Vsa leta</option>
-          </select>
-        </div>
-        <div class="filter-group">
-          <label class="filter-label">Pola</label>
-          <select class="select-filter" id="topic-pola-filter">
-            <option value="">Obe poli</option>
-            <option value="IP1">Pola 1</option>
-            <option value="IP2">Pola 2</option>
-          </select>
-        </div>
-        <button class="btn-ghost btn-sm" onclick="clearTopicFilters()">Počisti filtre</button>
+        <div class="filter-group"><label class="filter-label">Kategorija</label><div class="chip-group" id="topic-filter-chips"></div></div>
+        <div class="filter-group"><label class="filter-label">Leto</label><select class="select-filter" id="topic-year-filter"><option value="">Vsa leta</option></select></div>
+        <div class="filter-group"><label class="filter-label">Pola</label><select class="select-filter" id="topic-pola-filter"><option value="">Obe poli</option><option value="IP1">Pola 1</option><option value="IP2">Pola 2</option></select></div>
+        <button class="btn-ghost btn-sm" onclick="clearTopicFilters()">Počisti</button>
       </div>
     </div>
     <div class="results-meta" id="topic-results-meta"></div>
     <div class="task-grid" id="topic-task-grid"></div>
-    <div class="load-more-wrap"><button class="btn-load-more" id="topic-load-more" onclick="loadMoreTopic()">Naloži več</button></div>
+    <div class="load-more-wrap"><button class="btn-load-more hidden" id="topic-load-more" onclick="loadMoreTopic()">Naloži več</button></div>
   </section>
 
-  <!-- YEARS VIEW -->
+  <!-- EXAMS LIST -->
+  <section id="view-exams" class="view">
+    <div class="view-header">
+      <h1 class="view-title">Izpiti po letih</h1>
+      <p class="view-subtitle">Klikni na leto za celoten pregled izpita.</p>
+    </div>
+    <div class="exam-grid" id="exam-grid"></div>
+  </section>
+
+  <!-- SINGLE EXAM -->
+  <section id="view-exam-single" class="view">
+    <div class="view-header">
+      <button class="btn-back" onclick="showExams()">← Vsi izpiti</button>
+      <h1 class="view-title" id="exam-single-title">Izpit 2024</h1>
+      <div class="exam-pola-tabs" id="exam-pola-tabs">
+        <button class="pola-tab active" data-pola="all" onclick="filterExamPola('all',this)">Vse</button>
+        <button class="pola-tab" data-pola="IP1" onclick="filterExamPola('IP1',this)">Pola 1</button>
+        <button class="pola-tab" data-pola="IP2" onclick="filterExamPola('IP2',this)">Pola 2</button>
+      </div>
+    </div>
+    <div class="task-grid" id="exam-single-grid"></div>
+  </section>
+
+  <!-- YEARS -->
   <section id="view-years" class="view">
     <div class="view-header">
-      <h1 class="view-title">Naloge po letih</h1>
+      <h1 class="view-title">Po letih</h1>
       <div class="filter-bar">
-        <div class="filter-group">
-          <label class="filter-label">Leto</label>
-          <div class="chip-group" id="year-filter-chips"></div>
-        </div>
-        <div class="filter-group">
-          <label class="filter-label">Pola</label>
-          <select class="select-filter" id="year-pola-filter">
-            <option value="">Obe poli</option>
-            <option value="IP1">Pola 1</option>
-            <option value="IP2">Pola 2</option>
-          </select>
-        </div>
-        <div class="filter-group">
-          <label class="filter-label">Tema</label>
-          <select class="select-filter" id="year-topic-filter">
-            <option value="">Vse teme</option>
-          </select>
-        </div>
-        <button class="btn-ghost btn-sm" onclick="clearYearFilters()">Počisti filtre</button>
+        <div class="filter-group"><label class="filter-label">Leto</label><div class="chip-group" id="year-filter-chips"></div></div>
+        <div class="filter-group"><label class="filter-label">Pola</label><select class="select-filter" id="year-pola-filter"><option value="">Obe poli</option><option value="IP1">Pola 1</option><option value="IP2">Pola 2</option></select></div>
+        <div class="filter-group"><label class="filter-label">Kategorija</label><select class="select-filter" id="year-topic-filter"><option value="">Vse kategorije</option></select></div>
+        <button class="btn-ghost btn-sm" onclick="clearYearFilters()">Počisti</button>
       </div>
     </div>
     <div class="results-meta" id="year-results-meta"></div>
     <div class="task-grid" id="year-task-grid"></div>
-    <div class="load-more-wrap"><button class="btn-load-more" id="year-load-more" onclick="loadMoreYear()">Naloži več</button></div>
+    <div class="load-more-wrap"><button class="btn-load-more hidden" id="year-load-more" onclick="loadMoreYear()">Naloži več</button></div>
   </section>
 
-  <!-- SEARCH RESULTS VIEW -->
+  <!-- SEARCH -->
   <section id="view-search" class="view">
     <div class="view-header">
       <h1 class="view-title">Rezultati iskanja</h1>
       <div class="results-meta" id="search-results-meta"></div>
     </div>
     <div class="task-grid" id="search-task-grid"></div>
-    <div class="load-more-wrap"><button class="btn-load-more" id="search-load-more" onclick="loadMoreSearch()">Naloži več</button></div>
+    <div class="load-more-wrap"><button class="btn-load-more hidden" id="search-load-more" onclick="loadMoreSearch()">Naloži več</button></div>
   </section>
-
 </main>
 
-<!-- ─── FOOTER ────────────────────────────────────────────────────── -->
 <footer class="footer">
   <div class="footer-inner">
     <span>Matura Računalništvo · 2004–2025 · Državni izpitni center</span>
@@ -161,13 +133,11 @@
   </div>
 </footer>
 
-<!-- ─── TASK MODAL ─────────────────────────────────────────────────── -->
 <div class="modal-overlay" id="modal-overlay" onclick="closeModal()"></div>
 <div class="modal" id="modal" role="dialog" aria-modal="true">
   <button class="modal-close" onclick="closeModal()" aria-label="Zapri">✕</button>
   <div class="modal-body" id="modal-body"></div>
 </div>
-
 <script src="assets/js/app.js"></script>
 </body>
 </html>
