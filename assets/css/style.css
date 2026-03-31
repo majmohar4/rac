@@ -806,3 +806,145 @@ main { padding-top: var(--nav-h); min-height: 100vh; }
   .exam-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); padding: 0 16px 32px; }
   .mc-option { padding: 10px 12px; }
 }
+
+/* ═══ v3 ADDITIONS ═══════════════════════════════════════════ */
+
+/* ─── MODAL NAV BAR ──────────────────────────────────────────── */
+.modal-nav-bar {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+.modal-nav-btn {
+  padding: 6px 14px;
+  background: var(--bg-3); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); color: var(--text-2);
+  font-size: 13px; cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.modal-nav-btn:hover:not(.disabled) { background: var(--bg-hover); color: var(--text); border-color: var(--accent); }
+.modal-nav-btn.disabled { opacity: .3; cursor: default; }
+.modal-nav-info { font-size: 12px; color: var(--text-3); font-family: var(--font-mono); }
+
+/* ─── EXAM FULL VIEW ─────────────────────────────────────────── */
+.exam-full-view {
+  max-width: 900px; margin: 0 auto;
+  padding: 0 24px 48px;
+  display: flex; flex-direction: column; gap: 32px;
+}
+.exam-section { }
+.exam-section-header {
+  display: flex; align-items: baseline; gap: 12px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--accent);
+}
+.exam-section-title {
+  font-size: 18px; font-weight: 700; color: var(--text);
+}
+.exam-section-count {
+  font-size: 12px; color: var(--text-3); font-family: var(--font-mono);
+}
+.exam-task-list { display: flex; flex-direction: column; gap: 6px; }
+.exam-task-item {
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px 16px;
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: border-color .12s, background .12s, transform .1s;
+}
+.exam-task-item:hover {
+  border-color: var(--border-light);
+  background: var(--bg-hover);
+  transform: translateX(3px);
+}
+.exam-task-num {
+  display: flex; flex-direction: column; align-items: center; gap: 3px;
+  flex-shrink: 0; width: 36px;
+}
+.exam-num-badge {
+  width: 32px; height: 32px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--bg-3); border: 1px solid var(--border-light);
+  border-radius: 50%;
+  font-size: 13px; font-weight: 700; font-family: var(--font-mono);
+  color: var(--text-2);
+}
+.exam-points-badge {
+  font-size: 10px; color: var(--text-3); font-family: var(--font-mono);
+}
+.exam-task-content { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.exam-task-topic { }
+.exam-task-preview {
+  font-size: 13px; color: var(--text-2); line-height: 1.5;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.exam-task-options { display: flex; gap: 4px; margin-top: 2px; }
+.exam-opt {
+  width: 20px; height: 20px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--bg-3); border: 1px solid var(--border);
+  border-radius: 4px; font-size: 11px; font-weight: 600;
+  color: var(--text-3); font-family: var(--font-mono);
+}
+.exam-opt-more { font-size: 11px; color: var(--text-3); padding: 2px 4px; align-self: center; }
+.exam-task-actions {
+  display: flex; align-items: center; gap: 10px; flex-shrink: 0;
+}
+.exam-sol-dot {
+  width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+}
+.sol-yes { background: var(--green); box-shadow: 0 0 6px rgba(62,207,142,.4); }
+.sol-no  { background: var(--border-light); }
+.exam-open-task {
+  padding: 5px 12px;
+  background: none; border: 1px solid var(--border);
+  border-radius: var(--radius-sm); color: var(--text-3);
+  font-size: 12px; cursor: pointer;
+  transition: all .12s; white-space: nowrap;
+}
+.exam-task-item:hover .exam-open-task { border-color: var(--accent); color: var(--accent); }
+
+/* Override task-grid for exam-single view */
+#exam-single-grid.exam-full-view { display: block; }
+
+/* ─── SNAPPY TRANSITIONS ─────────────────────────────────────── */
+.view { transition: opacity .15s ease; }
+.view:not(.active) { opacity: 0; pointer-events: none; }
+.view.active { opacity: 1; }
+
+/* Faster card animation */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.task-card { animation: fadeUp .15s ease both; }
+
+/* ─── MODAL IMPROVEMENTS ─────────────────────────────────────── */
+.modal {
+  transition: none;
+}
+.modal.open { animation: modalIn .18s cubic-bezier(.16,1,.3,1) both; }
+@keyframes modalIn {
+  from { opacity: 0; transform: translate(-50%,-50%) scale(.97); }
+  to   { opacity: 1; transform: translate(-50%,-50%) scale(1); }
+}
+
+/* ─── HIGHLIGHT FIX ──────────────────────────────────────────── */
+mark.highlight {
+  background: rgba(79,142,247,.28);
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+/* ─── RESPONSIVE EXAM VIEW ───────────────────────────────────── */
+@media (max-width: 600px) {
+  .exam-full-view { padding: 0 16px 32px; }
+  .exam-task-item { padding: 10px 12px; gap: 10px; }
+  .exam-task-options { display: none; }
+  .exam-open-task { display: none; }
+  .modal-nav-btn { padding: 5px 10px; font-size: 12px; }
+}

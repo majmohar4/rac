@@ -1,35 +1,37 @@
 /* ═══════════════════════════════════════════════════════════════
-   Matura Računalništvo · App JS v2
+   Matura Računalništvo · App JS v3
    ═══════════════════════════════════════════════════════════════ */
 const PAGE_SIZE = 30;
 
 const state = {
   tasks: [], topics: [], years: [],
   topicFilter: null, topicYear: '', topicPola: '', topicPage: 0, topicFiltered: [],
-  yearFilter: null,  yearPola: '',  yearTopic: '', yearPage: 0, yearFiltered: [],
+  yearFilter: null, yearPola: '', yearTopic: '', yearPage: 0, yearFiltered: [],
   searchQuery: '', searchPage: 0, searchFiltered: [],
   examYear: null, examPola: 'all', examTasks: [],
+  // Modal navigation
+  modalTaskList: [], modalIndex: -1,
 };
 
-/* ─── TOPIC CONFIG ─────────────────────────────────────────────── */
+/* ─── TOPIC CONFIG ──────────────────────────────────────────── */
 const TOPIC_META = {
-  'Programiranje':            { icon: '⌨', color: '#4f8ef7' },
-  'Podatkovne strukture':     { icon: '🌲', color: '#a78bfa' },
-  'Podatkovne baze':          { icon: '🗄', color: '#3ecf8e' },
-  'Računalniška omrežja':     { icon: '🌐', color: '#f59e0b' },
-  'Operacijski sistemi':      { icon: '🖥', color: '#fb7185' },
-  'Računalniška arhitektura': { icon: '💾', color: '#ef4444' },
+  'Programiranje':             { icon: '⌨', color: '#4f8ef7' },
+  'Podatkovne strukture':      { icon: '🌲', color: '#a78bfa' },
+  'Podatkovne baze':           { icon: '🗄', color: '#3ecf8e' },
+  'Računalniška omrežja':      { icon: '🌐', color: '#f59e0b' },
+  'Operacijski sistemi':       { icon: '🖥', color: '#fb7185' },
+  'Računalniška arhitektura':  { icon: '💾', color: '#ef4444' },
   'Logika in digitalni sistemi':{ icon:'🔀', color: '#34d399' },
-  'Informacijski sistemi':    { icon: '🏢', color: '#38bdf8' },
-  'Splošno računalništvo':    { icon: '💡', color: '#94a3b8' },
+  'Informacijski sistemi':     { icon: '🏢', color: '#38bdf8' },
+  'Splošno računalništvo':     { icon: '💡', color: '#94a3b8' },
 };
-function topicColor(t){ return (TOPIC_META[t]||{color:'#4f8ef7'}).color; }
-function topicIcon(t){  return (TOPIC_META[t]||{icon:'📌'}).icon; }
-function topicClass(t){ return 'topic-'+t.replace(/[\s/]+/g,'-'); }
+const topicColor = t => (TOPIC_META[t]||{color:'#4f8ef7'}).color;
+const topicIcon  = t => (TOPIC_META[t]||{icon:'📌'}).icon;
+const topicClass = t => 'topic-'+t.replace(/[\s/]+/g,'-');
 
-/* ─── INIT ──────────────────────────────────────────────────────── */
+/* ─── INIT ──────────────────────────────────────────────────── */
 async function init(){
-  const res  = await fetch('data/tasks.json');
+  const res  = await fetch('data/tasks.json?v=3');
   const data = await res.json();
   state.tasks  = data.tasks;
   state.topics = data.topics;
@@ -41,7 +43,7 @@ async function init(){
   setupSearch();
 }
 
-/* ─── HOME ──────────────────────────────────────────────────────── */
+/* ─── HOME ──────────────────────────────────────────────────── */
 function buildHome(){
   document.getElementById('stat-tasks').textContent   = state.tasks.length;
   document.getElementById('stat-solved').textContent  = state.tasks.filter(t=>t.solution).length;
@@ -52,7 +54,7 @@ function buildHome(){
   grid.innerHTML = '';
   for(const topic of state.topics){
     const count = state.tasks.filter(t=>t.topic===topic).length;
-    const card  = document.createElement('div');
+    const card = document.createElement('div');
     card.className = 'topic-card';
     card.style.setProperty('--tc', topicColor(topic));
     card.innerHTML = `<div class="topic-card-icon">${topicIcon(topic)}</div>
@@ -73,14 +75,15 @@ function buildHome(){
   });
 }
 
-/* ─── EXAMS LIST ─────────────────────────────────────────────────── */
+/* ─── EXAMS LIST ─────────────────────────────────────────────── */
 function buildExamsView(){
   const grid = document.getElementById('exam-grid');
   grid.innerHTML = '';
-  const sortedYears = [...state.years].sort((a,b)=>b-a);
-  for(const year of sortedYears){
+  [...state.years].sort((a,b)=>b-a).forEach(year=>{
     const tasks = state.tasks.filter(t=>t.year===year);
     const hasSol = tasks.filter(t=>t.solution).length;
+    const ip1 = tasks.filter(t=>t.pola==='IP1').length;
+    const ip2 = tasks.filter(t=>t.pola==='IP2').length;
     const card = document.createElement('div');
     card.className = 'exam-card';
     card.innerHTML = `
@@ -90,16 +93,15 @@ function buildExamsView(){
         <span class="${hasSol>0?'has-solution':'no-solution'}">${hasSol} rešitev</span>
       </div>
       <div class="exam-card-pola">
-        <span>IP1: ${tasks.filter(t=>t.pola==='IP1').length}</span>
-        <span>IP2: ${tasks.filter(t=>t.pola==='IP2').length}</span>
+        <span>IP1: ${ip1}</span><span>IP2: ${ip2}</span>
       </div>
       <button class="btn-primary btn-sm exam-open-btn">Odpri izpit →</button>`;
     card.addEventListener('click', ()=>showExamSingle(year));
     grid.appendChild(card);
-  }
+  });
 }
 
-/* ─── SINGLE EXAM ────────────────────────────────────────────────── */
+/* ─── SINGLE EXAM ────────────────────────────────────────────── */
 function showExamSingle(year){
   state.examYear = year;
   state.examPola = 'all';
@@ -125,24 +127,69 @@ function renderExamSingle(){
   const tasks = state.examPola==='all'
     ? state.examTasks
     : state.examTasks.filter(t=>t.pola===state.examPola);
+
   const grid = document.getElementById('exam-single-grid');
   grid.innerHTML = '';
-  tasks.forEach((task,i)=>{
-    const card = buildTaskCard(task);
-    card.style.animationDelay = `${i*15}ms`;
-    grid.appendChild(card);
+  grid.className = 'exam-full-view';
+
+  // Group by pola
+  const byPola = {};
+  tasks.forEach(t=>{ (byPola[t.pola]||(byPola[t.pola]=[])).push(t); });
+
+  Object.entries(byPola).sort().forEach(([pola, polaTasks])=>{
+    const section = document.createElement('div');
+    section.className = 'exam-section';
+    section.innerHTML = `<div class="exam-section-header"><span class="exam-section-title">Izpitna ${pola==='IP1'?'pola 1':'pola 2'}</span><span class="exam-section-count">${polaTasks.length} nalog</span></div>`;
+    const taskList = document.createElement('div');
+    taskList.className = 'exam-task-list';
+    polaTasks.forEach((task, i)=>{
+      const item = buildExamTaskItem(task, i, polaTasks);
+      taskList.appendChild(item);
+    });
+    section.appendChild(taskList);
+    grid.appendChild(section);
   });
+
+  // Set modal nav list
+  state.modalTaskList = tasks;
 }
 
-/* ─── TOPICS VIEW ────────────────────────────────────────────────── */
+function buildExamTaskItem(task, idx, list){
+  const item = document.createElement('div');
+  item.className = 'exam-task-item';
+  const hasSol = !!task.solution;
+  const mc = parseMC(task);
+  const preview = task.text.split('\n').slice(0,2).join(' ').trim();
+
+  item.innerHTML = `
+    <div class="exam-task-num">
+      <span class="exam-num-badge">${task.num}</span>
+      <span class="exam-points-badge">${task.points}pt</span>
+    </div>
+    <div class="exam-task-content">
+      <div class="exam-task-topic"><span class="task-badge ${topicClass(task.topic)}" style="--tc:${topicColor(task.topic)}">${task.topic}</span></div>
+      <div class="exam-task-preview">${escHtml(preview)}</div>
+      ${mc ? `<div class="exam-task-options">${mc.opts.slice(0,3).map(o=>`<span class="exam-opt">${o.letter}</span>`).join('')}${mc.opts.length>3?`<span class="exam-opt-more">+${mc.opts.length-3}</span>`:''}</div>` : ''}
+    </div>
+    <div class="exam-task-actions">
+      <span class="exam-sol-dot ${hasSol?'sol-yes':'sol-no'}" title="${hasSol?'Ima rešitev':'Brez rešitve'}"></span>
+      <button class="exam-open-task">Odpri</button>
+    </div>`;
+  item.addEventListener('click', ()=>{
+    state.modalTaskList = list;
+    state.modalIndex = idx;
+    openModal(task);
+  });
+  return item;
+}
+
+/* ─── TOPICS VIEW ────────────────────────────────────────────── */
 function buildTopicsView(){
   const chips = document.getElementById('topic-filter-chips');
   chips.innerHTML = '';
   for(const topic of state.topics){
     const chip = document.createElement('div');
-    chip.className = 'filter-chip';
-    chip.dataset.topic = topic;
-    chip.textContent = topic;
+    chip.className = 'filter-chip'; chip.dataset.topic = topic; chip.textContent = topic;
     chip.addEventListener('click', ()=>{
       const active = state.topicFilter===topic;
       state.topicFilter = active ? null : topic;
@@ -154,9 +201,7 @@ function buildTopicsView(){
   }
   const yearSel = document.getElementById('topic-year-filter');
   yearSel.innerHTML = '<option value="">Vsa leta</option>';
-  [...state.years].sort((a,b)=>b-a).forEach(y=>{
-    yearSel.innerHTML += `<option value="${y}">${y}</option>`;
-  });
+  [...state.years].sort((a,b)=>b-a).forEach(y=>{ yearSel.innerHTML += `<option value="${y}">${y}</option>`; });
   yearSel.addEventListener('change', ()=>{ state.topicYear=yearSel.value; renderTopics(); });
   document.getElementById('topic-pola-filter').addEventListener('change', e=>{ state.topicPola=e.target.value; renderTopics(); });
 }
@@ -174,16 +219,16 @@ function renderTopics(){
   if(state.topicFilter) tasks = tasks.filter(t=>t.topic===state.topicFilter);
   if(state.topicYear)   tasks = tasks.filter(t=>t.year==state.topicYear);
   if(state.topicPola)   tasks = tasks.filter(t=>t.pola===state.topicPola);
-  state.topicFiltered = tasks;
-  state.topicPage = 0;
+  state.topicFiltered = tasks; state.topicPage = 0;
   document.getElementById('topic-results-meta').textContent = `${tasks.length} nalog`;
   const grid = document.getElementById('topic-task-grid');
   grid.innerHTML = '';
-  if(tasks.length===0){ grid.innerHTML = emptyState('Ni nalog za izbrane filtre.'); return; }
+  if(!tasks.length){ grid.innerHTML = emptyState('Ni nalog za izbrane filtre.'); return; }
+  state.modalTaskList = tasks;
   renderTaskSlice(tasks, 0, grid, 'topic-load-more');
 }
 
-/* ─── YEARS VIEW ─────────────────────────────────────────────────── */
+/* ─── YEARS VIEW ─────────────────────────────────────────────── */
 function buildYearsView(){
   const chips = document.getElementById('year-filter-chips');
   chips.innerHTML = '';
@@ -224,11 +269,12 @@ function renderYears(){
   document.getElementById('year-results-meta').textContent = `${tasks.length} nalog`;
   const grid = document.getElementById('year-task-grid');
   grid.innerHTML = '';
-  if(tasks.length===0){ grid.innerHTML = emptyState('Ni nalog.'); return; }
+  if(!tasks.length){ grid.innerHTML = emptyState('Ni nalog.'); return; }
+  state.modalTaskList = tasks;
   renderTaskSlice(tasks, 0, grid, 'year-load-more');
 }
 
-/* ─── SEARCH ─────────────────────────────────────────────────────── */
+/* ─── SEARCH ─────────────────────────────────────────────────── */
 function setupSearch(){
   let debounce;
   const doSearch = q => {
@@ -259,35 +305,35 @@ function runSearch(q){
   document.getElementById('search-results-meta').textContent = `${results.length} zadetkov za "${q}"`;
   const grid = document.getElementById('search-task-grid');
   grid.innerHTML = '';
-  if(results.length===0){ grid.innerHTML = emptyState(`Ni zadetkov za "${q}".`); return; }
+  if(!results.length){ grid.innerHTML = emptyState(`Ni zadetkov za "${q}".`); return; }
+  state.modalTaskList = results;
   renderTaskSlice(results, 0, grid, 'search-load-more', q);
 }
 
-/* ─── TASK CARDS ─────────────────────────────────────────────────── */
+/* ─── TASK CARDS ─────────────────────────────────────────────── */
 function renderTaskSlice(tasks, page, grid, loadMoreId, searchQuery){
   const slice = tasks.slice(page*PAGE_SIZE, (page+1)*PAGE_SIZE);
   slice.forEach((task,i)=>{
-    const card = buildTaskCard(task, searchQuery);
+    const card = buildTaskCard(task, searchQuery, tasks, page*PAGE_SIZE+i);
     card.style.animationDelay = `${(i%PAGE_SIZE)*15}ms`;
     grid.appendChild(card);
   });
   const btn = document.getElementById(loadMoreId);
-  if(tasks.length <= (page+1)*PAGE_SIZE) btn.classList.add('hidden');
-  else btn.classList.remove('hidden');
+  tasks.length <= (page+1)*PAGE_SIZE ? btn.classList.add('hidden') : btn.classList.remove('hidden');
 }
 
-function buildTaskCard(task, searchQuery){
+function buildTaskCard(task, searchQuery, taskList, taskIndex){
   const card = document.createElement('div');
   card.className = 'task-card';
   const hasSol = !!task.solution;
   const hasImg = !!task.image;
-  const mc = parseMC(task);
 
-  let preview = task.text;
+  // FIX: escape HTML first, then add search highlights safely
+  let previewEscaped = escHtml(task.text);
   if(searchQuery){
     const tokens = searchQuery.toLowerCase().split(/\s+/).filter(Boolean);
     for(const tok of tokens)
-      preview = preview.replace(new RegExp(`(${escRe(tok)})`, 'gi'), '<mark class="highlight">$1</mark>');
+      previewEscaped = previewEscaped.replace(new RegExp(`(${escRe(escHtml(tok))})`, 'gi'), '<mark class="highlight">$1</mark>');
   }
 
   card.innerHTML = `
@@ -297,7 +343,7 @@ function buildTaskCard(task, searchQuery){
       <span class="task-points">${task.points}pt</span>
     </div>
     <div class="task-card-body">
-      <div class="task-text">${formatText(preview, true)}</div>
+      <div class="task-text">${formatCardText(previewEscaped)}</div>
     </div>
     <div class="task-card-footer">
       <span class="task-footer-year">${task.year}</span>
@@ -305,57 +351,48 @@ function buildTaskCard(task, searchQuery){
       ${hasImg?'<span class="task-footer-img">📷</span>':''}
       <button class="expand-btn">Odpri →</button>
     </div>`;
-  card.addEventListener('click', ()=>openModal(task));
+  card.addEventListener('click', ()=>{
+    if(taskList){ state.modalTaskList=taskList; state.modalIndex=taskIndex; }
+    openModal(task);
+  });
   return card;
 }
 
-/* ─── MULTIPLE CHOICE PARSER ─────────────────────────────────────── */
-function parseMC(task){
-  // Detect options like "\nA\ntext" or "\nA text"
-  const optPattern = /\n([A-E])\n([^\n]+)/g;
-  const opts = [];
-  let m;
-  while((m=optPattern.exec(task.text))!==null)
-    opts.push({letter: m[1], text: m[2].trim()});
-  if(opts.length < 2) return null;
-
-  // Parse correct answers from solution
-  let correct = [];
-  if(task.solution){
-    const solLine = task.solution.split('\n')[0];
-    correct = solLine.match(/[A-E]/g) || [];
-  }
-  const isMulti = correct.length > 1;
-  return { opts, correct, isMulti };
-}
-
-/* ─── MODAL ──────────────────────────────────────────────────────── */
+/* ─── MODAL ──────────────────────────────────────────────────── */
 function openModal(task){
+  const idx = state.modalTaskList.findIndex(t=>t.id===task.id);
+  state.modalIndex = idx >= 0 ? idx : state.modalIndex;
+
   const mc = parseMC(task);
   const hasSol = !!task.solution;
-  const solId  = 'sol-'+task.id;
-  const btnId  = 'sbtn-'+task.id;
-  const mcId   = 'mc-'+task.id;
+  const solId = 'sol-'+task.id;
+  const btnId = 'sbtn-'+task.id;
+  const mcId  = 'mc-'+task.id;
 
-  // Strip MC options from question text for clean display
   let questionText = task.text;
-  if(mc) questionText = questionText.replace(/\n[A-E]\n.*/gs, '').trim();
+  if(mc) questionText = questionText.replace(/\n[A-E]\n[\s\S]*/,'').trim();
+  const isCode = task.solution && /[{};]/.test(task.solution) && task.solution.includes('\n');
 
-  const isCode = task.solution && /[{};]/.test(task.solution);
+  const hasPrev = state.modalIndex > 0;
+  const hasNext = state.modalIndex < state.modalTaskList.length - 1;
+  const navInfo = state.modalTaskList.length > 1
+    ? `<span class="modal-nav-info">${state.modalIndex+1} / ${state.modalTaskList.length}</span>`
+    : '';
 
   document.getElementById('modal-body').innerHTML = `
+    <div class="modal-nav-bar">
+      <button class="modal-nav-btn ${hasPrev?'':'disabled'}" id="modal-prev" onclick="navigateModal(-1)" ${hasPrev?'':'disabled'}>← Prejšnja</button>
+      ${navInfo}
+      <button class="modal-nav-btn ${hasNext?'':'disabled'}" id="modal-next" onclick="navigateModal(1)" ${hasNext?'':'disabled'}>Naslednja →</button>
+    </div>
     <div class="modal-task-header">
       <span class="task-badge ${topicClass(task.topic)}" style="--tc:${topicColor(task.topic)}">${task.topic}</span>
       <span style="font-size:13px;color:var(--text-3);font-family:var(--font-mono)">${task.year} · ${task.pola} · N${task.num}</span>
       <span style="font-size:13px;color:var(--text-3);margin-left:auto">${task.points} točk</span>
     </div>
-
     <div class="modal-task-body">${formatModalText(questionText)}</div>
-
     ${task.image ? `<img src="${task.image}" class="modal-task-img" alt="Naloga ${task.num}" loading="lazy">` : ''}
-
     ${mc ? buildMCWidget(mc, mcId, task) : ''}
-
     ${!mc && hasSol ? `
       <button class="modal-solution-toggle" id="${btnId}" onclick="toggleSolution('${solId}','${btnId}')">
         🔒 Prikaži rešitev
@@ -364,11 +401,9 @@ function openModal(task){
         <div class="modal-solution-label">✓ Rešitev</div>
         <div class="modal-solution-text ${isCode?'':'plain'}">${escHtml(task.solution)}</div>
       </div>` : ''}
-
     ${!mc && !hasSol ? `
       <div class="modal-solution-box" style="display:block;background:var(--bg-3);border:1px solid var(--border)">
         <div class="modal-solution-label" style="color:var(--text-3)">Rešitev ni na voljo</div>
-        <div style="font-size:13px;color:var(--text-3)">Za leta 2004–2011 rešitve niso bile v tabelarni obliki.</div>
       </div>` : ''}
   `;
 
@@ -377,7 +412,27 @@ function openModal(task){
   document.body.style.overflow = 'hidden';
 }
 
-/* ─── MC WIDGET ──────────────────────────────────────────────────── */
+function navigateModal(dir){
+  const newIdx = state.modalIndex + dir;
+  if(newIdx < 0 || newIdx >= state.modalTaskList.length) return;
+  state.modalIndex = newIdx;
+  openModal(state.modalTaskList[newIdx]);
+}
+
+/* ─── MC WIDGET ──────────────────────────────────────────────── */
+function parseMC(task){
+  const optPattern = /\n([A-E])\n([^\n]+)/g;
+  const opts = []; let m;
+  while((m=optPattern.exec(task.text))!==null) opts.push({letter:m[1], text:m[2].trim()});
+  if(opts.length < 2) return null;
+  let correct = [];
+  if(task.solution){
+    const solLine = task.solution.split('\n')[0];
+    correct = solLine.match(/[A-E]/g) || [];
+  }
+  return { opts, correct, isMulti: correct.length > 1 };
+}
+
 function buildMCWidget(mc, mcId, task){
   const hasSol = mc.correct.length > 0;
   const inputType = mc.isMulti ? 'checkbox' : 'radio';
@@ -387,13 +442,12 @@ function buildMCWidget(mc, mcId, task){
       <span class="mc-letter">${o.letter}</span>
       <span class="mc-text">${escHtml(o.text)}</span>
     </label>`).join('');
-
   return `
     <div class="mc-widget" id="${mcId}">
       <div class="mc-hint">${mc.isMulti?'Izberi vse pravilne odgovore':'Izberi en odgovor'}</div>
       <div class="mc-options">${opts}</div>
       ${hasSol ? `<button class="mc-submit" onclick="submitMC('${mcId}','${task.id}')">Potrdi odgovor</button>` : ''}
-      ${!hasSol ? `<div class="mc-no-sol">Rešitev za to nalogo ni na voljo (izpit pred 2012).</div>` : ''}
+      ${!hasSol ? `<div class="mc-no-sol">Rešitev za to nalogo ni na voljo.</div>` : ''}
       <div class="mc-feedback hidden" id="fb-${mcId}"></div>
     </div>`;
 }
@@ -403,32 +457,24 @@ function submitMC(mcId, taskId){
   if(!task) return;
   const mc = parseMC(task);
   if(!mc) return;
-
   const widget = document.getElementById(mcId);
   const selected = [...widget.querySelectorAll('.mc-input:checked')].map(i=>i.value);
-
-  if(selected.length===0){
+  if(!selected.length){
     const fb = document.getElementById('fb-'+mcId);
     fb.className = 'mc-feedback mc-feedback-warn';
     fb.textContent = 'Izberi vsaj en odgovor.';
     return;
   }
-
-  // Disable inputs
   widget.querySelectorAll('.mc-input').forEach(i=>i.disabled=true);
   widget.querySelector('.mc-submit').disabled = true;
-
-  // Mark each option
   widget.querySelectorAll('.mc-option').forEach(label=>{
     const letter = label.dataset.letter;
     const isCorrect  = mc.correct.includes(letter);
     const isSelected = selected.includes(letter);
-    if(isCorrect && isSelected)  label.classList.add('mc-correct');
+    if(isCorrect && isSelected)   label.classList.add('mc-correct');
     else if(!isCorrect && isSelected) label.classList.add('mc-wrong');
     else if(isCorrect && !isSelected) label.classList.add('mc-missed');
   });
-
-  // Feedback
   const allRight = selected.length===mc.correct.length && selected.every(s=>mc.correct.includes(s));
   const fb = document.getElementById('fb-'+mcId);
   fb.className = 'mc-feedback '+(allRight?'mc-feedback-ok':'mc-feedback-err');
@@ -451,31 +497,21 @@ function closeModal(){
   document.body.style.overflow = '';
 }
 
-/* ─── TEXT FORMATTING ────────────────────────────────────────────── */
-function formatText(text, preview){
-  const lines = text.split('\n');
-  const out = []; let code=[], inCode=false;
-  for(const line of lines){
-    const t = line.trim();
-    const isC = /^\s{2,}/.test(line) && /[{};=()]/.test(t) ||
-                /^(public|private|static|void|int|double|class|if|for|while|return|String|char)\b/.test(t);
-    if(isC){ inCode=true; code.push(escHtml(line)); }
-    else{
-      if(inCode){ out.push(`<pre class="task-code"><code>${code.join('\n')}</code></pre>`); inCode=false; code=[]; }
-      out.push(escHtml(line));
-    }
-  }
-  if(inCode) out.push(`<pre class="task-code"><code>${code.join('\n')}</code></pre>`);
-  return out.join('<br>');
+/* ─── TEXT FORMATTING ────────────────────────────────────────── */
+// For card preview - input is already HTML-escaped
+function formatCardText(escapedHtml){
+  // Just truncate lines and handle line breaks
+  return escapedHtml.split('\n').slice(0,6).join('<br>');
 }
 
+// For modal - input is raw text
 function formatModalText(text){
   const lines = text.split('\n');
   const out = []; let code=[], inCode=false;
   for(const line of lines){
     const t = line.trim();
     const isC = /^\s{2,}/.test(line) && /[{};=()]/.test(t) ||
-                /^(public|private|static|void|int|double|class|if|for|while|return|String|char)\b/.test(t);
+                /^(public|private|static|void|int|double|class|if|for|while|return|String|char|boolean|float|long)\b/.test(t);
     if(isC){ inCode=true; code.push(escHtml(line)); }
     else{
       if(inCode){ out.push(`<pre class="modal-code"><code>${code.join('\n')}</code></pre>`); inCode=false; code=[]; }
@@ -486,12 +522,12 @@ function formatModalText(text){
   return out.join('');
 }
 
-/* ─── LOAD MORE ──────────────────────────────────────────────────── */
+/* ─── LOAD MORE ──────────────────────────────────────────────── */
 function loadMoreTopic(){ state.topicPage++; renderTaskSlice(state.topicFiltered, state.topicPage, document.getElementById('topic-task-grid'), 'topic-load-more'); }
 function loadMoreYear(){  state.yearPage++;  renderTaskSlice(state.yearFiltered,  state.yearPage,  document.getElementById('year-task-grid'),  'year-load-more'); }
 function loadMoreSearch(){ state.searchPage++; renderTaskSlice(state.searchFiltered, state.searchPage, document.getElementById('search-task-grid'), 'search-load-more', state.searchQuery); }
 
-/* ─── NAV ────────────────────────────────────────────────────────── */
+/* ─── NAV ────────────────────────────────────────────────────── */
 function showView(name){
   document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
   document.getElementById('view-'+name).classList.add('active');
@@ -520,22 +556,28 @@ function showYears(preselect){
   renderYears();
 }
 
-/* ─── MOBILE NAV ─────────────────────────────────────────────────── */
+/* ─── MOBILE NAV ─────────────────────────────────────────────── */
 document.getElementById('nav-burger').addEventListener('click', ()=>{ document.getElementById('mobile-nav').classList.add('open'); document.body.style.overflow='hidden'; });
 document.getElementById('mobile-nav-close').addEventListener('click', closeMobileNav);
 function closeMobileNav(){ document.getElementById('mobile-nav').classList.remove('open'); document.body.style.overflow=''; }
 
-/* ─── KEYBOARD ───────────────────────────────────────────────────── */
+/* ─── KEYBOARD ───────────────────────────────────────────────── */
 document.addEventListener('keydown', e=>{
-  if(e.key==='Escape'){ closeModal(); closeMobileNav(); }
+  if(document.getElementById('modal').classList.contains('open')){
+    if(e.key==='ArrowLeft')  navigateModal(-1);
+    if(e.key==='ArrowRight') navigateModal(1);
+    if(e.key==='Escape')     closeModal();
+    return;
+  }
+  if(e.key==='Escape'){ closeMobileNav(); }
   if(e.key==='/' && !['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){
     e.preventDefault(); document.getElementById('global-search').focus();
   }
 });
 
-/* ─── HELPERS ────────────────────────────────────────────────────── */
-function escHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
-function escRe(s){ return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }
-function emptyState(msg){ return `<div class="empty-state" style="grid-column:1/-1"><div class="empty-state-icon">🔍</div><div class="empty-state-title">Nič ni bilo najdeno</div><div class="empty-state-desc">${msg}</div></div>`; }
+/* ─── HELPERS ────────────────────────────────────────────────── */
+const escHtml = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const escRe   = s => s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const emptyState = msg => `<div class="empty-state" style="grid-column:1/-1"><div class="empty-state-icon">🔍</div><div class="empty-state-title">Nič ni bilo najdeno</div><div class="empty-state-desc">${msg}</div></div>`;
 
 init();
