@@ -9,7 +9,7 @@
       "points": 2,
       "topic": "Računalniška arhitektura",
       "image": null,
-      "solution": "D",
+      "solution": "B",
       "solution_points": null
     },
     {
@@ -21,7 +21,7 @@
       "points": 2,
       "topic": "Splošno računalništvo",
       "image": null,
-      "solution": "A",
+      "solution": "B",
       "solution_points": null
     },
     {
@@ -33,7 +33,7 @@
       "points": 2,
       "topic": "Operacijski sistemi",
       "image": null,
-      "solution": "C",
+      "solution": "E",
       "solution_points": null
     },
     {
@@ -57,7 +57,7 @@
       "points": 2,
       "topic": "Računalniška arhitektura",
       "image": null,
-      "solution": "C",
+      "solution": "B",
       "solution_points": null
     },
     {
@@ -81,7 +81,7 @@
       "points": 2,
       "topic": "Splošno računalništvo",
       "image": null,
-      "solution": "B",
+      "solution": "D",
       "solution_points": null
     },
     {
@@ -93,7 +93,7 @@
       "points": 2,
       "topic": "Podatkovne strukture",
       "image": null,
-      "solution": "B",
+      "solution": "C",
       "solution_points": null
     },
     {
@@ -153,7 +153,7 @@
       "points": 1,
       "topic": "Splošno računalništvo",
       "image": null,
-      "solution": "D",
+      "solution": "Pascal: A, C\nC: A, C",
       "solution_points": null
     },
     {
@@ -165,7 +165,7 @@
       "points": 2,
       "topic": "Programiranje",
       "image": null,
-      "solution": "B",
+      "solution": "E",
       "solution_points": null
     },
     {
@@ -189,7 +189,7 @@
       "points": 2,
       "topic": "Programiranje",
       "image": null,
-      "solution": "Zanka se zacikla, ker pogoj nikoli ni izpolnjen.",
+      "solution": "Pascal: C (read(f,podatek))\nC: C (fread(&podatek,sizeof(podatek),1,f))",
       "solution_points": null
     },
     {
@@ -309,7 +309,7 @@
       "points": 2,
       "topic": "Računalniška omrežja",
       "image": null,
-      "solution": "D",
+      "solution": "A",
       "solution_points": null
     },
     {
@@ -333,7 +333,7 @@
       "points": 2,
       "topic": "Računalniška omrežja",
       "image": null,
-      "solution": "D",
+      "solution": "A",
       "solution_points": null
     },
     {
@@ -357,7 +357,7 @@
       "points": 2,
       "topic": "Splošno računalništvo",
       "image": null,
-      "solution": "D",
+      "solution": "A",
       "solution_points": null
     },
     {
@@ -369,7 +369,7 @@
       "points": 2,
       "topic": "Splošno računalništvo",
       "image": null,
-      "solution": "C",
+      "solution": "A",
       "solution_points": null
     },
     {
@@ -381,7 +381,7 @@
       "points": 1,
       "topic": "Podatkovne baze",
       "image": null,
-      "solution": "D",
+      "solution": "B, D, E",
       "solution_points": null
     },
     {
@@ -393,7 +393,7 @@
       "points": 1,
       "topic": "Informacijski sistemi",
       "image": null,
-      "solution": "D",
+      "solution": "A, B",
       "solution_points": null
     },
     {
@@ -405,7 +405,7 @@
       "points": 2,
       "topic": "Podatkovne baze",
       "image": null,
-      "solution": "D",
+      "solution": "A",
       "solution_points": null
     },
     {
@@ -429,7 +429,7 @@
       "points": 2,
       "topic": "Splošno računalništvo",
       "image": null,
-      "solution": "Razvitost informacijske infrastrukture, zagotovljene informacijske storitve, razvitost\nkomunikacijske tehnologije (npr. število mobilnih telefonov, število fiksnih priključkov,\nkabelskih), dostopnost inf. tehnologije, število računalnikov, informacije v elektronski obliki,\napliciranje tehnologij elektronskega posredovanja inf. in znanja.",
+      "solution": "Predolgi razvojni cikli, nizka produktivnost, nepredvidljiva kakovost končnega produkta, pomanjkanje strokovnjakov, visoki stroški razvoja in vzdrževanja.",
       "solution_points": null
     },
     {
@@ -441,7 +441,7 @@
       "points": 1,
       "topic": "Splošno računalništvo",
       "image": null,
-      "solution": "Proces, podatkovni tok, podatkovna shramba (zbirka), vir/ponor (zunanja entiteta).",
+      "solution": "Zmogljivost, varnost, zanesljivost, odzivni čas, razpoložljivost, prenosljivost.",
       "solution_points": null
     },
     {
@@ -453,7 +453,7 @@
       "points": 1,
       "topic": "Splošno računalništvo",
       "image": null,
-      "solution": "357",
+      "solution": "Odločitvena tabela, odločitveno drevo, psevdokoda.",
       "solution_points": null
     },
     {
@@ -477,7 +477,7 @@
       "points": 1,
       "topic": "Podatkovne baze",
       "image": null,
-      "solution": "SELECT s.Drzava, COUNT(r.TekmaID)\nFROM Smucar s, Rezultat r\nWHERE (s.SmucarID=r.SmucarID) AND (r.Tocke=100)\nGROUP BY s.Drzava",
+      "solution": "SELECT Priimek_dijaka, Ime_dijaka\nFROM Dijak\nWHERE Razred = 'G1A'\nORDER BY Priimek_dijaka;",
       "solution_points": null
     },
     {
@@ -501,7 +501,7 @@
       "points": 2,
       "topic": "Splošno računalništvo",
       "image": null,
-      "solution": "D",
+      "solution": "A",
       "solution_points": null
     },
     {
@@ -513,7 +513,7 @@
       "points": 2,
       "topic": "Operacijski sistemi",
       "image": null,
-      "solution": "B",
+      "solution": "C",
       "solution_points": null
     },
     {
@@ -525,7 +525,7 @@
       "points": 2,
       "topic": "Računalniška arhitektura",
       "image": null,
-      "solution": "A",
+      "solution": "D",
       "solution_points": null
     },
     {
@@ -549,7 +549,7 @@
       "points": 2,
       "topic": "Podatkovne strukture",
       "image": null,
-      "solution": "D",
+      "solution": "A",
       "solution_points": null
     },
     {
@@ -561,7 +561,7 @@
       "points": 2,
       "topic": "Računalniška arhitektura",
       "image": null,
-      "solution": "C",
+      "solution": "D",
       "solution_points": null
     },
     {
@@ -573,7 +573,7 @@
       "points": 2,
       "topic": "Logika in digitalni sistemi",
       "image": null,
-      "solution": "C, D, E",
+      "solution": "C",
       "solution_points": null
     },
     {
